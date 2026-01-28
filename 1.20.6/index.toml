@@ -66,6 +66,11 @@ hash = "721da889d74825f3f6e687c9de9795be1af4b99d3f3bd61858fbb3161cc24254"
 metafile = true
 
 [[files]]
+file = "mods/dcwa.pw.toml"
+hash = "4ab83564a6e16a9b61b13b05e7f13d86ac05069a4b45b678eb0f3b6a66b460d0"
+metafile = true
+
+[[files]]
 file = "mods/doormat.pw.toml"
 hash = "36a31a3043a5f1391bcdaa81d0158983e5bf3073c2a068e871b4ead390e5bae1"
 metafile = true

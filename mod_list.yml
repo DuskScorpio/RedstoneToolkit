@@ -15,6 +15,7 @@ mods:
   commandkeys: '*'
   continuity: '*'
   dashloader: '*'
+  dcwa: '*'
   doormat: '*'
   ebe: '*'
   entityculling: '*'
