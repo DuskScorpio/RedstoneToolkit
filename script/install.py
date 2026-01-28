@@ -46,7 +46,7 @@ def main():
 
 def clean_log(mc_ver_list: list[str]):
     for mc_ver in mc_ver_list:
-        path = Path("../logs/{}-update.log".format(mc_ver))
+        path = Path("../logs/{}-install.log".format(mc_ver))
         path.unlink(missing_ok=True)
 
 
