@@ -2,8 +2,10 @@ from pathlib import Path
 from ruamel.yaml import YAML
 from subprocess import run
 from semantic_version import Version, SimpleSpec
+from loguru import logger
 
 import re
+import sys
 import tomllib
 import tomli_w
 
@@ -20,8 +22,8 @@ def main():
     disable_mods_dict:dict = data["disable_mods"]
     mc_ver_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
 
-    # remove mod
-    remove_mod(mc_ver_list, [*mods_dict.keys(), *disable_mods_dict.keys()])
+    remove_mod(mc_ver_list, [*mods_dict.keys(), *disable_mods_dict.keys()]) # remove mod
+    clean_log(mc_ver_list) # clean log
 
     # install and disable mod
     for mc_ver in mc_ver_list:
@@ -30,21 +32,42 @@ def main():
         for mod in mods_dict:
             condition = SimpleSpec(mods_dict[mod])
             if condition.match(mc_semver):
-                install_mod(path, mod)
+                install_mod(path, mod, mc_ver)
 
         for disable_mod in disable_mods_dict:
             condition = SimpleSpec(disable_mods_dict[disable_mod])
             if condition.match(mc_semver):
-                install_mod(path, disable_mod)
+                install_mod(path, disable_mod, mc_ver)
                 disable(mc_ver, disable_mod)
 
         # tomil-w changes something, so it needs to be refreshed
         run(["../tools/packwiz", "refresh"], cwd=path)
 
 
+def clean_log(mc_ver_list: list[str]):
+    for mc_ver in mc_ver_list:
+        path = Path("../logs/{}-update.log".format(mc_ver))
+        path.unlink(missing_ok=True)
 
-def install_mod(path: str, name: str):
-    run(["../tools/packwiz", "mr", "add", name, "--yes"], cwd=path)
+
+def install_mod(path: str, name: str, mc_ver: str):
+    result = run(["../tools/packwiz", "mr", "add", name, "--yes"], cwd=path, capture_output=True, text=True)
+    logger.remove()
+    logger.add(
+        sink=sys.stdout,
+        format="<green>[{time:HH:mm:ss}]</green> <level>[{level}/(" + mc_ver +")]</level>: <level>{message}</level>",
+        level="DEBUG",
+        colorize=True
+    )
+    logger.add(
+        sink="../logs/{}-install.log".format(mc_ver),
+        format="[{time:HH:mm:ss}] [{level}/(" + mc_ver + ")]: {message}",
+        level="WARNING"
+    )
+    logger.info(result.stdout)
+    if re.match("Failed to add project:.*", result.stdout):
+        logger.warning("{} install failed!".format(name))
+    logger.remove()
 
 
 def remove_mod(mc_versions: list[str], mods: list[str]):
