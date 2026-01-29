@@ -32,22 +32,18 @@ def main():
         mc_semver = Version(mc_ver)
         for mod in mods_dict:
             # skip installed mods to increase running speed
-            if Path("{0}/mods/{1}.pw.toml".format(path, mod)).exists():
-                continue
-
-            condition = SimpleSpec(mods_dict[mod])
-            if condition.match(mc_semver):
-                install_mod(path, mod, mc_ver)
+            if not Path("{0}/mods/{1}.pw.toml".format(path, mod)).exists():
+                condition = SimpleSpec(mods_dict[mod])
+                if condition.match(mc_semver):
+                    install_mod(path, mod, mc_ver)
 
         for disable_mod in disable_mods_dict:
             # skip installed mods to increase running speed
-            if Path("{0}/mods/{1}.pw.toml".format(path, disable_mod)).exists():
-                continue
-
-            condition = SimpleSpec(disable_mods_dict[disable_mod])
-            if condition.match(mc_semver):
-                install_mod(path, disable_mod, mc_ver)
-                disable(mc_ver, disable_mod)
+            if not Path("{0}/mods/{1}.pw.toml".format(path, disable_mod)).exists():
+                condition = SimpleSpec(disable_mods_dict[disable_mod])
+                if condition.match(mc_semver):
+                    install_mod(path, disable_mod, mc_ver)
+            disable(mc_ver, disable_mod)
 
         # tomil-w changes something, so it needs to be refreshed
         run([PACKWIZ, "refresh"], cwd=path)
@@ -100,6 +96,8 @@ def disable(mc_version: str, mod_name: str):
     with open(path, "rb") as f:
         data = tomllib.load(f)
     original_name = data["filename"]
+    if re.match(".*\\.disable", original_name):
+        return
     data["filename"] = original_name + ".disable"
     with open(path, "wb") as f:
         tomli_w.dump(data, f)
