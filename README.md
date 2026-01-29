@@ -1,8 +1,8 @@
 # Redstone Tools
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/carpet?style=for-the-badge&logo=modrinth&logoColor=white&color=00AF5C&label=MODRINTH)](https://modrinth.com/modpack/rstools)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/rstools?style=for-the-badge&logo=modrinth&logoColor=white&color=00AF5C&label=MODRINTH)](https://modrinth.com/modpack/rstools)
 [![GitHub stars](https://img.shields.io/github/stars/DuskScorpio/RedstoneTools?style=for-the-badge&logo=github&color=24292e&label=GITHUB)](https://github.com/DuskScorpio/RedstoneTools)
-[![Game Versions](https://img.shields.io/modrinth/game-versions/carpet?style=for-the-badge&logo=hackthebox&logoColor=white&color=00BFFF&label=VERSIONS)](https://modrinth.com/modpack/rstools)
+[![Game Versions](https://img.shields.io/modrinth/game-versions/rstools?style=for-the-badge&logo=hackthebox&logoColor=white&color=00BFFF&label=VERSIONS)](https://modrinth.com/modpack/rstools)
 
 A collection of technical and performance‑oriented mods designed to support Technical Minecraft builds
 
