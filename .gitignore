@@ -2,3 +2,4 @@
 .venv/
 .index/
 logs/
+**/*.mrpack
