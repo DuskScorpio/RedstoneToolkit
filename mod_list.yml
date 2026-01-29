@@ -89,6 +89,6 @@ disable_mods:
   voxy: "*"
   # Utility
   axiom: "*"
-  wecuifix: ">=1.20.5,<=1.21.4"
+  wecuifix: ">=1.20.5 <=1.21.4"
   worldedit: "*"
-  worldedit-cui: "!=1.20.5,!=1.20.6,!=1.21,!=1.21.1,!=1.21.2,!=1.21.3,!=1.21.4"
+  worldedit-cui: "<1.20.5 || >1.21.4"
