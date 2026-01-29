@@ -1,5 +1,5 @@
 name = "WorldEdit"
-filename = "worldedit-mod-7.3.3.jar"
+filename = "worldedit-mod-7.3.3.jar.disabled"
 side = "server"
 
 [download]
@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/1u6JkXh5/versions/RfIqhcpm/worldedit-mod-7.
 hash-format = "sha512"
 hash = "dc6c261a8aa7086ee36ba192a7cf340a7644de032e1c7725b58c2761f6ff029eb36ced4c903bde181d4f331400702b5835e83c0f019c1d6f4565bf252cfbe061"
 
-[update]
 [update.modrinth]
 mod-id = "1u6JkXh5"
 version = "RfIqhcpm"

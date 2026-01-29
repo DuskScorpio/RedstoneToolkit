@@ -1,0 +1,13 @@
+name = "Command Keys"
+filename = "quick-messages-1.0.1+mc1.19.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/65UyswbY/versions/jcAyUJzB/quick-messages-1.0.1%2Bmc1.19.4.jar"
+hash-format = "sha512"
+hash = "c7d234a966df119c067fa8be00c146e69e1cf7a30e0964ce302b595e0d7646d890018f21c438fcb207cd4894c646b81d677710476ce274ee079d296c0e0a5f0f"
+
+[update]
+[update.modrinth]
+mod-id = "65UyswbY"
+version = "jcAyUJzB"

@@ -1,5 +1,5 @@
 name = "WeCuiFix"
-filename = "WeCuiFix-Final.jar"
+filename = "WeCuiFix-Final.jar.disabled"
 side = "client"
 
 [download]
@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/wLKUtRd3/versions/rfSmjIsm/WeCuiFix-Final.j
 hash-format = "sha512"
 hash = "84a94c1b44f8cc3b9626efef3da89862cecd1bd85a930fa030913f88af7719447e49e9d137e5f541892d2b8795ed21251a8dabc454760c1839c28212adbadc48"
 
-[update]
 [update.modrinth]
 mod-id = "wLKUtRd3"
 version = "rfSmjIsm"

@@ -1,5 +1,5 @@
 name = "WorldEdit CUI"
-filename = "WorldEditCUI-1.21.11+01.jar"
+filename = "WorldEditCUI-1.21.11+01.jar.disable.disabled"
 side = "client"
 
 [download]
@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/NSLJJooQ/versions/SD1ZtHLA/WorldEditCUI-1.2
 hash-format = "sha512"
 hash = "0b81809767c19b17b8f3f388d9fd8d092fd2602215e16fcf5b64cec7af6082dc261148e9817b2a4b3e1501b2ad243abf1870990ab052918e65503a650e84e33e"
 
-[update]
 [update.modrinth]
 mod-id = "NSLJJooQ"
 version = "SD1ZtHLA"

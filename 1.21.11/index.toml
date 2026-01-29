@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "b1e08d3a6db8777433227b2b300c89795d7baced15a012fe256aaddef74e91b6"
+hash = "56916478036074535607ab3a78c928126703a33f4e65a2798ae19d56e5494cbf"
 metafile = true
 
 [[files]]
@@ -87,12 +87,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabrishot.pw.toml"
-hash = "fcdaaad3ac86edfe8b2dd506b9e1303c70636251fc275f21f7a4a2efa324a8e8"
+hash = "e8bfb635331b6ee00d0eb85a9ec37c18fc2d8ca023c7783122510bf1a4346983"
 metafile = true
 
 [[files]]
 file = "mods/fastquit.pw.toml"
-hash = "4657d883a293eff316a0a2a84da0d8b6f49ca1dee9611c86be513ae96ca33a89"
+hash = "201c965e4579edbe0fc96a164bf7bd500d0836df9c6b068ac253a3d3bb01f4b8"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "276947b1f9933ca2220a00736aba177e4034ca9a45cad9f258abf762fdb3bb0b"
+hash = "f9925c8a2aed3094f674f4a4e32724cff488b0ec05dade392897e020bc15a000"
 metafile = true
 
 [[files]]
@@ -161,11 +161,6 @@ hash = "6d26fbac2dca7845d5de9e5fbbe3dbcb7541ccb952e4f5f14a92e618d5448965"
 metafile = true
 
 [[files]]
-file = "mods/modernfix-mvus.pw.toml"
-hash = "67116d1cf5d38dfd27aded9d675afcc625d720a4d457660ff82db760934d9f4d"
-metafile = true
-
-[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "51ff93e279e03cb3cd77a5be0df777cdcd975d35b5149180d9dc724e47168c76"
 metafile = true
@@ -182,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "cd25851cbdaad2dd1957a8086ce54aa4bd3c45be75e1ba49168a54fafbd87898"
+hash = "3507cc3d6da27205573b1754dac39771c272e3dcdac4a693ab9454a855e1ca17"
 metafile = true
 
 [[files]]
@@ -193,11 +188,6 @@ metafile = true
 [[files]]
 file = "mods/particle-core.pw.toml"
 hash = "5f252eb4e95f3028398a7148bcfd8dfaeeeb69d573c5ab34c2cdf54f2a29478b"
-metafile = true
-
-[[files]]
-file = "mods/placeholder-api.pw.toml"
-hash = "e674752dd4dd07c33d9b94f6e19c15ef893c356c3c5ed77aeaf35cf6d2325130"
 metafile = true
 
 [[files]]
@@ -257,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "26ef42ac859897c373a9b1556db154a0d227e2399a11cbcafde5e7ed8a7969b4"
+hash = "8216a46c6b22fd9918cf835b87f7ea7a26ef02496a5162de23db9474de9408f9"
 metafile = true
 
 [[files]]
@@ -267,17 +257,17 @@ metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
-hash = "eccf0403881be365c1b79457210ddd0c07f605155c87d07a40739e06c537dd7e"
+hash = "251eb1e72c6847de602d4cdfc6fc27776f384c6df75a775e47197c4a37449eff"
 metafile = true
 
 [[files]]
 file = "mods/worldedit-cui.pw.toml"
-hash = "bca2f6ad768019f80e6d3664917e06a3560037897110d9fa83ce7973501200d1"
+hash = "3acc4032bc86d6b65609f40c228006b06a273b02926d1cbc96acdfbb070f8e29"
 metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "71c91341cc8ac8773b839d7ca822d8d7084c11a3012e13a10ef0de6daff93796"
+hash = "f4dd757c0e23aff8bda3ee7f9cca2faa2648ae5e9f9fefa8e27ec873cc05a50a"
 metafile = true
 
 [[files]]

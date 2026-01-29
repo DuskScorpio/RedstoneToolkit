@@ -1,0 +1,13 @@
+name = "MasaAdditions"
+filename = "masaadditions-1.2.0+1.19.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TqMQMRWd/versions/pikFTT8m/masaadditions-1.2.0%2B1.19.4.jar"
+hash-format = "sha512"
+hash = "49cfcb42a2547341b5e90fad2c3d27be36bc6ffe0e83462306ca8d765240e9ad2b71fc54c6c77ad2ed444cad223df36b3b54f13074aa7940df63cd76db8bf034"
+
+[update]
+[update.modrinth]
+mod-id = "TqMQMRWd"
+version = "pikFTT8m"

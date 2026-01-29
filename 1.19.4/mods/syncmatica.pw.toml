@@ -1,0 +1,13 @@
+name = "Syncmatica"
+filename = "syncmatica-1.18.2-0.3.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bfneejKo/versions/4GaJKJoH/syncmatica-1.18.2-0.3.11.jar"
+hash-format = "sha512"
+hash = "7f006df09e64373ddbb6b961af0aa82567d10bb4f7f2d92e67ac4b7d8f755bb350e20ed9c37b4fecc418ac223ee23a0299c04838f50b0b9035a8b9d4ff6f83c3"
+
+[update]
+[update.modrinth]
+mod-id = "bfneejKo"
+version = "4GaJKJoH"

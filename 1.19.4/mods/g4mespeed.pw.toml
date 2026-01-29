@@ -1,0 +1,13 @@
+name = "G4mespeed"
+filename = "g4mespeed-1.4.6-mc1.19.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gW29KsnL/versions/CkpabCxh/g4mespeed-1.4.6-mc1.19.4.jar"
+hash-format = "sha512"
+hash = "15d99d06f40d3ac5e734e86c0582f142c4c5538e657da977dcadfc1d4a6a55a072af48b4df95496c91e9bfb2ac6718da87ac5a193fefbfbcbeafe2dd82d476eb"
+
+[update]
+[update.modrinth]
+mod-id = "gW29KsnL"
+version = "CkpabCxh"
