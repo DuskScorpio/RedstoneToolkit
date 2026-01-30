@@ -2,4 +2,5 @@
 .venv/
 .index/
 logs/
+__pycache__/
 **/*.mrpack
