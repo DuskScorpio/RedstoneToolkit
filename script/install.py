@@ -3,15 +3,11 @@ from ruamel.yaml import YAML
 from subprocess import Popen, PIPE
 from semantic_version import Version, NpmSpec
 from loguru import logger
+from script.utils.install_util import Install
+from script.utils.constant import *
 
 import re
 import sys
-import tomllib
-import tomli_w
-
-
-FILE_PATH = "../mod_list.yml"
-PACKWIZ = "../tools/packwiz"
 
 
 # install mods
@@ -19,27 +15,22 @@ def main():
     yaml = YAML()
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         data = yaml.load(f)
-    mods_dict: dict = data["mods"]
-    disable_mods_dict:dict = data["disable_mods"]
+    enabled_mod_list: list[dict[str, str]] = data["enabled_mods"]
+    disabled_mod_list: list[dict[str, str]] = data["disabled_mods"]
     mc_ver_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
 
-    remove_mod(mc_ver_list, {**mods_dict, **disable_mods_dict}) # remove mod
+    remove_mod(mc_ver_list, [*enabled_mod_list, *disabled_mod_list]) # remove mod
     clean_log(mc_ver_list) # clean log
 
     for mc_ver in mc_ver_list:
         path = "../{}".format(mc_ver)
-        mc_semver = Version(mc_ver)
-        for mod in mods_dict:
-            condition = NpmSpec(mods_dict[mod])
-            if not Path("{}/mods/{}.pw.toml".format(path, mod)).exists() and condition.match(mc_semver):
-                install_mod(path, mod, mc_ver)
-            enable(mc_ver, mod)
+        for enabled_mod in enabled_mod_list:
+            install = Install(mc_ver, enabled_mod, False)
+            install.install()
 
-        for mod in disable_mods_dict:
-            condition = NpmSpec(disable_mods_dict[mod])
-            if not Path("{}/mods/{}.pw.toml".format(path, mod)).exists() and condition.match(mc_semver):
-                install_mod(path, mod, mc_ver)
-            disable(mc_ver, mod)
+        for disabled_mod in disabled_mod_list:
+            install = Install(mc_ver, disabled_mod, True)
+            install.install()
 
         # tomil-w changes something, so it needs to be refreshed
         process = Popen([PACKWIZ, "refresh"], cwd=path, stdout=PIPE, text=True, bufsize=1)
@@ -49,40 +40,7 @@ def main():
             logger.info(text)
 
 
-def clean_log(mc_ver_list: list[str]):
-    for mc_ver in mc_ver_list:
-        path = Path("../logs/{}-install.log".format(mc_ver))
-        path.unlink(missing_ok=True)
-
-
-def install_mod(path: str, name: str, mc_ver: str):
-    set_write_logger(mc_ver, "DEBUG", "WARNING")
-    process = Popen(
-        [PACKWIZ, "mr", "add", name],
-        cwd=path,
-        text=True,
-        stdout=PIPE,
-        stderr=PIPE,
-        stdin=PIPE,
-        bufsize=1
-    )
-
-    # Don't change these, because it works by mystical powers
-    flag = False
-    for e in process.stdout:
-        text = e.strip()
-        if text == "Dependencies found:":
-            flag = True
-        if flag:
-            process.stdin.write("n\n")
-            process.stdin.flush()
-        logger.info(text)
-        if re.match("Failed to add project:.*", text):
-            logger.warning("{} install failed!".format(name))
-    process.wait()
-
-
-def remove_mod(mc_ver_list: list[str], mods: dict[str, str]):
+def remove_mod(mc_ver_list: list[str], mods: list[dict[str, str]]):
     for mc_ver in mc_ver_list:
         set_logger(mc_ver, "DEBUG")
         mc_dir = Path("../{}".format(mc_ver))
@@ -91,18 +49,19 @@ def remove_mod(mc_ver_list: list[str], mods: dict[str, str]):
             continue
         files = [f.name for f in mods_dir.iterdir() if f.is_file()]
         dir_mods = [f.replace(".pw.toml", "") for f in files if re.match(".*\\.pw\\.toml", f)]
-        for mod in dir_mods:
+        mc_semver = Version(mc_ver)
+        for dir_mod in dir_mods:
             should_remove = False
-            if mod not in mods:
-                should_remove = True
-            else:
-                mc_semver = Version(mc_ver)
-                condition = NpmSpec(mods[mod])
+            meta = get_meta(dir_mod, mods)
+            if meta:
+                condition = NpmSpec(meta.get("version", "*"))
                 if not condition.match(mc_semver):
                     should_remove = True
+            else:
+                should_remove = True
             if should_remove:
                 process = Popen(
-                    [PACKWIZ, "remove", mod],
+                    [PACKWIZ, "remove", dir_mod],
                     stdout=PIPE,
                     cwd=mc_dir,
                     text=True,
@@ -113,31 +72,19 @@ def remove_mod(mc_ver_list: list[str], mods: dict[str, str]):
                 process.wait()
 
 
-def disable(mc_version: str, mod_name: str):
-    path = "../{0}/mods/{1}.pw.toml".format(mc_version, mod_name)
-    if not Path(path).exists():
-        return
-    with open(path, "rb") as f:
-        data = tomllib.load(f)
-    original_name = data["filename"]
-    if re.match(".*\\.disabled", original_name):
-        return
-    data["filename"] = original_name + ".disabled"
-    with open(path, "wb") as f:
-        tomli_w.dump(data, f)
+def clean_log(mc_ver_list: list[str]):
+    for mc_ver in mc_ver_list:
+        path = Path("../logs/{}-install.log".format(mc_ver))
+        path.unlink(missing_ok=True)
 
 
-def enable(mc_version: str, mod_name: str):
-    path = "../{0}/mods/{1}.pw.toml".format(mc_version, mod_name)
-    if not Path(path).exists():
-        return
-    with open(path, "rb") as f:
-        data = tomllib.load(f)
-    original_name = data["filename"]
-    if re.match(".*\\.disabled", original_name):
-        data["filename"] = str(original_name).replace(".disabled", "")
-        with open(path, "wb") as f:
-            tomli_w.dump(data, f)
+def get_meta(name: str, mod_list: list[dict[str, str]]) -> dict[str, str]:
+    for mod in mod_list:
+        name_list = [mod.get("mr_slug", ""), mod.get("cf_slug", ""), mod.get("name", "")]
+        if name in name_list:
+            return mod
+
+    return {}
 
 
 def set_write_logger(mc_ver: str, level_stdout: str, level_file: str):

@@ -1,0 +1,8 @@
+PACKWIZ = "../tools/packwiz"
+ENABLED = "enabled_mods"
+DISABLED = "disabled_mods"
+MR = "mr_slug"
+CF = "cf_slug"
+NAME = "name"
+URLS = "urls"
+FILE_PATH = "../mod_list.yml"

@@ -1,14 +1,12 @@
 from subprocess import Popen, PIPE
 from pathlib import Path
 from loguru import logger
+from script.utils.constant import *
 
 import os
 import sys
 import tomllib
 import tomli_w
-
-
-PACKWIZ = "../tools/packwiz"
 
 
 def main():
