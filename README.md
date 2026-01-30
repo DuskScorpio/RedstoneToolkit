@@ -79,7 +79,7 @@ Here is a list of all the mods in this pack:
 
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations) - Micro optimizations that improve client performance without altering gameplay
 - [Better Block Entities](https://modrinth.com/mod/better-block-entities) - Optimizes block entity rendering for smoother performance and reduced lag on versions ≥1.21.6
-- [Enhanced Block Entities](https://modrinth.com/mod/enhanced-block-entities) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.5
+- [Enhanced Block Entities](https://modrinth.com/mod/ebe) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.4
 - [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
 - [FerriteCore](https://modrinth.com/mod/ferrite-core) - Memory usage optimizations
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) - Speeds up the immediate mode rendering performance of the client
