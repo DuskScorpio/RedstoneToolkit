@@ -23,6 +23,7 @@ enabled_mods:
   - mr_slug: magiclib
   - mr_slug: malilib
   - mr_slug: owo-lib
+    name: owo-lib
     urls:
       1.21.11: "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
   - mr_slug: yacl
