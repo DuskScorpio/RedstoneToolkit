@@ -4,6 +4,7 @@ from loguru import logger
 from utils.constant import *
 
 import re
+import os
 import sys
 import tomllib
 
@@ -80,4 +81,6 @@ def set_write_logger(mc_ver: str, level_stdout: str, level_file: str):
 
 
 if __name__ == "__main__":
+    script_dir = Path(__file__).resolve().parent
+    os.chdir(script_dir)
     main()

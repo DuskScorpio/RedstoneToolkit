@@ -52,4 +52,6 @@ def main():
 
 
 if __name__ == "__main__":
+    script_dir = Path(__file__).resolve().parent
+    os.chdir(script_dir)
     main()

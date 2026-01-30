@@ -3,6 +3,7 @@ from ruamel.yaml import YAML
 from utils.constant import *
 
 import re
+import os
 
 
 def main():
@@ -37,4 +38,6 @@ def main():
 
 
 if __name__ == "__main__":
+    script_dir = Path(__file__).resolve().parent
+    os.chdir(script_dir)
     main()

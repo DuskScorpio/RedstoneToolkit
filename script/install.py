@@ -7,6 +7,7 @@ from utils.install_util import Install
 from utils.constant import *
 
 import re
+import os
 import sys
 
 
@@ -115,4 +116,6 @@ def set_logger(mc_ver: str, level_stdout: str):
 
 
 if __name__ == "__main__":
+    script_dir = Path(__file__).resolve().parent
+    os.chdir(script_dir)
     main()
