@@ -1,0 +1,13 @@
+name = "WorldEdit CUI (Fabric)"
+filename = "WorldEditCUI-1.19.4+01.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "acafa4945dbaaad0c1dfe6657973b436e94cbf7d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4483466
+project-id = 402098
