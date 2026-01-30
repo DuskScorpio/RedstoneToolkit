@@ -79,7 +79,6 @@ Here is a list of all the mods in this pack:
 
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations) - Micro optimizations that improve client performance without altering gameplay
 - [Better Block Entities](https://modrinth.com/mod/better-block-entities) - Optimizes block entity rendering for smoother performance and reduced lag on versions ≥1.21.6
-- [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) - Reduces resource usage by lowering the frame rate when the game window is inactive or backgrounded on versions <1.21.2
 - [Enhanced Block Entities](https://modrinth.com/mod/enhanced-block-entities) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.5
 - [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
 - [FerriteCore](https://modrinth.com/mod/ferrite-core) - Memory usage optimizations
@@ -145,13 +144,20 @@ Here is a list of all the mods in this pack:
 </details>
 
 <details>
+<summary><strong>Optimization</strong></summary>
+
+- [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) - Reduces resource usage by lowering the frame rate when the game window is inactive or backgrounded on versions <1.21.2
+- [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
+
+</details>
+
+<details>
 <summary><strong>Quality of Life</strong></summary>
 
 - [Disable Custom Worlds Advice](https://modrinth.com/mod/dcwa) - Disables the annoying "Experimental Features" advice
 - [Fabrishot](https://modrinth.com/mod/fabrishot) - Allows taking high-resolution screenshots
 - [FastQuit](https://modrinth.com/mod/fastquit) - Makes it possible to return to the title screen early while a world is still saving in the background
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) - Makes chat unreportable (where possible)
-- [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
 
 </details>
 
