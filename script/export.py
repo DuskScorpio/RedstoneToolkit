@@ -3,6 +3,7 @@ from pathlib import Path
 from loguru import logger
 from utils.constant import *
 
+import re
 import os
 import sys
 import tomllib
@@ -29,10 +30,12 @@ def main():
         with open(path, "rb") as f:
             data = tomllib.load(f)
         original_version = data["version"]
+        if re.match(".*alpha.*", original_version): raise ValueError
         if is_release == "false":
-            data["version"] = str(original_version) + "-alpha.{0}+mc{1}".format(run_num, mc_ver)
+            original_version = re.sub("-(beta|rc)\\.\\d+", "", original_version)
+            data["version"] = original_version + "-alpha.{0}+mc{1}".format(run_num, mc_ver)
         else:
-            data["version"] = str(original_version) + "+mc{}".format(mc_ver)
+            data["version"] = original_version + "+mc{}".format(mc_ver)
         with open(path, "wb") as f:
             tomli_w.dump(data, f)
 
