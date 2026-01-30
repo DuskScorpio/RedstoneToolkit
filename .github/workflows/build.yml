@@ -1,0 +1,26 @@
+name: build
+on:
+  push:
+    paths:
+      - '**/pack.toml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+      - name: setup python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - name: pip requirements
+        run: pip install -r script/requirements.txt
+      - name: export mrpack
+        run: python script/export.py
+      - name: capture build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Artifacts
+          path: '**/*.mrpack'
