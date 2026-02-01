@@ -13,6 +13,7 @@ enabled_files:
     version: "<=1.21.10"
 
   # Fixes
+  - mr_slug: modelfix
   - mr_slug: packet-fixer
   - mr_slug: tooltipfix
 
@@ -31,22 +32,11 @@ enabled_files:
       1.21.11: "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.4%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
   - mr_slug: yacl
 
-  # Masa-like
-  - mr_slug: item-scroller
-  - mr_slug: litematica
-  - mr_slug: litematica-server-paster
-  - mr_slug: litemoretica
-  - mr_slug: masa-gadget
-  - mr_slug: masaadditions
-  - mr_slug: minihud
-  - mr_slug: syncmatica
-  - mr_slug: tweakermore
-  - mr_slug: tweakeroo
-
-  # Optimization
+  # Performance
   - mr_slug: badoptimizations
   - mr_slug: better-block-entities
     version: ">=1.21.6"
+  - mr_slug: c2me-fabric
   - mr_slug: ebe
     version: "<=1.21.4"
   - mr_slug: entityculling
@@ -60,46 +50,49 @@ enabled_files:
     version: ">=1.21.5"
   - mr_slug: moreculling
   - mr_slug: particle-core
-  - mr_slug: scalablelux
   - mr_slug: sodium
   - mr_slug: sodium-extra
+  - mr_slug: starlight
   - mr_slug: threadtweak
 
   # QoL
   - mr_slug: auth-me
   - mr_slug: better-suggestions
-  - mr_slug: cleardespawn
-    version: "<=1.20.2"
-  - mr_slug: clear-despawn-reworked
-    version: ">=1.21.0"
+  - mr_slug: client-commands
+  - mr_slug: commandkeys
   - mr_slug: dashloader
+  - mr_slug: isometric-renders
+  - mr_slug: item-scroller
   - mr_slug: malibind
+  - mr_slug: minihud
+  - mr_slug: modmenu
   - mr_slug: nbt-autocomplete
+  - mr_slug: packed-packs
+  - mr_slug: pick-block-pro
   - mr_slug: reeses-sodium-options
   - mr_slug: suggestion-tweaker
-  - mr_slug: too-many-shortcuts
   - mr_slug: vkm
-  - mr_slug: viafabricplus
-
-  # Utility
-  - mr_slug: chunk-debug
-  - mr_slug: client-commands
-  - mr_slug: capture-playback
-  - mr_slug: commandkeys
-  - mr_slug: essentialclient
-  - mr_slug: g4mespeed
-  - mr_slug: invview
-  - mr_slug: isometric-renders
-  - mr_slug: modmenu
-  - mr_slug: nbt-copy
-  - mr_slug: pick-block-pro
-  - mr_slug: redstone-multimeter
-  - mr_slug: spark
-  - mr_slug: techutils
   - name: WikiRenderer
     urls:
       1.21.11: "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.4%2B1.21.11/wikirenderer-2.1.4+1.21.11.jar"
     version: ">=1.21.11"
+
+  # Technical
+  - mr_slug: chunk-debug
+  - mr_slug: essentialclient
+  - mr_slug: g4mespeed
+  - mr_slug: litematica
+  - mr_slug: litematica-server-paster
+  - mr_slug: litemoretica
+  - mr_slug: masa-gadget
+  - mr_slug: masaadditions
+  - mr_slug: nbt-copy
+  - mr_slug: redstone-multimeter
+  - mr_slug: spark
+  - mr_slug: syncmatica
+  - mr_slug: techutils
+  - mr_slug: tweakermore
+  - mr_slug: tweakeroo
 
   # Resource Packs
   - mr_slug: redstone-tweaks
@@ -108,19 +101,35 @@ disabled_files:
   # Aesthetics
   - mr_slug: iris
 
-  # Optimization
+  # Libraries
+  - mr_slug: libjf
+
+  # Performance
   - mr_slug: dynamic-fps
     version: "<1.21.2"
+  - mr_slug: scalablelux
   - mr_slug: voxy
 
   # QoL
+  - mr_slug: appleskin
+  - mr_slug: cleardespawn
+    version: "<=1.20.2"
+  - mr_slug: clear-despawn-reworked
+    version: ">=1.21.0"
+  - mr_slug: cubes-without-borders
   - mr_slug: dcwa
   - mr_slug: fabrishot
   - mr_slug: fastquit
+  - mr_slug: invview
   - mr_slug: no-chat-reports
+  - mr_slug: respackopts
+  - mr_slug: sound-controller
+  - mr_slug: viabackwards
+  - mr_slug: viafabric
 
-  # Utility
+  # Technical
   - mr_slug: axiom
+  - mr_slug: capture-playback
   - mr_slug: unobtainable-blocks
   - mr_slug: wecuifix
     version: "1.20.5 - 1.21.4"
