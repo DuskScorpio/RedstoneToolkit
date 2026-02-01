@@ -61,7 +61,7 @@ def main():
                 logger.info(line.strip())
             process.wait()
         finally:
-            backup_side(mc_dir)
+            restore_side(mc_dir)
             with open(path, "w", encoding="utf-8") as f:
                 f.write(original)
             delete_file(mc_dir)
@@ -86,7 +86,7 @@ def remove_side(mc_dir: str):
                 tomli_w.dump(data, f)
 
 
-def backup_side(mc_dir: str):
+def restore_side(mc_dir: str):
     dir_from = "../.cache/mods_{}".format(mc_dir)
     dir_to = "../{}/mods".format(mc_dir)
     shutil.rmtree(dir_to, ignore_errors=True)
