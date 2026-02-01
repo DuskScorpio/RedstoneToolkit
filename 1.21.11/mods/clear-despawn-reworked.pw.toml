@@ -1,0 +1,12 @@
+name = "ClearDespawn Reworked"
+filename = "clear-despawn-reworked-1.1.0+1.21.9.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GGf61Fz8/versions/MN1tSgRW/clear-despawn-reworked-1.1.0%2B1.21.9.jar"
+hash-format = "sha512"
+hash = "6319ec35ca9bca18d6d270ed6bc1e85814c17eda627f8d01bd5e5ada1c69d90700cb9eef67e0f92aad48b1dd68b24522fd51765129ea2b971efb51dd55efb166"
+
+[update.modrinth]
+mod-id = "GGf61Fz8"
+version = "MN1tSgRW"

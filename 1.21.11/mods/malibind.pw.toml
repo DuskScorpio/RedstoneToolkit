@@ -1,0 +1,13 @@
+name = "malibind"
+filename = "malibind-mc1.21.9or10-2.0.1-beta.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WegYUg7p/versions/wErzPcRH/malibind-mc1.21.9or10-2.0.1-beta.jar"
+hash-format = "sha512"
+hash = "3112e39128df1f3c7c97fb85004fc4e66dc62d96be3326def23d5d58fad4c747a8ab558098e4d3f1bed4ddc742c124230f4798ef6cad67b0d74657118eab0614"
+
+[update]
+[update.modrinth]
+mod-id = "WegYUg7p"
+version = "wErzPcRH"

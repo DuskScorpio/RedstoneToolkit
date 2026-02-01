@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "076a83e9fbe5cb1ccf84756d9e2f762d87e3ae7f6ebc04e80083bfefc795430e"
+metafile = true
+
+[[files]]
 file = "mods/auth-me.pw.toml"
 hash = "83c4c221b72db7fe8b2c85e912ba669be9667f6a4e069b666f296e68a0979de6"
 metafile = true
@@ -21,8 +26,13 @@ hash = "19a93243a5d2e31691fe161e700eda30a9a91aba1348a291bc8c7a5f5455c8db"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "6b58736320004020868beee139c31e5cf2211b93163db99acbaf6c71fd2835b9"
+metafile = true
+
+[[files]]
 file = "mods/capture-playback.pw.toml"
-hash = "aa6fb1adcd83002b294da850ec1fea45145d8d9544805b98dc7dcb880d66dbc4"
+hash = "b0524ba0db087e1cb5465fcd3ee7218ec8a0258518ecf13216d63c1482d94d1a"
 metafile = true
 
 [[files]]
@@ -58,6 +68,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "cd4d0c2db8c45235322fb097de824765c2e9ef1a762f8870b08680b92b8cede0"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "2522a33f6bb034a319a5497d641afae6421855d3bd57071aceff834786aade5d"
 metafile = true
 
 [[files]]
@@ -142,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/invview.pw.toml"
-hash = "515b020926d1fd0b6d1a32d106a376ba2c77bc5587bed99cecbc2d944ad18a99"
+hash = "7f067e5e50da561ca0ebe73fb1761833f184698752ad9686574d091c7c115afb"
 metafile = true
 
 [[files]]
@@ -163,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/krypton.pw.toml"
 hash = "c7a27ddefc1a4b55d4e447902bbf6f43f797a69047dfc00278e16b1ff3e191c7"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
+hash = "d4676680825fe7899af281d39ee25381af5813bb623e349289216d71ab169db5"
 metafile = true
 
 [[files]]
@@ -266,6 +286,11 @@ hash = "5cd85b655ab6f76b25205aa10ca5bc355b96f4e43d041a75907aa528f0dbd96f"
 metafile = true
 
 [[files]]
+file = "mods/respackopts.pw.toml"
+hash = "f7c4ebe89906dd7e771b6a2f760e16766eff8c44d56c17cde02c7472c7be6524"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "b61ab82e0128ac072934bc4f10a76d134e3f01c8ee1f41f5e8f1b7c1a2b59f1a"
 metafile = true
@@ -273,6 +298,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "8db240d22fb9eb721449d55de72420a951edfca51d94090fa7db3d3a35c6002f"
+metafile = true
+
+[[files]]
+file = "mods/sound-controller.pw.toml"
+hash = "51fe4c68e99d25ebbb47ef99a28a8ceeeca038c5e9e24d571d3822f79ef04d50"
 metafile = true
 
 [[files]]
@@ -296,11 +326,6 @@ hash = "c35909b8aca011eccebb9bb2372800e790fd30d18fecaaed74148dc75eebbe69"
 metafile = true
 
 [[files]]
-file = "mods/too-many-shortcuts.pw.toml"
-hash = "41617ba34cbdf6a82bb287d9fc8960d1cd0bf080d1d4c36ed5c278057986baae"
-metafile = true
-
-[[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "ee103bf45111c2cd7ea2d9b31087867dd4b0d07a4b7dad7b138a4ae506127b37"
 metafile = true
@@ -316,8 +341,13 @@ hash = "d6922628df491a1da43a628366191cbceaaa32a44c833cf9cc48659485b992d1"
 metafile = true
 
 [[files]]
-file = "mods/viafabricplus.pw.toml"
-hash = "37e9a032ef321ec3c361a8d53ae3e26b47680c65b74eb43c70f0ba4431320de8"
+file = "mods/viabackwards.pw.toml"
+hash = "9b04f2984f485fa081ce181944e87dea3015cdfeb6b8813ff68823525d3b553f"
+metafile = true
+
+[[files]]
+file = "mods/viafabric.pw.toml"
+hash = "695d8765874f311d578b9336753d9e4c9c2ce9df927a517614f234237fcd7e7a"
 metafile = true
 
 [[files]]
@@ -328,6 +358,11 @@ metafile = true
 [[files]]
 file = "mods/wecuifix.pw.toml"
 hash = "f1845133f1c212416bc8e072d2bda067a62cb6e667acfd146f6ab3be43e73e13"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-cui.pw.toml"
+hash = "f66275b464b4f7b9f08da6a6653f531b261beab9124a3f12e9f00fb93e98709e"
 metafile = true
 
 [[files]]
@@ -343,4 +378,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "35e6474329bca40af9199e35d037a8accfa5ec0c6779ab06f912bd1f7a2bff0d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "a2bbab68ce7c62b5002a2c3c0a10b31190a8b44a39efb6d0eb3870bc65532ca8"
 metafile = true

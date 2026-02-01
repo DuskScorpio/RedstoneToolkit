@@ -1,8 +1,8 @@
 name = "WikiRenderer"
-filename = "wikirenderer-2.1+1.21.11.jar"
+filename = "wikirenderer-2.1.4+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/wikirenderer-2.1+1.21.11.jar"
+url = "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.4%2B1.21.11/wikirenderer-2.1.4+1.21.11.jar"
 hash-format = "sha256"
-hash = "a5a625046813a1fd7292401d9b1c4d994ffec117fc15b48ec9703a7c941ee80f"
+hash = "4968f783699db500b165e48ecb83ec2b037c47d83a5043c51415f7899f6cf13a"

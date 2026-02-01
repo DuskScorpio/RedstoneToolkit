@@ -1,0 +1,12 @@
+name = "LibJF"
+filename = "libjf-3.15.9.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/UTnV5cSs/libjf-3.15.9.jar"
+hash-format = "sha512"
+hash = "8d8e75c331574a8521ead4893a62d6a138eb6496144213eb930de07e74972257fe0733c06134c93c5627881d53784b43ff72671d2f7e5bc02a97fd2013044e2a"
+
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "UTnV5cSs"

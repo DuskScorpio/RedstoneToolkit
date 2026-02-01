@@ -1,0 +1,12 @@
+name = "LibJF"
+filename = "libjf-3.7.2.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/x8KPNGA1/libjf-3.7.2.jar"
+hash-format = "sha512"
+hash = "2a33938796e439e3a2fc98bca505ada06abc4aeb673904f1b8f1ea2f0c8a401bdb25826f321cb28415b4188ff40a3f6363afe23ad249346b37487e2e47ce97f7"
+
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "x8KPNGA1"

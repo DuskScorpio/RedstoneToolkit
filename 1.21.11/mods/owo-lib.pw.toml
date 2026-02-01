@@ -3,6 +3,6 @@ filename = "owo-lib-0.12.24+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
+url = "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.4%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
 hash-format = "sha256"
 hash = "48585bb5b80e39040480051bb9ff08a5733122ae37b97bd9028f8cad7e957ca3"

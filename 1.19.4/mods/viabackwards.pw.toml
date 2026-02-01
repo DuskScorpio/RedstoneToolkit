@@ -1,0 +1,12 @@
+name = "ViaBackwards"
+filename = "ViaBackwards-5.7.2-SNAPSHOT.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/gpyINXdX/ViaBackwards-5.7.2-SNAPSHOT.jar"
+hash-format = "sha512"
+hash = "1851caa7ea76d7c45bf74dcd3347512ba88e3fc0d451f00f21e811697ee41d5f17d683a425ffb5f69e63a591b70c72153836c36eae6cb2df844dda932db2ffe7"
+
+[update.modrinth]
+mod-id = "NpvuJQoq"
+version = "gpyINXdX"

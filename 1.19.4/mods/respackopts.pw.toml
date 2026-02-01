@@ -1,0 +1,12 @@
+name = "Respackopts"
+filename = "respackopts-4.2.0.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TiF5QWZY/versions/vqe97GsR/respackopts-4.2.0.jar"
+hash-format = "sha512"
+hash = "830bc12f706f7ca2e080489dd06461ac3ae1069db202731690ff70c1b2dfb5c8a291081c9b990ad0c19e0ffdfb845a35ac48244f9901cf5e7dc00ccfbd822e7d"
+
+[update.modrinth]
+mod-id = "TiF5QWZY"
+version = "vqe97GsR"
