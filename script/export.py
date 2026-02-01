@@ -17,21 +17,21 @@ def main():
     parser.add_argument('-v')
     arg = parser.parse_args()
 
-    mc_ver_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
-    if (arg.v is not None) and (arg.v not in mc_ver_list): raise ValueError
+    mc_dir_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
+    if (arg.v is not None) and (arg.v not in mc_dir_list): raise ValueError
     is_release = os.getenv("IS_RELEASE", "false")
     run_num = os.getenv("GITHUB_RUN_NUMBER", "1")
-    for mc_ver in mc_ver_list:
-        if arg.v is not None and mc_ver != arg.v: continue
+    for mc_dir in mc_dir_list:
+        if arg.v is not None and mc_dir != arg.v: continue
         logger.remove()
         logger.add(
             sink=sys.stdout,
-            format="<green>[{time:HH:mm:ss}]</green> <level>[{level}/(" + mc_ver + ")]</level>: <level>{message}</level>",
+            format="<green>[{time:HH:mm:ss}]</green> <level>[{level}/(" + mc_dir + ")]</level>: <level>{message}</level>",
             level="DEBUG",
             colorize=True
         )
-        copy_file(mc_ver)
-        path = "../{}/pack.toml".format(mc_ver)
+        copy_file(mc_dir)
+        path = "../{}/pack.toml".format(mc_dir)
         with open(path, "r", encoding="utf-8") as f:
             original = f.read()
 
@@ -39,6 +39,7 @@ def main():
             with open(path, "rb") as f:
                 data = tomllib.load(f)
             original_version = data["version"]
+            mc_ver = data["versions"]["minecraft"]
             if re.match(".*alpha.*", original_version): raise ValueError
             if is_release == "false":
                 original_version = re.sub("-(beta|rc)\\.\\d+", "", original_version)
@@ -50,7 +51,7 @@ def main():
 
             process = Popen(
                 [PACKWIZ, "mr", "export"],
-                cwd="../{}".format(mc_ver),
+                cwd="../{}".format(mc_dir),
                 stdout=PIPE,
                 text=True,
                 bufsize=1
@@ -61,8 +62,8 @@ def main():
         finally:
             with open(path, "w", encoding="utf-8") as f:
                 f.write(original)
-            delete_file(mc_ver)
-            process = Popen([PACKWIZ, "refresh"], cwd="../{}".format(mc_ver), stdout=PIPE, text=True, bufsize=1)
+            delete_file(mc_dir)
+            process = Popen([PACKWIZ, "refresh"], cwd="../{}".format(mc_dir), stdout=PIPE, text=True, bufsize=1)
             for e in process.stdout:
                 text = e.strip()
                 logger.info(text)
