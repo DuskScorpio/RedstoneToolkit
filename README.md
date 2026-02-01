@@ -74,6 +74,8 @@ Here is a list of all the mods in this pack:
 - [ModernFix](https://modrinth.com/mod/modernfix) - Improves performance and reduces memory usage
 - [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
 - [More Culling](https://modrinth.com/mod/more-culling) - Changes how multiple types of culling are handled to improve performance
+- [Noisium](https://modrinth.com/mod/noisium) - Optimises worldgen performance for a better gameplay experience
+- [NoisiumForked](https://modrinth.com/mod/noisiumforked) - A fork of Noisium that maintain compatibility on versions >=1.21.6
 - [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
 - [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium

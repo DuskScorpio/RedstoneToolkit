@@ -49,6 +49,10 @@ enabled_files:
   - mr_slug: modernfix-mvus
     version: ">=1.21.5"
   - mr_slug: moreculling
+  - mr_slug: noisium
+    version: "1.20.0 - 1.21.6"
+  - mr_slug: noisiumforked
+    version: ">=1.21.6"
   - mr_slug: particle-core
   - mr_slug: sodium
   - mr_slug: sodium-extra
