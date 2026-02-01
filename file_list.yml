@@ -14,6 +14,7 @@ enabled_files:
 
   # Fixes
   - mr_slug: modelfix
+    version: "<1.21.11" # Not updated to 1.21.11 yet
   - mr_slug: packet-fixer
   - mr_slug: tooltipfix
 
