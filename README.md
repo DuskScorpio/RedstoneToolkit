@@ -65,7 +65,7 @@ Here is a list of all the mods in this pack:
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations) - Micro optimizations that improve client performance without altering gameplay
 - [Better Block Entities](https://modrinth.com/mod/better-block-entities) - Optimizes block entity rendering for smoother performance and reduced lag on versions ≥1.21.6
 - [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric) - Improves chunk generation, I/O, and loading performance by utilizing multiple CPU cores
-- [Enhanced Block Entities](https://modrinth.com/mod/ebe) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.4
+- [Enhanced Block Entities](https://modrinth.com/mod/ebe) [[1]](#ref-1) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.4
 - [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
 - [FerriteCore](https://modrinth.com/mod/ferrite-core) - Memory usage optimizations
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) - Speeds up the immediate mode rendering performance of the client
@@ -91,7 +91,6 @@ Here is a list of all the mods in this pack:
 - [Better Suggestions](https://modrinth.com/mod/better-suggestions) - Makes command suggestions more useful
 - [Client Commands](https://modrinth.com/mod/client-commands) - Adds lots of useful client-side commands
 - [CommandKeys](https://modrinth.com/mod/command-keys) - A powerful command macro mod
-- [DashLoader](https://modrinth.com/mod/dashloader) - Speeds up Minecraft startup by caching and reusing resource loading
 - [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
 - [Item Scroller](https://modrinth.com/mod/item-scroller) - Adds many shortcuts to move items more easily and craft faster in inventory screens
 - [malibind](https://modrinth.com/mod/malibind) -
@@ -160,6 +159,7 @@ Here is a list of all the mods in this pack:
 - [ClearDespawn](https://modrinth.com/mod/cleardespawn) - Makes items blink when they are about to despawn
 - [ClearDespawn Reworked](https://modrinth.com/mod/clear-despawn-reworked) - A rework of the ClearDespawn mod for Fabric 1.21.x
 - [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders) - Allows playing Minecraft in a borderless fullscreen window
+- [DashLoader](https://modrinth.com/mod/dashloader) [[1]](#ref-1) - Speeds up Minecraft startup by caching and reusing resource loading
 - [Disable Custom Worlds Advice](https://modrinth.com/mod/dcwa) - Disables the annoying "Experimental Features" advice
 - [Fabrishot](https://modrinth.com/mod/fabrishot) - Allows taking high-resolution screenshots
 - [FastQuit](https://modrinth.com/mod/fastquit) - Makes it possible to return to the title screen early while a world is still saving in the background
@@ -167,8 +167,8 @@ Here is a list of all the mods in this pack:
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) - Makes chat unreportable (where possible)
 - [Respackopts](https://modrinth.com/mod/respackopts) - Adds config menus for resource packs
 - [Sound Controller](https://modrinth.com/mod/sound-controller) - Provides complete control over the volume of every sound in the game
-- [ViaBackwards](https://modrinth.com/mod/viabackwards) -
-- [ViaFabric](https://modrinth.com/mod/viafabric) -
+- [ViaBackwards](https://modrinth.com/mod/viabackwards) - Allows players to connect to newer server versions with an older Minecraft client
+- [ViaFabric](https://modrinth.com/mod/viafabric) - Allows players to connect to older server versions with a newer Minecraft client
 
 </details>
 
@@ -183,3 +183,7 @@ Here is a list of all the mods in this pack:
 - [WorldEditCUI](https://modrinth.com/mod/worldeditcui-fabric) - Adds visual outlines for WorldEdit areas
 
 </details>
+
+### Notes
+
+<a id="ref-1"></a>[1] [DashLoader](https://modrinth.com/mod/dashloader) and [Enhanced Block Entities](https://modrinth.com/mod/ebe) are not compatible in version 1.19.4
