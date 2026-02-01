@@ -16,21 +16,21 @@ def main():
     yaml = YAML()
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         data = yaml.load(f)
-    enabled_mod_list: list[dict[str, str]] = data["enabled_mods"]
-    disabled_mod_list: list[dict[str, str]] = data["disabled_mods"]
+    enabled_file_list: list[dict[str, str]] = data["enabled_files"]
+    disabled_file_list: list[dict[str, str]] = data["disabled_files"]
     mc_ver_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
 
-    remove_mod(mc_ver_list, [*enabled_mod_list, *disabled_mod_list]) # remove mod
+    remove_mod(mc_ver_list, [*enabled_file_list, *disabled_file_list]) # remove mod
     clean_log(mc_ver_list) # clean log
 
     for mc_ver in mc_ver_list:
         path = "../{}".format(mc_ver)
-        for enabled_mod in enabled_mod_list:
-            install = Install(mc_ver, enabled_mod, False)
+        for enabled_file in enabled_file_list:
+            install = Install(mc_ver, enabled_file, False)
             install.install()
 
-        for disabled_mod in disabled_mod_list:
-            install = Install(mc_ver, disabled_mod, True)
+        for disabled_file in disabled_file_list:
+            install = Install(mc_ver, disabled_file, True)
             install.install()
 
         # tomil-w changes something, so it needs to be refreshed
