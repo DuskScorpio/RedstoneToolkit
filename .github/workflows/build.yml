@@ -3,8 +3,6 @@ on:
   push:
     paths:
       - '**/pack.toml'
-    tags-ignore:
-      - 'release/**'
   workflow_dispatch:
 
 jobs:
