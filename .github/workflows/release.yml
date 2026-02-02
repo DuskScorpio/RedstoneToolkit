@@ -17,9 +17,9 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v6
         with:
-          python-version: '3.14'
+          python-version: "3.14"
       - name: generate data
-        run: 'python .github/workflows/script/matrix.py'
+        run: "python .github/workflows/script/matrix.py"
       - name: read json
         id: read-json
         run: |
@@ -33,7 +33,7 @@ jobs:
       run:
         shell: bash
     env:
-      IS_RELEASE: 'true'
+      IS_RELEASE: "true"
     strategy:
       matrix:
         mc_ver: ${{ fromJSON(needs.find_version.outputs.json_str).mc_vers }}
@@ -57,19 +57,19 @@ jobs:
         if: steps.check.outputs.exists == 'false'
         uses: actions/setup-python@v6
         with:
-          python-version: '3.14'
+          python-version: "3.14"
       - name: pip requirements
         if: steps.check.outputs.exists == 'false'
         run: pip install -r script/requirements.txt
       - name: export mrpack
         if: steps.check.outputs.exists == 'false'
-        run: 'python script/export.py -v ${{ steps.data.outputs.dir }}'
+        run: "python script/export.py -v ${{ steps.data.outputs.dir }}"
       - name: publish
         if: steps.check.outputs.exists == 'false'
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-#          modrinth-id: ccYQOriP
-#          modrinth-token: ${{ secrets.MR_TOKEN }}
+          modrinth-id: ccYQOriP
+          modrinth-token: ${{ secrets.MR_TOKEN }}
 
           github-token: ${{ secrets.GH_TOKEN }}
           github-tag: ${{ format('release/{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
