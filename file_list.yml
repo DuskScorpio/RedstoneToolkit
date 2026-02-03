@@ -4,11 +4,9 @@ enabled_files:
 
   # Carpet
   - mr_slug: carpet
-  - mr_slug: carpet-extra
   - mr_slug: carpet-tis-addition
-  - mr_slug: doormat
-  - mr_slug: essentialaddons
   - mr_slug: joacarpet
+  - mr_slug: subtick
   - mr_slug: yaca
     version: "<=1.21.10"
 
@@ -100,6 +98,11 @@ enabled_files:
 disabled_files:
   # Aesthetics
   - mr_slug: iris
+
+  # Carpet
+  - mr_slug: carpet-extra
+  - mr_slug: doormat
+  - mr_slug: essentialaddons
 
   # Fixes
   - mr_slug: wecuifix

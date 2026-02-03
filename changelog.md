@@ -1,23 +1,15 @@
 ## News
 
 - Added new enabled mods:
-  - Fast Noise
-  - Worldthreader
-  - Ixeris
-  - kennytv's epic force close loading screen
-- Added new disabled mods:
-  - WorldEdit Hang Fix
+  - SubTick
 
 ## Changes
 
 - Disabled mods:
-  - Redstone Multimeter
-- Removed mods:
-  - NoisiumForked
+  - Carpet extra
+  - Doormat
+  - Essential addons
 
 ## Updates
 
-- WikiRenderer
-- owo-lib
-- Tweakermore
-- Technical Utilities
+-

@@ -28,13 +28,11 @@ These mods are enabled by default and recommended to the user
 <details>
 <summary><strong>Carpet</strong></summary>
 
-- [Carpet Extra](https://modrinth.com/mod/carpet-extra) - Extra features for Carpet
 - [Carpet Mod](https://modrinth.com/mod/carpet) - The most important mod for technical Minecraft; it comes with tons of useful features and commands
 - [Carpet TIS Addition](https://modrinth.com/mod/carpet-tis-addition) - Very useful Carpet extension with lots of new rules and tools, in particular for doing stuff in creative mode
-- [Doormat](https://modrinth.com/mod/doormat) - A Carpet extension with fun features
-- [Essential Addons](https://modrinth.com/mod/essential-addons) - A Carpet extension that adds some handy commands and rules
 - [JoaCarpet](https://modrinth.com/mod/joacarpet) - A small Carpet extension with a few useful features for redstone and storage tech
-- [Yet Another Carpet Addition](https://modrinth.com/mod/yaca) - Another Carpet extension adding additional rules and features
+- [SubTick](https://modrinth.com/mod/subtick) - Allows freezing and stepping through block ticks, fluid ticks, block events, entities, and block entities individually, with HUD visualization and configurable defaults
+- [Yet Another Carpet Addition](https://modrinth.com/mod/yaca) - Adds a lot of useful features, including visualization for scheduled ticks, hopper cooldowns, random ticks, block updates, etc. Provides GUI interfaces for Carpet rule management and hopper counter tracking
 
 </details>
 
@@ -141,6 +139,16 @@ These mods are disabled by default and can be enabled if desired
 - [Iris](https://modrinth.com/mod/iris) - The best shaders mod
 
 </details>
+
+<details>
+<summary><strong>Carpet</strong></summary>
+
+- [Carpet Extra](https://modrinth.com/mod/carpet-extra) - Adds Carpet rules that introduce non‑vanilla mechanics for technical play. Extends dispenser behavior to place blocks, feed and interact with animals, while enabling renewable conversions.
+- [Doormat](https://modrinth.com/mod/doormat) - Provides Carpet rules for experimental redstone mechanics. Introduces a Tinker Kit system that allows per‑component configuration of quasi‑connectivity, block update emissions, etc.
+- [Essential Addons](https://modrinth.com/mod/essentialaddons) - Integrates the functionality of the Spigot plugin Essentials alongside additional features. Adds mechanics such as stackable shulkers and nesting shulkers inside shulkers
+
+</details>
+
 <details>
 <summary><strong>Fixes</strong></summary>
 

@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "765c87a1cf02cfef9677f6841861ed7bc6daaaa546687b79f3d20c53ad9ec2de"
+hash = "0f50b5d341c09d8292f979c2355567679be26a8eef7f4ad2243234b518e5830a"
 metafile = true
 
 [[files]]
@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/doormat.pw.toml"
-hash = "a945dbfe099cda98560f89839bb2a1f2ad9a902b72c48320766af4026d0e9628"
+hash = "6a4bb09a4df14f617a85c2e7d88d19d4dc266cde35866ad55168a22319c371da"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/essentialaddons.pw.toml"
-hash = "a743806875ee418d68ddda0d9edee20d3ea79b06e594c8a37e197f8a6272970a"
+hash = "194ee1b847cacdee7687131d8672e96c9865f9ce9ed6024edf883ce408baa32b"
 metafile = true
 
 [[files]]

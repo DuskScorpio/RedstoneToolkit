@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/essentialaddons.pw.toml"
-hash = "0304a4bfb402bc3f57eeb32898935ff17534f8488864f337c8a3e501466bbb3e"
+hash = "ba7f19d22ee5f24e4ec5409f61510603724acf855658f8c6f6d5e67627174968"
 metafile = true
 
 [[files]]

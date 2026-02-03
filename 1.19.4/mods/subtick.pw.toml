@@ -1,0 +1,13 @@
+name = "SubTick"
+filename = "subtick-mc1.19.4-v2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xzx66KYY/versions/cnQjkwlf/subtick-mc1.19.4-v2.1.1.jar"
+hash-format = "sha512"
+hash = "5af1fa87624a7892748febeebaf7fbece8e6d69f6e78fa5aabee07c430c7578481dd03d31632f8459a7174e270de89079f259b8477d2ff106775fb24de774468"
+
+[update]
+[update.modrinth]
+mod-id = "xzx66KYY"
+version = "cnQjkwlf"

@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "c08de37498e042f6ee21ae39ebafd4a8c980acf4d96fb12f8fd1f1f8346f107d"
+hash = "cdd6ac74631a1065fcd17d4730211469b697a6dc42470f19c84025a41446e749"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/essentialaddons.pw.toml"
-hash = "378afc0c0622329c080348d6ff11f2531911dd3d1c11fb173adb3d3702ca159a"
+hash = "359bb6baf52cb567c13917a9b0746162e79161719b12711991ce59c575693d9e"
 metafile = true
 
 [[files]]
@@ -323,6 +323,11 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "f89e29023606d8d37d1e3c216e30e8578e3860f8beae6c9d6e0a3c17c7d3b95e"
+metafile = true
+
+[[files]]
+file = "mods/subtick.pw.toml"
+hash = "da40225ebbe83e33ba5600a48f21063b10cd4d9788c2a7ee81f8ad10f24371b0"
 metafile = true
 
 [[files]]

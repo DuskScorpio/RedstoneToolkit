@@ -1,5 +1,5 @@
 name = "EssentialAddons"
-filename = "essentialaddons-1.19.4-1.2.2.jar"
+filename = "essentialaddons-1.19.4-1.2.2.jar.disabled"
 side = "server"
 
 [download]
