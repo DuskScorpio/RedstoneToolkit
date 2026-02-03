@@ -331,6 +331,11 @@ hash = "695d8765874f311d578b9336753d9e4c9c2ce9df927a517614f234237fcd7e7a"
 metafile = true
 
 [[files]]
+file = "mods/viaversion.pw.toml"
+hash = "598193ca1ef75d7afcb0fd24940066b23d2fd93c84b97e5ec125318e764cf13a"
+metafile = true
+
+[[files]]
 file = "mods/vkm.pw.toml"
 hash = "7de9e06f6c35d09d84bcddd2ccbefd489cb88412661a84459308bc68109b27cc"
 metafile = true

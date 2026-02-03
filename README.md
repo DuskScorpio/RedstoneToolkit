@@ -190,6 +190,7 @@ These mods are disabled by default and can be enabled if desired
 - [Sound Controller](https://modrinth.com/mod/sound-controller) - Provides complete control over the volume of every sound in the game
 - [ViaBackwards](https://modrinth.com/mod/viabackwards) - Allows players to connect to newer server versions with an older Minecraft client
 - [ViaFabric](https://modrinth.com/mod/viafabric) - Allows players to connect to older server versions with a newer Minecraft client
+- [ViaVersion](https://modrinth.com/mod/viaversion) - A required dependency for ViaBackwards
 
 </details>
 

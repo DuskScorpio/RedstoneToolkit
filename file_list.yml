@@ -135,6 +135,7 @@ disabled_files:
   - mr_slug: sound-controller
   - mr_slug: viabackwards
   - mr_slug: viafabric
+  - mr_slug: viaversion
 
   # Technical
   - mr_slug: axiom

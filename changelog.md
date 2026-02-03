@@ -2,6 +2,8 @@
 
 - Added new enabled mods:
   - SubTick
+- Added new disabled mods:
+  - ViaVersion
 
 ## Changes
 
