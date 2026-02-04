@@ -125,7 +125,7 @@ These mods are enabled by default and recommended to the user
 - [NBT Copy](https://modrinth.com/mod/nbt-copy) - Adds a button to the chat to easily copy NBT data from the `/data get` command.
 - [spark](https://modrinth.com/mod/spark) - A performance profiler for Minecraft clients, servers and proxies
 - [Syncmatica](https://modrinth.com/mod/syncmatica) - Enables sharing litematic placements with other players
-- [Technical Utilities](https://modrinth.com/mod/technical-utilities) - Provides client-side tweaks for Litematica, WorldEdit and other small utilities
+- [Technical Utilities](https://modrinth.com/mod/techutils) - Provides an Inventory Verifier for Litematica schematics and various other small technical utilities
 - [TweakerMore](https://modrinth.com/mod/tweakermore) - Adds even more client-side tweaks to the game
 - [Tweakeroo](https://modrinth.com/mod/tweakeroo) - Adds a whole bunch of client-side "tweaks" to the game
 
