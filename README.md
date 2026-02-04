@@ -93,6 +93,8 @@ These mods are enabled by default and recommended to the user
 - [Better Suggestions](https://modrinth.com/mod/better-suggestions) - Makes command suggestions more useful
 - [Client Commands](https://modrinth.com/mod/client-commands) - Adds lots of useful client-side commands
 - [CommandKeys](https://modrinth.com/mod/command-keys) - A powerful command macro mod
+- [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk) - Keeps chunks in memory longer after they are out of render distance
+- [Hold That Chunk V2](https://modrinth.com/mod/hold-that-chunk-v2) - A re-implementation of Hold That Chunk for versions >=1.21 that keeps rendered chunks in memory longer
 - [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
 - [Item Scroller](https://modrinth.com/mod/item-scroller) - Adds many shortcuts to move items more easily and craft faster in inventory screens
 - [kennytv's epic force close loading screen](https://modrinth.com/mod/forcecloseworldloadingscreen) - Disables world loading/reconfiguration screens and removes forced fades for faster resource pack loading

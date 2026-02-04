@@ -59,6 +59,8 @@ enabled_files:
   - mr_slug: better-suggestions
   - mr_slug: client-commands
   - mr_slug: commandkeys
+  - mr_slug: hold-that-chunk
+  - mr_slug: hold-that-chunk-v2
   - mr_slug: isometric-renders
   - mr_slug: item-scroller
   - mr_slug: forcecloseworldloadingscreen
