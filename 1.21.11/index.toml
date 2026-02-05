@@ -372,7 +372,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldthreader.pw.toml"
-hash = "b22161eb58ba5a80c7ceb8fb95eda938811362713c5b43d42541d2cd785e926c"
+hash = "cb9de5413466f722d7c24591889ce4270216e913ed31a4790c13eaee91ce2a46"
 metafile = true
 
 [[files]]
