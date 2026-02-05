@@ -88,7 +88,7 @@ def clean_log(mc_ver_list: list[str]):
 
 def get_meta(name: str, mod_list: list[dict[str, str]]) -> dict[str, str]:
     for mod in mod_list:
-        name_list = [mod.get(MR, ""), mod.get(CF, ""), mod.get(NAME, "")]
+        name_list = [mod.get(MR, ""), mod.get(CF, ""), mod.get(NAME, "").lower()]
         if name in name_list:
             return mod
 
