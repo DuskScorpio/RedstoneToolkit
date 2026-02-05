@@ -51,6 +51,7 @@ enabled_files:
   - mr_slug: sodium
   - mr_slug: sodium-extra
   - mr_slug: starlight
+    version: "<=1.20.4"
   - mr_slug: threadtweak
 
   # QoL
@@ -59,8 +60,11 @@ enabled_files:
   - mr_slug: client-commands
   - mr_slug: commandkeys
   - mr_slug: hold-that-chunk
+    version: "<1.21.0"
   - mr_slug: hold-that-chunk-v2
+    version: ">=1.21.0"
   - mr_slug: isometric-renders
+    version: "<=1.21.4"
   - mr_slug: item-scroller
   - mr_slug: forcecloseworldloadingscreen
   - mr_slug: malibind
@@ -117,6 +121,7 @@ disabled_files:
   - mr_slug: dynamic-fps
     version: "<1.21.2"
   - mr_slug: scalablelux
+    version: ">=1.21.0"
   - mr_slug: voxy
   - mr_slug: worldthreader
 
