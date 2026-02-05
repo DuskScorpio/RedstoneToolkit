@@ -1,0 +1,12 @@
+name = "Inv View"
+filename = "InvView-1.4.1-1.16.4+.jar.disabled"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/jrDKjZP7/versions/1.4/InvView-1.4.1-1.16.4%2B.jar"
+hash-format = "sha512"
+hash = "e72ce4cc82dc080c9afb31497aac19c4ba8a5f65c7ed770215e5738ada0c92f608821de8b71a43ea65467f5edbc5d4a84320c39b04bff43ac13c0b07a5ba4efa"
+
+[update.modrinth]
+mod-id = "jrDKjZP7"
+version = "r4H4qQY6"

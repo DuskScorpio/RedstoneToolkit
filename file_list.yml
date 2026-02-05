@@ -139,8 +139,9 @@ disabled_files:
   - mr_slug: fastquit
   - mr_slug: invview
   - mr_slug: no-chat-reports
+    version: ">=1.19.0"
   - mr_slug: respackopts
-    version: ">1.17.1" # Does not work on 1.17.1
+    version: "<1.17.1 || >1.17.1" # Does not work on 1.17.1
   - mr_slug: sound-controller
   - mr_slug: viabackwards
   - mr_slug: viafabric

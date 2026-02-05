@@ -1,0 +1,13 @@
+name = "MasaAdditions"
+filename = "masaadditions-1.2.0+1.16.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TqMQMRWd/versions/f70ttYYm/masaadditions-1.2.0%2B1.16.5.jar"
+hash-format = "sha512"
+hash = "4713c79317f29f5ef44a667086e1cceb887ad5bf6de449ad29bef34a24581487187d902b44c4dcdf090374e5fce52f4bdf351b692ad0e738c14bfd0b5e85c3ff"
+
+[update]
+[update.modrinth]
+mod-id = "TqMQMRWd"
+version = "f70ttYYm"
