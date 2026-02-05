@@ -1,0 +1,12 @@
+name = "ClearDespawn"
+filename = "ClearDespawn-fabric-1.18.2-1.1.7.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yoJJjRRE/versions/TwEFlZkY/ClearDespawn-fabric-1.18.2-1.1.7.jar"
+hash-format = "sha512"
+hash = "379f4f31a0c4aa85f8ad9b037943ee062f8e40cd5d0587aa5e5d51bf6b1e6029375218123fa0019dd5f4735586bd9da8188c379bb43fc851a3b616aa1890ef60"
+
+[update.modrinth]
+mod-id = "yoJJjRRE"
+version = "TwEFlZkY"

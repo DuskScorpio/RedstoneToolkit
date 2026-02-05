@@ -1,0 +1,13 @@
+name = "Masa Gadget"
+filename = "MasaGadget-mc1.18.2-fabric-4.0.395-stable.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SFO4Ca80/versions/rF19sViH/MasaGadget-mc1.18.2-fabric-4.0.395-stable.jar"
+hash-format = "sha512"
+hash = "982647b6978e39fa25468601e9b2f83ccc411d9e3dc3d84e9ec184d4c227c6fcbfab1485664f1b054ac277894f8c5acb155835f201ff1cbde043be7c38355467"
+
+[update]
+[update.modrinth]
+mod-id = "SFO4Ca80"
+version = "rF19sViH"

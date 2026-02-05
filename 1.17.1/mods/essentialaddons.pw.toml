@@ -1,0 +1,12 @@
+name = "EssentialAddons"
+filename = "essentialaddons-1.17.1-1.2.2.jar.disabled"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/3WQaouc1/versions/dU6VT5wt/essentialaddons-1.17.1-1.2.2.jar"
+hash-format = "sha512"
+hash = "f6040e7250108473fd1736aaabbaa3f373d4cd8b79f8d0be4f9172ff6de8d82bda9fa5230cdc074c339d8e79617aaaa511e6c8c103e25d2ef36aea19204e5bc6"
+
+[update.modrinth]
+mod-id = "3WQaouc1"
+version = "dU6VT5wt"

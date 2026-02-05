@@ -1,0 +1,13 @@
+name = "Tweakeroo"
+filename = "tweakeroo-fabric-1.18.2-0.13.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/t5wuYk45/versions/FivAjAMb/tweakeroo-fabric-1.18.2-0.13.3.jar"
+hash-format = "sha512"
+hash = "93071a007426f0bba413f01f5154bf7b20e94edfa972fd4e3d86fb7c7bdc33abcde1a4ed96c1d1be685bacb1ce07df6f78f8fa77cfaa30a1fee48aa71835d436"
+
+[update]
+[update.modrinth]
+mod-id = "t5wuYk45"
+version = "FivAjAMb"

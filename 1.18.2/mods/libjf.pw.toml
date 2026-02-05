@@ -1,0 +1,12 @@
+name = "LibJF"
+filename = "libjf-2.8.1.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/2.8.1/libjf-2.8.1.jar"
+hash-format = "sha512"
+hash = "e910c7b3c1fab7af6e52f57db0f5e1fcb58438ab51a259abbb62e85da96328ba28c0cd18d6abe7f62b272a02262e651dd1e88e87736400f55997410a1caacab1"
+
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "YSswQLTj"

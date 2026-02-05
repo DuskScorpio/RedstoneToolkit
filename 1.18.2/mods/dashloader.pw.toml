@@ -1,0 +1,12 @@
+name = "DashLoader"
+filename = "dashloader-4.1.3+1.18.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZfQ3kTvR/versions/oDlgxjWQ/dashloader-4.1.3%2B1.18.jar"
+hash-format = "sha512"
+hash = "6799a9949384d61d008b727d1cf7050d690394eb5081971facc7c6400a845dca0093c814fb397984fad3edfb20b64359fbeb475e525e002e411bdbdd1bd72b66"
+
+[update.modrinth]
+mod-id = "ZfQ3kTvR"
+version = "oDlgxjWQ"

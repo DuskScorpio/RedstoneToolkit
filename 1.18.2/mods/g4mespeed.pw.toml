@@ -1,0 +1,13 @@
+name = "G4mespeed"
+filename = "g4mespeed-1.4.6-mc1.18.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gW29KsnL/versions/lSmRy1jj/g4mespeed-1.4.6-mc1.18.2.jar"
+hash-format = "sha512"
+hash = "c6c6e1592c1c7dd6c6387c4bf48eb00f35202f87d13c5748a7b091853baebc08e60d30a17e7c4b1f12f3fffab8fef468ab4c742697a10fa23fc0f05d76945aa6"
+
+[update]
+[update.modrinth]
+mod-id = "gW29KsnL"
+version = "lSmRy1jj"

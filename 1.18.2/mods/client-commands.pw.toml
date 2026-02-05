@@ -1,0 +1,13 @@
+name = "clientcommands"
+filename = "clientcommands-2.6.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7Coz83fv/versions/2.6.6/clientcommands-2.6.6.jar"
+hash-format = "sha512"
+hash = "b94ae8cb7c3a88fbd309b15427649615cfb59d57beccfae7dee1e832da98ed1d1fa7c5233d3f9d112bf427e5dd1155bb8283df306a8d96644b6e598f71afbb27"
+
+[update]
+[update.modrinth]
+mod-id = "7Coz83fv"
+version = "qrIPiB4p"

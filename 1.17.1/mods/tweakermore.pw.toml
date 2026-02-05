@@ -1,0 +1,13 @@
+name = "TweakerMore"
+filename = "tweakermore-v3.29.0-mc1.17.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GBeCx05I/versions/iZtl60QQ/tweakermore-v3.29.0-mc1.17.1.jar"
+hash-format = "sha512"
+hash = "405c3a901a4859fbf5bf3aa40be2731b671abd4d32cd59257ff2a466fcc80d1b433d39632ff8615b0792dd11e2617e058d9f34ab2f1b919b417a9d0bd2a5a589"
+
+[update]
+[update.modrinth]
+mod-id = "GBeCx05I"
+version = "iZtl60QQ"

@@ -1,0 +1,13 @@
+name = "SubTick"
+filename = "subtick-mc1.18.2-v2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xzx66KYY/versions/MuLsSB6i/subtick-mc1.18.2-v2.1.1.jar"
+hash-format = "sha512"
+hash = "ebee4c22d5d31ce7035df0dbb0dee02930d6e818c005f37dd4704584f91e7ae48d24357a90190aeba61ae0e71c390762c523c20d73404e3f688f34d243cb0950"
+
+[update]
+[update.modrinth]
+mod-id = "xzx66KYY"
+version = "MuLsSB6i"

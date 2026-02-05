@@ -1,0 +1,13 @@
+name = "JoaCarpet"
+filename = "joacarpet-mc1.17.x-v2.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CcgAKzTg/versions/SLJz9UCV/joacarpet-mc1.17.x-v2.4.0.jar"
+hash-format = "sha512"
+hash = "5fb03f6a223b7c5291aa657a50e4c168177d32d77ec857c446893d66d728d5d7ba8f2af4d82e3154e88ecf03c3074a60efcd26dafc1a27f9003e09c2a8b1251e"
+
+[update]
+[update.modrinth]
+mod-id = "CcgAKzTg"
+version = "SLJz9UCV"
