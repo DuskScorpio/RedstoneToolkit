@@ -7,6 +7,7 @@ import re
 import os
 import sys
 import tomllib
+import tomli_w
 
 
 def main():
@@ -14,6 +15,8 @@ def main():
     clean_log(mc_ver_list)
     for mc_ver in mc_ver_list:
         path = "../{}".format(mc_ver)
+        record = Disable(mc_ver)
+        record.init()
         process = Popen(
             [PACKWIZ, "update", "--all", "--yes"],
             stdout=PIPE,
@@ -23,6 +26,66 @@ def main():
         )
         process_log(process, mc_ver)
         process.wait()
+        record.disable()
+
+
+class Disable:
+    __disabled_list = []
+
+    def __init__(self, mc_ver: str):
+        self.mc_dir = mc_ver
+
+
+    def init(self):
+        path = Path("../{}/mods".format(self.mc_dir))
+        file_list = [i for i in path.iterdir() if re.match(".*\\.pw\\.toml", i.name)]
+        for file in file_list:
+            with open(file, "rb") as f:
+                data = tomllib.load(f)
+            if re.match(".*\\.disabled", data["filename"]):
+                self.__disabled_list.append(file.name)
+
+
+    def disable(self):
+        for file_name in self.__disabled_list:
+            self.__disable(file_name)
+        self.__set_logger()
+        process = Popen(
+            [PACKWIZ, "refresh"],
+            cwd="../{}".format(self.mc_dir),
+            stdout=PIPE,
+            text=True,
+            bufsize=1
+        )
+        for e in process.stdout:
+            text = e.strip()
+            logger.info(text)
+        process.wait()
+
+
+    def __disable(self, mod_name: str):
+        path = "../{0}/mods/{1}".format(self.mc_dir, mod_name)
+        if not Path(path).exists():
+            return
+        with open(path, "rb") as f:
+            data = tomllib.load(f)
+        original_name = data["filename"]
+        if re.match(".*\\.disabled", original_name):
+            return
+        data["filename"] = original_name + ".disabled"
+        with open(path, "wb") as f:
+            tomli_w.dump(data, f)
+
+
+    def __set_logger(self):
+        # DEBUG WARNING
+        logger.remove()
+        logger.add(
+            sink=sys.stdout,
+            format="<green>[{time:HH:mm:ss}]</green> <level>[{level}/(" + self.mc_dir + ")]</level>: <level>{message}</level>",
+            level="DEBUG",
+            colorize=True
+        )
 
 
 def process_log(process: Popen, mc_ver: str):
