@@ -44,6 +44,7 @@ jobs:
           echo "mc_ver=${{ matrix.mc_ver }}" >> $GITHUB_OUTPUT
           echo "dir=${{ fromJSON(needs.find_version.outputs.json_str).dir_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
           echo "ver=${{ fromJSON(needs.find_version.outputs.json_str).ver_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
+          echo "type=${{ fromJSON(needs.find_version.outputs.json_str).type_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
       - name: check tag
         id: check
         uses: mukunku/tag-exists-action@v1.7.0
@@ -78,6 +79,6 @@ jobs:
           files: ${{ format('{0}/*.mrpack', steps.data.outputs.dir) }}
           loaders: fabric
           version: ${{ format('{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
-          version-type: release
+          version-type: ${{ steps.data.outputs.type }}
           game-versions: ${{ matrix.mc_ver }}
           changelog-file: changelog.md
