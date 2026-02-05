@@ -1,6 +1,7 @@
 from pathlib import Path
 from ruamel.yaml import YAML
 from subprocess import Popen, PIPE
+from argparse import ArgumentParser
 from semantic_version import Version, NpmSpec
 from loguru import logger
 from utils.install_util import Install
@@ -13,29 +14,35 @@ import sys
 
 # install mods
 def main():
+    parser = ArgumentParser()
+    parser.add_argument('-v')
+    arg = parser.parse_args()
+
+    mc_dir_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
+    if (arg.v is not None) and (arg.v not in mc_dir_list): raise ValueError
     yaml = YAML()
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         data = yaml.load(f)
     enabled_file_list: list[dict[str, str]] = data[ENABLED]
     disabled_file_list: list[dict[str, str]] = data[DISABLED]
-    mc_ver_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
 
-    remove_mod(mc_ver_list, [*enabled_file_list, *disabled_file_list]) # remove mod
-    clean_log(mc_ver_list) # clean log
+    remove_mod(mc_dir_list, [*enabled_file_list, *disabled_file_list]) # remove mod
+    clean_log(mc_dir_list) # clean log
 
-    for mc_ver in mc_ver_list:
-        path = "../{}".format(mc_ver)
+    for mc_dir in mc_dir_list:
+        if arg.v is not None and mc_dir != arg.v: continue
+        path = "../{}".format(mc_dir)
         for enabled_file in enabled_file_list:
-            install = Install(mc_ver, enabled_file, False)
+            install = Install(mc_dir, enabled_file, False)
             install.install()
 
         for disabled_file in disabled_file_list:
-            install = Install(mc_ver, disabled_file, True)
+            install = Install(mc_dir, disabled_file, True)
             install.install()
 
         # tomil-w changes something, so it needs to be refreshed
         process = Popen([PACKWIZ, "refresh"], cwd=path, stdout=PIPE, text=True, bufsize=1)
-        set_logger(mc_ver, "DEBUG")
+        set_logger(mc_dir, "DEBUG")
         for e in process.stdout:
             text = e.strip()
             logger.info(text)
