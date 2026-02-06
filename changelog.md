@@ -1,7 +1,7 @@
 ## News
 
 - Added new versions:
-  -
+  - 26.1-snapshot-6
 - Added new enabled mods:
   -
 - Added new disabled mods:

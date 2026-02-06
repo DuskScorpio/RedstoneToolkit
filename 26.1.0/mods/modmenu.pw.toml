@@ -1,0 +1,13 @@
+name = "Mod Menu"
+filename = "modmenu-18.0.0-alpha.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/DNADU7oH/modmenu-18.0.0-alpha.5.jar"
+hash-format = "sha512"
+hash = "6a16198271624ee28f0f4c0250eae32d5d3dffdbd9c494fb0cc53cc7b4c71058df113b0c28f89e70a6cbe624794b9c415610374229c599cc771e97ed5f27db64"
+
+[update]
+[update.modrinth]
+mod-id = "mOgUt4GM"
+version = "DNADU7oH"

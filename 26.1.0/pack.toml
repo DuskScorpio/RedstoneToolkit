@@ -1,0 +1,16 @@
+name = "RedstoneTools"
+author = "Scorpio"
+version = "0.1.4"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e375491978223f72ebd6c69e84930dfabe27496b6b99c2319240b3082b1cc0a7"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "26.1-snapshot-6"
+
+[options]
+acceptable-game-versions = ["26.1-snapshot-4", "26.1-snapshot-5"]
