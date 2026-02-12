@@ -95,7 +95,7 @@ These mods are enabled by default and recommended to the user
 - [Hold That Chunk V2](https://modrinth.com/mod/hold-that-chunk-v2) - A re-implementation of Hold That Chunk for versions >=1.21 that keeps rendered chunks in memory longer
 - [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
 - [Item Scroller](https://modrinth.com/mod/item-scroller) - Adds many shortcuts to move items more easily and craft faster in inventory screens
-- [MaLiBind](https://modrinth.com/mod/malibind) -
+- [MaLiBind](https://modrinth.com/mod/malibind) - Imports vanilla Minecraft keybinds into MaLiLib's configuration system
 - [MiniHUD](https://modrinth.com/mod/minihud) - A "mini F3" HUD mod, also with various overlays like light level, spawn chunks, slime chunks etc.
 - [Mod Menu](https://modrinth.com/mod/modmenu) - Adds a mod menu to view the list of mods you have installed
 - [NBT Autocomplete](https://modrinth.com/mod/nbt-autocomplete) - Adds suggestions for NBT tags in commands
