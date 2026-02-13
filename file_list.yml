@@ -77,6 +77,7 @@ enabled_files:
   - mr_slug: reeses-sodium-options
   - mr_slug: suggestion-tweaker
   - mr_slug: vkm
+  #- mr_slug: wikirenderer
   - name: WikiRenderer
     urls:
       1.21.11: "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.2.1-1.21.11/wikirenderer-2.2.1+1.21.11.jar"
