@@ -75,7 +75,7 @@ jobs:
           github-token: ${{ secrets.GH_TOKEN }}
           github-tag: ${{ format('release/{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
 
-          name: ${{ format('Redstone Tools v{0} for mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
+          name: ${{ format('Redstone Toolkit v{0} for mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
           files: ${{ format('{0}/*.mrpack', steps.data.outputs.dir) }}
           loaders: fabric
           version: ${{ format('{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
