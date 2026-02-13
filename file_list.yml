@@ -6,7 +6,7 @@ enabled_files:
   - mr_slug: carpet
     name: Carpet
     urls:
-      26.1.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1-beta-5/fabric-carpet-26.1-beta-5+v260204.jar"
+      26.1.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1-beta-6/fabric-carpet-26.1-beta-6+v260212.jar"
   - mr_slug: carpet-tis-addition
   - mr_slug: joacarpet
   - mr_slug: subtick
