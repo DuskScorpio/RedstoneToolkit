@@ -1,7 +1,7 @@
 ## News
 
 - Added new versions:
-  - 26.1-snapshot-7
+  - 26.1-snapshot-8
 - Added Fast Noise (1.19.4 - 1.20.6)
 
 ## Changes
