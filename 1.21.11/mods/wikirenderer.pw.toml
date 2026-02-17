@@ -1,8 +1,13 @@
 name = "WikiRenderer"
-filename = "wikirenderer-2.2.1+1.21.11.jar"
-side = "both"
+filename = "wikirenderer-2.2.3+1.21.11.jar"
+side = "client"
 
 [download]
-url = "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.2.1-1.21.11/wikirenderer-2.2.1+1.21.11.jar"
-hash-format = "sha256"
-hash = "e2385e03efc42d1013113e9b4fda4882821426dd3c487e3f8af5670d5def1d24"
+url = "https://cdn.modrinth.com/data/7x65n82E/versions/myQwFyKH/wikirenderer-2.2.3%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "2fa1d397551e2e3249d8b12d931d005b60a699cc9c7e6457764fb18e28b9e61fba50d57f166eb0b87176f06cb8892b8e1cbb0c1a825004e3a33831fdaca370f5"
+
+[update]
+[update.modrinth]
+mod-id = "7x65n82E"
+version = "myQwFyKH"

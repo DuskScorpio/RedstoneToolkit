@@ -211,11 +211,6 @@ hash = "40f19104f891e4f66d44bc464234297f299e9e2ac0a31f17d032df9431caca09"
 metafile = true
 
 [[files]]
-file = "mods/litemoretica.pw.toml"
-hash = "4d682629f2b4f0550aaa62d943814dcc7e7dfe355becb0dce0f81336150467a5"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "bd43a13951de504be4138561460784d107c303416b3f2f405fbc810ecb5c946e"
 metafile = true
@@ -403,4 +398,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "f2c2f24f6eb93eed3e6be7ff84fafe01fa08f0cc5c22e26b90b5f374e6b3c0b5"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "3c4f39bc64984ab90ef0852cbc8f1c575d0970afeef0af3b4413122bfd06f744"
 metafile = true

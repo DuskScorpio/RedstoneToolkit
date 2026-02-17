@@ -2,12 +2,14 @@
 
 - Added new versions:
   - 26.1-snapshot-7
+- Added Fast Noise (1.19.4 - 1.20.6)
 
 ## Changes
 
 - Renamed to RedstoneToolkit
 - Disabled mods:
   - C2ME
+  - Litemoretica (1.19.4 only)
 
 ## Updates
 

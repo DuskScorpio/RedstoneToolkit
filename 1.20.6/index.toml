@@ -411,6 +411,11 @@ hash = "0e5d80026ed35fd07d54eac2f973c2711a0da62c2c8b754e01887ec455ea9f16"
 metafile = true
 
 [[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "f2ee5cbda5d608b69fb84bcaa51c09618e444cda85f84fdcb27835e53079fa36"
+metafile = true
+
+[[files]]
 file = "resourcepacks/redstone-tweaks.pw.toml"
 hash = "a2bbab68ce7c62b5002a2c3c0a10b31190a8b44a39efb6d0eb3870bc65532ca8"
 metafile = true

@@ -352,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "mods/wikirenderer.pw.toml"
-hash = "afa57175e0bab129792ece13649b4fbc4d749e217fa1f5eaa2733f7e653c9470"
+hash = "3013cf6fcf84a2daf34787500d8d47da5c242dc69f83cceab7b89119829c45d6"
 metafile = true
 
 [[files]]
