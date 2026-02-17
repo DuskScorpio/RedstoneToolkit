@@ -20,6 +20,12 @@
   - Ixeris
   - TweakerMore
   - ViaVersion
+  - Fast Noise
 - 1.21.11
   - CommandKeys
+  - Item Scroller
+  - Litematica
+  - Malilib
+  - Syncmatica
+  - Tweakeroo
   - WikiRenderer

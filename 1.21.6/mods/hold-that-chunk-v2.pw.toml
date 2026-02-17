@@ -1,0 +1,13 @@
+name = "Hold That Chunk V2"
+filename = "Hold-That-Chunk-V2-2.0.0+1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/L4u8Yt14/versions/tvN3Rgaw/Hold-That-Chunk-V2-2.0.0%2B1.21.jar"
+hash-format = "sha512"
+hash = "2aa107d08ba22d928c057a3090bd8984a77e5e7e045b9b57ce770051a383cb2367ae86de03fd24f7ecc0e4e1dfa92c0462092c4004fc34b3d858d3dcd9f1c3e3"
+
+[update]
+[update.modrinth]
+mod-id = "L4u8Yt14"
+version = "tvN3Rgaw"

@@ -1,0 +1,13 @@
+name = "oωo (owo-lib)"
+filename = "owo-lib-0.12.23+1.21.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ccKDOlHs/versions/mfHtm034/owo-lib-0.12.23%2B1.21.8.jar"
+hash-format = "sha512"
+hash = "bedda5806bf684308da326e8b787500dff5f6585c98cbecdd11435f8f59a0f011c98ad433284949162b6b6037818be015b4a09d56fd81398281d90bbf0e79cd8"
+
+[update]
+[update.modrinth]
+mod-id = "ccKDOlHs"
+version = "mfHtm034"

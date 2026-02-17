@@ -1,0 +1,12 @@
+name = "Sound Controller"
+filename = "soundcontroller-1.2.3-mc1.21.6.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uY9zbflw/versions/OhmMfRNt/soundcontroller-1.2.3-mc1.21.6.jar"
+hash-format = "sha512"
+hash = "bd9fad267ae8c7743d793db26c55ae8d119e2eeabf4612945c4d1f985cb1555bdc11b136797ddd636020c89ccb2a517b32928bac25e0c59cffa3caf8a25887a8"
+
+[update.modrinth]
+mod-id = "uY9zbflw"
+version = "OhmMfRNt"

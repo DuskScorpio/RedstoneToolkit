@@ -1,0 +1,12 @@
+name = "voxy"
+filename = "voxy-0.2.4-alpha.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fxxUqruK/versions/PUzawk52/voxy-0.2.4-alpha.jar"
+hash-format = "sha512"
+hash = "da415daf450f76f021e371a6a5c898c343413d6f0a09c415d66637c68861546210c320040410884101a6d68d528e2c24bc0b802ae7aae12c28c706c4e1e3bfa2"
+
+[update.modrinth]
+mod-id = "fxxUqruK"
+version = "PUzawk52"

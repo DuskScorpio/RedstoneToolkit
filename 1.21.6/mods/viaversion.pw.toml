@@ -1,0 +1,12 @@
+name = "ViaVersion"
+filename = "ViaVersion-5.7.2-SNAPSHOT.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P1OZGk5p/versions/LMYOsxAz/ViaVersion-5.7.2-SNAPSHOT.jar"
+hash-format = "sha512"
+hash = "72c3e35f8a41fef023a49abcdfc0dbbc1dc83f07e3c9b7e1473fe5ee315d20110b569b95ec4e786aea63c0e59c70cff8a25e4ae6d2173e14a54edc6a454b84dd"
+
+[update.modrinth]
+mod-id = "P1OZGk5p"
+version = "LMYOsxAz"

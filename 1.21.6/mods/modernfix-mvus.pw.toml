@@ -1,0 +1,13 @@
+name = "ModernFix-mVUS"
+filename = "modernfix-fabric-5.20.4-1.21.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TjSm1wrD/versions/ve3rdBen/modernfix-fabric-5.20.4-1.21.6.jar"
+hash-format = "sha512"
+hash = "7ebffd8c17052a358b4cdf1cc7ff91e7c9d28ee894197ebcf904d1049ddf3906ed394d3547f88f7969d007957583a92645818d267c2cc29b218527d5ddf560c3"
+
+[update]
+[update.modrinth]
+mod-id = "TjSm1wrD"
+version = "ve3rdBen"

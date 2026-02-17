@@ -1,0 +1,13 @@
+name = "Better Block Entities"
+filename = "bbe-1.2.0+1.21.8.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ONZm0H7Y/versions/nZ02Iiki/bbe-1.2.0%2B1.21.8.jar"
+hash-format = "sha512"
+hash = "5ae4aaef3383ea5dd4ae1e18f87e34611dbec344b0802f96e68aa3acb173760722c192193f1ad01a9dd91d638d19324508eb5d9260b9ee6cc4fb8fa9240126a3"
+
+[update]
+[update.modrinth]
+mod-id = "ONZm0H7Y"
+version = "nZ02Iiki"

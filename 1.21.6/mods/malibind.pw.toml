@@ -1,0 +1,13 @@
+name = "malibind"
+filename = "malibind-mc1.21.6to8-2.0.1-beta.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WegYUg7p/versions/QAsryPiM/malibind-mc1.21.6to8-2.0.1-beta.jar"
+hash-format = "sha512"
+hash = "f1fff0b6c1142a01be46903e59e5712dff54629a35b634e41e8f673f5b2c9c396b03ed317c735b59bb171af8d9c236e0d742fb57251ac7f9439ef345e069f9be"
+
+[update]
+[update.modrinth]
+mod-id = "WegYUg7p"
+version = "QAsryPiM"

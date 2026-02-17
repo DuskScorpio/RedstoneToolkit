@@ -1,0 +1,12 @@
+name = "Unobtainable Blocks"
+filename = "unobtainableblocks-1.4.0.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JQpkGd3T/versions/DIFSPtFW/unobtainableblocks-1.4.0.jar"
+hash-format = "sha512"
+hash = "3d8c2db93cfd65bec12afbf3bcd01f948297f4dbf7fbba24ca53fc1b43a732cfefbc83cfe705d8a9496d00cd0834b3fda6231ab0d25c01e0f91d9559a18bc6f9"
+
+[update.modrinth]
+mod-id = "JQpkGd3T"
+version = "DIFSPtFW"
