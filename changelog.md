@@ -9,6 +9,7 @@
 - Renamed to RedstoneToolkit
 - Disabled mods:
   - C2ME
+- Removed mods:
   - Litemoretica (1.19.4 only)
 
 ## Updates
