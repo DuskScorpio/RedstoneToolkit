@@ -1,8 +1,0 @@
-PACKWIZ = "../tools/packwiz"
-ENABLED = "enabled_files"
-DISABLED = "disabled_files"
-MR = "mr_slug"
-CF = "cf_slug"
-NAME = "name"
-URLS = "urls"
-FILE_PATH = "../file_list.yml"
