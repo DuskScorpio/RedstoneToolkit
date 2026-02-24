@@ -19,13 +19,21 @@
   - Fabric Language Kotlin
   - Ixeris
   - TweakerMore
+  - ViaBackwards
   - ViaVersion
   - Fast Noise
 - 1.21.11
+  - ChunkDebug
   - CommandKeys
+  - EssentialAddons
+  - Iris
   - Item Scroller
   - Litematica
   - Malilib
+  - More Culling
+  - Technical Utilities
+  - Sodium
   - Syncmatica
   - Tweakeroo
   - WikiRenderer
+  - WorldThreader

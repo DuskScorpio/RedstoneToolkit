@@ -1,4 +1,4 @@
-# Redstone Toolkit
+# RedstoneToolkit
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/redstonetoolkit?style=for-the-badge&logo=modrinth&logoColor=white&color=00AF5C&label=MODRINTH)](https://modrinth.com/modpack/redstonetoolkit)
 [![GitHub stars](https://img.shields.io/github/stars/DuskScorpio/RedstoneToolkit?style=for-the-badge&logo=github&color=24292e&label=GITHUB)](https://github.com/DuskScorpio/RedstoneToolkit)

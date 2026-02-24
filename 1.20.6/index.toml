@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "017cda3ff80f12b5469bb01df38a0cb9bf4cbda475172193daf394beb3a993a6"
+hash = "26a724061c425f558c206e16a4ec6f48f73dd6d926c65c0d6b5a99958d9df829"
 metafile = true
 
 [[files]]
@@ -362,7 +362,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "9b04f2984f485fa081ce181944e87dea3015cdfeb6b8813ff68823525d3b553f"
+hash = "dbfff1665e3860bfae28b9422a41ef7eb855fd47a240e99e2f9c85df45eeb136"
 metafile = true
 
 [[files]]
@@ -372,7 +372,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "c07cc2e99ff823f3c845d392e86aa5eff70fc36b19d350bc1fe5b0aa43b23db1"
+hash = "df8d4aad8cb6e67674de68d68f5c6b216704170ef721f3abdc8d739a7b2d39d2"
 metafile = true
 
 [[files]]
@@ -412,7 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "f2ee5cbda5d608b69fb84bcaa51c09618e444cda85f84fdcb27835e53079fa36"
+hash = "5e4e7f5c2498a59d705b43169332d6743f1fbc384854e249e6fccf0367f2dd34"
 metafile = true
 
 [[files]]
