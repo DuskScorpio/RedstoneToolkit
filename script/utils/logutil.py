@@ -40,7 +40,7 @@ class Logger:
 
     def __add_file(self):
         self.logger.add(
-            sink="../logs/{}".format(self.log_name),
+            sink="./logs/{}".format(self.log_name),
             format="[{time:HH:mm:ss}] [{level}/({extra[name]})]: {message}",
             level=self.level_f
         )

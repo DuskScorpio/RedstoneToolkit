@@ -7,11 +7,11 @@ import re
 
 INDEX_DIR = Path(".index")
 
-def run(platform: str = "mr"):
-    if platform != "all":
+def run(platform: PlatForm = PlatForm.MODRINTH):
+    if platform != PlatForm.ALL:
         __import_index(platform)
     else:
-        for i in ["mr", "cf"]:
+        for i in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
             __import_index(i)
 
 
@@ -20,7 +20,7 @@ def __import_index(platform: str = "mr"):
     yaml = YAML()
     yaml.indent(mapping=2, sequence=4, offset=2)
     yaml.preserve_quotes = True
-    if platform == "mr":
+    if platform == PlatForm.MODRINTH:
         now_slug = MR
         other_slug = CF
     else:

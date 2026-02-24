@@ -1,7 +1,8 @@
 from argparse import ArgumentParser, Namespace
 from enum import Enum, auto
-from script import import_index, helper
+from script import import_index, helper, install
 from script.utils.logutil import Logger
+from script.utils.constant import *
 
 
 class From(Enum):
@@ -17,7 +18,20 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
 
     # import
     parser_import = subparsers.add_parser("import")
-    parser_import.add_argument("-platform", choices=["mr", "cf", "all"], default="mr")
+    parser_import.add_argument(
+        "--platform",
+        choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
+        default=PlatForm.MODRINTH
+    )
+
+    # install
+    parser_install = subparsers.add_parser("install")
+    parser_install.add_argument(
+        "--platform",
+        choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
+        default=PlatForm.ALL
+    )
+    parser_install.add_argument("--version")
 
     args = parser.parse_args(arg)
     return args
@@ -35,3 +49,6 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
 
         case "import":
             import_index.run(args.platform)
+
+        case "install":
+            install.run(args.platform, args.version)
