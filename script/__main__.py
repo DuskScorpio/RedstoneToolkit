@@ -1,9 +1,4 @@
-from argparse import ArgumentParser
-
-
-def main():
-    pass
-
+from script.call import call
 
 if __name__ == "__main__":
-    main()
+    call()
