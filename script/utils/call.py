@@ -1,6 +1,7 @@
 from argparse import ArgumentParser, Namespace
 from enum import Enum, auto
 from script import import_index, helper
+from script.utils.logutil import Logger
 
 
 class From(Enum):
@@ -28,5 +29,9 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
         case "helper":
             if by == From.HUMAN:
                 helper.run()
+            else:
+                log = Logger("helper").get_log()
+                log.error("WHAT ARE YOU DOING???")
+
         case "import":
             import_index.run(args.platform)

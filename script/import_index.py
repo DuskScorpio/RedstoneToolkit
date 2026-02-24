@@ -1,6 +1,6 @@
 from pathlib import Path
 from ruamel.yaml import YAML
-from script.constant import *
+from script.utils.constant import *
 
 import re
 
@@ -59,9 +59,3 @@ def __import_index(platform: str = "mr"):
 def __get_ids() -> list[str]:
     files = [f.name for f in INDEX_DIR.iterdir() if f.is_file()]
     return [f.replace(".pw.toml", "") for f in files if re.match(".*\\.pw\\.toml", f)]
-
-
-
-
-
-

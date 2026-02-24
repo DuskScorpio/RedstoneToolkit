@@ -10,3 +10,8 @@ CF = "cf_slug"
 NAME = "name"
 URLS = "urls"
 UTF_8 = "utf-8"
+
+COMMAND = {
+    "stop": None,
+    "import": {"-platform": {"mr", "cf", "all"}}
+}
