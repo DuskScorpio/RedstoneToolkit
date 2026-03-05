@@ -1,7 +1,4 @@
 enabled_files:
-  # Aesthetics
-  - mr_slug: continuity
-
   # Carpet
   - mr_slug: carpet
     name: Carpet
@@ -102,6 +99,8 @@ enabled_files:
 
 disabled_files:
   # Aesthetics
+  - mr_slug: continuity
+    cf_slug: continuity
   - mr_slug: iris
 
   # Carpet
@@ -115,6 +114,7 @@ disabled_files:
   - mr_slug: worldedit-hang-fix
 
   # Libraries
+  - mr_slug: indium
   - mr_slug: libjf
     version: ">1.18.2"
 

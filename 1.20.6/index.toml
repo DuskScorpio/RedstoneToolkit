@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "cebcd9df3bde5d2c937c3ac2ef7d14da835c744b29120369b9535514530e0035"
+hash = "80a76bdcfc216295408c20c323458982523cf765c2269033a5d735eccbad1816"
 metafile = true
 
 [[files]]
@@ -163,6 +163,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "a38df96fcdc09b74efd86d4e9ae6f1c2609579c769e5270b8af63eb5491417ea"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "080105265ca6e37a6ff2098a4362d5f94d50b4a69a70bc8376975e91d48a1b44"
 metafile = true
 
 [[files]]

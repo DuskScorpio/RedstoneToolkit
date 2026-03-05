@@ -19,13 +19,6 @@ This is a list of all the mods in this pack:
 These mods are enabled by default and recommended to the user
 
 <details>
-<summary><strong>Aesthetics</strong></summary>
-
-- [Continuity](https://modrinth.com/mod/continuity) - Connected textures and emissive textures
-
-</details>
-
-<details>
 <summary><strong>Carpet</strong></summary>
 
 - [Carpet Mod](https://modrinth.com/mod/carpet) - The most important mod for technical Minecraft; it comes with tons of useful features and commands
@@ -135,6 +128,7 @@ These mods are disabled by default and can be enabled if desired
 <details>
 <summary><strong>Aesthetics</strong></summary>
 
+- [Continuity](https://modrinth.com/mod/continuity) - Connected textures and emissive textures
 - [Iris](https://modrinth.com/mod/iris) - The best shaders mod
 
 </details>
@@ -159,6 +153,7 @@ These mods are disabled by default and can be enabled if desired
 <details>
 <summary><strong>Libraries</strong></summary>
 
+- [Indium](https://modrinth.com/mod/indium) - Allowing Continuity to work with Sodium
 - [LibJF](https://modrinth.com/mod/libjf) - Library required by Respackopts
 
 </details>

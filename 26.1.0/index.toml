@@ -21,6 +21,11 @@ hash = "4fa894a9e834a987e68bb2f3dac003ebc72c104c37046c43f2e55bf4e4b3bd10"
 metafile = true
 
 [[files]]
+file = "mods/ixeris.pw.toml"
+hash = "53ddc28e54238a44577ccc6f46e64d55852f3729321011db162b6792086a1b44"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "fb605ec9729252c00fe598d1e6ecbbcbb94dd7021c2aa3378bcca3e6de49c002"
 metafile = true

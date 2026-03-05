@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "d5d3e85e133f25d0876d8432a7f27a280297935414f306d5d79372e4cd0c47c1"
+hash = "191ed1a593618c830ed41784c9622ce626fe660ee80abc7a7fa82b777b585c20"
 metafile = true
 
 [[files]]
@@ -308,6 +308,11 @@ metafile = true
 [[files]]
 file = "mods/techutils.pw.toml"
 hash = "07fdb37d854876c129bf6002d44dbce7fe70c7854101188d85094322560fd431"
+metafile = true
+
+[[files]]
+file = "mods/threadtweak.pw.toml"
+hash = "7c3e4630b35b3525d740be5b81b69af1462c8431a617233f9b0dadebb28a4f54"
 metafile = true
 
 [[files]]

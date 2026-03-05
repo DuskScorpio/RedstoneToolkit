@@ -3,12 +3,14 @@
 - Added new versions:
   - 26.1-snapshot-9
 - Added Fast Noise (1.19.4 - 1.20.6)
+- Added Indium
 
 ## Changes
 
 - Renamed to RedstoneToolkit
 - Disabled mods:
   - C2ME
+  - Continuity
 - Removed mods:
   - Litemoretica (1.19.4 only)
 
