@@ -24,7 +24,11 @@
   - ViaBackwards
   - ViaVersion
   - Fast Noise
+- 1.20.6-1.21.11
+  - Axiom
 - 1.21.11
+  - Better Block Entities
+  - Concurrent Chunk Management Engine
   - ChunkDebug
   - CommandKeys
   - EssentialAddons
@@ -33,9 +37,11 @@
   - Litematica
   - Malilib
   - More Culling
-  - Technical Utilities
+  - Respackopts
   - Sodium
   - Syncmatica
+  - Technical Utilities
   - Tweakeroo
+  - Voxy
   - WikiRenderer
   - WorldThreader
