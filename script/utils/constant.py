@@ -24,7 +24,11 @@ COMMAND = {
     "stop": None,
     "import": {"--platform": {PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL}},
     "install": {
-        "--platform": {PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL},
+        "--platform": {
+            PlatForm.MODRINTH: (ver := {"--version": None}),
+            PlatForm.CURSEFORGE: ver,
+            PlatForm.ALL: ver
+        },
         "--version": None
     }
 }
