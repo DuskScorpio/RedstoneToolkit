@@ -20,7 +20,8 @@ class Install:
         self.log_w = logutil.Logger(
             name=f"{mc_ver}/{platform}",
             write=True,
-            log_name=f"{platform}-{mc_ver}-install.log"
+            log_name=f"{platform}-{mc_ver}-install.log",
+            level_f=logutil.Level.WARNING
         ).get_log()
 
     def install(self):
