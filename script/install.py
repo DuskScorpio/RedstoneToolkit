@@ -17,8 +17,8 @@ def run(platform: PlatForm, version: str | None):
     for i in platform_list:
         versions = util.get_dir_vers(i)
         if version is None:
-            for ver in versions:
-                __install(i, ver)
+            for mc_ver in versions:
+                __install(i, mc_ver)
         else:
             if version in versions:
                 __install(i, version)
