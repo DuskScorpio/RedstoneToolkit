@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, Namespace
 from enum import Enum, auto
-from script import import_index, helper, install, create
+from script import import_index, helper, install, create, remove
 from script.utils.logutil import Logger
 from script.utils.constant import *
 
@@ -38,6 +38,13 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser_create.add_argument("--versions")
     parser_create.add_argument("--snapshot", action="store_true")
 
+    # remove
+    parser_remove = subparsers.add_parser("remove")
+    parser_remove.add_argument(
+        "--versions",
+        required=True
+    )
+
     args = parser.parse_args(arg)
     return args
 
@@ -63,3 +70,6 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
                 [] if args.versions is None else args.versions.split(","),
                 args.snapshot
             )
+
+        case "remove":
+            remove.run(str(args.versions).split(","))

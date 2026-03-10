@@ -31,5 +31,6 @@ COMMAND = {
         },
         "--version": None
     },
-    "create": {"--snapshot", "--versions"}
+    "create": {"--snapshot", "--versions"},
+    "remove": {"--versions"}
 }
