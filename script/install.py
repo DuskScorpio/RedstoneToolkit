@@ -6,8 +6,11 @@ from subprocess import Popen, PIPE
 from ruamel.yaml import YAML
 from pathlib import Path
 
+import re
+
 
 def run(platform: PlatForm, version: str | None):
+    clean_log()
     log = logutil.Logger("install").get_log()
     platform_list = []
     if platform != PlatForm.ALL:
@@ -34,7 +37,6 @@ def __install(platform: PlatForm, mc_ver: str):
     enabled_file_list: list[dict[str, str]] = data[ENABLED]
     disabled_file_list: list[dict[str, str]] = data[DISABLED]
     remove_mod(mc_ver, platform, [*enabled_file_list, *disabled_file_list])
-    clean_log(platform, mc_ver)
 
     for enabled_file in enabled_file_list:
         install = Install(platform, mc_ver, enabled_file, False)
@@ -86,6 +88,8 @@ def get_meta(name: str, mod_list: list[dict[str, str]]) -> dict[str, str]:
     return {}
 
 
-def clean_log(platform: PlatForm, mc_ver: str):
-    path = Path(f"./logs/{platform}-{mc_ver}-install.log")
-    path.unlink(missing_ok=True)
+def clean_log():
+    path = Path("logs")
+    file_path_list = [f for f in path.iterdir() if re.match(".*-install\\.log", f.name)]
+    for file_path in file_path_list:
+        file_path.unlink()
