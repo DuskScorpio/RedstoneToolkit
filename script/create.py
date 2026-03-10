@@ -11,9 +11,12 @@ import shutil
 def run(versions: list[str], snapshot: bool):
     if versions:
         for version in versions:
-            with Create(version=version): ...
+            with Create(version=version) as c:
+                c.create()
     else:
-        with Create(snapshot=snapshot): ...
+        with Create(snapshot=snapshot) as c:
+            c.create()
+
 
 
 class Create:
@@ -29,6 +32,15 @@ class Create:
         self.snapshot = snapshot
 
     def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb) -> bool:
+        path = Path(".cache").joinpath("create")
+        shutil.rmtree(path)
+        util.try_remove_empty_cache()
+        return True
+
+    def create(self):
         self.__parser_version()
         log = logutil.Logger("create").get_log()
         path = Path(".cache").joinpath("create")
@@ -50,13 +62,6 @@ class Create:
             copy_path = Path(platform).joinpath(mc_dir_ver)
             if not copy_path.exists():
                 shutil.copytree(path, copy_path)
-
-
-    def __exit__(self, exc_type, exc_val, exc_tb) -> bool:
-        path = Path(".cache").joinpath("create")
-        shutil.rmtree(path)
-        util.try_remove_empty_cache()
-        return True
 
     def __parser_version(self):
         if self.version == "latest":
