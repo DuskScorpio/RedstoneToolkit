@@ -30,5 +30,6 @@ COMMAND = {
             PlatForm.ALL: ver
         },
         "--version": None
-    }
+    },
+    "create": {"--snapshot", "--versions"}
 }

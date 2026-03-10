@@ -12,13 +12,19 @@ def get_dir_vers(platform: PlatForm) -> list[str]:
     return [i.name for i in dir_path.iterdir() if i.is_dir() and dir_path.joinpath(i.name).joinpath("pack.toml").exists()]
 
 
-def get_dir_mods(platform: PlatForm, ver: str) -> list[str]:
+def get_dir_mods(platform: PlatForm, mc_ver: str) -> list[str]:
     if platform == PlatForm.ALL:
         assert TypeError
-    mod_path = Path(platform).joinpath(ver).joinpath("mods")
+    mod_path = Path(platform).joinpath(mc_ver).joinpath("mods")
     if not mod_path.exists():
         return []
     return [f.name.replace(".pw.toml", "") for f in mod_path.iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
+
+
+def try_remove_empty_cache():
+    dir_path = Path(".cache")
+    if dir_path.exists() and dir_path.is_dir() and not any(dir_path.iterdir()):
+        dir_path.rmdir()
 
 
 

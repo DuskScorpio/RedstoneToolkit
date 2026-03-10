@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, Namespace
 from enum import Enum, auto
-from script import import_index, helper, install
+from script import import_index, helper, install, create
 from script.utils.logutil import Logger
 from script.utils.constant import *
 
@@ -33,6 +33,11 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     )
     parser_install.add_argument("--version")
 
+    # create
+    parser_create = subparsers.add_parser("create").add_mutually_exclusive_group()
+    parser_create.add_argument("--versions")
+    parser_create.add_argument("--snapshot", action="store_true")
+
     args = parser.parse_args(arg)
     return args
 
@@ -52,3 +57,9 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
 
         case "install":
             install.run(args.platform, args.version)
+
+        case "create":
+            create.run(
+                [] if args.versions is None else args.versions.split(","),
+                args.snapshot
+            )
