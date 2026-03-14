@@ -3,6 +3,7 @@ from script.utils import logutil, util
 from subprocess import Popen, PIPE
 from pathlib import Path
 
+import re
 import shutil
 import tomllib
 import tomli_w
@@ -38,6 +39,7 @@ class Export:
 
         shutil.copytree(Path("internal-files"), self.path, dirs_exist_ok=True)
         self.__write_version()
+        self.__override_side()
         self.__refresh()
 
         self.__export()
@@ -82,6 +84,18 @@ class Export:
         data["version"] = f"{original_version}+mc{mc_version}"
         with open(path, "wb") as fw:
             tomli_w.dump(data, fw)
+
+    def __override_side(self):
+        """Some mods don't mark the side correctly, and the temporary workaround is to override all mods' sides as both"""
+        path = self.path.joinpath("mods")
+        files_path = [f for f in path.iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
+        for file_path in files_path:
+            with open(file_path, "rb") as fr:
+                data = tomllib.load(fr)
+            data["side"] = "both"
+            with open(file_path, "wb") as fw:
+                tomli_w.dump(data, fw)
+
 
     def __move_file(self):
         with open(self.path.joinpath("pack.toml"), "rb") as f:
