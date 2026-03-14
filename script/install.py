@@ -46,12 +46,6 @@ def __install(platform: PlatForm, mc_ver: str):
         install = Install(platform, mc_ver, disabled_file, True)
         install.install()
 
-    # tomil-w changes something, so it needs to be refreshed
-    process = Popen([PACKWIZ, "refresh"], cwd=mc_path, stdout=PIPE, text=True, bufsize=1)
-    log = logutil.Logger(name=f"install/{mc_ver}").get_log()
-    for e in process.stdout:
-        log.info(e.strip())
-
 
 def remove_mod(mc_ver: str, platform: PlatForm, mods: list[dict[str, str]]):
     log = logutil.Logger(name=f"install/{mc_ver}").get_log()

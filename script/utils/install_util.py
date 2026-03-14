@@ -34,6 +34,12 @@ class Install:
             self.__disable(mod_name)
         else:
             self.__enable(mod_name)
+        # tomil-w changes something, so it needs to be refreshed
+        process = Popen([PACKWIZ, "refresh"], cwd=self.path, stdout=PIPE, text=True, bufsize=1)
+        log = logutil.Logger(name=f"install/{self.mc_ver}").get_log()
+        for e in process.stdout:
+            log.info(e.strip())
+        process.wait()
 
     def __install(self) -> str:
         name_list = []
@@ -114,6 +120,7 @@ class Install:
         for e in process.stdout:
             text = e.strip()
             self.log.info(text)
+        process.wait()
 
 
     def __is_installed(self, mod_name: str) -> bool:
