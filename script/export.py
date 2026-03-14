@@ -3,6 +3,7 @@ from script.utils import logutil, util
 from subprocess import Popen, PIPE
 from pathlib import Path
 
+import os
 import re
 import shutil
 import tomllib
@@ -77,11 +78,18 @@ class Export:
 
     def __write_version(self):
         path = self.path.joinpath("pack.toml")
+        is_release = os.getenv("IS_RELEASE", "false")
+        run_num = os.getenv("GITHUB_RUN_NUMBER", "1")
         with open(path, "rb") as fr:
             data = tomllib.load(fr)
         original_version = data["version"]
         mc_version = data["versions"]["minecraft"]
-        data["version"] = f"{original_version}+mc{mc_version}"
+        if re.match(".*alpha.*", original_version): raise ValueError
+        if is_release == "false":
+            original_version = re.sub("-(beta|rc)\\.\\d+", "", original_version)
+            data["version"] = original_version + "-alpha.{0}+mc{1}".format(run_num, mc_version)
+        else:
+            data["version"] = original_version + "+mc{}".format(mc_version)
         with open(path, "wb") as fw:
             tomli_w.dump(data, fw)
 
