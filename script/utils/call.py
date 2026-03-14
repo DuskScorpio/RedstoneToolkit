@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, Namespace
 from enum import Enum, auto
-from script import import_index, helper, install, create, remove, update, export
+from script import import_index, helper, install, create, remove, update, export, refresh
 from script.utils.logutil import Logger
 from script.utils.constant import *
 
@@ -58,6 +58,9 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
         default=PlatForm.ALL
     )
 
+    # refresh
+    subparsers.add_parser("refresh")
+
     args = parser.parse_args(arg)
     return args
 
@@ -92,3 +95,6 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
 
         case "export":
             export.run(args.version, args.platform)
+
+        case "refresh":
+            refresh.run()

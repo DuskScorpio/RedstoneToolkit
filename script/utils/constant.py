@@ -34,5 +34,6 @@ COMMAND = {
     "create": {"--snapshot", "--versions"},
     "remove": {"--versions"},
     "update": {"--version"},
-    "export": platform_and_version
+    "export": platform_and_version,
+    "refresh": None
 }
