@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, Namespace
 from enum import Enum, auto
-from script import import_index, helper, install, create, remove, update
+from script import import_index, helper, install, create, remove, update, export
 from script.utils.logutil import Logger
 from script.utils.constant import *
 
@@ -49,6 +49,15 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser_update = subparsers.add_parser("update")
     parser_update.add_argument("--version")
 
+    # export
+    parser_export = subparsers.add_parser("export")
+    parser_export.add_argument("--version")
+    parser_export.add_argument(
+        "--platform",
+        choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
+        default=PlatForm.ALL
+    )
+
     args = parser.parse_args(arg)
     return args
 
@@ -80,3 +89,6 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
 
         case "update":
             update.run(args.version)
+
+        case "export":
+            export.run(args.version, args.platform)

@@ -23,15 +23,16 @@ UTF_8 = "utf-8"
 COMMAND = {
     "stop": None,
     "import": {"--platform": {PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL}},
-    "install": {
+    "install": (platform_and_version := {
         "--platform": {
             PlatForm.MODRINTH: (ver := {"--version": None}),
             PlatForm.CURSEFORGE: ver,
             PlatForm.ALL: ver
         },
         "--version": None
-    },
+    }),
     "create": {"--snapshot", "--versions"},
     "remove": {"--versions"},
-    "update": {"--version"}
+    "update": {"--version"},
+    "export": platform_and_version
 }
