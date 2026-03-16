@@ -2,7 +2,6 @@
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/redstonetoolkit?style=for-the-badge&logo=modrinth&logoColor=white&color=00AF5C&label=MODRINTH)](https://modrinth.com/modpack/redstonetoolkit)
 [![GitHub stars](https://img.shields.io/github/stars/DuskScorpio/RedstoneToolkit?style=for-the-badge&logo=github&color=24292e&label=GITHUB)](https://github.com/DuskScorpio/RedstoneToolkit)
-[![Game Versions](https://img.shields.io/modrinth/game-versions/redstonetoolkit?style=for-the-badge&logo=hackthebox&logoColor=white&color=0091EA&label=VERSIONS)](https://modrinth.com/modpack/redstonetoolkit)
 
 A collection of technical and performance‑oriented mods designed to support Technical Minecraft builds
 
@@ -17,13 +16,6 @@ This is a list of all the mods in this pack:
 ### Enabled Mods
 
 These mods are enabled by default and recommended to the user
-
-<details>
-<summary><strong>Aesthetics</strong></summary>
-
-- [Continuity](https://modrinth.com/mod/continuity) - Connected textures and emissive textures
-
-</details>
 
 <details>
 <summary><strong>Carpet</strong></summary>
@@ -135,6 +127,7 @@ These mods are disabled by default and can be enabled if desired
 <details>
 <summary><strong>Aesthetics</strong></summary>
 
+- [Continuity](https://modrinth.com/mod/continuity) - Connected textures and emissive textures
 - [Iris](https://modrinth.com/mod/iris) - The best shaders mod
 
 </details>
@@ -159,6 +152,7 @@ These mods are disabled by default and can be enabled if desired
 <details>
 <summary><strong>Libraries</strong></summary>
 
+- [Indium](https://modrinth.com/mod/indium) - Allowing Continuity to work with Sodium
 - [LibJF](https://modrinth.com/mod/libjf) - Library required by Respackopts
 
 </details>

@@ -3,12 +3,14 @@
 - Added new versions:
   - 26.1-snapshot-9
 - Added Fast Noise (1.19.4 - 1.20.6)
+- Added Indium
 
 ## Changes
 
 - Renamed to RedstoneToolkit
 - Disabled mods:
   - C2ME
+  - Continuity
 - Removed mods:
   - Litemoretica (1.19.4 only)
 
@@ -22,7 +24,11 @@
   - ViaBackwards
   - ViaVersion
   - Fast Noise
+- 1.20.6-1.21.11
+  - Axiom
 - 1.21.11
+  - Better Block Entities
+  - Concurrent Chunk Management Engine
   - ChunkDebug
   - CommandKeys
   - EssentialAddons
@@ -31,9 +37,11 @@
   - Litematica
   - Malilib
   - More Culling
-  - Technical Utilities
+  - Respackopts
   - Sodium
   - Syncmatica
+  - Technical Utilities
   - Tweakeroo
+  - Voxy
   - WikiRenderer
   - WorldThreader
