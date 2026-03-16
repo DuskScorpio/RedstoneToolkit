@@ -2,7 +2,8 @@ name: build
 on:
   push:
     paths:
-      - '**/pack.toml'
+      - 'modrinth/**/pack.toml'
+      - 'curseforge/**/pack.toml'
     tags-ignore:
       - 'release/**'
     branches:
@@ -20,11 +21,11 @@ jobs:
         with:
           python-version: '3.14'
       - name: pip requirements
-        run: pip install -r script/requirements.txt
+        run: pip install -r requirements.txt
       - name: export mrpack
-        run: python script/export.py
+        run: python -m script export
       - name: capture build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: Artifacts
-          path: '**/*.mrpack'
+          path: 'export/'

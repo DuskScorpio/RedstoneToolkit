@@ -5,39 +5,41 @@ import json
 import tomllib
 
 
+CURSEFORGE = "curseforge"
+MODRINTH = "modrinth"
+
 def main():
-    mc_dirs = [f.name for f in list(Path("./").glob("*/")) if f.joinpath("pack.toml").exists()]
-    mc_vers = []
-    dir_map = {}
-    ver_map = {}
-    type_map = {}
-    for mc_dir in mc_dirs:
-        path = "{}/pack.toml".format(mc_dir)
-        with open(path, "rb") as f:
-            data = tomllib.load(f)
-        mc_ver = data["versions"]["minecraft"]
-        pack_ver = data["version"]
-        mc_vers.append(mc_ver)
-        dir_map[mc_ver] = mc_dir
-        ver_map[mc_ver] = pack_ver
-        if re.match(".*alpha\\.\\d+", pack_ver):
-            raise ValueError
-        if re.match(".*(beta|rc)\\.\\d+", pack_ver):
-            type_map[mc_ver] = "beta"
-        else:
-            type_map[mc_ver] = "release"
-
-
     json_data = {
-        "mc_vers": mc_vers,
-        "dir_map": dir_map,
-        "ver_map": ver_map,
-        "type_map": type_map
+        MODRINTH:  {
+            "mc_vers": [],
+            "dir_map": {},
+            "type_map": {},
+            "ver_map": {}
+        },
+        CURSEFORGE: {
+            "mc_vers": [],
+            "dir_map": {},
+            "type_map": {},
+            "ver_map": {}
+        }
     }
+    for platform in [MODRINTH, CURSEFORGE]:
+        dirs = [f.name for f in Path(platform).iterdir() if f.joinpath("pack.toml").exists()]
+        for mc_dir in dirs:
+            toml_path = Path(platform).joinpath(mc_dir).joinpath("pack.toml")
+            with open(toml_path, "rb") as fr:
+                data = tomllib.load(fr)
+            mc_ver = data["versions"]["minecraft"]
+            pack_ver = data["version"]
+            json_data[platform]["mc_vers"].append(mc_ver)
+            json_data[platform]["dir_map"][mc_ver] = mc_dir
+            if re.match(".*alpha\\.\\d+", pack_ver): raise ValueError
+            pack_type = "beta" if re.match(".*(beta|rc)\\.\\d+", pack_ver) else "release"
+            json_data[platform]["type_map"][mc_ver] = pack_type
+            json_data[platform]["ver_map"][mc_ver] = pack_ver
 
-    with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(json_data, f)
-
+    with open("matrix_data.json", "w", encoding="utf-8") as fw:
+        json.dump(json_data, fw)
 
 if __name__ == "__main__":
     main()
