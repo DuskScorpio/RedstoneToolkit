@@ -55,6 +55,7 @@ class Create:
         )
         for e in process.stdout:
             log.info(e.strip())
+        process.wait()
         with open(path.joinpath("pack.toml"), "rb") as f:
             data = tomllib.load(f)
         mc_dir_ver: str = str(Version.coerce(data["versions"]["minecraft"]).truncate())
@@ -79,5 +80,5 @@ class Create:
                 with open(path, "rb") as f:
                     data = tomllib.load(f)
                 ver_list.append(Version(data["version"]))
-        max_ver = str(max(ver_list))
+        max_ver = str(max(ver_list)) if ver_list else "0.1.0"
         self.__arg.extend(["--version", max_ver])
