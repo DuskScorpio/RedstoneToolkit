@@ -104,7 +104,7 @@ These mods are enabled by default and recommended to the user
 <summary><strong>Technical</strong></summary>
 
 - [ChunkDebug](https://modrinth.com/mod/chunk-debug) - Adds a map with information about the currently loaded chunks
-- [EssentialClient](https://modrinth.com/mod/essential) - Adds many utilities and provides a GUI to modify carpet rules
+- [EssentialClient](https://modrinth.com/mod/essentialclient) - Adds many utilities and provides a GUI to modify carpet rules
 - [G4mespeed](https://modrinth.com/mod/g4mespeed) - Utility mod that improves the reliability and experience of changing tick rate, and adds many quality of life features
 - [Litematica](https://modrinth.com/mod/litematica) - A client-side schematic mod with extra features for creative mode work
 - [Litematica Server Paster](https://modrinth.com/mod/litematica-server-paster) - Lets Litematica paste tile entity data and entity data on servers
