@@ -1,10 +1,12 @@
 enabled_files:
   # Carpet
   - mr_slug: carpet
+    cf_slug: carpet
     name: Carpet
     urls:
-      26.1.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1-beta-6/fabric-carpet-26.1-beta-6+v260212.jar"
+      26.1.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1-beta-9/fabric-carpet-26.1-beta-9+v260311.jar"
   - mr_slug: carpet-tis-addition
+    cf_slug: carpet-tis-addition
   - mr_slug: joacarpet
   - mr_slug: subtick
   - mr_slug: yaca
@@ -12,9 +14,12 @@ enabled_files:
 
   # Fixes
   - mr_slug: modelfix
+    cf_slug: model-gap-fix
     version: "<1.21.11" # Not updated to 1.21.11 yet
   - mr_slug: packet-fixer
+    cf_slug: packet-fixer
   - mr_slug: tooltipfix
+    cf_slug: tooltipfix
 
   # Libraries
   - mr_slug: cloth-config
@@ -26,6 +31,7 @@ enabled_files:
   - mr_slug: malilib
   - mr_slug: owo-lib
   - mr_slug: yacl
+    cf_slug: yacl
 
   # Performance
   - mr_slug: badoptimizations
