@@ -23,13 +23,20 @@ enabled_files:
 
   # Libraries
   - mr_slug: cloth-config
+    cf_slug: cloth-config
   - mr_slug: fabric-api
+    cf_slug: fabric-api
   - mr_slug: fabric-language-kotlin
+    cf_slug: fabric-language-kotlin
   - mr_slug: fzzy-config
+    cf_slug: fzzy-config
   - mr_slug: magiclib
-    version: "<=1.21.5"
+    cf_slug: magiclib
+    version: "<=1.21.5" # Masa Gadget is <=1.21.5
   - mr_slug: malilib
+    cf_slug: malilib
   - mr_slug: owo-lib
+    cf_slug: owo-lib
   - mr_slug: yacl
     cf_slug: yacl
 
