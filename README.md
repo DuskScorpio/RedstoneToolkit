@@ -67,7 +67,6 @@ These mods are enabled by default and recommended to the user
 - [ModernFix](https://modrinth.com/mod/modernfix) [[2]](#ref-2) - Improves performance and reduces memory usage
 - [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
 - [More Culling](https://modrinth.com/mod/moreculling) - Changes how multiple types of culling are handled to improve performance
-- [Noisium](https://modrinth.com/mod/noisium) - Optimises worldgen performance for a better gameplay experience
 - [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
 - [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium

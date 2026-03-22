@@ -71,7 +71,6 @@ enabled_files:
     version: ">=1.21.5"
   - mr_slug: moreculling
     cf_slug: moreculling
-  - mr_slug: noisium
   - mr_slug: particle-core
     cf_slug: particle-core
   - mr_slug: sodium
@@ -230,6 +229,7 @@ disabled_files:
   - mr_slug: capture-playback
     cf_slug: capture-playback
   - mr_slug: redstone-multimeter
+    cf_slug: redstone-multimeter-fabric
   - mr_slug: unobtainable-blocks
   - mr_slug: worldedit
     cf_slug: worldedit
