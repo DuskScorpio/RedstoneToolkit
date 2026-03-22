@@ -1,0 +1,12 @@
+name = "Cubes Without Borders"
+filename = "cwb-fabric-3.0.0-build.14+mc1.21.11.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51d97f5fba7b6a132976765e06f93e8f044d382c"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7396299
+project-id = 975120

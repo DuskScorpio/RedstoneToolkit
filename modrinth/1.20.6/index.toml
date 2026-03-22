@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "9cb3ff26393c643f491b0c135f607a7bd982433d8d08c19972132884797705c2"
+hash = "3ebc887a57da56f34ed7aa70f1bcd62acd617a735f82a224fe127efa11ea41fe"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "cebcd9df3bde5d2c937c3ac2ef7d14da835c744b29120369b9535514530e0035"
+hash = "80a76bdcfc216295408c20c323458982523cf765c2269033a5d735eccbad1816"
 metafile = true
 
 [[files]]
@@ -166,6 +166,11 @@ hash = "a38df96fcdc09b74efd86d4e9ae6f1c2609579c769e5270b8af63eb5491417ea"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "080105265ca6e37a6ff2098a4362d5f94d50b4a69a70bc8376975e91d48a1b44"
+metafile = true
+
+[[files]]
 file = "mods/invview.pw.toml"
 hash = "7f067e5e50da561ca0ebe73fb1761833f184698752ad9686574d091c7c115afb"
 metafile = true
@@ -187,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "26a724061c425f558c206e16a4ec6f48f73dd6d926c65c0d6b5a99958d9df829"
+hash = "6bf0549cd9893e2151051c043b4e02cceedf20f4fd0087b9420834959c76cc26"
 metafile = true
 
 [[files]]
@@ -271,11 +276,6 @@ hash = "c5e9af39432436aca1c25a76f4d64ea801acfbfc1a553e714575ffe7dff6ab0c"
 metafile = true
 
 [[files]]
-file = "mods/noisium.pw.toml"
-hash = "bd50eeda0172d1138f284c2de2d9ffa85fac6f11382447bbb582928c8c3daedc"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "1f5a943f97b3a6ecd6f6ed6a2f724b21e42bc2ab37f3b69e5fed01d8e3860f4c"
 metafile = true
@@ -293,6 +293,11 @@ metafile = true
 [[files]]
 file = "mods/pick-block-pro.pw.toml"
 hash = "524499308245964bf57a03b5a89814de458d22c6cb8e24abe87bd4f8b9313a37"
+metafile = true
+
+[[files]]
+file = "mods/rail-placement-fix.pw.toml"
+hash = "23d33f96c15552404a7184ee58893a5efad7d97f203dda0f91598db1e1745e1d"
 metafile = true
 
 [[files]]
@@ -362,17 +367,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "dbfff1665e3860bfae28b9422a41ef7eb855fd47a240e99e2f9c85df45eeb136"
+hash = "dd42c170e1bcc27f08032693288e2db60cb2a9390f8150f4d783fa7cd5cf74f6"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "695d8765874f311d578b9336753d9e4c9c2ce9df927a517614f234237fcd7e7a"
+hash = "91b26867f4bb97b9a3dd587ddcb7f775c343248264db7bb343f322ba605e03b3"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "df8d4aad8cb6e67674de68d68f5c6b216704170ef721f3abdc8d739a7b2d39d2"
+hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
 metafile = true
 
 [[files]]

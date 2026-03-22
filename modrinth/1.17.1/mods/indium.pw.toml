@@ -1,0 +1,12 @@
+name = "Indium"
+filename = "indium-1.0.1+mc1.17.1.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Orvt0mRa/versions/1.0.1%2Bmc1.17.1/indium-1.0.1%2Bmc1.17.1.jar"
+hash-format = "sha512"
+hash = "d0aabd5ac37911aba79cda17dff9caecb21253e76e19dbf3b72a43f45e1c2ef4083a8ee15bfc57852842afdb12e10a6481032943315ab698e96fb3d238285e51"
+
+[update.modrinth]
+mod-id = "Orvt0mRa"
+version = "mfNlBb6U"

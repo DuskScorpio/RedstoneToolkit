@@ -1,0 +1,13 @@
+name = "ToolTipFix"
+filename = "tooltipfix-1.0.2-1.16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6f4e7880e71d4c8b70fd651b9c8da60b919d8496"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3087328
+project-id = 411557

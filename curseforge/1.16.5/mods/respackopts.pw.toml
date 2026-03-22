@@ -1,0 +1,12 @@
+name = "Respackopts"
+filename = "respackopts-1.4.2.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "abb77bcf19ca9a8dd34073ac041e682a220a93ce"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 3315300
+project-id = 430090

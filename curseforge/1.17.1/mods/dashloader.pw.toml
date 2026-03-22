@@ -1,0 +1,12 @@
+name = "DashLoader"
+filename = "dashloader-def-3.1.1+1.17.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f96cfd31a944dacfb766f4d27e49b0b2b9e71106"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 3720647
+project-id = 472772

@@ -1,0 +1,13 @@
+name = "Command Keys"
+filename = "commandkeys-fabric-2.4.0+1.21.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa5b25837e0ec39721f6583c661852433cfef46d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7793249
+project-id = 873388

@@ -1,0 +1,12 @@
+name = "Worldthreader"
+filename = "Worldthreader-2.7.3.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc1196b7a9cf0bf86866ff19400a1ada92732b19"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7713765
+project-id = 817126

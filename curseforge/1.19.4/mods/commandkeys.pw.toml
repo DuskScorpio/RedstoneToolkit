@@ -1,0 +1,13 @@
+name = "Command Keys"
+filename = "quick-messages-1.0.1+mc1.19.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49a8ae2cd5982d4a1b305e84d29da56804db4a49"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4643075
+project-id = 873388

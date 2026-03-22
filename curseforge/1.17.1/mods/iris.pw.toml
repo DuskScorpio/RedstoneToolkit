@@ -1,0 +1,12 @@
+name = "Iris Shaders"
+filename = "iris-mc1.17.1-1.2.7.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YL57xq9U/versions/pkGrlTNQ/iris-mc1.17.1-1.2.7.jar"
+hash-format = "sha512"
+hash = "2232db173d9a67b367b9673ff1bf86b3b2ab8444755d3847b5df20dbb2b15ceec339eac4e9b1bbb760bdd5063930cc90bfefd9cadc4ce84c93509752c193f7ce"
+
+[update.modrinth]
+mod-id = "YL57xq9U"
+version = "pkGrlTNQ"

@@ -1,0 +1,13 @@
+name = "NBT Autocomplete"
+filename = "NBTac-FABRIC-1.19.4-1.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8cc626bb1a03dd1831caac7699f19f400a328fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4808138
+project-id = 813557

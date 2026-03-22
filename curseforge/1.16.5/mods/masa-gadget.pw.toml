@@ -1,0 +1,13 @@
+name = "MasaGadget"
+filename = "MasaGadget-mc1.16.5-fabric-4.0.395-stable.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "536264fe7e755811d2ff89c0b3390649126785b7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6469734
+project-id = 525510

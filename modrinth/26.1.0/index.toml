@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "7b200536972f3bd901c7804fc61f3a289d7a58e90a0f171c34f88fb3b2db4796"
+hash = "778a930d0185cd991b7dfbd6f1f31c340d3166e325347a5d194a1746606d035b"
 metafile = true
 
 [[files]]
@@ -11,13 +11,23 @@ hash = "a91b9fecfbd788861792429ca7c36c0492503b8000554cb87f89546bc884406a"
 metafile = true
 
 [[files]]
-file = "mods/carpet.pw.toml"
-hash = "f620ff71fdf9c6116830e397e2e0af5106d8e409b9227e8dde0b46ad60f394b8"
+file = "mods/commandkeys.pw.toml"
+hash = "d6702764777f2b128190b10d3be86e07c5914548210b0638c539e031de210275"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "4fa894a9e834a987e68bb2f3dac003ebc72c104c37046c43f2e55bf4e4b3bd10"
+hash = "9964bd325b8537dba6c905b1924c9694ca7532df52145bef617f0143033e5dce"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "53ddc28e54238a44577ccc6f46e64d55852f3729321011db162b6792086a1b44"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "f1f012cf7cf3fc8cf69de0ba1e083b7dea79820f62f280f35a5d7af176111324"
 metafile = true
 
 [[files]]
@@ -26,6 +36,11 @@ hash = "fb605ec9729252c00fe598d1e6ecbbcbb94dd7021c2aa3378bcca3e6de49c002"
 metafile = true
 
 [[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "a44699b4a874e88263a6a12e80ebc07fb2538c2e9302173f0b9bbc3b287c48c0"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "a4223ba77a18cb42b1c30c5308cfff269c57c9561694f35f89befd25bd1e21b0"
+hash = "326be3c54e8d526218f75e59f745ceedea4fca06cd91cc2ac7125b75d1b9ab1b"
 metafile = true

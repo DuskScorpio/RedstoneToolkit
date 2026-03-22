@@ -1,0 +1,13 @@
+name = "Auth Me"
+filename = "authme-mc1.16.5-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "72485304fab5f918017eca9d5ebf469620cce729"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3554693
+project-id = 356643

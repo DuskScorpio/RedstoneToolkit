@@ -1,0 +1,13 @@
+name = "Pick Block Pro"
+filename = "Pick-Block-Pro-1.4.10-mc1.17.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d46f0711febdac7da8d0653eaa2c408b6d8a193e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3803590
+project-id = 535550

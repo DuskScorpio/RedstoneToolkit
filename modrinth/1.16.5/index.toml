@@ -111,6 +111,11 @@ hash = "d1a60987c05198928f09cdf0c6e0dc786a743215be316e7c66d81659f676385c"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "8c9fe752f5503af0feb09cd8055ca760ae78b28f80ff1f4d1f3219e0ddaac40f"
+metafile = true
+
+[[files]]
 file = "mods/invview.pw.toml"
 hash = "c6b2fd7abd57b6f3ae168098c0eeba8dff2022672f0475a68a8054b85987eebe"
 metafile = true
@@ -132,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "7c6ca5e5311762ed4309c59d9746a0a0bd202e6bd9a77bfaf8db58d0a94f81db"
+hash = "baf0d13752f77a7581cda733712b533d8c07bb6dbf381008a457ab3cae5d81b2"
 metafile = true
 
 [[files]]
@@ -236,8 +241,18 @@ hash = "c4e20c63f116b861de0d200f3d88f7e1f3980b76e421ec9412032cbcbbe3f390"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "23baf6b0678d02ab9c78181be86ccb6403725677958db654bbd37c96ffa8b851"
+metafile = true
+
+[[files]]
 file = "mods/syncmatica.pw.toml"
 hash = "17d01d0f36779175cc24dd2061342d1da22afdfab93ec5ac3516ed4e3cb1287d"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.pw.toml"
+hash = "2e1762300c84584e60b1a83ba4e6c6c60a459e65d5f5853622dc15ffe599cef6"
 metafile = true
 
 [[files]]
@@ -252,17 +267,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "dbfff1665e3860bfae28b9422a41ef7eb855fd47a240e99e2f9c85df45eeb136"
+hash = "dd42c170e1bcc27f08032693288e2db60cb2a9390f8150f4d783fa7cd5cf74f6"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "695d8765874f311d578b9336753d9e4c9c2ce9df927a517614f234237fcd7e7a"
+hash = "91b26867f4bb97b9a3dd587ddcb7f775c343248264db7bb343f322ba605e03b3"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "df8d4aad8cb6e67674de68d68f5c6b216704170ef721f3abdc8d739a7b2d39d2"
+hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
 metafile = true
 
 [[files]]

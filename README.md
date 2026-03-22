@@ -194,6 +194,7 @@ These mods are disabled by default and can be enabled if desired
 
 - [Axiom](https://modrinth.com/mod/axiom) - An all-in-one tool for Minecraft editing
 - [G4mespeed Capture & Playback](https://modrinth.com/mod/capture-playback) - Addon for G4mespeed that adds recording and playback capabilities for tick-warped gameplay
+- [Rail Placement Fix](https://modrinth.com/mod/rail-placement-fix) - Allows precise rail placement
 - [Redstone Multimeter Fabric](https://modrinth.com/mod/redstone-multimeter) - An intuitive redstone debugging tool
 - [Unobtainable Blocks](https://modrinth.com/mod/unobtainable-blocks) - Adds items for unobtainable blocks like fires and portals
 - [WorldEdit](https://modrinth.com/mod/worldedit) - A tool to make building a lot faster

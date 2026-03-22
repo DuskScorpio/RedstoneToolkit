@@ -1,0 +1,13 @@
+name = "oωo (owo-lib)"
+filename = "owo-lib-0.3.2+1.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7860e68658d282f26efdf45845920b923490022c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3526730
+project-id = 532610

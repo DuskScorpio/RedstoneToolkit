@@ -1,0 +1,12 @@
+name = "Inv View"
+filename = "InvView-1.4.6-1.17.1+.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "93fd5d57e42a97a0e682bcb5a681ab467870d64b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 3423467
+project-id = 405159

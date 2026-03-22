@@ -1,0 +1,13 @@
+name = "MasaAdditions"
+filename = "masaadditions-1.2.0+1.18.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TqMQMRWd/versions/OAGVZHEC/masaadditions-1.2.0%2B1.18.2.jar"
+hash-format = "sha512"
+hash = "4da41beb60a0296212e0243c16541297c1d059e1d1e757fa940d48b01a17a8dafab83af5c41f0a8d9f27dbf608b671bfc5f670b91bb923e02c4f50f2344d7701"
+
+[update]
+[update.modrinth]
+mod-id = "TqMQMRWd"
+version = "OAGVZHEC"

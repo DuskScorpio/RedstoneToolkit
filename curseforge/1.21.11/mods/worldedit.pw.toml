@@ -1,0 +1,12 @@
+name = "WorldEdit"
+filename = "worldedit-mod-7.4.1.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85da462877cf16152303677af6c0fe290f6d6f31"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7787972
+project-id = 225608

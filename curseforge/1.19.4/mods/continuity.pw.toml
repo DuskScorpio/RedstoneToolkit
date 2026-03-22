@@ -1,0 +1,12 @@
+name = "Continuity"
+filename = "continuity-3.0.0+1.19.4.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2622a1c251493d7ee3e0d2dea7f6d10e140adab9"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 5962872
+project-id = 531351

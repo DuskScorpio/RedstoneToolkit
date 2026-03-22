@@ -1,0 +1,13 @@
+name = "Syncmatica"
+filename = "syncmatica-1.18.2-0.3.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "40c7a5520e500f5937d2ef3d78ddfda88f4d1ce3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4669353
+project-id = 525116

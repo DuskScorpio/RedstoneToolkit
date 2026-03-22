@@ -1,0 +1,12 @@
+name = "[FABRIC/QUILT] Disable Custom Worlds Advice"
+filename = "DisableCustomWorldsAdvice-4.1.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af89914abaa661b1e055eb9fc45b26fba8c20102"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 4619700
+project-id = 401978

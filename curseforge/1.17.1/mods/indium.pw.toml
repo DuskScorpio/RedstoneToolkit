@@ -1,0 +1,12 @@
+name = "Indium"
+filename = "indium-1.0.1+mc1.17.1.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ee35a03222406e5a8c8ea4aacb24c0d694a09889"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 3535202
+project-id = 459496

@@ -228,6 +228,8 @@ disabled_files:
   - mr_slug: axiom
   - mr_slug: capture-playback
     cf_slug: capture-playback
+  - mr_slug: rail-placement-fix
+    cf_slug: rail-placement-fix
   - mr_slug: redstone-multimeter
     cf_slug: redstone-multimeter-fabric
   - mr_slug: unobtainable-blocks

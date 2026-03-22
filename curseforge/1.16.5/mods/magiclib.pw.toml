@@ -1,0 +1,13 @@
+name = "MagicLib"
+filename = "MagicLib-mc1.16.5-fabric-0.8.784-stable.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9df8efa1b2ac4537e867ad69625973bb18a85c06"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7263508
+project-id = 576459

@@ -1,0 +1,13 @@
+name = "Packet Fixer"
+filename = "packetfixer-fabric-3.3.4-1.21.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b9edf3b37b76653c98d096962ae0d76c96eab2c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7517610
+project-id = 689467

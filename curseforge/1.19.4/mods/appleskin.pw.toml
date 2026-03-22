@@ -1,0 +1,12 @@
+name = "AppleSkin"
+filename = "appleskin-fabric-mc1.19.4-2.5.1.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "702e8f1e14734e24128d7f854988a19c7ab76170"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 4770823
+project-id = 248787

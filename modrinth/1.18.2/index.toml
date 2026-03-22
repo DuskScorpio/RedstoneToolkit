@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "8e057387e3d5de45d3c75668cb1508fd4e15b92c376da9bdfe7330f808c4c742"
+hash = "5ff18423a1ac5d48929913c624d8a217391595e0258c67689a7b3cff819e967c"
 metafile = true
 
 [[files]]
@@ -146,6 +146,16 @@ hash = "bdc937c2e64183c9893325e23188192c1197bb57eba15949161e56df0a9ae124"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "1de6178bea58f29ae07e17c7cefe962b5b0ee2820a9dd7d429266f058b280a68"
+metafile = true
+
+[[files]]
+file = "mods/inv-view.pw.toml"
+hash = "c337c1daa1cc4da01e6498b5dc32d8ad5a5352e22a74be8ddb7c8a7d99cc8a59"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "194d69e947b2949051e0d0c15bf1a2e32e30232bdc9140b0f966289a927585b0"
 metafile = true
@@ -162,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "ccd47576ad065b837d10116790776780230693f3d47b11cce67007f766ef34d2"
+hash = "df28d3af5f78cb41e00d804ffb216051111a3747e3a836d0ab9c9832d1c3d216"
 metafile = true
 
 [[files]]
@@ -261,6 +271,11 @@ hash = "14e36ed0e0181ef071a781ccd4900f329726e9b70cd4af1607f763da2110dcb5"
 metafile = true
 
 [[files]]
+file = "mods/rail-placement-fix.pw.toml"
+hash = "23d33f96c15552404a7184ee58893a5efad7d97f203dda0f91598db1e1745e1d"
+metafile = true
+
+[[files]]
 file = "mods/redstone-multimeter.pw.toml"
 hash = "41eb68f068b3a4c5e8231268eaf57e8174767cdcbadfbe7fb188808c5e7e0453"
 metafile = true
@@ -327,17 +342,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "dbfff1665e3860bfae28b9422a41ef7eb855fd47a240e99e2f9c85df45eeb136"
+hash = "dd42c170e1bcc27f08032693288e2db60cb2a9390f8150f4d783fa7cd5cf74f6"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "695d8765874f311d578b9336753d9e4c9c2ce9df927a517614f234237fcd7e7a"
+hash = "91b26867f4bb97b9a3dd587ddcb7f775c343248264db7bb343f322ba605e03b3"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "df8d4aad8cb6e67674de68d68f5c6b216704170ef721f3abdc8d739a7b2d39d2"
+hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
 metafile = true
 
 [[files]]

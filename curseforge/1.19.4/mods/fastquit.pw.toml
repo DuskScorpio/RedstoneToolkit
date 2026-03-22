@@ -1,0 +1,12 @@
+name = "FastQuit"
+filename = "fastquit-2.1.0+1.19.3.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5d654a6bcba251d7619cea6053c5eeaf56a3fa0a"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 4323779
+project-id = 708967

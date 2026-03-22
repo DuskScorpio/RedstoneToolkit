@@ -1,0 +1,13 @@
+name = "Command Keys"
+filename = "commandkeys-fabric-3.0.0-beta.1+26.1-rc-2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/65UyswbY/versions/XhRRjEJd/commandkeys-fabric-3.0.0-beta.1%2B26.1-rc-2.jar"
+hash-format = "sha512"
+hash = "428fcfa1ea2ba9ce52692062d1cdc1b47383071c404e17dabeb851fb2225220a2f42210200915d6e1c008d99d9d5431879f25af0506cfab17aef63fc608042e4"
+
+[update]
+[update.modrinth]
+mod-id = "65UyswbY"
+version = "XhRRjEJd"

@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "a02f85709d84172e18a6a33fe431b855008d7879b207771f3e558e266202be8e"
+hash = "08c2f4caa80cfff4b84f76ca7eba6d752f775836dc7df029d81e47c4b8c2ac2d"
 metafile = true
 
 [[files]]
@@ -128,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/g4mespeed.pw.toml"
 hash = "a9704735662fc017243d420f97e7dc2cd8c02a24e8143a349de9592b0279f842"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "09c7266047f7f970c9e1097c783f62b42d080b65878b642fffcdc08195bb40aa"
 metafile = true
 
 [[files]]
@@ -226,6 +231,11 @@ hash = "a5ea067ea083e543404d093c59ed0f6999afcf7b9fb5d9df74c885a573c39549"
 metafile = true
 
 [[files]]
+file = "mods/rail-placement-fix.pw.toml"
+hash = "23d33f96c15552404a7184ee58893a5efad7d97f203dda0f91598db1e1745e1d"
+metafile = true
+
+[[files]]
 file = "mods/redstone-multimeter.pw.toml"
 hash = "17100c46ab7c7c9bf702a3a41f0212c1b9b955875d078946ca06b6dd2832439a"
 metafile = true
@@ -282,17 +292,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "dbfff1665e3860bfae28b9422a41ef7eb855fd47a240e99e2f9c85df45eeb136"
+hash = "dd42c170e1bcc27f08032693288e2db60cb2a9390f8150f4d783fa7cd5cf74f6"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "695d8765874f311d578b9336753d9e4c9c2ce9df927a517614f234237fcd7e7a"
+hash = "91b26867f4bb97b9a3dd587ddcb7f775c343248264db7bb343f322ba605e03b3"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "df8d4aad8cb6e67674de68d68f5c6b216704170ef721f3abdc8d739a7b2d39d2"
+hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
 metafile = true
 
 [[files]]

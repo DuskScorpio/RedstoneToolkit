@@ -1,5 +1,5 @@
 name = "Continuity"
-filename = "continuity-3.0.0+1.19.4.jar"
+filename = "continuity-3.0.0+1.19.4.jar.disabled"
 side = "client"
 
 [download]

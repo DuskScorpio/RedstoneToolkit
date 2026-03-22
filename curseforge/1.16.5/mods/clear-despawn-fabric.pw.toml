@@ -1,0 +1,12 @@
+name = "Clear Despawn [Fabric]"
+filename = "cleardespawn-1.16.5-fabric0.30.0-1.1.1.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "afe4a5e044b19390c6c364ea8c0b370747c28f66"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 3193561
+project-id = 308793

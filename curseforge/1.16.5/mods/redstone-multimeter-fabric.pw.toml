@@ -1,0 +1,12 @@
+name = "Redstone Multimeter Fabric"
+filename = "redstone-multimeter-fabric-mc1.16.2-1.12.0.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0cbc91c6ea3c94510925350b3a18d48ad6ae93b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 4533349
+project-id = 475001
