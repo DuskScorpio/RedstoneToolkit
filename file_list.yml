@@ -127,21 +127,31 @@ enabled_files:
   - mr_slug: chunk-debug
   - mr_slug: essentialclient
   - mr_slug: g4mespeed
+    cf_slug: g4mespeed
   - mr_slug: litematica
+    cf_slug: litematica
   - mr_slug: litematica-server-paster
+    cf_slug: litematica-server-paster
   - mr_slug: litemoretica
     version: "<1.19.4 || >1.19.4" # Does not work on 1.19.4
   - mr_slug: masa-gadget
+    cf_slug: masa-gadget
   - mr_slug: masaadditions
   - mr_slug: nbt-copy
+    cf_slug: nbt-copy
   - mr_slug: spark
+    cf_slug: spark
   - mr_slug: syncmatica
+    cf_slug: syncmatica
   - mr_slug: techutils
   - mr_slug: tweakermore
+    cf_slug: tweakermore
   - mr_slug: tweakeroo
+    cf_slug: tweakeroo
 
   # Resource Packs
   - mr_slug: redstone-tweaks
+    cf_slug: redstone-tweaks
 
 disabled_files:
   # Aesthetics
@@ -151,6 +161,7 @@ disabled_files:
 
   # Carpet
   - mr_slug: carpet-extra
+    cf_slug: carpet-extra
   - mr_slug: doormat
   - mr_slug: essentialaddons
 
@@ -158,10 +169,13 @@ disabled_files:
   - mr_slug: wecuifix
     version: "1.20.5 - 1.21.4"
   - mr_slug: worldedit-hang-fix
+    cf_slug: worldedit-hang-fix
 
   # Libraries
   - mr_slug: indium
+    cf_slug: indium
   - mr_slug: libjf
+    cf_slug: libjf
     version: ">1.18.2"
 
   # Performance
