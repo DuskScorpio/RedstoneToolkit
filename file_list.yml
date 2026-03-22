@@ -228,6 +228,7 @@ disabled_files:
   # Technical
   - mr_slug: axiom
   - mr_slug: capture-playback
+    cf_slug: capture-playback
   - mr_slug: redstone-multimeter
   - mr_slug: unobtainable-blocks
   - mr_slug: worldedit
