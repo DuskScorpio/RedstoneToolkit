@@ -180,33 +180,49 @@ disabled_files:
 
   # Performance
   - mr_slug: c2me-fabric
+    cf_slug: c2me
   - mr_slug: dynamic-fps
+    cf_slug: dynamic-fps
     version: "<1.21.2"
   - mr_slug: scalablelux
+    cf_slug: scalablelux
     version: ">=1.21.0"
   - mr_slug: voxy
   - mr_slug: worldthreader
+    cf_slug: worldthreader
 
   # QoL
   - mr_slug: appleskin
+    cf_slug: appleskin
   - mr_slug: cleardespawn
+    cf_slug: clear-despawn-fabric
     version: "<=1.20.2"
   - mr_slug: clear-despawn-reworked
     version: ">=1.21.0"
   - mr_slug: dashloader
+    cf_slug: dashloader
   - mr_slug: cubes-without-borders
+    cf_slug: cubes-without-borders
   - mr_slug: dcwa
+    cf_slug: fabric-disable-custom-worlds-advice
   - mr_slug: fabrishot
+    cf_slug: fabrishot
   - mr_slug: fastquit
+    cf_slug: fastquit
   - mr_slug: invview
+    cf_slug: inv-view
   - mr_slug: forcecloseworldloadingscreen
   - mr_slug: no-chat-reports
+    cf_slug: no-chat-reports
     version: ">=1.19.0"
   - mr_slug: respackopts
+    cf_slug: respackopts
     version: "<1.17.1 || >1.17.1" # Does not work on 1.17.1
   - mr_slug: sound-controller
+    cf_slug: sound-controller
   - mr_slug: viabackwards
   - mr_slug: viafabric
+    cf_slug: viafabric
   - mr_slug: viaversion
 
   # Technical
