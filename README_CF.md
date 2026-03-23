@@ -1,0 +1,222 @@
+﻿# RedstoneToolkit
+
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/redstonetoolkit?style=for-the-badge&logo=modrinth&logoColor=white&color=00AF5C&label=MODRINTH)](https://modrinth.com/modpack/redstonetoolkit)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1449021?style=for-the-badge&logo=curseforge&logoColor=white&color=F16436&label=CURSEFORGE)](https://www.curseforge.com/minecraft/modpacks/redstonetoolkit)
+[![GitHub stars](https://img.shields.io/github/stars/DuskScorpio/RedstoneToolkit?style=for-the-badge&logo=github&color=24292e&label=GITHUB)](https://github.com/DuskScorpio/RedstoneToolkit)
+
+A collection of technical and performance鈥憃riented mods designed to support Technical Minecraft builds
+
+This pack includes several disabled mods, which are optional and can be enabled by the user if desired
+
+- This pack is built based on mods listed at [CommandLeo鈥檚 Mod List](https://commandleo.github.io/minecraft-mod-list/)
+
+## Mods
+
+This is a list of all the mods in this pack:
+
+### Enabled Mods
+
+These mods are enabled by default and recommended to the user
+
+
+#### Carpet
+
+- [Carpet Mod](https://modrinth.com/mod/carpet) - The most important mod for technical Minecraft; it comes with tons of useful features and commands
+- [Carpet TIS Addition](https://modrinth.com/mod/carpet-tis-addition) - Very useful Carpet extension with lots of new rules and tools, in particular for doing stuff in creative mode
+- [JoaCarpet](https://modrinth.com/mod/joacarpet) - A small Carpet extension with a few useful features for redstone and storage tech
+- [SubTick](https://modrinth.com/mod/subtick) - Allows freezing and stepping through block ticks, fluid ticks, block events, entities, and block entities individually, with HUD visualization and configurable defaults
+- [Yet Another Carpet Addition](https://modrinth.com/mod/yaca) - Adds a lot of useful features, including visualization for scheduled ticks, hopper cooldowns, random ticks, block updates, etc. Provides GUI interfaces for Carpet rule management and hopper counter tracking
+
+
+
+
+#### Fixes
+
+- [Model Gap Fix](https://modrinth.com/mod/modelfix) - Fixes gaps in block models and item models
+- [PacketFixer](https://modrinth.com/mod/packet-fixer) - Fixes various problems with packets, nbt, and timeouts
+- [ToolTip Fix](https://modrinth.com/mod/tooltipfix) - Stops tooltips that are too large to fit on the screen from running off the screen
+
+
+
+
+#### Libraries
+
+- [Cloth Config API](https://modrinth.com/mod/cloth-config) - Configuration library required by some mods
+- [Fabric API](https://modrinth.com/mod/fabric-api) - Library required by a lot of mods
+- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) - Library required by Too Many Shortcuts
+- [Fzzy Config](https://modrinth.com/mod/fzzy-config) - Configuration library required by Particle Core
+- [MagicLib](https://modrinth.com/mod/magiclib) - Library required by MasaGadget
+- [MaLiLib](https://modrinth.com/mod/malilib) - Library required by Masa's mods
+- [o蠅o](https://modrinth.com/mod/owo-lib) - Library required by Isometric Renders and WikiRenderer
+- [YetAnotherConfigLib](https://modrinth.com/mod/yacl) - Configuration library required by multiple mods
+
+
+
+
+#### Performance
+
+- [BadOptimizations](https://modrinth.com/mod/badoptimizations) - Micro optimizations that improve client performance without altering gameplay
+- [Better Block Entities](https://modrinth.com/mod/better-block-entities) - Optimizes block entity rendering for smoother performance and reduced lag on versions 鈮?.21.6
+- [Enhanced Block Entities](https://modrinth.com/mod/ebe) [[1]](#ref-1) - Reduces block entity FPS lag and improves their visuals on versions 鈮?.21.4
+- [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
+- [Fast Noise](https://modrinth.com/mod/zfastnoise) - Replaces the vanilla noise generator with a faster implementation to speed up world generation
+- [FerriteCore](https://modrinth.com/mod/ferrite-core) - Memory usage optimizations
+- [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) - Speeds up the immediate mode rendering performance of the client
+- [Ixeris](https://modrinth.com/mod/ixeris) - Offloads event polling to a separate thread, freeing CPU for rendering
+- [Krypton](https://modrinth.com/mod/krypton) - Optimises the Minecraft networking stack
+- [Lithium](https://modrinth.com/mod/lithium) - Improves server-side performance without affecting vanilla game logic
+- [ModernFix](https://modrinth.com/mod/modernfix) [[2]](#ref-2) - Improves performance and reduces memory usage
+- [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
+- [More Culling](https://modrinth.com/mod/moreculling) - Changes how multiple types of culling are handled to improve performance
+- [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
+- [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
+- [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium
+- [Starlight](https://modrinth.com/mod/starlight) - Rewrites the lighting engine to significantly improve performance and fix lighting errors
+- [ThreadTweak](https://modrinth.com/mod/threadtweak) - Improves and tweaks the Minecraft thread scheduling
+
+
+
+
+#### Quality of Life
+
+- [Auth Me](https://modrinth.com/mod/auth-me) - Makes it possible to authenticate yourself and re-validate your session without having to close the game
+- [Better Suggestions](https://modrinth.com/mod/better-suggestions) - Makes command suggestions more useful
+- [Client Commands](https://modrinth.com/mod/client-commands) - Adds lots of useful client-side commands
+- [CommandKeys](https://modrinth.com/mod/commandkeys) - A powerful command macro mod
+- [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk) - Keeps chunks in memory longer after they are out of render distance
+- [Hold That Chunk V2](https://modrinth.com/mod/hold-that-chunk-v2) - A re-implementation of Hold That Chunk for versions >=1.21 that keeps rendered chunks in memory longer
+- [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
+- [Item Scroller](https://modrinth.com/mod/item-scroller) - Adds many shortcuts to move items more easily and craft faster in inventory screens
+- [MaLiBind](https://modrinth.com/mod/malibind) - Imports vanilla Minecraft keybinds into MaLiLib's configuration system
+- [MiniHUD](https://modrinth.com/mod/minihud) - A "mini F3" HUD mod, also with various overlays like light level, spawn chunks, slime chunks etc.
+- [Mod Menu](https://modrinth.com/mod/modmenu) - Adds a mod menu to view the list of mods you have installed
+- [NBT Autocomplete](https://modrinth.com/mod/nbt-autocomplete) - Adds suggestions for NBT tags in commands
+- [Packed Packs](https://modrinth.com/mod/packed-packs) - Pack resource and data packs into profiles
+- [Pick Block Pro](https://modrinth.com/mod/pick-block-pro) - Advanced client-side picker for blocks, entities, NBT, tools, and IDs
+- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) - Alternative options menu for Sodium
+- [Suggestion Tweaker](https://modrinth.com/mod/suggestion-tweaker) - Improves the way suggestions are filtered and sorted when writing a command
+- [Vanilla Keybind Manager](https://modrinth.com/mod/vkm) - Manages conflicts between Vanilla and Malilib keybinds
+- [WikiRenderer](https://github.com/Pigicial/WikiRenderer) - Allows rendering entities, items, and blocks as high-resolution images for versions >=1.21.11
+
+
+
+
+#### Technical
+
+- [ChunkDebug](https://modrinth.com/mod/chunk-debug) - Adds a map with information about the currently loaded chunks
+- [EssentialClient](https://modrinth.com/mod/essentialclient) - Adds many utilities and provides a GUI to modify carpet rules
+- [G4mespeed](https://modrinth.com/mod/g4mespeed) - Utility mod that improves the reliability and experience of changing tick rate, and adds many quality of life features
+- [Litematica](https://modrinth.com/mod/litematica) - A client-side schematic mod with extra features for creative mode work
+- [Litematica Server Paster](https://modrinth.com/mod/litematica-server-paster) - Lets Litematica paste tile entity data and entity data on servers
+- [Litemoretica](https://modrinth.com/mod/litemoretica) - Adds features and fixes to Litematica
+- [Masa Gadget](https://modrinth.com/mod/masa-gadget) - Additional features for Masa's mods
+- [MasaAdditions](https://modrinth.com/mod/masaadditions) - Addon mod for Tweakeroo, MiniHUD and Litematica
+- [NBT Copy](https://modrinth.com/mod/nbt-copy) - Adds a button to the chat to easily copy NBT data from the `/data get` command.
+- [spark](https://modrinth.com/mod/spark) - A performance profiler for Minecraft clients, servers and proxies
+- [Syncmatica](https://modrinth.com/mod/syncmatica) - Enables sharing litematic placements with other players
+- [Technical Utilities](https://modrinth.com/mod/techutils) - Provides an Inventory Verifier for Litematica schematics and various other small technical utilities
+- [TweakerMore](https://modrinth.com/mod/tweakermore) - Adds even more client-side tweaks to the game
+- [Tweakeroo](https://modrinth.com/mod/tweakeroo) - Adds a whole bunch of client-side "tweaks" to the game
+
+
+
+### Disabled Mods
+
+These mods are disabled by default and can be enabled if desired
+
+
+#### Aesthetics
+
+- [Continuity](https://modrinth.com/mod/continuity) - Connected textures and emissive textures
+- [Iris](https://modrinth.com/mod/iris) - The best shaders mod
+
+
+
+
+#### Carpet
+
+- [Carpet Extra](https://modrinth.com/mod/carpet-extra) - Adds Carpet rules that introduce non鈥憊anilla mechanics for technical play. Extends dispenser behavior to place blocks, feed and interact with animals, while enabling renewable conversions.
+- [Doormat](https://modrinth.com/mod/doormat) - Provides Carpet rules for experimental redstone mechanics. Introduces a Tinker Kit system that allows per鈥慶omponent configuration of quasi鈥慶onnectivity, block update emissions, etc.
+- [Essential Addons](https://modrinth.com/mod/essentialaddons) - Integrates the functionality of the Spigot plugin Essentials alongside additional features. Adds mechanics such as stackable shulkers and nesting shulkers inside shulkers
+
+
+
+
+#### Fixes
+
+- [WeCuiFix](https://modrinth.com/mod/wecuifix) - Fixes WorldEdit compatibility with WorldEditCUI on versions 1.20.5-1.21.4
+- [WorldEdit Hang Fix](https://modrinth.com/mod/worldedit-hang-fix) - Prevents the client from freezing when performing large operations with WorldEdit
+
+
+
+
+#### Libraries
+
+- [Indium](https://modrinth.com/mod/indium) - Allowing Continuity to work with Sodium
+- [LibJF](https://modrinth.com/mod/libjf) - Library required by Respackopts
+
+
+
+
+#### Performance
+
+- [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric) - Improves chunk generation, I/O, and loading performance by utilizing multiple CPU cores
+- [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) - Reduces resource usage by lowering the frame rate when the game window is inactive or backgrounded on versions <1.21.2
+- [ScalableLux](https://modrinth.com/mod/scalablelux) - Optimizes lighting engine performance for improved FPS
+- [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
+- [Worldthreader](https://modrinth.com/mod/worldthreader) - Allows multi-threaded processing of multiple dimensions simultaneously to improve performance
+
+
+
+
+#### Quality of Life
+
+- [AppleSkin](https://modrinth.com/mod/appleskin) - Adds food/hunger-related HUD improvements
+- [ClearDespawn](https://modrinth.com/mod/cleardespawn) - Makes items blink when they are about to despawn
+- [ClearDespawn Reworked](https://modrinth.com/mod/clear-despawn-reworked) - A rework of the ClearDespawn mod for Fabric 1.21.x
+- [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders) - Allows playing Minecraft in a borderless fullscreen window
+- [DashLoader](https://modrinth.com/mod/dashloader) [[1]](#ref-1) [[2]](#ref-2) - Speeds up Minecraft startup by caching and reusing resource loading
+- [Disable Custom Worlds Advice](https://modrinth.com/mod/dcwa) - Disables the annoying "Experimental Features" advice
+- [Fabrishot](https://modrinth.com/mod/fabrishot) - Allows taking high-resolution screenshots
+- [FastQuit](https://modrinth.com/mod/fastquit) - Makes it possible to return to the title screen early while a world is still saving in the background
+- [InvView](https://modrinth.com/mod/invview) - Allows opening and manipulating the inventories and ender chests of online and offline players
+- [kennytv's epic force close loading screen](https://modrinth.com/mod/forcecloseworldloadingscreen) - Disables world loading/reconfiguration screens and removes forced fades for faster resource pack loading
+- [No Chat Reports](https://modrinth.com/mod/no-chat-reports) - Makes chat unreportable (where possible)
+- [Respackopts](https://modrinth.com/mod/respackopts) - Adds config menus for resource packs; recommended for Redstone Tweaks users
+- [Sound Controller](https://modrinth.com/mod/sound-controller) - Provides complete control over the volume of every sound in the game
+- [ViaBackwards](https://modrinth.com/mod/viabackwards) - Allows players to connect to newer server versions with an older Minecraft client
+- [ViaFabric](https://modrinth.com/mod/viafabric) - Allows players to connect to older server versions with a newer Minecraft client
+- [ViaVersion](https://modrinth.com/mod/viaversion) - A required dependency for ViaBackwards
+
+
+
+
+#### Technical
+
+- [Axiom](https://modrinth.com/mod/axiom) - An all-in-one tool for Minecraft editing
+- [G4mespeed Capture & Playback](https://modrinth.com/mod/capture-playback) - Addon for G4mespeed that adds recording and playback capabilities for tick-warped gameplay
+- [Rail Placement Fix](https://modrinth.com/mod/rail-placement-fix) - Allows precise rail placement
+- [Redstone Multimeter Fabric](https://modrinth.com/mod/redstone-multimeter) - An intuitive redstone debugging tool
+- [Unobtainable Blocks](https://modrinth.com/mod/unobtainable-blocks) - Adds items for unobtainable blocks like fires and portals
+- [WorldEdit](https://modrinth.com/mod/worldedit) - A tool to make building a lot faster
+- [WorldEditCUI](https://modrinth.com/mod/worldedit-cui) - Adds visual outlines for WorldEdit areas
+
+
+
+### Notes
+
+<a id="ref-1"></a>[[1]](#ref-1) [DashLoader](https://modrinth.com/mod/dashloader) and [Enhanced Block Entities](https://modrinth.com/mod/ebe) are not compatible in versions 1.16.5 and 1.19.4  
+<a id="ref-2"></a>[[2]](#ref-2) [DashLoader](https://modrinth.com/mod/dashloader) and [ModernFix](https://modrinth.com/mod/modernfix) are not compatible in versions 1.16.5 - 1.18.2  
+<a id="ref-3"></a>[[3]](#ref-3) [Essential Addons](https://modrinth.com/mod/essentialaddons) are not compatible with [ChunkDebug](https://modrinth.com/mod/chunk-debug) and [EssentialClient](https://modrinth.com/mod/essential) in version 1.16.5
+
+## Resource Packs
+
+This is a list of all the resource packs in this pack:
+
+
+#### Resource Packs
+
+- [Redstone Tweaks](https://modrinth.com/resourcepack/redstone-tweaks) - Vanilla-style resource pack made to improve redstone experience
+
+
+
