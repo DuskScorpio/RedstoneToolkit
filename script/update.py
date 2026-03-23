@@ -56,6 +56,7 @@ def process_log(process: Popen[str], version: str, platform: PlatForm):
 
 def name_id_dict(mc_ver: str, platform: PlatForm) -> dict[str, str]:
     path = Path(platform).joinpath(mc_ver).joinpath("mods")
+    path.mkdir(parents=True, exist_ok=True)
     files = [f.name for f in path.iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
     name_and_id = {}
     for file in files:

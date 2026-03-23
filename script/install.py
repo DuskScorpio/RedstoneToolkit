@@ -84,6 +84,7 @@ def get_meta(name: str, mod_list: list[dict[str, str]]) -> dict[str, str]:
 
 def clean_log():
     path = Path("logs")
+    if not path.exists(): return
     file_path_list = [f for f in path.iterdir() if re.match(".*-install\\.log", f.name)]
     for file_path in file_path_list:
         file_path.unlink()
