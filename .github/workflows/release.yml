@@ -150,8 +150,8 @@ jobs:
         if: steps.condition.outputs.publish == 'true'
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-#          curseforge-id: 6666666666
-#          curseforge-token: ${{ secrets.CF_TOKEN }}
+          curseforge-id: 1449021
+          curseforge-token: ${{ secrets.CF_TOKEN }}
 
           github-token: ${{ secrets.GH_TOKEN }}
           github-tag: ${{ format('release/{0}', steps.data.outputs.ver) }}
