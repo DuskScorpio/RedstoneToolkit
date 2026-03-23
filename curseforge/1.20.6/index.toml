@@ -166,6 +166,11 @@ hash = "62def7ce2981026261dfd10797733764788d6a73ef6a3438276ed88f573fc92a"
 metafile = true
 
 [[files]]
+file = "mods/irisshaders.pw.toml"
+hash = "5457ab4b1b490bd22b707a2040d8be076b711c11f80589767118bc9ba373f3f2"
+metafile = true
+
+[[files]]
 file = "mods/isometric-renders.pw.toml"
 hash = "490cfbd0fc31ff5a473419c2c73d5e3c7f501aca8f92223df34073e55f58ab74"
 metafile = true

@@ -146,6 +146,11 @@ hash = "f8b970900e1b27c20d2211088d48b886e9216bd410305019fe4e115f286eb0cd"
 metafile = true
 
 [[files]]
+file = "mods/irisshaders.pw.toml"
+hash = "774949d66cf1b6de5a221c7b0ee346e0cb819ae596db86f27b4b2d77e41e49f1"
+metafile = true
+
+[[files]]
 file = "mods/ixeris.pw.toml"
 hash = "1fbfc63abee79885c2ab36898d6857894e6ed102bb2353439d4f55b630beecae"
 metafile = true

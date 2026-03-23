@@ -1,0 +1,12 @@
+name = "Iris Shaders"
+filename = "iris-mc1.16.5-1.4.5.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "acb756a485f35d1d34682eb89009555284951b99"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 4143798
+project-id = 455508
