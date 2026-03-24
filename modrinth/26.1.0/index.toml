@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "b405045b08097bd250e4e6005989128a2d8cb266c9807105a5203cb2f7b47100"
+hash = "d9732a286d3d686c2c097b5b9a22085b7124e596899dcf7ea6e54abc1e104b5e"
 metafile = true
 
 [[files]]
@@ -18,6 +18,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "9964bd325b8537dba6c905b1924c9694ca7532df52145bef617f0143033e5dce"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "408151861cc1b1a4c4e9c8a3550662a2fc36d0ea96ee07b7e96c5d2a6afacf6f"
 metafile = true
 
 [[files]]
@@ -46,6 +51,11 @@ hash = "55ea790fa14c772cb16dd14230ad48a835a2fc90b8c6200eeef780c6030f73d9"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+hash = "2c95562ff7f5ab2ddda171c024c12d12dc36a9f86c92fe055a3497682e2760b4"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "6d87f812d40cc1b1b6cd034d3c14dcee9a7a5528ee6cd8e99a68e7322b74ebc4"
+hash = "e0a721c1bc356badc9770246fcda91cf60b632fc0bd7eff39f6f4643075131c8"
 metafile = true

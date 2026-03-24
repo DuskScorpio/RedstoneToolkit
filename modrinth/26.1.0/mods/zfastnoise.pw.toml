@@ -1,13 +1,13 @@
 name = "Fast Noise"
-filename = "zfastnoise-1.0.26+26.1-rc-3.jar"
+filename = "zfastnoise-1.0.26+26.1.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/OnlVIpq5/versions/g9LrGZad/zfastnoise-1.0.26%2B26.1-rc-3.jar"
+url = "https://cdn.modrinth.com/data/OnlVIpq5/versions/hbZThJvJ/zfastnoise-1.0.26%2B26.1.jar"
 hash-format = "sha512"
-hash = "e5e13c4c89690cf30e51cdf4d10a6956e75f244177d51db670823b7ba52185970236e046708aac3d7a2bdedf19ec06401733e9d743a26443a5a8e41a365daa7f"
+hash = "61be1ae7daf8176cc747b2582ea7e97871695e0fe0b202701588318f7a8fdf6c5ec4adc2fced8508d16c0f947262c3dea09c9b65ff497d9f35e0b56cc38e9bd0"
 
 [update]
 [update.modrinth]
 mod-id = "OnlVIpq5"
-version = "g9LrGZad"
+version = "hbZThJvJ"
