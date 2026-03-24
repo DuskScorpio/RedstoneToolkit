@@ -145,7 +145,6 @@ enabled_files:
   - mr_slug: techutils
   - mr_slug: tweakermore
     cf_slug: tweakermore
-    version: "<=1.21.0"
   - mr_slug: tweakeroo
     cf_slug: tweakeroo
 
