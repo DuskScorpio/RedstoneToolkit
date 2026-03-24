@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0b4c98b7b25cdfcbb7882c32155d597f0fcaa37aa301b14baf4ad8cab65fea85"
+hash = "74d55f8ffee46b10c6d4c709c298a72e1233cdd393707c223b3e861d7f104a88"
 metafile = true
 
 [[files]]
@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "553a41534b30e13212fde52314d81f3f565c565ff8c8e91dbebe49e36ed51afe"
+hash = "e1644658ed4f2b9f30a330533c9eddd1f1b439c21b34266d724543d9034adc12"
 metafile = true
 
 [[files]]
