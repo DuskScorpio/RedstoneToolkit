@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f8b970900e1b27c20d2211088d48b886e9216bd410305019fe4e115f286eb0cd"
+hash = "c10fa51edd36370e1a126d3c8f8716bc78b5ce812403dafb6546e73642e46dbd"
 metafile = true
 
 [[files]]
@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "03ad3937e8e3a60504ad259f6a4e0e51ba19effe7f2652935590e3498ffb72f1"
+hash = "c3069d6c3ef1d13c9ba064824777c4d74dd504cad358cb0b6f06f6266fc143c8"
 metafile = true
 
 [[files]]
@@ -347,12 +347,12 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
+hash = "35eeadf7a37e4cd57db912e7014384721f9db9ce43ee6c2a8fd775eef6e5ceff"
 metafile = true
 
 [[files]]
 file = "mods/vkm.pw.toml"
-hash = "7de9e06f6c35d09d84bcddd2ccbefd489cb88412661a84459308bc68109b27cc"
+hash = "4b06bd22ebddfd2d3ed7cf8272fb78d42505b814a24af03418811c925959dc1c"
 metafile = true
 
 [[files]]

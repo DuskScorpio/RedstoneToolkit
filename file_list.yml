@@ -74,9 +74,6 @@ enabled_files:
     cf_slug: sodium
   - mr_slug: sodium-extra
     cf_slug: sodium-extra
-  - mr_slug: starlight
-    cf_slug: starlight
-    version: "<=1.20.4"
   - mr_slug: threadtweak
 
   # QoL
@@ -184,6 +181,9 @@ disabled_files:
   - mr_slug: scalablelux
     cf_slug: scalablelux
     version: ">=1.21.0"
+  - mr_slug: starlight
+    cf_slug: starlight
+    version: "<=1.20.4"
   - mr_slug: voxy
   - mr_slug: worldthreader
     cf_slug: worldthreader

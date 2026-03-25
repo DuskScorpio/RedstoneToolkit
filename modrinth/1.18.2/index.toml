@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/starlight.pw.toml"
-hash = "2ddb145275ccfb4425411eb127a84e6c4de03b279e1db8fc79b006755aa65bce"
+hash = "3233c4e74022e0ff5b4b9a0abfa76978e0cd1eff202b5aa221d792ca0365c02e"
 metafile = true
 
 [[files]]
@@ -352,12 +352,12 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
+hash = "35eeadf7a37e4cd57db912e7014384721f9db9ce43ee6c2a8fd775eef6e5ceff"
 metafile = true
 
 [[files]]
 file = "mods/vkm.pw.toml"
-hash = "30010799d341a8079d6d69bc43afac5f3e6299efc875c5109e996be3fd492df6"
+hash = "a043976007ab1290409bd7ce4dc0276c5217f88faccf95aab58397277548c153"
 metafile = true
 
 [[files]]

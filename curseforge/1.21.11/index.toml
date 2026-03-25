@@ -142,12 +142,12 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f8b970900e1b27c20d2211088d48b886e9216bd410305019fe4e115f286eb0cd"
+hash = "c10fa51edd36370e1a126d3c8f8716bc78b5ce812403dafb6546e73642e46dbd"
 metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "774949d66cf1b6de5a221c7b0ee346e0cb819ae596db86f27b4b2d77e41e49f1"
+hash = "5bcf53ed6639c7a3652c45a4fec3f7bed00baad4bcadf1bc8d510056196a76d4"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "037f48cc503913e20d60a198fe1d6b40953e32cfb0fdff45361bbf1cdf6708ad"
+hash = "65b0757e35b23994e140ee985a5a5b0bb36711e1ad879719fa15c30790983d54"
 metafile = true
 
 [[files]]
@@ -312,12 +312,12 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
+hash = "35eeadf7a37e4cd57db912e7014384721f9db9ce43ee6c2a8fd775eef6e5ceff"
 metafile = true
 
 [[files]]
 file = "mods/vkm.pw.toml"
-hash = "f038f18dde1d1163e239c3eb8ecc981f08ce3aff929952134b84ab5397e4f839"
+hash = "4b06bd22ebddfd2d3ed7cf8272fb78d42505b814a24af03418811c925959dc1c"
 metafile = true
 
 [[files]]

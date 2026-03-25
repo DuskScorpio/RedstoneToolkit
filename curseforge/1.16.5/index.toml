@@ -282,12 +282,12 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "4724cac3d4d868eec420650bcdbc6cf0f696979c2d1bdc17ead1b12708bb49f0"
+hash = "35eeadf7a37e4cd57db912e7014384721f9db9ce43ee6c2a8fd775eef6e5ceff"
 metafile = true
 
 [[files]]
 file = "mods/vkm.pw.toml"
-hash = "b24970fe07f7f9cfedb8f07fef3932d6233af9405d7924f812585ddd6ed795f5"
+hash = "f8a4ab6baa81293e608dba56716105dce843bac44abd46ed705104b77e40d418"
 metafile = true
 
 [[files]]
