@@ -7,12 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "d9732a286d3d686c2c097b5b9a22085b7124e596899dcf7ea6e54abc1e104b5e"
-metafile = true
-
-[[files]]
-file = "mods/carpet-tis-addition.pw.toml"
-hash = "a91b9fecfbd788861792429ca7c36c0492503b8000554cb87f89546bc884406a"
+hash = "5ea9e06b8798ab5f82577786c34e745802b9be33489a0ed1f1053593b98225e5"
 metafile = true
 
 [[files]]
@@ -27,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandkeys.pw.toml"
-hash = "d6702764777f2b128190b10d3be86e07c5914548210b0638c539e031de210275"
+hash = "a75643525bcd803320fdbba64cb12392f5adf6d186f58856503d756ad4925d09"
 metafile = true
 
 [[files]]
@@ -67,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "53ddc28e54238a44577ccc6f46e64d55852f3729321011db162b6792086a1b44"
+hash = "75f91f7e5779ed7e7ddf295d63f301a0a87ffbc4757da81ef740d42fbfeaa8f9"
 metafile = true
 
 [[files]]
@@ -97,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "fb605ec9729252c00fe598d1e6ecbbcbb94dd7021c2aa3378bcca3e6de49c002"
+hash = "5dc6d147f21fd2f1236b6dba337a781ccff0db5b74024a01806186aa18614fc8"
 metafile = true
 
 [[files]]
@@ -128,6 +123,16 @@ metafile = true
 [[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "9925803f2400230bed22319bca38eb733397c0123900caaa9fb7dee3dda5a916"
+metafile = true
+
+[[files]]
+file = "mods/vkm.pw.toml"
+hash = "06feade72374f7e27fcfe92ac668608789ca10262436714090d6fa8a29bacf66"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "1cf419c3afd04239ad49ec9251cbf65de4a1c4e43fd0949d1db7774d5f6f85b7"
 metafile = true
 
 [[files]]

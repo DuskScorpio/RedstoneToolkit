@@ -1,0 +1,13 @@
+name = "Vanilla Keybind Manager"
+filename = "vkm-v1.0.8-mc26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/39p3Ro1i/versions/ytCiqtvZ/vkm-v1.0.8-mc26.1.jar"
+hash-format = "sha512"
+hash = "557ae4033e3c8daafe94d55bbcb0c0fda699f3fac0ec05cfb48b1c67a871211c2e1c0c95de08aae58a96e8bee96ce8e431acb1052b4974ff6520279ab899f7f6"
+
+[update]
+[update.modrinth]
+mod-id = "39p3Ro1i"
+version = "ytCiqtvZ"
