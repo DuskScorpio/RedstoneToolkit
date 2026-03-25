@@ -1,0 +1,13 @@
+name = "EssentialClient"
+filename = "EssentialClient-2.5.0+26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sH0dfrKf/versions/VtTlcFlo/EssentialClient-2.5.0%2B26.1.jar"
+hash-format = "sha512"
+hash = "8e1093bae5834fcf027cb5b533d3cc74cadead6ccc047cbdd44c12f477b0fba8257f1d7ad38d7f438cc155a8fcbc68385f0a887180ab34df4948455a71ac286c"
+
+[update]
+[update.modrinth]
+mod-id = "sH0dfrKf"
+version = "VtTlcFlo"

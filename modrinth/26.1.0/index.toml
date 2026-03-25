@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "539695e9725d5bff359c6c930d6e7b4173ced1c30e4ed6f7eedce28d992ea241"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "d9732a286d3d686c2c097b5b9a22085b7124e596899dcf7ea6e54abc1e104b5e"
 metafile = true
@@ -11,8 +16,23 @@ hash = "a91b9fecfbd788861792429ca7c36c0492503b8000554cb87f89546bc884406a"
 metafile = true
 
 [[files]]
+file = "mods/chunk-debug.pw.toml"
+hash = "ec70614b5e8db33c7d42327f3fd2854173124f6088fd8e6515fea590e57adeab"
+metafile = true
+
+[[files]]
+file = "mods/client-commands.pw.toml"
+hash = "f91040d93246ffcb8433d674cb3e03ef54671089d6c3adc74a3944f59686d81d"
+metafile = true
+
+[[files]]
 file = "mods/commandkeys.pw.toml"
 hash = "d6702764777f2b128190b10d3be86e07c5914548210b0638c539e031de210275"
+metafile = true
+
+[[files]]
+file = "mods/essentialclient.pw.toml"
+hash = "bd6098ab3b52c321f196f95846cbdabadce0d9223e8dcb4bb96be425bce4484a"
 metafile = true
 
 [[files]]
@@ -26,8 +46,48 @@ hash = "408151861cc1b1a4c4e9c8a3550662a2fc36d0ea96ee07b7e96c5d2a6afacf6f"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "de954e56216772900768426c541731ec91d0c7bd1c5037ad2f6cc5552f87c635"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "bb126e743db11ee4f30a22a7176fc5f7717d326fa67bdd3f4fc1be40f24ca640"
+metafile = true
+
+[[files]]
+file = "mods/item-scroller.pw.toml"
+hash = "018447fe9b8e5c0808c7f78526ec4f678eab56b4cdc4ec620c0acddcb133756a"
+metafile = true
+
+[[files]]
 file = "mods/ixeris.pw.toml"
 hash = "53ddc28e54238a44577ccc6f46e64d55852f3729321011db162b6792086a1b44"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
+hash = "6f5eb3a57c86ae90fcca72d1ea0fcc008b7c57afd55b953d4c69c27200a5c392"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "19fc9247d6714a1a81f4ec64d8f0aeda1f6d2b8ecbe51d6917d80947394750c9"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "3679d9346f32c2466a3aba02aa9e27da2a212e03620b9decd617d3ae1888def6"
+metafile = true
+
+[[files]]
+file = "mods/minihud.pw.toml"
+hash = "d40a55a8955de8efbf79ed309eeb91c93127a8aabc962843a0b6523c9d18e145"
 metafile = true
 
 [[files]]
@@ -41,8 +101,18 @@ hash = "fb605ec9729252c00fe598d1e6ecbbcbb94dd7021c2aa3378bcca3e6de49c002"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "2df6e71ac01b886ff496669c5cd6d8c89ca358c655ca4983487d09e6b7d2728c"
+metafile = true
+
+[[files]]
 file = "mods/packed-packs.pw.toml"
 hash = "a44699b4a874e88263a6a12e80ebc07fb2538c2e9302173f0b9bbc3b287c48c0"
+metafile = true
+
+[[files]]
+file = "mods/respackopts.pw.toml"
+hash = "dd4ac2457702f66f3b44d3ece6432fc298bdc120f67d391af3e083f043afab07"
 metafile = true
 
 [[files]]
@@ -53,6 +123,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "2c95562ff7f5ab2ddda171c024c12d12dc36a9f86c92fe055a3497682e2760b4"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo.pw.toml"
+hash = "9925803f2400230bed22319bca38eb733397c0123900caaa9fb7dee3dda5a916"
 metafile = true
 
 [[files]]
