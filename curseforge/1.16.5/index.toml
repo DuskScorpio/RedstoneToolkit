@@ -41,6 +41,11 @@ hash = "7ec4f3615cde3afd02cba790c49312a39c85b8a0c55ab1c53a901685619bb94f"
 metafile = true
 
 [[files]]
+file = "mods/cleardespawn.pw.toml"
+hash = "71963e27879c7d9719b28f56189fba0e4767bef1a88c63a19f4151b7d7ebeacb"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "008181296d2d8ce85b7afe97fb22d96e469958e6f9b9900bbf38f5e3fb84f5ec"
 metafile = true
@@ -56,8 +61,18 @@ hash = "e1c8ec14de0f3eb15674616eee4609f35e08e904eee39f217dc40084c4092995"
 metafile = true
 
 [[files]]
+file = "mods/dcwa.pw.toml"
+hash = "8f9115c5c13a044ea8038b1704d0b4905031a221516784a8b0de18d6858379e4"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "3768fa00caeae306b9c70204c9440ba714222e4c6008d84a42b5c420c8bcb5a7"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "3fe7231184cf5fedf228e7c464f5cbfec0e2427c9e196f30108f3dbc15c93171"
 metafile = true
 
 [[files]]
@@ -101,6 +116,11 @@ hash = "fb899d308801b45d6e41ea5290c45a60aaddb3a7668a7bec82964fc629c44e17"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "3cbb2927c65785d13561baa88df7c1535c69275fc822933a3c1de081b0b89f9f"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "a0f8b350b15dfd3b05e0b142404643998ddcdccb6674c6b88b03452109b1a494"
 metafile = true
@@ -118,6 +138,11 @@ metafile = true
 [[files]]
 file = "mods/inv-view.pw.toml"
 hash = "11c33c170bf954e000f70390cf70fb0ca54ed38339681a2549f4c255a79d55a2"
+metafile = true
+
+[[files]]
+file = "mods/invview.pw.toml"
+hash = "c6b2fd7abd57b6f3ae168098c0eeba8dff2022672f0475a68a8054b85987eebe"
 metafile = true
 
 [[files]]
@@ -223,6 +248,11 @@ metafile = true
 [[files]]
 file = "mods/redstone-multimeter-fabric.pw.toml"
 hash = "e30246bd344a7f9ed1bafcfed4655804093c7f20bf616b6adc8b3f1a21e29d15"
+metafile = true
+
+[[files]]
+file = "mods/redstone-multimeter.pw.toml"
+hash = "3bff1d56c36645ae872e2c45844c91107b9e90aa62b19f6122e34c8a3699a63c"
 metafile = true
 
 [[files]]

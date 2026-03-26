@@ -26,6 +26,11 @@ hash = "2299a5548709d785107357dfaf49c42dbea779e64518d125cb37b311fd4bada6"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "bc1569456f4e153e5df7785ec4a533d5cd33b2ac1229fd83cdb08ce7c44dabad"
+metafile = true
+
+[[files]]
 file = "mods/c2me.pw.toml"
 hash = "a54ddfc8addfec04d04a7856099ac0fb2c36518bb2faa9e672e95e7c1d5c114f"
 metafile = true
@@ -53,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/clear-despawn-reworked.pw.toml"
 hash = "fa815918bfabc29fef2a4c67b61c1b0a37885600f00117376fdf36c59bb10da4"
+metafile = true
+
+[[files]]
+file = "mods/client-commands.pw.toml"
+hash = "e6c63fb716619ccb4613ea3606fd242c2f4e2ea8d46bb877e42e7562300bb95b"
 metafile = true
 
 [[files]]
@@ -111,6 +121,11 @@ hash = "f18dbe7322bf673b3a502bfc3df902250cde3868a720da6ffe9059c86cd7a71b"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "809b4169d72d4d004b30d18011e7ebc2037d1ed0d3ba15956d88c2ac914567d5"
+metafile = true
+
+[[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
 hash = "bffcbe003188ed19d56276d728bbd2c4816cffc7ad5754a362a8417b6824ad29"
 metafile = true
@@ -141,6 +156,11 @@ hash = "c02e9c64b54b5e0a5b537564a7e2771bf41850e0c4f0aba9c780782043b06b4b"
 metafile = true
 
 [[files]]
+file = "mods/invview.pw.toml"
+hash = "c4b8bff059280b88e4472816f3e4834cf6a556d0cc111288adf9521a43785018"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "c10fa51edd36370e1a126d3c8f8716bc78b5ce812403dafb6546e73642e46dbd"
 metafile = true
@@ -148,6 +168,11 @@ metafile = true
 [[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "5bcf53ed6639c7a3652c45a4fec3f7bed00baad4bcadf1bc8d510056196a76d4"
+metafile = true
+
+[[files]]
+file = "mods/item-scroller.pw.toml"
+hash = "5c2abb405aafd8eba3698b940e1626fe12f12d0e5c998222f341cff1f89b6854"
 metafile = true
 
 [[files]]
@@ -178,6 +203,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "aff4aa2f11b20a4535e9a794c3fb316d86ae7ab5e6350bd21ec202784ea1fe9c"
+metafile = true
+
+[[files]]
+file = "mods/malibind.pw.toml"
+hash = "d3cd39bfb3f8bdc30f60bfb4359931d85986ca7447d37c56ba59b0d620a1e175"
 metafile = true
 
 [[files]]
@@ -241,6 +271,16 @@ hash = "97031b6b81b885c263a152b3c69e5143bdf8926da7ee1c7c21b5dd31a6d42c4f"
 metafile = true
 
 [[files]]
+file = "mods/rail-placement-fix.pw.toml"
+hash = "23d33f96c15552404a7184ee58893a5efad7d97f203dda0f91598db1e1745e1d"
+metafile = true
+
+[[files]]
+file = "mods/redstone-multimeter.pw.toml"
+hash = "5fb7a2d1c59c97dfec514dd9f2cbbaafadee248f70f7a011123fab818f8b9b6f"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "a75f364211af137686efc7efcccacadba737fe072db7b3969fbce2c8aa643edd"
 metafile = true
@@ -266,6 +306,11 @@ hash = "6c2dde8690f4953dbe99044b194651125e44e83a42c3c819288d59520e65cce8"
 metafile = true
 
 [[files]]
+file = "mods/sound-controller.pw.toml"
+hash = "cbe31523a511324897f507f664305b7696e5f682609f42a8c08effda13bdf889"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "b06945aaa6a338deed3db1240c33cea24655fe687f0618be9d4ba4bfe0863f7a"
 metafile = true
@@ -273,6 +318,11 @@ metafile = true
 [[files]]
 file = "mods/suggestion-tweaker.pw.toml"
 hash = "1c2b6fbad56bb9480aa67366ef12d666e69dd043c1e8001c2b68f34f227e8cc4"
+metafile = true
+
+[[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "2a30c4cf3b1132b219bbf45ce8c4626de461a74f5dd56ada03ae14528a6cbe11"
 metafile = true
 
 [[files]]
@@ -328,6 +378,11 @@ metafile = true
 [[files]]
 file = "mods/wikirenderer.pw.toml"
 hash = "893193561bb747fd2645a02fc977372817584018ea37158a41db0f1d6acb535e"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-cui.pw.toml"
+hash = "8aea9229ab3b30b7c066b226de6b38585449467843aeb0cdc6a7f62d1a3dc1db"
 metafile = true
 
 [[files]]

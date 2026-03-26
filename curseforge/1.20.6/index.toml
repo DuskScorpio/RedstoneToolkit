@@ -26,6 +26,11 @@ hash = "af08dfbacc0bc494131c9520d3f37df3b2ee70cf50eee09455af3d5868c2a9da"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "56ec543d9582ea49acef78b52950b2662f8448871bc5faaefec1692838947436"
+metafile = true
+
+[[files]]
 file = "mods/c2me.pw.toml"
 hash = "9ab89208b7f08253eae4f2e0f3b77c27e9559f737261d74818f47063515e2db9"
 metafile = true
@@ -51,8 +56,18 @@ hash = "4240ff6b69f3df98c92fa055f6a7db9481a27e71c66cace5ee9ce9580934689f"
 metafile = true
 
 [[files]]
+file = "mods/client-commands.pw.toml"
+hash = "30578f768a0a1c430b164b58b8410c3adeb3909d93f1929e1086d74a0e676671"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "0418b17eae4198eb0c7c39486360277b7a53fabad4f87fd4be047a970705d930"
+metafile = true
+
+[[files]]
+file = "mods/commandkeys.pw.toml"
+hash = "57f632ac394454991e2c0e063aaca36f20b97904ac2eebee33ddbe6891a0479a"
 metafile = true
 
 [[files]]
@@ -71,6 +86,11 @@ hash = "d3f5b5d5d479cab48212ae1419d5fff3532a6cb90f152563678843aaad482344"
 metafile = true
 
 [[files]]
+file = "mods/dcwa.pw.toml"
+hash = "c7aa2123dc093558b6830e3b126e8fb9237eb8ddaa0d8b6bddd125f4ee3e2999"
+metafile = true
+
+[[files]]
 file = "mods/doormat.pw.toml"
 hash = "6a4bb09a4df14f617a85c2e7d88d19d4dc266cde35866ad55168a22319c371da"
 metafile = true
@@ -78,6 +98,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "0664ca3a7ee4a3448c5044bd3651420691c6d9b8744d9cb17e348b51c52c9c9f"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "f3409527b8a1065e17e2e86bcf84538957c306c6cb4715cfb1113f85950e68c6"
 metafile = true
 
 [[files]]
@@ -126,6 +151,11 @@ hash = "9990538e9772ff01c632c7e097c02137bbdefb3638d1174c9a7a10aafb015099"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "1e2c8cc17038e3f8b1abaf0b0ca2b0b72734349c95b37c86ea4b817d29a783f0"
+metafile = true
+
+[[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
 hash = "c6b04e4e163c34bab2da959d5b673b31568cf5c1fcf391158331da1799657855"
 metafile = true
@@ -158,6 +188,11 @@ metafile = true
 [[files]]
 file = "mods/inv-view.pw.toml"
 hash = "4ba7ce0edce136ec83a18c39fd3d370366395432922f04da3720584f706082ed"
+metafile = true
+
+[[files]]
+file = "mods/invview.pw.toml"
+hash = "7f067e5e50da561ca0ebe73fb1761833f184698752ad9686574d091c7c115afb"
 metafile = true
 
 [[files]]
@@ -246,6 +281,11 @@ hash = "d3f3472b39304534e5a1fd7bb5771060b363e55ab13e197e62dd3f469370c299"
 metafile = true
 
 [[files]]
+file = "mods/moreculling.pw.toml"
+hash = "2e2eecce5dfd3a543e45cf1238df6f48dd35f0334bac5ca520c69690612944c0"
+metafile = true
+
+[[files]]
 file = "mods/nbt-autocomplete.pw.toml"
 hash = "cf72a44e814095d73f0354ecca565ad8fdaad66d3eac27e9438dcb096a720339"
 metafile = true
@@ -286,6 +326,11 @@ hash = "d31845b20d43934560dcd8ae124ddbc4314bcc9478ca5fd2d774a7ec7e0f5638"
 metafile = true
 
 [[files]]
+file = "mods/redstone-multimeter.pw.toml"
+hash = "f2996ecccbad793ccc17c67d0632c49f8951272b70d4916916196c371065549b"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "069dad07b849843c0b9160ad70fa1934f34da52c531083a16a68e623c9a210f9"
 metafile = true
@@ -306,6 +351,11 @@ hash = "4fb5e2ab1165f834fc93442cc161795aa7e68cab579cbc4f16a24aac76406e4a"
 metafile = true
 
 [[files]]
+file = "mods/sound-controller.pw.toml"
+hash = "51fe4c68e99d25ebbb47ef99a28a8ceeeca038c5e9e24d571d3822f79ef04d50"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "007f250d76b0275eb01fb6abcad6f2a425f94f290e72bea3f16770ffdb924184"
 metafile = true
@@ -313,6 +363,11 @@ metafile = true
 [[files]]
 file = "mods/suggestion-tweaker.pw.toml"
 hash = "1c2b6fbad56bb9480aa67366ef12d666e69dd043c1e8001c2b68f34f227e8cc4"
+metafile = true
+
+[[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "1b8abe532d290322f536802ab5e8b428d542ca859dcd39275b8d712cfa4bab7a"
 metafile = true
 
 [[files]]
@@ -358,6 +413,11 @@ metafile = true
 [[files]]
 file = "mods/wecuifix.pw.toml"
 hash = "f1845133f1c212416bc8e072d2bda067a62cb6e667acfd146f6ab3be43e73e13"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-cui.pw.toml"
+hash = "f66275b464b4f7b9f08da6a6653f531b261beab9124a3f12e9f00fb93e98709e"
 metafile = true
 
 [[files]]

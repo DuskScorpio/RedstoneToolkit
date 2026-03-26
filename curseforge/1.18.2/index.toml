@@ -11,6 +11,11 @@ hash = "692b29d2515b168bc42b0795271e41cfa9f245b914dc59b6f5fc649513c931a3"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "3ee3c9c0b0ff174a64d522bc10b4dc5544bd413c08e7fb6256b1279d5312d965"
+metafile = true
+
+[[files]]
 file = "mods/c2me.pw.toml"
 hash = "cb168602bb06cf639723a0dc6d39980bd8c4574a5a3be5bdf72567d30d9ee81d"
 metafile = true
@@ -46,6 +51,16 @@ hash = "5251875f9ff7cdeac3adf002d921bf7aa9f9c23b7e82fa82de18a449dedf018d"
 metafile = true
 
 [[files]]
+file = "mods/cleardespawn.pw.toml"
+hash = "bdd435f7c947798ec87663e9e3e9540c6568ddee128f354a27781ed0656f61e4"
+metafile = true
+
+[[files]]
+file = "mods/client-commands.pw.toml"
+hash = "4f8584269721f9763e1630c9f756648e1ad71613136d58962a2ed4b488a5d5f0"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "1a52f0825052a888d6d79041270e8fbfacd166e5caff3ba77b38f66bbabfbe83"
 metafile = true
@@ -66,8 +81,18 @@ hash = "5444d13acb816b6fc0a7c20ca04ce960bc3fce295e3e99816fcc8f0eb9701e63"
 metafile = true
 
 [[files]]
+file = "mods/dcwa.pw.toml"
+hash = "2e071eefbec9baf820851f77ad44af288d0f152b4aca839cbacbd710e0833717"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "2ca4a7aee7f57fb25411e56a4bf9f583922498429fe6c71d4f5efb6cb197fd8a"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "0eb80e5eab074d997b644663fe4aa11516fc274722d188b843308da8f6474701"
 metafile = true
 
 [[files]]
@@ -108,6 +133,16 @@ metafile = true
 [[files]]
 file = "mods/fabrishot.pw.toml"
 hash = "dd7244634d411e26f55d975b6975759bbdf3268cd42eff00fd6843db6250c4d6"
+metafile = true
+
+[[files]]
+file = "mods/fastquit.pw.toml"
+hash = "becab9c4bef60820d4f99eb274635cb151992fe57a6c06e874b3956337108af9"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "07f15bd07ec3c70f2196cb30c0cdcba681eb7afdc6489d0530826593d0dafb87"
 metafile = true
 
 [[files]]
@@ -221,6 +256,11 @@ hash = "5a514ba5a5419f319db8664c8cae443a894d67c5a805da42385357cf080707da"
 metafile = true
 
 [[files]]
+file = "mods/modelfix.pw.toml"
+hash = "d99d85da5e60df5e8a0ca1d630da146b858be34206d39cdd00c30053c4e08f5e"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b6f5739bc036579e14e5a2f2529dab5fde58155c1f515439520b694efff9c0e0"
 metafile = true
@@ -268,6 +308,11 @@ metafile = true
 [[files]]
 file = "mods/redstone-multimeter-fabric.pw.toml"
 hash = "75f87e20454700327feec5e90c53521ac11739f8524f088f0f56801ac96b413e"
+metafile = true
+
+[[files]]
+file = "mods/redstone-multimeter.pw.toml"
+hash = "41eb68f068b3a4c5e8231268eaf57e8174767cdcbadfbe7fb188808c5e7e0453"
 metafile = true
 
 [[files]]
