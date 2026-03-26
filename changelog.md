@@ -1,6 +1,6 @@
 ## News
 
-- Added more mods to 26.1
+- Added more newly compatible mods to version 26.1
 
 ## Changes
 
