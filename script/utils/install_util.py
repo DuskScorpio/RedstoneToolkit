@@ -102,7 +102,7 @@ class Install:
                 process.stdin.write("n\n")
                 process.stdin.flush()
             self.log.info(text)
-            if re.match("Failed to add project:.*", text) or text == "No projects found!":
+            if re.match("Failed to (add|get file for) project:.*", text) or text == "No projects found!":
                 is_successful = False
         process.wait()
         return is_successful
