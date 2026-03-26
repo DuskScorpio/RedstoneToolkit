@@ -1,0 +1,12 @@
+name = "Sound Controller"
+filename = "soundcontroller-1.2.3-mc1.20.5.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uY9zbflw/versions/Vej3tvcx/soundcontroller-1.2.3-mc1.20.5.jar"
+hash-format = "sha512"
+hash = "2efb4e3609451873088e08cdb263a5a9a078622a92d10eef3624bd7bde9542282266296132af4fd48c5652f19f18b095f4b06531b49354cb5b286472bf9c7860"
+
+[update.modrinth]
+mod-id = "uY9zbflw"
+version = "Vej3tvcx"

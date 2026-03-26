@@ -1,19 +1,15 @@
 ## News
 
-- Added mods:
-  - Tweakermore (1.21.11)
+- Added more mods to 26.1
 
 ## Changes
 
-- Disabled mods:
-  - Starlight
-
 ## Updates
 
-- Updated 26.1-rc-3 to 26.1
-- 1.16.5-1.20.6:
-  - Tweakermore
-  - ViaVersion
-  - Vanilla Keybind Manager
+- 1.16.5-1.21.11:
+  - Fabric Language Kotlin
+- 1.19.4-1.21.11:
+  - EntityCulling
 - 1.21.11:
-  - Sodium
+  - Spark
+  - Voxy

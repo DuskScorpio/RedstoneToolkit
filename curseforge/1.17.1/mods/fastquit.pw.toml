@@ -1,0 +1,12 @@
+name = "FastQuit"
+filename = "fastquit-1.2.2+1.17-1.18.1.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/x1hIzbuY/versions/stpcZJHM/fastquit-1.2.2%2B1.17-1.18.1.jar"
+hash-format = "sha512"
+hash = "51fb00778b48055e268d615c5e76ea8dd829d532c5f92e44d5fa18742f1e957619faaf4f76ec57b5baaef5b671a5624deaee7ae0955a13fc37381f967647332d"
+
+[update.modrinth]
+mod-id = "x1hIzbuY"
+version = "stpcZJHM"

@@ -1,13 +1,13 @@
-name = "YetAnotherConfigLib (YACL)"
-filename = "yet_another_config_lib_v3-3.9.0+26.1-fabric.jar"
+name = "YetAnotherConfigLib"
+filename = "yet_another_config_lib_v3-3.9.1+26.1-fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/zcX2KOE4/yet_another_config_lib_v3-3.9.0%2B26.1-fabric.jar"
-hash-format = "sha512"
-hash = "af2c467d9a9b2884bf38bdc9b59e108f36a7b2fd3bc4de3cc582542a585d794a7936f3ec44a5f793d4d7f9141d4fd546107732600558fbd249fbe16c8bf7e0bb"
+hash-format = "sha1"
+hash = "66681ec3c536538e33860213bbfc361d4025fe1c"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "1eAoo2KR"
-version = "zcX2KOE4"
+[update.curseforge]
+file-id = 7813408
+project-id = 667299

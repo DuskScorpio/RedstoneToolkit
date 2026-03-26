@@ -1,0 +1,12 @@
+name = "ClearDespawn"
+filename = "cleardespawn-1.17.1-1.1.2.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com//data/yoJJjRRE/versions/1.17.1-1.1.2/cleardespawn-1.17.1-1.1.2.jar"
+hash-format = "sha512"
+hash = "360ad756b04e74bea156a5ea2e255704830a008c0567b850e08912e5d9a3f97c1f4e2304eda1da86bf48f243030d688567779484a8e59063cd8a805bb5ca96df"
+
+[update.modrinth]
+mod-id = "yoJJjRRE"
+version = "HxBfnXkF"

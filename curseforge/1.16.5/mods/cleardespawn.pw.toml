@@ -1,0 +1,12 @@
+name = "ClearDespawn"
+filename = "cleardespawn-1.16.5-fabric0.30.0-1.1.1.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.16.5-fabric0.30.0-1.1.1/cleardespawn-1.16.5-fabric0.30.0-1.1.1.jar"
+hash-format = "sha512"
+hash = "755761a756ee54bf8b7ea8f26c0a335b630f02fd05d94fc5d6d8c55d4348c83fa116ebd6f244a34655d29eeee169bd92bffeb56b6e636ee566e46211be65df8e"
+
+[update.modrinth]
+mod-id = "yoJJjRRE"
+version = "FOOOtHid"

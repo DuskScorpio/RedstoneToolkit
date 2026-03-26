@@ -1,0 +1,12 @@
+name = "Sound Controller"
+filename = "soundcontroller-1.2.4-mc1.21.11.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uY9zbflw/versions/pZASAGUw/soundcontroller-1.2.4-mc1.21.11.jar"
+hash-format = "sha512"
+hash = "b95481abfa7d97249418a6753296b755b76dd1a544918ab91ebaf290838db28b7a8d67b36df5c7b92f15cced32ee41151085909a66198c0b6106615701dde96f"
+
+[update.modrinth]
+mod-id = "uY9zbflw"
+version = "pZASAGUw"
