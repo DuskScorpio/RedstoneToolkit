@@ -12,6 +12,8 @@ This pack includes several disabled mods, which are optional and can be enabled 
 
 ## Mods
 
+[![Mod List Spreadsheet](https://img.shields.io/badge/Mod_List-Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1z09ptaEfGPMsmv_AfETbP2bZaCmuzSGOzCFwyZmgFSw/edit?usp=sharing)
+
 This is a list of all the mods in this pack:
 
 ### Enabled Mods
