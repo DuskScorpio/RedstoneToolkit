@@ -1,0 +1,12 @@
+name = "ViaBackwards"
+filename = "ViaBackwards-5.8.0.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/MGpJckRt/ViaBackwards-5.8.0.jar"
+hash-format = "sha512"
+hash = "5e69eb9994ec011f3f1344f2d29269f42f5ceaa6ae45b8d630922d3d4cef65a31ca5c608e2cf22597ec35f7113d2d425be1c1442fc274161cf272356dd11fc0b"
+
+[update.modrinth]
+mod-id = "NpvuJQoq"
+version = "MGpJckRt"
