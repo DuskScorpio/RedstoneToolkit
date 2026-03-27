@@ -1,0 +1,23 @@
+name: sync desc
+on:
+  push:
+    paths:
+      - 'README.md'
+    tags-ignore:
+      - 'release/**'
+    branches:
+      - 'main'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+      - name: sync modrinth
+        uses: funnyboy-roks/modrinth-auto-desc@v1.7
+        with:
+          auth-token: ${{ secrets.MR_TOKEN }}
+          slug: ccYQOriP
+          readme: README.md
