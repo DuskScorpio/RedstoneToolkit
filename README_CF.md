@@ -2,7 +2,7 @@
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/redstonetoolkit?style=for-the-badge&logo=modrinth&logoColor=white&color=00AF5C&label=MODRINTH)](https://modrinth.com/modpack/redstonetoolkit)
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1449021?style=for-the-badge&logo=curseforge&logoColor=white&color=F16436&label=CURSEFORGE)](https://www.curseforge.com/minecraft/modpacks/redstonetoolkit)
-[![GitHub stars](https://img.shields.io/github/stars/DuskScorpio/RedstoneToolkit?style=for-the-badge&logo=github&color=24292e&label=GITHUB)](https://github.com/DuskScorpio/RedstoneToolkit)
+[![GitHub Stars](https://img.shields.io/github/stars/DuskScorpio/RedstoneToolkit?style=for-the-badge&logo=github&color=24292e&label=GITHUB)](https://github.com/DuskScorpio/RedstoneToolkit)
 
 A collection of technical and performance鈥憃riented mods designed to support Technical Minecraft builds
 
