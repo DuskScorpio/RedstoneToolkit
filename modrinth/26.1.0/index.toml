@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "5ea9e06b8798ab5f82577786c34e745802b9be33489a0ed1f1053593b98225e5"
+hash = "71bb8a91281120a8fce9b3fad44e1ea26d4a978bd8d3ff3ee68a654586c8ba83"
 metafile = true
 
 [[files]]
@@ -18,6 +18,11 @@ metafile = true
 [[files]]
 file = "mods/client-commands.pw.toml"
 hash = "f91040d93246ffcb8433d674cb3e03ef54671089d6c3adc74a3944f59686d81d"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
 
 [[files]]
@@ -56,6 +61,11 @@ hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
 
 [[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "147976595e804055cd03d5cc57ac1191a30e8198457e02b83681abd9c3302030"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "de954e56216772900768426c541731ec91d0c7bd1c5037ad2f6cc5552f87c635"
 metafile = true
@@ -82,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "19fc9247d6714a1a81f4ec64d8f0aeda1f6d2b8ecbe51d6917d80947394750c9"
+hash = "3b7f33d3d619dd8de71f3cf76971f7217b182e9c36da3fc86248524af5aae563"
 metafile = true
 
 [[files]]
@@ -106,6 +116,11 @@ hash = "a3b2043845ab8f258b02e6cefe35e20f836ccc1e30acd6758fc98a772be87828"
 metafile = true
 
 [[files]]
+file = "mods/moreculling.pw.toml"
+hash = "4ae774627fde22e748ba11fbce113a13019d9ee519f1b851aaf83f79e8048b2f"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "2df6e71ac01b886ff496669c5cd6d8c89ca358c655ca4983487d09e6b7d2728c"
 metafile = true
@@ -121,6 +136,16 @@ hash = "62f634fbbb4a92fadff9f0d0a0a651bd3a7cef85960ee2b0de3298d27700b90b"
 metafile = true
 
 [[files]]
+file = "mods/redstone-multimeter.pw.toml"
+hash = "50eeeb02376c37693ca4fb2fd75b32a4de91629ab5aa9bbac4b4b9977c55105c"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "8be1a7738add7477efe2f0fa53bc13b4b7839f086631d657bcd121a4354041dc"
+metafile = true
+
+[[files]]
 file = "mods/respackopts.pw.toml"
 hash = "dd4ac2457702f66f3b44d3ece6432fc298bdc120f67d391af3e083f043afab07"
 metafile = true
@@ -128,6 +153,11 @@ metafile = true
 [[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "55ea790fa14c772cb16dd14230ad48a835a2fc90b8c6200eeef780c6030f73d9"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "c0a27f6804fec3675717ed498b73b8bd715286bc00893b57ece6cf5d0dc0a2e8"
 metafile = true
 
 [[files]]
@@ -158,4 +188,9 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "e0a721c1bc356badc9770246fcda91cf60b632fc0bd7eff39f6f4643075131c8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "98a89237c10b7608fcc9b6978a4aeacc1b16e104a6a2e41f390050b6515595c6"
 metafile = true

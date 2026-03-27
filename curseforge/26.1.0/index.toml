@@ -7,12 +7,12 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "5ea9e06b8798ab5f82577786c34e745802b9be33489a0ed1f1053593b98225e5"
+hash = "71bb8a91281120a8fce9b3fad44e1ea26d4a978bd8d3ff3ee68a654586c8ba83"
 metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "4efa3b62bee9c201037934d6b1c0f70ed7a2d1fcf28bc7bc73455b05ca22afca"
+hash = "81f693e40047a3eb3efb02c087393e1bf6f9772644dfba987d3ec5d3e2a1cbdd"
 metafile = true
 
 [[files]]
@@ -23,6 +23,11 @@ metafile = true
 [[files]]
 file = "mods/client-commands.pw.toml"
 hash = "f91040d93246ffcb8433d674cb3e03ef54671089d6c3adc74a3944f59686d81d"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "7b109a4d89c487576b9af68168b30084211d5f67124e2f5cc5165dbd083d14ea"
 metafile = true
 
 [[files]]
@@ -52,12 +57,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "c27a08b54ab9b474a57211f383f511d67fd0023035ee2e76d247667e15183e63"
+hash = "151e599df2c5f3df4234f50a3a6df42add337c8aaecb1a7d71340fe12f2482ca"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "147976595e804055cd03d5cc57ac1191a30e8198457e02b83681abd9c3302030"
 metafile = true
 
 [[files]]
@@ -92,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "bc306858a859e1477c77c69de5d845a1aa4c1da012722cbfce6219800a36f014"
+hash = "1ea513f50b632920998ae301378443dce16abbb3292c807f03553591f2eead1a"
 metafile = true
 
 [[files]]
@@ -116,18 +126,33 @@ hash = "ae1037f69015ac41215ea78f505e2e7f87459066cc4e78b3e9f2287d5d84ff94"
 metafile = true
 
 [[files]]
+file = "mods/moreculling.pw.toml"
+hash = "87f7dc168c4e725fcce5ab702af88897f46851941cd881647d2b049734ba4710"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "3d5b8303cdc158f8cbb3a69dcf461c0154b3bcd671f934dded16ce3ba24905e0"
 metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "3533be5c4ac69049ad5f8d67f2c02ad6b380e384140d0fc5a20ecf9409030f07"
+hash = "df183781060d152e62088392e88fb4d5d59e31e19e9d59955c9cd3add0cbd4c8"
 metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "e38273a030d0fabfb1c720826d7b5e5b8f5d344dfc8253f1c57beae1c47b85f7"
+metafile = true
+
+[[files]]
+file = "mods/redstone-multimeter.pw.toml"
+hash = "50eeeb02376c37693ca4fb2fd75b32a4de91629ab5aa9bbac4b4b9977c55105c"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "81ed6c84871886fd892da0753629a4b2e8c9fe4ec3e040a6c65dc67142fc9035"
 metafile = true
 
 [[files]]
@@ -138,6 +163,11 @@ metafile = true
 [[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "be95f8dc3e62a84ff23c9ab8f459b55feb11687acdfd093953ad18934a9ec627"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "d20da90f78954aa97c67473e7bd193dd529c82b479b54954f7781f6d351c1f2b"
 metafile = true
 
 [[files]]
@@ -168,4 +198,9 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "6d2f85a2534023333e1c7e7732346974b3546302b5265c5598c7efb53382efc2"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "98a89237c10b7608fcc9b6978a4aeacc1b16e104a6a2e41f390050b6515595c6"
 metafile = true
