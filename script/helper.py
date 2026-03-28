@@ -15,5 +15,8 @@ def run():
         text = session.prompt(">> ", completer=completer)
         if text == "stop":
             break
-        call(arg=shlex.split(text), by=From.HELPER)
+        try:
+            call(arg=shlex.split(text), by=From.HELPER)
+        except SystemExit:
+            ...
     log.info("bye~")
