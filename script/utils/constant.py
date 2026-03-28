@@ -35,5 +35,6 @@ COMMAND = {
     "remove": {"--versions"},
     "update": {"--version"},
     "export": platform_and_version,
-    "refresh": None
+    "refresh": None,
+    "loader": None
 }
