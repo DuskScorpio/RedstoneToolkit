@@ -8,7 +8,7 @@ A collection of technical and performance鈥憃riented mods designed to support 
 
 This pack includes several disabled mods, which are optional and can be enabled by the user if desired
 
-- This pack is built based on mods listed at [CommandLeo鈥檚 Mod List](https://commandleo.github.io/minecraft-mod-list/)
+- This pack is built based on mods listed at [CommandLeo's Mod List](https://commandleo.github.io/minecraft-mod-list/)
 
 ## Mods
 

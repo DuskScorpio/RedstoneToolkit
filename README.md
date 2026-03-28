@@ -8,7 +8,7 @@ A collection of technical and performance‑oriented mods designed to support Te
 
 This pack includes several disabled mods, which are optional and can be enabled by the user if desired
 
-- This pack is built based on mods listed at [CommandLeo’s Mod List](https://commandleo.github.io/minecraft-mod-list/)
+- This pack is built based on mods listed at [CommandLeo's Mod List](https://commandleo.github.io/minecraft-mod-list/)
 
 ## Mods
 
