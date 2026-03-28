@@ -2,7 +2,7 @@ from script.utils.constant import *
 from script.utils import util, logutil
 from script.utils.install_util import Install
 from semantic_version import Version, NpmSpec
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, STDOUT
 from ruamel.yaml import YAML
 from pathlib import Path
 
@@ -31,7 +31,6 @@ def run(platform: PlatForm, version: str | None):
 
 def __install(platform: PlatForm, mc_ver: str):
     yaml = YAML()
-    mc_path = "./{0}/{1}".format(platform, mc_ver)
     with open(FILE_PATH, "r", encoding=UTF_8) as f:
         data = yaml.load(f)
     enabled_file_list: list[dict[str, str]] = data[ENABLED]
@@ -61,16 +60,17 @@ def remove_mod(mc_ver: str, platform: PlatForm, mods: list[dict[str, str]]):
         else:
             should_remove = True
         if should_remove:
-            process = Popen(
+            with Popen(
                 [PACKWIZ, "remove", dir_mod],
                 stdout=PIPE,
+                stderr=STDOUT,
                 cwd=f"./{platform}/{mc_ver}",
                 text=True,
                 bufsize=1
-            )
-            for line in process.stdout:
-                log.info(line.strip())
-            process.wait()
+            ) as process:
+                for line in process.stdout:
+                    log.info(line.strip())
+                process.wait()
 
 
 def get_meta(name: str, mod_list: list[dict[str, str]]) -> dict[str, str]:

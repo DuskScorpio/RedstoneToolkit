@@ -2,7 +2,7 @@ from script.utils.constant import *
 from script.utils import util, logutil
 from pathlib import Path
 from semantic_version import Version
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, STDOUT
 
 import tomllib
 import shutil
@@ -45,17 +45,17 @@ class Create:
         log = logutil.Logger("create").get_log()
         path = Path(".cache").joinpath("create")
         path.mkdir(parents=True, exist_ok=True)
-        process = Popen(
+        with Popen(
             self.__arg,
             cwd=path,
             text=True,
             stdout=PIPE,
-            stderr=PIPE,
+            stderr=STDOUT,
             bufsize=1
-        )
-        for e in process.stdout:
-            log.info(e.strip())
-        process.wait()
+        ) as process:
+            for e in process.stdout:
+                log.info(e.strip())
+            process.wait()
         with open(path.joinpath("pack.toml"), "rb") as f:
             data = tomllib.load(f)
         mc_dir_ver: str = str(Version.coerce(data["versions"]["minecraft"]).truncate())

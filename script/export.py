@@ -1,6 +1,6 @@
 from script.utils.constant import *
 from script.utils import logutil, util
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, STDOUT
 from pathlib import Path
 
 import os
@@ -48,33 +48,31 @@ class Export:
 
     def __export(self):
         log = logutil.Logger(f"{self.platform}/{self.version}").get_log()
-        process = Popen(
+        with Popen(
             [PACKWIZ, self.platform, "export"],
             cwd=self.path,
             stdout=PIPE,
-            stderr=PIPE,
-            stdin=PIPE,
+            stderr=STDOUT,
             text=True,
             bufsize=1
-        )
-        for e in process.stdout:
-            log.info(e.strip())
-        process.wait()
+        ) as process:
+            for e in process.stdout:
+                log.info(e.strip())
+            process.wait()
 
     def __refresh(self):
         log = logutil.Logger(f"{self.platform}/{self.version}").get_log()
-        process = Popen(
+        with Popen(
             [PACKWIZ, "refresh"],
             cwd=self.path,
             stdout=PIPE,
-            stderr=PIPE,
-            stdin=PIPE,
+            stderr=STDOUT,
             text=True,
             bufsize=1
-        )
-        for e in process.stdout:
-            log.info(e.strip())
-        process.wait()
+        ) as process:
+            for e in process.stdout:
+                log.info(e.strip())
+            process.wait()
 
     def __write_version(self):
         path = self.path.joinpath("pack.toml")

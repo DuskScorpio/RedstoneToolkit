@@ -1,7 +1,7 @@
 from script.utils.constant import *
 from script.utils import logutil, util
 from pathlib import Path
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, STDOUT
 
 import re
 import tomllib
@@ -17,15 +17,16 @@ def run(version: str | None):
                 continue
             record = Disable(dir_ver, platform)
             record.init()
-            process = Popen(
+            with Popen(
                 [PACKWIZ, "update", "--all", "--yes"],
                 stdout=PIPE,
+                stderr=STDOUT,
                 cwd=path,
                 text=True,
                 bufsize=1
-            )
-            process_log(process, dir_ver, platform)
-            process.wait()
+            ) as process:
+                process_log(process, dir_ver, platform)
+                process.wait()
             record.disable()
 
 def process_log(process: Popen[str], version: str, platform: PlatForm):

@@ -1,6 +1,6 @@
 from script.utils.constant import *
 from script.utils import logutil
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, STDOUT
 from semantic_version import Version, NpmSpec
 from pathlib import Path
 
@@ -35,11 +35,11 @@ class Install:
         else:
             self.__enable(mod_name)
         # tomil-w changes something, so it needs to be refreshed
-        process = Popen([PACKWIZ, "refresh"], cwd=self.path, stdout=PIPE, text=True, bufsize=1)
-        log = logutil.Logger(name=f"install/{self.mc_ver}").get_log()
-        for e in process.stdout:
-            log.info(e.strip())
-        process.wait()
+        with Popen([PACKWIZ, "refresh"], cwd=self.path, stdout=PIPE, stderr=STDOUT, text=True, bufsize=1) as process:
+            log = logutil.Logger(name=f"install/{self.mc_ver}").get_log()
+            for e in process.stdout:
+                log.info(e.strip())
+            process.wait()
 
     def __install(self) -> str:
         name_list = []
@@ -81,34 +81,33 @@ class Install:
         if platform == "cf":
             args.extend(["--category", "mc-mods"])
 
-        process = Popen(
+        with Popen(
             args,
             cwd=self.path,
             text=True,
             stdout=PIPE,
-            stderr=PIPE,
+            stderr=STDOUT,
             stdin=PIPE,
             bufsize=1
-        )
-
-        # Don't change these, because it works by mystical powers
-        flag = False
-        is_successful = True
-        for e in process.stdout:
-            text = e.strip()
-            if text == "Dependencies found:":
-                flag = True
-            if flag:
-                process.stdin.write("n\n")
-                process.stdin.flush()
-            self.log.info(text)
-            if re.match("Failed to (add|get file for) project:.*", text) or text == "No projects found!":
-                is_successful = False
-        process.wait()
+        ) as process:
+            # Don't change these, because it works by mystical powers
+            flag = False
+            is_successful = True
+            for e in process.stdout:
+                text = e.strip()
+                if text == "Dependencies found:":
+                    flag = True
+                if flag:
+                    process.stdin.write("n\n")
+                    process.stdin.flush()
+                self.log.info(text)
+                if re.match("Failed to (add|get file for) project:.*", text) or text == "No projects found!":
+                    is_successful = False
+            process.wait()
         return is_successful
 
     def __url_install(self, mod_name: str, url: str):
-        process = Popen(
+        with Popen(
             [PACKWIZ, "url", "add", mod_name, url],
             cwd=self.path,
             text=True,
@@ -116,11 +115,11 @@ class Install:
             stderr=PIPE,
             stdin=PIPE,
             bufsize=1
-        )
-        for e in process.stdout:
-            text = e.strip()
-            self.log.info(text)
-        process.wait()
+        ) as process:
+            for e in process.stdout:
+                text = e.strip()
+                self.log.info(text)
+            process.wait()
 
 
     def __is_installed(self, mod_name: str) -> bool:
