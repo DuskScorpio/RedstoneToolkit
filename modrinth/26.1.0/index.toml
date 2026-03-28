@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/essentialclient.pw.toml"
-hash = "d4657a3f9165c758a3b80d3bdf2067439e63662bd01456450bba8bfe8f47a645"
+hash = "e8254a2390aba10d30f4c697d2b20aaaa87460d6d5a38bcbf6a977954a5ee861"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "c0a27f6804fec3675717ed498b73b8bd715286bc00893b57ece6cf5d0dc0a2e8"
+hash = "b3abe623ed0aa17a0d52c40b975abf8078898355738317a851f96e712a61bcbb"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "49b970d9e4a777189dd78a1916c5c3554aceb0f69cff62992c9b79c2a9df0bb7"
+hash = "c504079c236d98a3dfa689e6cd8af33b61d42b28b82786cc289ff7edf056216b"
 metafile = true
 
 [[files]]

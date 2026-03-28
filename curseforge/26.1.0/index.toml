@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/essentialclient.pw.toml"
-hash = "d4657a3f9165c758a3b80d3bdf2067439e63662bd01456450bba8bfe8f47a645"
+hash = "e8254a2390aba10d30f4c697d2b20aaaa87460d6d5a38bcbf6a977954a5ee861"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "f5c0dd9a10f892fe6d68038f1b15e27d50d649a74a0fb38f71e21047463d549d"
+hash = "66c2d52c2772603abcf08001efca9805fb14f2dd7e75b02c72f9c6c30d810f3f"
 metafile = true
 
 [[files]]

@@ -224,6 +224,7 @@ disabled_files:
 
   # Technical
   - mr_slug: axiom
+    cf_slug: axiomtool
   - mr_slug: capture-playback
     cf_slug: capture-playback
   - mr_slug: rail-placement-fix

@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/essentialclient.pw.toml"
-hash = "15973de16d7ea7d85898116a0305f0e72fb810b802d01c430af9e31635a969e7"
+hash = "8ba8905e9082dcb32d107d69b9f5982e89de03a758e5110029100aaf08490385"
 metafile = true
 
 [[files]]
@@ -352,17 +352,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "dd42c170e1bcc27f08032693288e2db60cb2a9390f8150f4d783fa7cd5cf74f6"
+hash = "631b26896508b813d7b6ffd8bd6ae9e1e4d7f792b9f34446262bda8ca777b77e"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "78052076105925c0e213a6feda11fda74f5c9c7fe3fd0dda4c0fcd23f0075279"
+hash = "495bcb6b543e136d5ff51e01a3ae42b0d713313098254b5b0a52f4d23bd1ec57"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "35eeadf7a37e4cd57db912e7014384721f9db9ce43ee6c2a8fd775eef6e5ceff"
+hash = "099983eca36d63c6aa99fde414b48aff113be58e810cfa568b7f9b5f11ec514f"
 metafile = true
 
 [[files]]
@@ -413,4 +413,9 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "335b1cfb75ecc39de650b20ba869e04fd77b57286d9fd768e526381559d3f99b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "31b53c71c2bf08da156167befe54b5717e71ee871e10ef78a70967a0bdc8b56b"
 metafile = true

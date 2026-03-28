@@ -11,8 +11,8 @@ hash = "4ffb1370d63eb823424c53eb58d937fec1d654e4a1f2e65b73f818600775d6c6"
 metafile = true
 
 [[files]]
-file = "mods/axiom.pw.toml"
-hash = "3ebc887a57da56f34ed7aa70f1bcd62acd617a735f82a224fe127efa11ea41fe"
+file = "mods/axiomtool.pw.toml"
+hash = "c0c6278ded6c353c4d31736bd857b254dc53870fcd74612d910d3ace66aa0ddf"
 metafile = true
 
 [[files]]
@@ -392,17 +392,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "dd42c170e1bcc27f08032693288e2db60cb2a9390f8150f4d783fa7cd5cf74f6"
+hash = "631b26896508b813d7b6ffd8bd6ae9e1e4d7f792b9f34446262bda8ca777b77e"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "78052076105925c0e213a6feda11fda74f5c9c7fe3fd0dda4c0fcd23f0075279"
+hash = "495bcb6b543e136d5ff51e01a3ae42b0d713313098254b5b0a52f4d23bd1ec57"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "35eeadf7a37e4cd57db912e7014384721f9db9ce43ee6c2a8fd775eef6e5ceff"
+hash = "099983eca36d63c6aa99fde414b48aff113be58e810cfa568b7f9b5f11ec514f"
 metafile = true
 
 [[files]]
@@ -448,4 +448,9 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "2c51f4c68970dceae5d63dd664cdfc9fe7a7fd48316fe89884134183c36e3ca4"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "a2bbab68ce7c62b5002a2c3c0a10b31190a8b44a39efb6d0eb3870bc65532ca8"
 metafile = true
