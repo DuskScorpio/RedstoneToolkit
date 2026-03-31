@@ -1,21 +1,33 @@
 ## News
 
-- Added more newly compatible mods to version 26.1
+- Added more newly compatible mods to version 26.1:
+  - Axiom
+  - BadOptimizations
+  - Carpet TIS Addition
+  - ImmediatelyFast
+  - Litematica
+  - NBT Autocomplete
+  - NBT Copy
+  - No Chat Reports
+  - Syncmatica
+  - WikiRenderer
 
 ## Changes
 
 ## Updates
 
+- 1.16.5-1.21.11:
+  - Carpet TIS Addition
 - 1.16.5-26.1:
-  - Fabric Language Kotlin
   - ViaBackwards
   - ViaFabric
   - ViaVersion
-- 1.19.4-1.21.11:
-  - EntityCulling
 - 1.21.11-26.1:
-  - EssentialClient
+  - LibJF
+  - Fast Noise
 - 1.21.11:
-  - Spark
-  - Voxy
-  - Worldthreader
+  - WikiRenderer
+- 26.1:
+  - Fabric API
+  - MaLiLib
+  - More Culling

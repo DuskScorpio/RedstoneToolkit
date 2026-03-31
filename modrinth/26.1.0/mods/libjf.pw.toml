@@ -1,12 +1,12 @@
 name = "LibJF"
-filename = "libjf-26.1.0.jar.disabled"
+filename = "libjf-26.1.2.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WKwQAwke/versions/7A0a9BVH/libjf-26.1.0.jar"
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/Icy7xbUM/libjf-26.1.2.jar"
 hash-format = "sha512"
-hash = "2b39b773317b26b104734568623a4f163429f9cd3398676b35c6d618976cfef278203b42055adcd7ff9fd053d195b6c0e12ebe238cfa66f2b0f23a3532235e6a"
+hash = "43f1ea31d105ef42b463d5339da64d65fcdeb28c32956bf6ce52edf0b3db7f406418c3631d63797e14b0de07bf9171558e655d7b0ae735d1d9c17aa41c77a940"
 
 [update.modrinth]
 mod-id = "WKwQAwke"
-version = "7A0a9BVH"
+version = "Icy7xbUM"

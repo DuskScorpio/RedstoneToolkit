@@ -1,0 +1,13 @@
+name = "NBT Copy"
+filename = "NBTcopy-FABRIC-26.1-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca18c311225bea38e4318df0ea93ae7447ab584c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7830786
+project-id = 980715

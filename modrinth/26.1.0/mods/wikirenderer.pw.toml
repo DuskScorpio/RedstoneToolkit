@@ -1,0 +1,13 @@
+name = "WikiRenderer"
+filename = "wikirenderer-2.4.1+26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7x65n82E/versions/bbTtdyAY/wikirenderer-2.4.1%2B26.1.jar"
+hash-format = "sha512"
+hash = "c3acb58ab3f896ac64395888ee816c99e0fc18ad14682144d79bba34f930a06028579391cf2ed59952ea43158647333e0c4f5600fb2d98626fd585f995e63a9a"
+
+[update]
+[update.modrinth]
+mod-id = "7x65n82E"
+version = "bbTtdyAY"

@@ -1,12 +1,12 @@
 name = "LibJF"
-filename = "libjf-3.19.10.jar.disabled"
+filename = "libjf-3.19.12.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WKwQAwke/versions/UtNxlYMj/libjf-3.19.10.jar"
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/nrxuA7sO/libjf-3.19.12.jar"
 hash-format = "sha512"
-hash = "538d16e58b4d8ac2389851a0af98b7c3a99f862be476429ac8922519ca6382f6091de66d283584b96fa6454ce48f5738b4317d4527c4e5a7a0a72ff03a4b084a"
+hash = "ab441123a02af8a6ff59ed71145255c5a528240daa59579ee354681b9ee60aa745cdaaeeedcc323111433d4a9c78051b7b7086ff663f56a4d0a13f856bb9f0e5"
 
 [update.modrinth]
 mod-id = "WKwQAwke"
-version = "UtNxlYMj"
+version = "nrxuA7sO"

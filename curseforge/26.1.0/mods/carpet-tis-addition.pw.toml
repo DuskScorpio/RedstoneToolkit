@@ -1,0 +1,13 @@
+name = "Carpet TIS Addition"
+filename = "carpet-tis-addition-v1.77.0-mc26.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "304ac28311479805abe5d282a4ed3bc93b38e98e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7829040
+project-id = 397510
