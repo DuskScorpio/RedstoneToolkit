@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "eebf31552cc38d5550722adc62d2e6d68c7f58d468ecb7a46230429060357a65"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
 hash = "1519fe4e5d4ed4f060f76b7af8b5b9525d0cc0c584be7741d11de4bda043b37b"
 metafile = true
@@ -88,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "446f2b20f237704feaafa54233134803ce081ca51ca191b271700cba7b601437"
+metafile = true
+
+[[files]]
+file = "mods/invview.pw.toml"
+hash = "d6f0a41ab7df509408222549ba4d7a881c2399184705cd19299b83c8c1971bdc"
 metafile = true
 
 [[files]]

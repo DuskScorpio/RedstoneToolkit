@@ -70,10 +70,10 @@ These mods are enabled by default and recommended to the user
 - [ModernFix](https://modrinth.com/mod/modernfix) [[2]](#ref-2) - Improves performance and reduces memory usage
 - [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
 - [More Culling](https://modrinth.com/mod/moreculling) - Changes how multiple types of culling are handled to improve performance
+- [Smooth Boot](https://modrinth.com/mod/smoothboot-fabric) - Optimize Minecraft loading performance to be smoother on low end systems and scale better on high end systems
 - [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
 - [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium
-- [ThreadTweak](https://modrinth.com/mod/threadtweak) - Improves and tweaks the Minecraft thread scheduling
 
 </details>
 

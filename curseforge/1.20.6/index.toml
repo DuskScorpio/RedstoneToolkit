@@ -371,11 +371,6 @@ hash = "1b8abe532d290322f536802ab5e8b428d542ca859dcd39275b8d712cfa4bab7a"
 metafile = true
 
 [[files]]
-file = "mods/threadtweak.pw.toml"
-hash = "c35909b8aca011eccebb9bb2372800e790fd30d18fecaaed74148dc75eebbe69"
-metafile = true
-
-[[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "a9b60e8434424b2c10e0de9b5d3ab98325b10df2dd9e6aed82e8d7828c981b9f"
 metafile = true

@@ -316,11 +316,6 @@ hash = "07fdb37d854876c129bf6002d44dbce7fe70c7854101188d85094322560fd431"
 metafile = true
 
 [[files]]
-file = "mods/threadtweak.pw.toml"
-hash = "7c3e4630b35b3525d740be5b81b69af1462c8431a617233f9b0dadebb28a4f54"
-metafile = true
-
-[[files]]
 file = "mods/tweakermore.pw.toml"
 hash = "e1644658ed4f2b9f30a330533c9eddd1f1b439c21b34266d724543d9034adc12"
 metafile = true

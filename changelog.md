@@ -1,10 +1,14 @@
 ## News
 
+- Added new mods:
+  - Smooth Boot (<=1.19.4)
 - Added more newly compatible mods to version 26.1:
+  - AppleSkin
   - Axiom
   - BadOptimizations
   - Carpet TIS Addition
   - ImmediatelyFast
+  - InvView
   - Litematica
   - NBT Autocomplete
   - NBT Copy
@@ -13,6 +17,9 @@
   - WikiRenderer
 
 ## Changes
+
+- Removed mods:
+  - ThreadTweak
 
 ## Updates
 

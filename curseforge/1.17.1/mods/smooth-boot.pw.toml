@@ -1,0 +1,13 @@
+name = "Smooth Boot (Fabric)"
+filename = "smoothboot-fabric-1.16.5-1.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0d5419980f8c65c6256483b864269cfe302894d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3248104
+project-id = 415758

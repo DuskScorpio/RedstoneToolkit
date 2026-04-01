@@ -70,11 +70,13 @@ enabled_files:
     cf_slug: moreculling
   - mr_slug: particle-core
     cf_slug: particle-core
+  - mr_slug: smoothboot-fabric
+    cf_slug: smooth-boot
+    version: "<=1.19.4"
   - mr_slug: sodium
     cf_slug: sodium
   - mr_slug: sodium-extra
     cf_slug: sodium-extra
-  - mr_slug: threadtweak
 
   # QoL
   - mr_slug: auth-me
