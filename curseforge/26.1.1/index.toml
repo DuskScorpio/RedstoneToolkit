@@ -1,0 +1,106 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "f09b0e2c04c170f394ddf579f88d952d4915bc7019617e5845393005c87d42d7"
+metafile = true
+
+[[files]]
+file = "mods/c2me.pw.toml"
+hash = "70e308e367ebc5c96c7932af7b0ed403e2193cdcfdde745f5f499ba4dcd1582e"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "b140b43c302b60abcd893d3b0bf4a04796f9522af1407916b3e5bd1f10c84e97"
+metafile = true
+
+[[files]]
+file = "mods/client-commands.pw.toml"
+hash = "5bdda1b531714c085c4a89c04bb11dd9838b87ccf4ca4887661c3183f654e572"
+metafile = true
+
+[[files]]
+file = "mods/commandkeys.pw.toml"
+hash = "70103981e3e23912846ed5e0a937ada1e571d9d3180ddc101bd095030d8579d5"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "8b26e40e92dca1b6fa1901fd5f545b00cc9927a731a8f36f00be8d8563695d59"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "151e599df2c5f3df4234f50a3a6df42add337c8aaecb1a7d71340fe12f2482ca"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "ea8fdd7baea339d3ab059708955c7680430647e9fbfb9471aeacf10f19f6311a"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
+hash = "c4d40a377018406f0592253ae0c10b7258d7185208d3a32956ea4083916008a8"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "ce601e2d99d8dbcc3e5a784e551d91440a03f79ee14109ad5fe1143d5614f7f4"
+metafile = true
+
+[[files]]
+file = "mods/nbt-autocomplete.pw.toml"
+hash = "a6048dfe1510d89a431fc144111bf7ba1f51ac04ce4d9c94631931a050ef03dd"
+metafile = true
+
+[[files]]
+file = "mods/nbt-copy.pw.toml"
+hash = "c426f1d18df148717f9b4e1c675fd81f638134c09b7e846b9508b6fc4e377358"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "96d9d2ee33dcb431b2f4376e3495c2eb3404fed8fdd995cc20f210026d64bb18"
+metafile = true
+
+[[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "df183781060d152e62088392e88fb4d5d59e31e19e9d59955c9cd3add0cbd4c8"
+metafile = true
+
+[[files]]
+file = "mods/rail-placement-fix.pw.toml"
+hash = "b0f887f7c5779d6276ded0deb8b2209567d91131ea34b01b5daeae8f4007a006"
+metafile = true
+
+[[files]]
+file = "mods/redstone-multimeter.pw.toml"
+hash = "50eeeb02376c37693ca4fb2fd75b32a4de91629ab5aa9bbac4b4b9977c55105c"
+metafile = true
+
+[[files]]
+file = "mods/respackopts.pw.toml"
+hash = "136dd7bc430455029abb43146b813e37cded204d6f1306467795a233c38e70a8"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "55ea790fa14c772cb16dd14230ad48a835a2fc90b8c6200eeef780c6030f73d9"
+metafile = true
+
+[[files]]
+file = "mods/viafabric.pw.toml"
+hash = "89ae0ce7996f7c38cb57b365985457930ae94a90980488c2d75c40a7f52c5a4f"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "47909ee03f4addc160fcaf5dde8a1eb90cadbef00c94758695aea6fbad0162d7"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "19389a779968e04cf72006aca47d96ed7820af9bba3e97856ce44a4c47b1f0ba"
+metafile = true

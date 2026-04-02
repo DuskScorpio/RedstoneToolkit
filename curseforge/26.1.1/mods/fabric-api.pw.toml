@@ -1,0 +1,13 @@
+name = "Fabric API"
+filename = "fabric-api-0.145.2+26.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c5871fe31bfb7f5547160d514176589ef979860c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7854958
+project-id = 306612

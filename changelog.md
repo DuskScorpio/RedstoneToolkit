@@ -1,5 +1,6 @@
 ## News
 
+- Added 26.1.1
 - Added new mods:
   - Smooth Boot (<=1.19.4)
 - Added more newly compatible mods to version 26.1:
