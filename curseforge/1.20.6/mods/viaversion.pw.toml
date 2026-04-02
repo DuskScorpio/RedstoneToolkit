@@ -3,10 +3,10 @@ filename = "ViaVersion-5.9.0-SNAPSHOT.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/P1OZGk5p/versions/junL8YY5/ViaVersion-5.9.0-SNAPSHOT.jar"
+url = "https://cdn.modrinth.com/data/P1OZGk5p/versions/6sEQHvPn/ViaVersion-5.9.0-SNAPSHOT.jar"
 hash-format = "sha512"
-hash = "5e46e67a73ec7a42fa35b5d187f8e80559e33affedf8fd6548c71daf943ddb5bab56b684569bbca69c5484e59423db35d813236e85811aa8faf93ca3db4ffe46"
+hash = "e63e211966dc651bfeb706bf9b2007b7cdc6719eb0c3daa18823f7d683dadacccbfcd1519385007b0f9ed357613076323ee3a6a0f544efd841af47a32a853b5a"
 
 [update.modrinth]
 mod-id = "P1OZGk5p"
-version = "junL8YY5"
+version = "6sEQHvPn"

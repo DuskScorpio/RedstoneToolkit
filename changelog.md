@@ -22,6 +22,7 @@
 
 - Removed mods:
   - ThreadTweak
+- Updated Fabric loader to version 0.18.6
 
 ## Updates
 
@@ -37,6 +38,10 @@
 - 1.21.11:
   - WikiRenderer
 - 26.1:
+  - Client Commands
+  - Fabric API
+  - ImmediatelyFast
   - Fabric API
   - MaLiLib
   - More Culling
+  - YetAnotherConfigLib

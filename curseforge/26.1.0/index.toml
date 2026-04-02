@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-commands.pw.toml"
-hash = "f91040d93246ffcb8433d674cb3e03ef54671089d6c3adc74a3944f59686d81d"
+hash = "5bdda1b531714c085c4a89c04bb11dd9838b87ccf4ca4887661c3183f654e572"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "32441f325427fdf5c42b987cd5de5646879f85607963778857bc90e803f25827"
+hash = "8b26e40e92dca1b6fa1901fd5f545b00cc9927a731a8f36f00be8d8563695d59"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "c86dec0ebf37646b4fdcd61de22ac8525011ce6e61bf79d05514656f4e3933a3"
+hash = "ea8fdd7baea339d3ab059708955c7680430647e9fbfb9471aeacf10f19f6311a"
 metafile = true
 
 [[files]]
@@ -242,17 +242,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "1b32b7cf18353f2350c9689697227ffa64bd2ee28c9c01740930ccf1d99dfd40"
+hash = "93ffbc33a55146fa1cf068364764b8965a7e733e4875d7ef619c1588a142ce8b"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "6a2ba632d857782044270fdce931cc40405be21d32335e87cb039267fb2b5082"
+hash = "df7f7cfc3e1b7b40b70e497ceba8d01b2231725a3200a8fe849d1cbb5713e439"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "0c81e834d7159610ee4f757d73ecdf1074a2eeaefe8d4fb10464f42b6b467781"
+hash = "cdc4154d9798366bb7a7e447d030aa4edcc1a9df48f2a20b35263cb5247f3300"
 metafile = true
 
 [[files]]
@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "ae1f29b5dc72fc304586e2d7695b9bb29444c783b5f315169970b98c906cfbf4"
+hash = "344499f3c5dde8bd321af544e6170dece9ffd4dc475f4fff9431d9a7aaa30486"
 metafile = true
 
 [[files]]

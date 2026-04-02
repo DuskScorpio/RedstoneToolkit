@@ -1,12 +1,12 @@
 name = "WorldEdit"
-filename = "worldedit-mod-7.4.1.jar.disabled"
+filename = "worldedit-mod-7.4.2.jar.disabled"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/1u6JkXh5/versions/T3LFkV36/worldedit-mod-7.4.1.jar"
+url = "https://cdn.modrinth.com/data/1u6JkXh5/versions/oY3E2pzA/worldedit-mod-7.4.2.jar"
 hash-format = "sha512"
-hash = "47683836b47f5c708ba7e9c6606c92e4665deee2e6c858accdda113a70eee4b4440475c4e6eb3cc52862363404872120786ab7b3b267005aed01a7d2e367cdf3"
+hash = "79f206c283421e68972e7df2b7f4c393506ff450ea5e58b8f6baafd762092eef07015edcdced6a4f536904ac048d69b2a86fa2fbf74e9d159cef9d2372042a2a"
 
 [update.modrinth]
 mod-id = "1u6JkXh5"
-version = "T3LFkV36"
+version = "oY3E2pzA"
