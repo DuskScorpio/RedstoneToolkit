@@ -2,6 +2,9 @@ enabled_files:
   # Carpet
   - mr_slug: carpet
     cf_slug: carpet
+    name: Carpet
+    urls:
+      26.1.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1/fabric-carpet-26.1+v260402.jar"
   - mr_slug: carpet-tis-addition
     cf_slug: carpet-tis-addition
   - mr_slug: joacarpet

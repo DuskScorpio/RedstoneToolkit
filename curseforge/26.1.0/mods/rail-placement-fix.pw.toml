@@ -1,0 +1,12 @@
+name = "Rail Placement Fix"
+filename = "rail-placement-fix-1.2.0.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70b8b664202cef8fba2f08b8e1e6be227b66de81"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7858941
+project-id = 1167567

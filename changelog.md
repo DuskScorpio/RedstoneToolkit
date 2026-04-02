@@ -6,6 +6,7 @@
   - AppleSkin
   - Axiom
   - BadOptimizations
+  - Carpet
   - Carpet TIS Addition
   - ImmediatelyFast
   - InvView
@@ -13,6 +14,7 @@
   - NBT Autocomplete
   - NBT Copy
   - No Chat Reports
+  - Rail Placement Fix
   - Syncmatica
   - WikiRenderer
 
