@@ -1,0 +1,13 @@
+name = "Syncmatica"
+filename = "syncmatica-fabric-26.1.1-0.3.18.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bfneejKo/versions/hiDPXGGO/syncmatica-fabric-26.1.1-0.3.18.jar"
+hash-format = "sha512"
+hash = "c48f6e658ffc8cdce8647a149237f5aa7c35bb0cb5037024eb2bb6e6f3e2be863a733a010543ad206e295c5088d9bb400f2bb7a6d47f6b24a61921868491e9f2"
+
+[update]
+[update.modrinth]
+mod-id = "bfneejKo"
+version = "hiDPXGGO"

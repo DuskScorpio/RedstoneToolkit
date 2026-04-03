@@ -11,6 +11,11 @@ hash = "ee85b62e188009270aff0328a4e7ce0c3ee8f1506145f3f07ccfd1dcff9802f6"
 metafile = true
 
 [[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "9f67b23e87e9d70905bb0deecbadedab8e7748b3fd16b3e90d4f1fafa86e4b4b"
+metafile = true
+
+[[files]]
 file = "mods/carpet.pw.toml"
 hash = "b140b43c302b60abcd893d3b0bf4a04796f9522af1407916b3e5bd1f10c84e97"
 metafile = true
@@ -36,8 +41,33 @@ hash = "e49f549eecbe502a3da6d731d6e28783631b14b0bba7bba9780a1075e7926776"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "147976595e804055cd03d5cc57ac1191a30e8198457e02b83681abd9c3302030"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "055fdbf11f275477ac18fe88c53623fa2c104180808d10738a960ba4bf3bcffb"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "6ebe8ca61f9a77dc9d06be7db7ae5c5c53735c8504ef2b583c4b6fb0a5fa9406"
+metafile = true
+
+[[files]]
+file = "mods/item-scroller.pw.toml"
+hash = "b38f752c26769ba5bb769826fd7dce88a9a7995e4723908e80b6daa03526382f"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "0955daf1b0dd2c5d6c5d7e54b339377695b02c4ec50d4bfad622a0472a305614"
 metafile = true
 
 [[files]]
@@ -46,8 +76,33 @@ hash = "5d408fdf0666fa36a9cc4e9f9a7b9b9100092d09b42e69482f922248d11a318c"
 metafile = true
 
 [[files]]
+file = "mods/litematica.pw.toml"
+hash = "6161be1f87d66a56d043f30b0f9f8b93dce01e12d7ee5493842e17e8285878d8"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "30bf6855010558013f475625c377510383edef549aafaacacd6f99a418cfb5fd"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "8a236f101781e15cb13958bc04e41887190913c0faa2a9cffb828d98c8afcb9e"
+metafile = true
+
+[[files]]
+file = "mods/minihud.pw.toml"
+hash = "993bd86034082dcd2e692100e9919fd22c35f1190720a1db53404b6591efe407"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "f1f012cf7cf3fc8cf69de0ba1e083b7dea79820f62f280f35a5d7af176111324"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "ece202c9d736d9ba378b618d07eee905f1f7d4a94e69e9b759a88813bd2d7566"
 metafile = true
 
 [[files]]
@@ -91,8 +146,28 @@ hash = "55ea790fa14c772cb16dd14230ad48a835a2fc90b8c6200eeef780c6030f73d9"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+hash = "722007a08065b27337e39edbbdb6a34067bbbe523f36a968d9861b9714144368"
+metafile = true
+
+[[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "4068012f236c56e62f4de24e17c922048d2a5d44444c6d848d20990af44511ec"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo.pw.toml"
+hash = "67bf5079fa18992b5330342df434e6ad15132369adc8b5c18466e314ec5749da"
+metafile = true
+
+[[files]]
 file = "mods/viafabric.pw.toml"
 hash = "89ae0ce7996f7c38cb57b365985457930ae94a90980488c2d75c40a7f52c5a4f"
+metafile = true
+
+[[files]]
+file = "mods/vkm.pw.toml"
+hash = "7efec0d305bda8ab16cba235570ac63c8894110c1230ffdcabbfd7c9a9943590"
 metafile = true
 
 [[files]]
