@@ -31,8 +31,18 @@ hash = "a75643525bcd803320fdbba64cb12392f5adf6d186f58856503d756ad4925d09"
 metafile = true
 
 [[files]]
+file = "mods/essentialaddons.pw.toml"
+hash = "9dabb6e2a9a6b690da748f1582f0c0d392da61c3a6ad13d1997b92fc3e5c1ef5"
+metafile = true
+
+[[files]]
+file = "mods/essentialclient.pw.toml"
+hash = "4b7c9077112830da6819cf3280545374ee9c5a481f2f0224376571ca44a41244"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "9661d28e5c33a6873612be87fc3c865032b48b120daaa95d62dc371bae83edcc"
+hash = "584afbe823aec7afa13f8f96b08607c7cd369384cc72d5c22ebf78adbf88ed2d"
 metafile = true
 
 [[files]]
@@ -162,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "89ae0ce7996f7c38cb57b365985457930ae94a90980488c2d75c40a7f52c5a4f"
+hash = "afa1a0064a1ae538fcca36c31e8adf873c1ae4ed9c81d31f0723f42ad9776bf4"
 metafile = true
 
 [[files]]

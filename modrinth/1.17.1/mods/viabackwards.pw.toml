@@ -3,10 +3,10 @@ filename = "ViaBackwards-5.9.0-SNAPSHOT.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/8qQoFqGX/ViaBackwards-5.9.0-SNAPSHOT.jar"
+url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/QNemE2q9/ViaBackwards-5.9.0-SNAPSHOT.jar"
 hash-format = "sha512"
-hash = "15080257feb28d73ab90419d698cd752eb32e2b1060f1631b31c1f70e9ce63d8a36690cad1ed2b3402e19d3207776c3a18f51a2c2a70a7238e0c8a027437062c"
+hash = "2685067c194f179d309549c4f9eb088bdf327ee774f7684ff3b25b3b20f97a252ea1004a4acfca55ad967f67df0798872bb5776a31fa1d5bd80af69cf546168f"
 
 [update.modrinth]
 mod-id = "NpvuJQoq"
-version = "8qQoFqGX"
+version = "QNemE2q9"
