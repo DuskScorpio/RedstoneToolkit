@@ -3,14 +3,9 @@ on: workflow_dispatch
 
 jobs:
   find_matrix:
-    runs-on: windows-latest
-    # POWERSHELL CANNOT WRITE VARIABLES
-    defaults:
-      run:
-        shell: bash
+    runs-on: ubuntu-latest
     outputs:
-      json_str: ${{ steps.read-json.outputs.json_str }}
-
+      json_str: ${{ steps.output-json.outputs.json_str }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v6
@@ -18,16 +13,41 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.14'
-      - name: generate data
-        run: 'python .github/workflows/script/matrix.py'
-      - name: read json
-        id: read-json
+      - name: pip requirements
+        run: 'pip install PyGithub'
+      - name: generated json
+        run: python .github/workflows/script/matrix.py
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: output json
+        id: output-json
         run: |
-          echo "json_str=$(cat matrix_data.json)" >> $GITHUB_OUTPUT
+          echo "json_str=$(cat data.json)" >> $GITHUB_OUTPUT
+
+  create_release:
+    runs-on: ubuntu-latest
+    needs: find_matrix
+    if: ${{ fromJSON(needs.find_matrix.outputs.json_str).should_create }}
+    strategy:
+      matrix:
+        tag: ${{ fromJSON(needs.find_matrix.outputs.json_str).create }}
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+      - name: create
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ format('Redstone Toolkit v{0}', matrix.tag) }}
+          tag_name: ${{ format('release/{0}', matrix.tag) }}
+          body_path: changelog.md
+          token: ${{ secrets.GH_TOKEN }}
 
   modrinth_publish:
     runs-on: windows-latest
-    needs: find_matrix
+    needs:
+      - find_matrix
+      - create_release
+    if: ${{ fromJSON(needs.find_matrix.outputs.json_str).modrinth.publish }}
     # POWERSHELL CANNOT WRITE VARIABLES
     defaults:
       run:
@@ -36,7 +56,6 @@ jobs:
       IS_RELEASE: 'true'
       PLATFORM: 'modrinth'
     strategy:
-      max-parallel: 1
       matrix:
         mc_ver: ${{ fromJSON(needs.find_matrix.outputs.json_str).modrinth.mc_vers }}
     steps:
@@ -46,39 +65,17 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.14'
-      - name: data
+      - name: pip requirements
+        run: pip install -r requirements.txt
+      - name: get data
         id: data
         run: |
           echo "dir=${{ fromJSON(needs.find_matrix.outputs.json_str)[env.PLATFORM].dir_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
           echo "ver=${{ fromJSON(needs.find_matrix.outputs.json_str)[env.PLATFORM].ver_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
           echo "type=${{ fromJSON(needs.find_matrix.outputs.json_str)[env.PLATFORM].type_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
-      - name: get release info
-        id: release
-        uses: cardinalby/git-get-release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag: ${{ format('release/{0}', steps.data.outputs.ver) }}
-          doNotFailIfNotFound: true
-      - name: check version
-        id: check
-        run: |
-          python .github/workflows/script/check.py
-          echo "json_str=$(cat publish_data.json)" >> $GITHUB_OUTPUT
-        env:
-          dir: ${{ steps.data.outputs.dir }}
-          assets: ${{ steps.release.outputs.assets }}
-      - name: get condition
-        id: condition
-        run: echo "publish=${{ fromJSON(steps.check.outputs.json_str).publish }}" >> $GITHUB_OUTPUT
-      - name: pip requirements
-        if: steps.condition.outputs.publish == 'true'
-        run: pip install -r requirements.txt
       - name: export
-        if: steps.condition.outputs.publish == 'true'
         run: ${{ format('python -m script export --platform {0} --version {1}', env.PLATFORM, steps.data.outputs.dir) }}
       - name: publish
-        if: steps.condition.outputs.publish == 'true'
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: ccYQOriP
@@ -100,7 +97,8 @@ jobs:
     runs-on: windows-latest
     needs:
       - find_matrix
-      - modrinth_publish
+      - create_release
+    if: ${{ fromJSON(needs.find_matrix.outputs.json_str).curseforge.publish }}
     # POWERSHELL CANNOT WRITE VARIABLES
     defaults:
       run:
@@ -109,7 +107,6 @@ jobs:
       IS_RELEASE: 'true'
       PLATFORM: 'curseforge'
     strategy:
-      max-parallel: 1
       matrix:
         mc_ver: ${{ fromJSON(needs.find_matrix.outputs.json_str).curseforge.mc_vers }}
     steps:
@@ -119,39 +116,17 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.14'
-      - name: data
+      - name: pip requirements
+        run: pip install -r requirements.txt
+      - name: get data
         id: data
         run: |
           echo "dir=${{ fromJSON(needs.find_matrix.outputs.json_str)[env.PLATFORM].dir_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
           echo "ver=${{ fromJSON(needs.find_matrix.outputs.json_str)[env.PLATFORM].ver_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
           echo "type=${{ fromJSON(needs.find_matrix.outputs.json_str)[env.PLATFORM].type_map[matrix.mc_ver] }}" >> $GITHUB_OUTPUT
-      - name: get release info
-        id: release
-        uses: cardinalby/git-get-release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag: ${{ format('release/{0}', steps.data.outputs.ver) }}
-          doNotFailIfNotFound: true
-      - name: check version
-        id: check
-        run: |
-          python .github/workflows/script/check.py
-          echo "json_str=$(cat publish_data.json)" >> $GITHUB_OUTPUT
-        env:
-          dir: ${{ steps.data.outputs.dir }}
-          assets: ${{ steps.release.outputs.assets }}
-      - name: get condition
-        id: condition
-        run: echo "publish=${{ fromJSON(steps.check.outputs.json_str).publish }}" >> $GITHUB_OUTPUT
-      - name: pip requirements
-        if: steps.condition.outputs.publish == 'true'
-        run: pip install -r requirements.txt
       - name: export
-        if: steps.condition.outputs.publish == 'true'
         run: ${{ format('python -m script export --platform {0} --version {1}', env.PLATFORM, steps.data.outputs.dir) }}
       - name: publish
-        if: steps.condition.outputs.publish == 'true'
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           curseforge-id: 1449021
