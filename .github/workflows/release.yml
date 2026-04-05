@@ -36,6 +36,7 @@ jobs:
       IS_RELEASE: 'true'
       PLATFORM: 'modrinth'
     strategy:
+      max-parallel: 1
       matrix:
         mc_ver: ${{ fromJSON(needs.find_matrix.outputs.json_str).modrinth.mc_vers }}
     steps:
@@ -97,7 +98,9 @@ jobs:
 
   curseforge_publish:
     runs-on: windows-latest
-    needs: find_matrix
+    needs:
+      - find_matrix
+      - modrinth_publish
     # POWERSHELL CANNOT WRITE VARIABLES
     defaults:
       run:
@@ -106,6 +109,7 @@ jobs:
       IS_RELEASE: 'true'
       PLATFORM: 'curseforge'
     strategy:
+      max-parallel: 1
       matrix:
         mc_ver: ${{ fromJSON(needs.find_matrix.outputs.json_str).curseforge.mc_vers }}
     steps:
