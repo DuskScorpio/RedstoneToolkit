@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "3fbbfd22b2af9bb1110131220bd9b33a374e1e671ddd809f98af7bed283f9d13"
+hash = "3dd40e72b1ae89ee49b440d814bc72fb52160fb9daf3f3e1313c1a6b1eebb3f4"
 metafile = true
 
 [[files]]
@@ -292,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "e3b879b027674a3c9b002eb24f2ea47397bf2087124387f65241b4e0ca4e73d5"
+hash = "c1629f045dd324a286871a1d2503bb0cf22cdb8a354da2d07dc7cef3e9afcada"
 metafile = true
 
 [[files]]
@@ -382,7 +382,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "ac24720635279228337e909a39f88bedbdd492275afe5a9e0dd73d6b380bd962"
+hash = "1fa23bba64763a40850a1ccd78a37a8f2a0d2e2e840134ff9d89fd55855339bf"
 metafile = true
 
 [[files]]
@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "c4056a7c8419bdad5a0b0f7e2287e35359d6ec54b7ce7801a1bc68f7010c0849"
+hash = "72c0f3b4ee4d153e2418e74d504712907ef9c8c204dbb735303ca2c565837263"
 metafile = true
 
 [[files]]

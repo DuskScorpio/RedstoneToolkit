@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/axiom.pw.toml"
+hash = "1519fe4e5d4ed4f060f76b7af8b5b9525d0cc0c584be7741d11de4bda043b37b"
+metafile = true
+
+[[files]]
 file = "mods/better-block-entities.pw.toml"
 hash = "539695e9725d5bff359c6c930d6e7b4173ced1c30e4ed6f7eedce28d992ea241"
 metafile = true
@@ -61,6 +66,11 @@ hash = "147976595e804055cd03d5cc57ac1191a30e8198457e02b83681abd9c3302030"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "de954e56216772900768426c541731ec91d0c7bd1c5037ad2f6cc5552f87c635"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "055fdbf11f275477ac18fe88c53623fa2c104180808d10738a960ba4bf3bcffb"
 metafile = true
@@ -77,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "0955daf1b0dd2c5d6c5d7e54b339377695b02c4ec50d4bfad622a0472a305614"
+hash = "b464ea3e139f525d9886734da7a7830b2a7fb76ad9021883f0004c8ead799af4"
 metafile = true
 
 [[files]]
@@ -111,6 +121,11 @@ hash = "f1f012cf7cf3fc8cf69de0ba1e083b7dea79820f62f280f35a5d7af176111324"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "a3b2043845ab8f258b02e6cefe35e20f836ccc1e30acd6758fc98a772be87828"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "ece202c9d736d9ba378b618d07eee905f1f7d4a94e69e9b759a88813bd2d7566"
 metafile = true
@@ -136,13 +151,23 @@ hash = "c971dfaa35b16ae297bd7fe9a6b46f49ede37fd81c36bbff6a5b24e7ab30ddb9"
 metafile = true
 
 [[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "9ea8c13d216c0ed18fbac1e8e4182e003d0959cbec1311ceed87b444859b58ae"
+metafile = true
+
+[[files]]
 file = "mods/rail-placement-fix.pw.toml"
 hash = "da1e9a3047c4bcca3d593f90dac92acbd7df500a3f32dc68bb3ccdba9461f5a9"
 metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter.pw.toml"
-hash = "50eeeb02376c37693ca4fb2fd75b32a4de91629ab5aa9bbac4b4b9977c55105c"
+hash = "6e5afc5d6c26cb19940e67b1c08f72a9644c4c181d4911e9108c1ec47ada9c83"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "5df4a212f7297545920f3e69aa8a9b2e9df8dfad2e35c5a5fb1485c5a2b0ba84"
 metafile = true
 
 [[files]]
@@ -153,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "55ea790fa14c772cb16dd14230ad48a835a2fc90b8c6200eeef780c6030f73d9"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "fc571334ec55dd1b218bc62b43bcb4d5b281ed3194c09fcb43cbbd055c8e6bcc"
 metafile = true
 
 [[files]]
@@ -173,6 +203,11 @@ metafile = true
 [[files]]
 file = "mods/viafabric.pw.toml"
 hash = "afa1a0064a1ae538fcca36c31e8adf873c1ae4ed9c81d31f0723f42ad9776bf4"
+metafile = true
+
+[[files]]
+file = "mods/viaversion.pw.toml"
+hash = "72c0f3b4ee4d153e2418e74d504712907ef9c8c204dbb735303ca2c565837263"
 metafile = true
 
 [[files]]

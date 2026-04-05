@@ -1,0 +1,12 @@
+name = "Axiom"
+filename = "Axiom-5.3.1-for-MC26.1.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N6n5dqoA/versions/nacVEJ0x/Axiom-5.3.1-for-MC26.1.jar"
+hash-format = "sha512"
+hash = "d97aa4fa222c1a3ca14436a427a3a02ded6c252f47f24848be1be4083415822c5ca8171db9cec64d3d6f00fbc9af9ce17428d399a2c2683a21293d087cd9f9a4"
+
+[update.modrinth]
+mod-id = "N6n5dqoA"
+version = "nacVEJ0x"

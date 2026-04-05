@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "2ba2b3f0544a23325ca97d751b25b6a660efe3970b76728ddc6c7113eb7855f0"
+hash = "1316e02584fe2181a2d7fa4c2ebbf8568888ed6b6f50e8d33d55b2e357a49a14"
 metafile = true
 
 [[files]]
@@ -387,7 +387,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "ac24720635279228337e909a39f88bedbdd492275afe5a9e0dd73d6b380bd962"
+hash = "1fa23bba64763a40850a1ccd78a37a8f2a0d2e2e840134ff9d89fd55855339bf"
 metafile = true
 
 [[files]]
@@ -397,7 +397,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "c4056a7c8419bdad5a0b0f7e2287e35359d6ec54b7ce7801a1bc68f7010c0849"
+hash = "72c0f3b4ee4d153e2418e74d504712907ef9c8c204dbb735303ca2c565837263"
 metafile = true
 
 [[files]]

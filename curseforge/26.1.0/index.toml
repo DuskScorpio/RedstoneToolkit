@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "0955daf1b0dd2c5d6c5d7e54b339377695b02c4ec50d4bfad622a0472a305614"
+hash = "b464ea3e139f525d9886734da7a7830b2a7fb76ad9021883f0004c8ead799af4"
 metafile = true
 
 [[files]]
@@ -197,12 +197,12 @@ metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter.pw.toml"
-hash = "50eeeb02376c37693ca4fb2fd75b32a4de91629ab5aa9bbac4b4b9977c55105c"
+hash = "6e5afc5d6c26cb19940e67b1c08f72a9644c4c181d4911e9108c1ec47ada9c83"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "81ed6c84871886fd892da0753629a4b2e8c9fe4ec3e040a6c65dc67142fc9035"
+hash = "906c6b7f6182a0347cbfb72cee7890b4f2605a5dd47e8cebd7c7c22bfd9b0c61"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "4385f24c76be9e7fb75042d25345764e94797ff962787034583a800f742b64a6"
+hash = "1e1dd5b0e7d9674fe5e93fd4c6554d4e13f56b784b98c4d84c6066910ee41f87"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "ac24720635279228337e909a39f88bedbdd492275afe5a9e0dd73d6b380bd962"
+hash = "1fa23bba64763a40850a1ccd78a37a8f2a0d2e2e840134ff9d89fd55855339bf"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "c4056a7c8419bdad5a0b0f7e2287e35359d6ec54b7ce7801a1bc68f7010c0849"
+hash = "72c0f3b4ee4d153e2418e74d504712907ef9c8c204dbb735303ca2c565837263"
 metafile = true
 
 [[files]]
