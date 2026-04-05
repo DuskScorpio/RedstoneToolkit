@@ -1,8 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "eebf31552cc38d5550722adc62d2e6d68c7f58d468ecb7a46230429060357a65"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
 hash = "1519fe4e5d4ed4f060f76b7af8b5b9525d0cc0c584be7741d11de4bda043b37b"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
 metafile = true
 
 [[files]]
@@ -17,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "9f67b23e87e9d70905bb0deecbadedab8e7748b3fd16b3e90d4f1fafa86e4b4b"
+hash = "5744b56a958d454adbf2d859355d56a376ad1f70161f75bad53a53c0b513567c"
 metafile = true
 
 [[files]]
@@ -26,8 +36,18 @@ hash = "b140b43c302b60abcd893d3b0bf4a04796f9522af1407916b3e5bd1f10c84e97"
 metafile = true
 
 [[files]]
+file = "mods/chunk-debug.pw.toml"
+hash = "ec70614b5e8db33c7d42327f3fd2854173124f6088fd8e6515fea590e57adeab"
+metafile = true
+
+[[files]]
 file = "mods/client-commands.pw.toml"
 hash = "5bdda1b531714c085c4a89c04bb11dd9838b87ccf4ca4887661c3183f654e572"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
 
 [[files]]
@@ -73,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "055fdbf11f275477ac18fe88c53623fa2c104180808d10738a960ba4bf3bcffb"
+metafile = true
+
+[[files]]
+file = "mods/invview.pw.toml"
+hash = "d6f0a41ab7df509408222549ba4d7a881c2399184705cd19299b83c8c1971bdc"
 metafile = true
 
 [[files]]
@@ -146,6 +171,11 @@ hash = "650b5f2c3e0d44cbd688266840d291933f9084ae766db9658b14d1ebde587333"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "2df6e71ac01b886ff496669c5cd6d8c89ca358c655ca4983487d09e6b7d2728c"
+metafile = true
+
+[[files]]
 file = "mods/packed-packs.pw.toml"
 hash = "c971dfaa35b16ae297bd7fe9a6b46f49ede37fd81c36bbff6a5b24e7ab30ddb9"
 metafile = true
@@ -191,6 +221,11 @@ hash = "722007a08065b27337e39edbbdb6a34067bbbe523f36a968d9861b9714144368"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "fbe51395401ce68d9933a65fbcb4ed8cda82ac88d4afd79a5740116114d15949"
+metafile = true
+
+[[files]]
 file = "mods/syncmatica.pw.toml"
 hash = "4068012f236c56e62f4de24e17c922048d2a5d44444c6d848d20990af44511ec"
 metafile = true
@@ -198,6 +233,11 @@ metafile = true
 [[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "67bf5079fa18992b5330342df434e6ad15132369adc8b5c18466e314ec5749da"
+metafile = true
+
+[[files]]
+file = "mods/viabackwards.pw.toml"
+hash = "1fa23bba64763a40850a1ccd78a37a8f2a0d2e2e840134ff9d89fd55855339bf"
 metafile = true
 
 [[files]]
@@ -216,6 +256,11 @@ hash = "7efec0d305bda8ab16cba235570ac63c8894110c1230ffdcabbfd7c9a9943590"
 metafile = true
 
 [[files]]
+file = "mods/wikirenderer.pw.toml"
+hash = "9038c9425bd5c5327c37c3ef5b88d869f12e52db17da15bed1ceee0b90afa63f"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "47909ee03f4addc160fcaf5dde8a1eb90cadbef00c94758695aea6fbad0162d7"
 metafile = true
@@ -223,4 +268,9 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "19389a779968e04cf72006aca47d96ed7820af9bba3e97856ce44a4c47b1f0ba"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "98a89237c10b7608fcc9b6978a4aeacc1b16e104a6a2e41f390050b6515595c6"
 metafile = true

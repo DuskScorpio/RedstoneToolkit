@@ -3,10 +3,10 @@ filename = "ViaFabric-0.4.21+154-26.x.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/YlKdE5VK/versions/b2XxEJxb/ViaFabric-0.4.21%2B154-26.x.jar"
-hash-format = "sha512"
-hash = "9fcaa425c487d72313746953a5473c774a2c77cbeabdac1f2a503435588dba01be6553ad962c81264a40226df2e4a69139d0c602a6b68cbd0ba11651c7640be0"
+hash-format = "sha1"
+hash = "c20bc4d0e28b2087ec883d6e53fcc7118b45da19"
+mode = "metadata:curseforge"
 
-[update.modrinth]
-mod-id = "YlKdE5VK"
-version = "b2XxEJxb"
+[update.curseforge]
+file-id = 7863453
+project-id = 391298
