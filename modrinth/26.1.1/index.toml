@@ -56,6 +56,11 @@ hash = "a75643525bcd803320fdbba64cb12392f5adf6d186f58856503d756ad4925d09"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "0f358faac28f1c0096507651ec74fa9a6aa4b45b490f83f858ebc2f2233d869d"
+metafile = true
+
+[[files]]
 file = "mods/essentialaddons.pw.toml"
 hash = "9dabb6e2a9a6b690da748f1582f0c0d392da61c3a6ad13d1997b92fc3e5c1ef5"
 metafile = true
@@ -258,6 +263,11 @@ metafile = true
 [[files]]
 file = "mods/wikirenderer.pw.toml"
 hash = "9038c9425bd5c5327c37c3ef5b88d869f12e52db17da15bed1ceee0b90afa63f"
+metafile = true
+
+[[files]]
+file = "mods/worldthreader.pw.toml"
+hash = "687f85cec89dd7d71911f6232be0bd72fecda5563a1247466d6d42740b624a9e"
 metafile = true
 
 [[files]]

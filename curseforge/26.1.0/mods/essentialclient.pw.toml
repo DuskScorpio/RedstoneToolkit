@@ -1,13 +1,13 @@
 name = "EssentialClient"
-filename = "EssentialClient-2.5.3+26.1.1.jar"
+filename = "EssentialClient-2.5.2+26.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/sH0dfrKf/versions/bxNhUvMq/EssentialClient-2.5.3%2B26.1.1.jar"
+url = "https://cdn.modrinth.com/data/sH0dfrKf/versions/zB4jltXx/EssentialClient-2.5.2%2B26.1.jar"
 hash-format = "sha512"
-hash = "88adc955c59ef011d7dfc446fb8b1918cb35596eb6da9f52042f926124f0676c85ae89f53646687c8c7fd1c0d9467ba10b588bfde5ad9d342a305790c686fd1a"
+hash = "a32fd05f7c3040dba2c9ba048aa97f9cc55d779558efc2ea5ece7b99622e6ee9e4241f679a3a24f9ad861a031b2d78e77e24673526379f8073c1717a3ac4fff6"
 
 [update]
 [update.modrinth]
 mod-id = "sH0dfrKf"
-version = "bxNhUvMq"
+version = "zB4jltXx"

@@ -41,8 +41,13 @@ hash = "5e7cda7d7ecdf0d34287cde323f9013ff635b8105b21bdf9f89daf4de33112f0"
 metafile = true
 
 [[files]]
+file = "mods/carpet-extra.pw.toml"
+hash = "5b6a4f4c4977d04b9a58e4e3379d99ce4a430539f6ef1719396ef3e98b88b696"
+metafile = true
+
+[[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "df1d32f3aef8f832a1c8e4cea17657a857cbe6738e0207cfd50148471386f71e"
+hash = "16b76c6d92ca7cd7a41aa7f474157a7742d1503a8a847c137a4966e05bafdbb3"
 metafile = true
 
 [[files]]
@@ -177,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "52585d7f6dca1eb53032cc0c86a23eee96322d8cc30a801f7b8c9cd88e3d13f9"
+hash = "bb53e708886bccb93521984cf56777bf1e52fe02cce3f77804bab98608e9d0b3"
 metafile = true
 
 [[files]]
@@ -347,17 +352,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "1fa23bba64763a40850a1ccd78a37a8f2a0d2e2e840134ff9d89fd55855339bf"
+hash = "20e4360d2c9067b71612fa43b0588ff233d1530f492a328723889eedb1d9e565"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "e3178a55b1d7335f9466a0628e5d6ae2d58778a95ec194b32c96e3479a9159a0"
+hash = "777b00398aa1a55e2b9748ade925b6250664363612044b0c9239f6375cfcc461"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "72c0f3b4ee4d153e2418e74d504712907ef9c8c204dbb735303ca2c565837263"
+hash = "a0763584b86ea101ad2654502568d6605e355f17991200390deee7751728541c"
 metafile = true
 
 [[files]]

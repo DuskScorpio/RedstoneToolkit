@@ -1,12 +1,12 @@
 name = "ViaFabric"
-filename = "ViaFabric-0.4.21+154-26.x.jar.disabled"
+filename = "ViaFabric-0.4.21+155-26.x.jar.disabled"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c20bc4d0e28b2087ec883d6e53fcc7118b45da19"
+hash = "ef7a8a787340382b639c28ecde97dee422546144"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 7863453
+file-id = 7879298
 project-id = 391298

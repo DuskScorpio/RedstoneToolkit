@@ -1,0 +1,12 @@
+name = "Worldthreader"
+filename = "Worldthreader-2.8.0.jar.disabled"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/LwH5rYyd/versions/S7tutN8H/Worldthreader-2.8.0.jar"
+hash-format = "sha512"
+hash = "3411f2401fc06f6cbf95c5f8e9984c8feb886b31e663da72e7245274acee3e085a2671d3674df764ffefe84765f3c30ba7f9fbb9e6042c391f97c6d258fb247d"
+
+[update.modrinth]
+mod-id = "LwH5rYyd"
+version = "S7tutN8H"
