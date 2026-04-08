@@ -98,7 +98,8 @@ jobs:
     needs:
       - find_matrix
       - create_release
-    if: ${{ fromJSON(needs.find_matrix.outputs.json_str).curseforge.publish }}
+#    if: ${{ fromJSON(needs.find_matrix.outputs.json_str).curseforge.publish }}
+    if: false
     # POWERSHELL CANNOT WRITE VARIABLES
     defaults:
       run:
