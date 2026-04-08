@@ -241,6 +241,11 @@ hash = "4068012f236c56e62f4de24e17c922048d2a5d44444c6d848d20990af44511ec"
 metafile = true
 
 [[files]]
+file = "mods/techutils.pw.toml"
+hash = "620d1017cb489979bdcfc6681c6fddf8fcf8541f39857ac171f7b466d50744e0"
+metafile = true
+
+[[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "67bf5079fa18992b5330342df434e6ad15132369adc8b5c18466e314ec5749da"
 metafile = true
