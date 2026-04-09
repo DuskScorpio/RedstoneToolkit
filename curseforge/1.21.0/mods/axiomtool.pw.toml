@@ -1,0 +1,12 @@
+name = "AxiomTool"
+filename = "Axiom-5.1.1-for-MC1.21.1.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3b6fbba88ae1fb84ab4bb08a45026d0919e341a8"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7081792
+project-id = 911202

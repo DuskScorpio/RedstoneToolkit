@@ -1,0 +1,13 @@
+name = "Better Suggestions"
+filename = "better-suggestions-1.21-1.2.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af79cf83ad5dac76fa03118c75ebc452cd9b4220"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5462423
+project-id = 852036

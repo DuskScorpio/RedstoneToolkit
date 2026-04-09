@@ -1,0 +1,13 @@
+name = "malibind"
+filename = "malibind-mc1.21.0or1-2.0.1-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e19db17d290979c56e754729d9333b8e1005dcd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7101884
+project-id = 1363331

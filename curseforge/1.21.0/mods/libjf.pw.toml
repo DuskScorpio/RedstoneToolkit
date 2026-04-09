@@ -1,0 +1,12 @@
+name = "LibJF"
+filename = "libjf-3.17.0.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1056734af03e7c2431bd1acf9ebbbc39a83e8c78"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 5589698
+project-id = 482600

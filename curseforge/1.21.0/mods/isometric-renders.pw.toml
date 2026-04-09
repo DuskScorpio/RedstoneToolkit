@@ -1,0 +1,13 @@
+name = "Isometric Renders"
+filename = "isometric-renders-0.4.7+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2870531bdf5eb39e5b2afc7c93647c9d6780209e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5432902
+project-id = 483805

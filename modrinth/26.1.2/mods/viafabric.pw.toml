@@ -1,0 +1,12 @@
+name = "ViaFabric"
+filename = "ViaFabric-0.4.21+157-26.x.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YlKdE5VK/versions/oLC0AkAn/ViaFabric-0.4.21%2B157-26.x.jar"
+hash-format = "sha512"
+hash = "008a9bab81302b95d45e8a3d2afc4389bb618fdd717f5cc60fd9e6b9b47e335e12a815bac8f9fa638b8bd892b3496968a16ad54d0cd29f362131842d3f6324e5"
+
+[update.modrinth]
+mod-id = "YlKdE5VK"
+version = "oLC0AkAn"

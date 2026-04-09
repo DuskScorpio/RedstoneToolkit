@@ -1,0 +1,13 @@
+name = "Item Scroller"
+filename = "itemscroller-fabric-1.21-0.24.60.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JygyCSA4/versions/BmE8Lr1a/itemscroller-fabric-1.21-0.24.60.jar"
+hash-format = "sha512"
+hash = "3accb47401932c7ee7b6660d3256a1cefbf05f7bad25b88a73a32c6481c573a3d3df4528b7f66c4eb254893c555e0d2b4f450109fa2045574e84b109978316d5"
+
+[update]
+[update.modrinth]
+mod-id = "JygyCSA4"
+version = "BmE8Lr1a"

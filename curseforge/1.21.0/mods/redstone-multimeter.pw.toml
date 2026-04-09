@@ -1,0 +1,12 @@
+name = "Redstone Multimeter Fabric"
+filename = "redstone-multimeter-fabric-mc1.21-1.16.0.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/X6YTb3G1/versions/hQ2fPuzY/redstone-multimeter-fabric-mc1.21-1.16.0.jar"
+hash-format = "sha512"
+hash = "42678a06d21aaae2179e577142aa6cef062c25f1064b462e1c76d9a395d3cbd1676ea97c0a600fa9920d68408ef65c8d499000cf5eb5d69e8c36d86eec2d77c9"
+
+[update.modrinth]
+mod-id = "X6YTb3G1"
+version = "hQ2fPuzY"

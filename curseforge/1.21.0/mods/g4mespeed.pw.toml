@@ -1,0 +1,13 @@
+name = "G4mespeed"
+filename = "g4mespeed-1.4.8-mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fdad173819ccffa24bb6840a4d498a8146d3e3cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5683450
+project-id = 544459

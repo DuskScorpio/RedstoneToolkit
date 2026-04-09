@@ -1,0 +1,12 @@
+name = "Doormat"
+filename = "doormat-1.3.1+1.21.1.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RdXRLZrn/versions/SuQucJ78/doormat-1.3.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "414cb38aa78efcc956d31e23923c5f63e3e699d19a69aa912ff418598cac0bb8b9b4d94f39c18458b54abe90d8c3e6a25383f1c3954965946d6bb61db94cfb46"
+
+[update.modrinth]
+mod-id = "RdXRLZrn"
+version = "SuQucJ78"

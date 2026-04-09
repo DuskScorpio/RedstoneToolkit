@@ -1,0 +1,12 @@
+name = "Capture & Playback"
+filename = "g4mespeed-capture-playback-0.5.4-beta-mc1.21.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ebec9fX9/versions/B6WIOW04/g4mespeed-capture-playback-0.5.4-beta-mc1.21.jar"
+hash-format = "sha512"
+hash = "05df6d86a649fd73c9392e301786d8318cdcdd62e8e2bc8ae3bde2834cb65d4e085b54fcb64c1d96fe864eb56e7a93e67708922e5ec0820bfc6aa3c8f2fb7745"
+
+[update.modrinth]
+mod-id = "Ebec9fX9"
+version = "B6WIOW04"

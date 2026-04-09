@@ -1,0 +1,13 @@
+name = "Isometric Renders"
+filename = "isometric-renders-0.4.7+1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/M0aimenU/versions/KimpqFwb/isometric-renders-0.4.7%2B1.21.jar"
+hash-format = "sha512"
+hash = "86d5053f139181bc5e1d02d06e410f209069b4d6333c2c38b0b835055b20874f621670f43133b4a294f5b88a3bd44195d2984d50c65486894deeefe23c4e1c93"
+
+[update]
+[update.modrinth]
+mod-id = "M0aimenU"
+version = "KimpqFwb"

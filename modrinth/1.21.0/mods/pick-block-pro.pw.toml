@@ -1,0 +1,13 @@
+name = "Pick Block Pro"
+filename = "Pick-Block-Pro-1.10.32-mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6kI7U1sT/versions/mjynPANt/Pick-Block-Pro-1.10.32-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "e7109230268f1b7b92e4672b442d4dc6a72b29a6a0e5143736c5c778d23ca3e236120eeb85325098bcba3fae1f13ec3158680b74939f99e8b9216484d26c7de8"
+
+[update]
+[update.modrinth]
+mod-id = "6kI7U1sT"
+version = "mjynPANt"
