@@ -185,6 +185,7 @@ These mods are disabled by default and can be enabled if desired
 - [kennytv's epic force close loading screen](https://modrinth.com/mod/forcecloseworldloadingscreen) - Disables world loading/reconfiguration screens and removes forced fades for faster resource pack loading
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) - Makes chat unreportable (where possible)
 - [Respackopts](https://modrinth.com/mod/respackopts) - Adds config menus for resource packs; recommended for Redstone Tweaks users
+- [SchematicPreview](https://modrinth.com/mod/schematicpreview) – Adds 3D previews and a material "replace" button to Litematica
 - [Sound Controller](https://modrinth.com/mod/sound-controller) - Provides complete control over the volume of every sound in the game
 - [ViaBackwards](https://modrinth.com/mod/viabackwards) - Allows players to connect to newer server versions with an older Minecraft client
 - [ViaFabric](https://modrinth.com/mod/viafabric) - Allows players to connect to older server versions with a newer Minecraft client

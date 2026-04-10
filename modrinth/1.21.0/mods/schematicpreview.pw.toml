@@ -1,0 +1,12 @@
+name = "SchematicPreview"
+filename = "schematicpreview-0.0.14-1.21.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OC1Ud2T4/versions/xHBTK6gT/schematicpreview-0.0.14-1.21.jar"
+hash-format = "sha512"
+hash = "ecad7791567e65c235ab2c08fb27980f4ec3923beb61b532ce861945b3d76b5e652a9ef633274758d592217c3085d1554890c052d0ecaac2103c504cd99078af"
+
+[update.modrinth]
+mod-id = "OC1Ud2T4"
+version = "xHBTK6gT"

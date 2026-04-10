@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "a94a6c07a60ac4a15339261c95f541014de9cb79742ad0839738691faf571d8d"
+hash = "4f0b968b06bd349210ffefa44a236a73383206cdcd97b8942f02abdcab260a19"
 metafile = true
 
 [[files]]
@@ -273,6 +273,11 @@ metafile = true
 [[files]]
 file = "mods/wikirenderer.pw.toml"
 hash = "9038c9425bd5c5327c37c3ef5b88d869f12e52db17da15bed1ceee0b90afa63f"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "33fbcfc9b797563eaaf7ff73690e318e44c75a57496bba8d025e7bd027c9b2c0"
 metafile = true
 
 [[files]]

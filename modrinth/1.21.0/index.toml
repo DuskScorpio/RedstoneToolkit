@@ -346,6 +346,11 @@ hash = "c8eff042bcbd03157d35d69742dd6f441c1617e66ccbd44ab718c86cca651b34"
 metafile = true
 
 [[files]]
+file = "mods/schematicpreview.pw.toml"
+hash = "63c6f52d09e99a554a0f32ae8e187f4d8b8223df51ccec0f797cfe509d313456"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "1af09f16a643df0f61f2c799e981aa0b8c109999f0784584a6eff9a81f1c00c1"
 metafile = true
@@ -397,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "709f6ca927f6d8a7fb40f8306d985e6a538b58791ab6d94531c15fe30f55a05d"
+hash = "54ca51419121142dd3f7c91ef6e891b5e2cd5bc6821bdee714731e52bf8c9dcd"
 metafile = true
 
 [[files]]
@@ -407,7 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "f30135680288012cbdecb970eb06b1410c9ed188f949b4fa4d95bbd066173c96"
+hash = "63483d2c91d505231013a3e825d534373743a1b5ee74d264c13491deed58c3f1"
 metafile = true
 
 [[files]]

@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "e6eb29ee53b825ecf4623b75a7e2dd1ba353710eee9af970852e273a98e901f7"
+hash = "d5fbcbf3077d36f56b783d90ad1b51a9e2773052203ebab3aa564fc7ee4f152d"
 metafile = true
 
 [[files]]
@@ -301,6 +301,11 @@ hash = "2e29b7d5886393ea6dd3630c3c8b5f30dd3c171518f16cd9a190bc3c20343764"
 metafile = true
 
 [[files]]
+file = "mods/schematicpreview.pw.toml"
+hash = "94f487430a5294cb0786f62de781b28217c27cda947f327c953f7270d3501c65"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "6ac5b60f56dd437ab137fb33c7d4caa5b2f4cd29c58191db0e24178ddf52cc05"
 metafile = true
@@ -352,7 +357,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "20e4360d2c9067b71612fa43b0588ff233d1530f492a328723889eedb1d9e565"
+hash = "54ca51419121142dd3f7c91ef6e891b5e2cd5bc6821bdee714731e52bf8c9dcd"
 metafile = true
 
 [[files]]
@@ -362,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "a0763584b86ea101ad2654502568d6605e355f17991200390deee7751728541c"
+hash = "63483d2c91d505231013a3e825d534373743a1b5ee74d264c13491deed58c3f1"
 metafile = true
 
 [[files]]
@@ -377,7 +382,7 @@ metafile = true
 
 [[files]]
 file = "mods/wikirenderer.pw.toml"
-hash = "8222fdc193fb9f6a9e6bf836c38e57961b5a4c6dbb2794251002cc67c39db37d"
+hash = "10f0866e2d0b13b133486b242461deb50cf7ea7fc1e80ce203940be9baafa008"
 metafile = true
 
 [[files]]

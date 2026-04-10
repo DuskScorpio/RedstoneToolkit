@@ -1,13 +1,13 @@
 name = "clientcommands"
-filename = "clientcommands-2.14.1.jar"
+filename = "clientcommands-2.14.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/7Coz83fv/versions/37x5Akvn/clientcommands-2.14.1.jar"
+url = "https://cdn.modrinth.com/data/7Coz83fv/versions/Rx4ZL4uN/clientcommands-2.14.2.jar"
 hash-format = "sha512"
-hash = "feb372a2b8b45696a5e2c7652bf2691a23d9aa3db27a40bf747a0bb2659694516856c0ecebe542bc33ea6c90197098b67848ef84306bfa5a2e7ef6501eceb414"
+hash = "2e422b18a77f2c156d8de8dc058ca9396038f2d61cc945a2eb3b97e0a9781602e8791162513847851f88ae9ecd8d4b04dbed88d4f850ddc295d06967878d9947"
 
 [update]
 [update.modrinth]
 mod-id = "7Coz83fv"
-version = "37x5Akvn"
+version = "Rx4ZL4uN"
