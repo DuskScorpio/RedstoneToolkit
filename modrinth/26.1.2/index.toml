@@ -41,11 +41,6 @@ hash = "ec70614b5e8db33c7d42327f3fd2854173124f6088fd8e6515fea590e57adeab"
 metafile = true
 
 [[files]]
-file = "mods/client-commands.pw.toml"
-hash = "5bdda1b531714c085c4a89c04bb11dd9838b87ccf4ca4887661c3183f654e572"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
@@ -63,16 +58,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4f0b968b06bd349210ffefa44a236a73383206cdcd97b8942f02abdcab260a19"
-metafile = true
-
-[[files]]
-file = "mods/essentialaddons.pw.toml"
-hash = "3cb99d987c4a07d129106e4f9cca72955b033ac4b1849da83e20af17842a2ac5"
-metafile = true
-
-[[files]]
-file = "mods/essentialclient.pw.toml"
-hash = "e8254a2390aba10d30f4c697d2b20aaaa87460d6d5a38bcbf6a977954a5ee861"
 metafile = true
 
 [[files]]
@@ -98,11 +83,6 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "de954e56216772900768426c541731ec91d0c7bd1c5037ad2f6cc5552f87c635"
-metafile = true
-
-[[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "055fdbf11f275477ac18fe88c53623fa2c104180808d10738a960ba4bf3bcffb"
 metafile = true
 
 [[files]]
@@ -133,11 +113,6 @@ metafile = true
 [[files]]
 file = "mods/litematica.pw.toml"
 hash = "6161be1f87d66a56d043f30b0f9f8b93dce01e12d7ee5493842e17e8285878d8"
-metafile = true
-
-[[files]]
-file = "mods/lithium.pw.toml"
-hash = "3b7f33d3d619dd8de71f3cf76971f7217b182e9c36da3fc86248524af5aae563"
 metafile = true
 
 [[files]]
@@ -191,11 +166,6 @@ hash = "c971dfaa35b16ae297bd7fe9a6b46f49ede37fd81c36bbff6a5b24e7ab30ddb9"
 metafile = true
 
 [[files]]
-file = "mods/packet-fixer.pw.toml"
-hash = "62f634fbbb4a92fadff9f0d0a0a651bd3a7cef85960ee2b0de3298d27700b90b"
-metafile = true
-
-[[files]]
 file = "mods/rail-placement-fix.pw.toml"
 hash = "da1e9a3047c4bcca3d593f90dac92acbd7df500a3f32dc68bb3ccdba9461f5a9"
 metafile = true
@@ -233,11 +203,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "fbe51395401ce68d9933a65fbcb4ed8cda82ac88d4afd79a5740116114d15949"
-metafile = true
-
-[[files]]
-file = "mods/subtick.pw.toml"
-hash = "805cddd42eff2e92b296962efe06972cac1414dcea38227188f1f5c65d480b44"
 metafile = true
 
 [[files]]
@@ -288,11 +253,6 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "33fbcfc9b797563eaaf7ff73690e318e44c75a57496bba8d025e7bd027c9b2c0"
-metafile = true
-
-[[files]]
-file = "mods/worldthreader.pw.toml"
-hash = "687f85cec89dd7d71911f6232be0bd72fecda5563a1247466d6d42740b624a9e"
 metafile = true
 
 [[files]]
