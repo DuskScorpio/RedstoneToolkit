@@ -1,0 +1,8 @@
+name = "SubTick"
+filename = "subtick-mc1.21.1-v2.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc1.21.1-v2.3.jar"
+hash-format = "sha256"
+hash = "1803d04ae046905b09ad4e309d9299815c989ef7a8328fb1bb4339b668483e8b"

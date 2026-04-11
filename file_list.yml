@@ -10,6 +10,13 @@ enabled_files:
     cf_slug: carpet-tis-addition
   - mr_slug: joacarpet
   - mr_slug: subtick
+    name: SubTick
+    urls:
+      1.20.6: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc1.20.6-v2.3.jar"
+      1.21.0: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc1.21.1-v2.3.jar"
+      1.21.11: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc1.21.11-v2.3.jar"
+      26.1.0: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc26.1.1-v2.3.jar"
+      26.1.2: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc26.1.1-v2.3.jar"
   - mr_slug: yaca
     version: "<=1.21.10"
 

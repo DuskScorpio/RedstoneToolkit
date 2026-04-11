@@ -4,6 +4,8 @@
   - SchematicPreview
 - Added 1.21, 26.1.2, 26.2-snapshot-2
 - Added more newly compatible mods to:
+  - 1.20.6-26.1.2:
+    - SubTick
   - 26.1:
     - Technical Utilities
     - WorldEdit

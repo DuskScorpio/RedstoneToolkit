@@ -361,6 +361,11 @@ hash = "007f250d76b0275eb01fb6abcad6f2a425f94f290e72bea3f16770ffdb924184"
 metafile = true
 
 [[files]]
+file = "mods/subtick.pw.toml"
+hash = "aaec92ac1e53e04d20b941dc28fd78c6f5dca2555eb0628a174cf7e38db2de8a"
+metafile = true
+
+[[files]]
 file = "mods/suggestion-tweaker.pw.toml"
 hash = "1c2b6fbad56bb9480aa67366ef12d666e69dd043c1e8001c2b68f34f227e8cc4"
 metafile = true

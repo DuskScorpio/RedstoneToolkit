@@ -31,6 +31,11 @@ hash = "5744b56a958d454adbf2d859355d56a376ad1f70161f75bad53a53c0b513567c"
 metafile = true
 
 [[files]]
+file = "mods/carpet.pw.toml"
+hash = "b140b43c302b60abcd893d3b0bf4a04796f9522af1407916b3e5bd1f10c84e97"
+metafile = true
+
+[[files]]
 file = "mods/chunk-debug.pw.toml"
 hash = "ec70614b5e8db33c7d42327f3fd2854173124f6088fd8e6515fea590e57adeab"
 metafile = true
@@ -228,6 +233,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "fbe51395401ce68d9933a65fbcb4ed8cda82ac88d4afd79a5740116114d15949"
+metafile = true
+
+[[files]]
+file = "mods/subtick.pw.toml"
+hash = "805cddd42eff2e92b296962efe06972cac1414dcea38227188f1f5c65d480b44"
 metafile = true
 
 [[files]]
