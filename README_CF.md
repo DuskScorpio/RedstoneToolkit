@@ -20,6 +20,7 @@ This is a list of all the mods in this pack:
 
 These mods are enabled by default and recommended to the user
 
+
 #### Carpet
 
 - [Carpet Mod](https://modrinth.com/mod/carpet) - The most important mod for technical Minecraft; it comes with tons of useful features and commands
@@ -28,11 +29,17 @@ These mods are enabled by default and recommended to the user
 - [SubTick](https://modrinth.com/mod/subtick) - Allows freezing and stepping through block ticks, fluid ticks, block events, entities, and block entities individually, with HUD visualization and configurable defaults
 - [Yet Another Carpet Addition](https://modrinth.com/mod/yaca) - Adds a lot of useful features, including visualization for scheduled ticks, hopper cooldowns, random ticks, block updates, etc. Provides GUI interfaces for Carpet rule management and hopper counter tracking
 
+
+
+
 #### Fixes
 
 - [Model Gap Fix](https://modrinth.com/mod/modelfix) - Fixes gaps in block models and item models
 - [PacketFixer](https://modrinth.com/mod/packet-fixer) - Fixes various problems with packets, nbt, and timeouts
 - [ToolTip Fix](https://modrinth.com/mod/tooltipfix) - Stops tooltips that are too large to fit on the screen from running off the screen
+
+
+
 
 #### Libraries
 
@@ -44,6 +51,9 @@ These mods are enabled by default and recommended to the user
 - [MaLiLib](https://modrinth.com/mod/malilib) - Library required by Masa's mods
 - [o蠅o](https://modrinth.com/mod/owo-lib) - Library required by Isometric Renders and WikiRenderer
 - [YetAnotherConfigLib](https://modrinth.com/mod/yacl) - Configuration library required by multiple mods
+
+
+
 
 #### Performance
 
@@ -65,10 +75,14 @@ These mods are enabled by default and recommended to the user
 - [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium
 
+
+
+
 #### Quality of Life
 
 - [Auth Me](https://modrinth.com/mod/auth-me) - Makes it possible to authenticate yourself and re-validate your session without having to close the game
 - [Better Suggestions](https://modrinth.com/mod/better-suggestions) - Makes command suggestions more useful
+- [CarpetGUI](https://modrinth.com/mod/carpetgui) 鈥?A GUI for managing Carpet rules with favorites, rule groups, and a version-control-like history stack
 - [Client Commands](https://modrinth.com/mod/client-commands) - Adds lots of useful client-side commands
 - [CommandKeys](https://modrinth.com/mod/commandkeys) - A powerful command macro mod
 - [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk) - Keeps chunks in memory longer after they are out of render distance
@@ -85,6 +99,9 @@ These mods are enabled by default and recommended to the user
 - [Suggestion Tweaker](https://modrinth.com/mod/suggestion-tweaker) - Improves the way suggestions are filtered and sorted when writing a command
 - [Vanilla Keybind Manager](https://modrinth.com/mod/vkm) - Manages conflicts between Vanilla and Malilib keybinds
 - [WikiRenderer](https://github.com/Pigicial/WikiRenderer) - Allows rendering entities, items, and blocks as high-resolution images for versions >=1.21.11
+
+
+
 
 #### Technical
 
@@ -103,14 +120,20 @@ These mods are enabled by default and recommended to the user
 - [TweakerMore](https://modrinth.com/mod/tweakermore) - Adds even more client-side tweaks to the game
 - [Tweakeroo](https://modrinth.com/mod/tweakeroo) - Adds a whole bunch of client-side "tweaks" to the game
 
+
+
 ### Disabled Mods
 
 These mods are disabled by default and can be enabled if desired
+
 
 #### Aesthetics
 
 - [Continuity](https://modrinth.com/mod/continuity) - Connected textures and emissive textures
 - [Iris](https://modrinth.com/mod/iris) - The best shaders mod
+
+
+
 
 #### Carpet
 
@@ -118,15 +141,24 @@ These mods are disabled by default and can be enabled if desired
 - [Doormat](https://modrinth.com/mod/doormat) - Provides Carpet rules for experimental redstone mechanics. Introduces a Tinker Kit system that allows per鈥慶omponent configuration of quasi鈥慶onnectivity, block update emissions, etc.
 - [Essential Addons](https://modrinth.com/mod/essentialaddons) - Integrates the functionality of the Spigot plugin Essentials alongside additional features. Adds mechanics such as stackable shulkers and nesting shulkers inside shulkers
 
+
+
+
 #### Fixes
 
 - [WeCuiFix](https://modrinth.com/mod/wecuifix) - Fixes WorldEdit compatibility with WorldEditCUI on versions 1.20.5-1.21.4
 - [WorldEdit Hang Fix](https://modrinth.com/mod/worldedit-hang-fix) - Prevents the client from freezing when performing large operations with WorldEdit
 
+
+
+
 #### Libraries
 
 - [Indium](https://modrinth.com/mod/indium) - Allowing Continuity to work with Sodium
 - [LibJF](https://modrinth.com/mod/libjf) - Library required by Respackopts
+
+
+
 
 #### Performance
 
@@ -136,6 +168,9 @@ These mods are disabled by default and can be enabled if desired
 - [Starlight](https://modrinth.com/mod/starlight) - Rewrites the lighting engine to significantly improve performance and fix lighting errors
 - [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
 - [Worldthreader](https://modrinth.com/mod/worldthreader) - Allows multi-threaded processing of multiple dimensions simultaneously to improve performance
+
+
+
 
 #### Quality of Life
 
@@ -157,6 +192,9 @@ These mods are disabled by default and can be enabled if desired
 - [ViaFabric](https://modrinth.com/mod/viafabric) - Allows players to connect to older server versions with a newer Minecraft client
 - [ViaVersion](https://modrinth.com/mod/viaversion) - A required dependency for ViaBackwards
 
+
+
+
 #### Technical
 
 - [Axiom](https://modrinth.com/mod/axiom) - An all-in-one tool for Minecraft editing
@@ -166,6 +204,8 @@ These mods are disabled by default and can be enabled if desired
 - [Unobtainable Blocks](https://modrinth.com/mod/unobtainable-blocks) - Adds items for unobtainable blocks like fires and portals
 - [WorldEdit](https://modrinth.com/mod/worldedit) - A tool to make building a lot faster
 - [WorldEditCUI](https://modrinth.com/mod/worldedit-cui) - Adds visual outlines for WorldEdit areas
+
+
 
 ### Notes
 
@@ -177,6 +217,10 @@ These mods are disabled by default and can be enabled if desired
 
 This is a list of all the resource packs in this pack:
 
+
 #### Resource Packs
 
 - [Redstone Tweaks](https://modrinth.com/resourcepack/redstone-tweaks) - Vanilla-style resource pack made to improve redstone experience
+
+
+

@@ -51,6 +51,11 @@ hash = "30f3c0c8e7de2eac271968618e2b2233c3319539001bc27d7d21e4f91a99b516"
 metafile = true
 
 [[files]]
+file = "mods/carpetgui.pw.toml"
+hash = "9e6b9f13a9279188ac1c1d4c82e8ddfcc49a2d5b0a961b6ae7d165892a4181cc"
+metafile = true
+
+[[files]]
 file = "mods/client-commands.pw.toml"
 hash = "30578f768a0a1c430b164b58b8410c3adeb3909d93f1929e1086d74a0e676671"
 metafile = true

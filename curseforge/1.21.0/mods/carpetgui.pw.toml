@@ -1,0 +1,13 @@
+name = "CarpetGUI"
+filename = "carpetgui-1.3.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ieIj9FLp/versions/MmkgaOGk/carpetgui-1.3.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "e4a9f8731cc236ec6bf6e55f4fca9564553022518af038b156c9dec383f881532025d81a5793bf75055c14070d1922241403ff34f8d812ec5b7e9f8a607d2381"
+
+[update]
+[update.modrinth]
+mod-id = "ieIj9FLp"
+version = "MmkgaOGk"

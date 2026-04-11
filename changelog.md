@@ -1,6 +1,7 @@
 ## News
 
 - Added mods:
+  - CarpetGUI
   - SchematicPreview
 - Added 1.21, 26.1.2, 26.2-snapshot-2
 - Added more newly compatible mods to:

@@ -82,6 +82,7 @@ These mods are enabled by default and recommended to the user
 
 - [Auth Me](https://modrinth.com/mod/auth-me) - Makes it possible to authenticate yourself and re-validate your session without having to close the game
 - [Better Suggestions](https://modrinth.com/mod/better-suggestions) - Makes command suggestions more useful
+- [CarpetGUI](https://modrinth.com/mod/carpetgui) – A GUI for managing Carpet rules with favorites, rule groups, and a version-control-like history stack
 - [Client Commands](https://modrinth.com/mod/client-commands) - Adds lots of useful client-side commands
 - [CommandKeys](https://modrinth.com/mod/commandkeys) - A powerful command macro mod
 - [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk) - Keeps chunks in memory longer after they are out of render distance
