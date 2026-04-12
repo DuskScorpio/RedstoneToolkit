@@ -47,7 +47,7 @@ jobs:
     needs:
       - find_matrix
       - create_release
-    if: ${{ fromJSON(needs.find_matrix.outputs.json_str).modrinth.publish }}
+    if: ${{ always() && fromJSON(needs.find_matrix.outputs.json_str).modrinth.publish }}
     # POWERSHELL CANNOT WRITE VARIABLES
     defaults:
       run:
@@ -98,7 +98,7 @@ jobs:
     needs:
       - find_matrix
       - create_release
-#    if: ${{ fromJSON(needs.find_matrix.outputs.json_str).curseforge.publish }}
+#    if: ${{ always() && fromJSON(needs.find_matrix.outputs.json_str).curseforge.publish }}
     if: false
     # POWERSHELL CANNOT WRITE VARIABLES
     defaults:
