@@ -91,7 +91,7 @@ jobs:
           version-type: ${{ steps.data.outputs.type }}
           game-versions: ${{ matrix.mc_ver }}
           changelog-file: changelog.md
-          fail-mode: skip
+          game-version-filter: none
 
   curseforge_publish:
     runs-on: windows-latest
@@ -143,4 +143,4 @@ jobs:
           version-type: ${{ steps.data.outputs.type }}
           game-versions: ${{ matrix.mc_ver }}
           changelog-file: changelog.md
-          fail-mode: skip
+          game-version-filter: none
