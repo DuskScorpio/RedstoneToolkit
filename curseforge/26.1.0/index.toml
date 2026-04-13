@@ -37,12 +37,12 @@ metafile = true
 
 [[files]]
 file = "mods/carpetgui.pw.toml"
-hash = "b5d6afc34d888d1e1c8a3fb8aa4d495502d308c664af856a7ea11e3e41def06f"
+hash = "ba065699d88e44fd8635e36e06f8c131151537a05733ddcbc4ad16ec328eff7f"
 metafile = true
 
 [[files]]
 file = "mods/chunk-debug.pw.toml"
-hash = "ec70614b5e8db33c7d42327f3fd2854173124f6088fd8e6515fea590e57adeab"
+hash = "5dfbf5f2dca1eeb130b5ad2692735f6c184f8088fff1781304048ee4eb8b454b"
 metafile = true
 
 [[files]]
@@ -63,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "d0299852f82d2e6df0c14b4740d71166ba289d1e1371f2a8e50826a21c0e936e"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "4bc21d02f87779b5911939befd4cdf6cd6d0e711f5f5a6c4d9f71781b86b7f53"
 metafile = true
 
 [[files]]
@@ -157,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "546aa476fbf0c568918cc8e4ffcc3407c2aaa86e63752faf2e3f84522d7fad4a"
+hash = "20ab4f4ce460bc26f1a06bd3d3396c383d816199c7c0314669b918858d0ff1a7"
 metafile = true
 
 [[files]]
@@ -192,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "df183781060d152e62088392e88fb4d5d59e31e19e9d59955c9cd3add0cbd4c8"
+hash = "444af5666e4c2d6b3c0d4c9cfa0edd31f8dbc21237ae1aff9155d134675f8ec3"
 metafile = true
 
 [[files]]
@@ -253,6 +258,11 @@ metafile = true
 [[files]]
 file = "mods/techutils.pw.toml"
 hash = "620d1017cb489979bdcfc6681c6fddf8fcf8541f39857ac171f7b466d50744e0"
+metafile = true
+
+[[files]]
+file = "mods/tweakermore.pw.toml"
+hash = "37f2a61d8e18ee1e9672f0702867ce55ac1aaaeff8429aa0acfc8bffa3cfd6bc"
 metafile = true
 
 [[files]]

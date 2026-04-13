@@ -37,12 +37,17 @@ metafile = true
 
 [[files]]
 file = "mods/carpetgui.pw.toml"
-hash = "b5d6afc34d888d1e1c8a3fb8aa4d495502d308c664af856a7ea11e3e41def06f"
+hash = "ba065699d88e44fd8635e36e06f8c131151537a05733ddcbc4ad16ec328eff7f"
 metafile = true
 
 [[files]]
 file = "mods/chunk-debug.pw.toml"
-hash = "ec70614b5e8db33c7d42327f3fd2854173124f6088fd8e6515fea590e57adeab"
+hash = "5dfbf5f2dca1eeb130b5ad2692735f6c184f8088fff1781304048ee4eb8b454b"
+metafile = true
+
+[[files]]
+file = "mods/client-commands.pw.toml"
+hash = "4b3ef5cff013eb8c207c333bbf2c61877d7f92d7789317c596bc85f99b6984d2"
 metafile = true
 
 [[files]]
@@ -57,12 +62,27 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "0f358faac28f1c0096507651ec74fa9a6aa4b45b490f83f858ebc2f2233d869d"
+hash = "24fe4e7f76893cbada6d9d3ead2753563a38764ced69885861893c49f2f046a5"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "b1a72fb2356e0ff584d2ba9eee19e034080de29c64ca81419f7b5a7ff3c41d6a"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4f0b968b06bd349210ffefa44a236a73383206cdcd97b8942f02abdcab260a19"
+metafile = true
+
+[[files]]
+file = "mods/essentialaddons.pw.toml"
+hash = "9dabb6e2a9a6b690da748f1582f0c0d392da61c3a6ad13d1997b92fc3e5c1ef5"
+metafile = true
+
+[[files]]
+file = "mods/essentialclient.pw.toml"
+hash = "4b7c9077112830da6819cf3280545374ee9c5a481f2f0224376571ca44a41244"
 metafile = true
 
 [[files]]
@@ -88,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "de954e56216772900768426c541731ec91d0c7bd1c5037ad2f6cc5552f87c635"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "d9f54bcf75d036c25ebe636abb7ffa7c2d21c3601fec13b0fa2cc8916120affa"
 metafile = true
 
 [[files]]
@@ -121,6 +146,11 @@ hash = "6161be1f87d66a56d043f30b0f9f8b93dce01e12d7ee5493842e17e8285878d8"
 metafile = true
 
 [[files]]
+file = "mods/lithium.pw.toml"
+hash = "18e0ba646659bc50a858729cfeff255a76c7702e5065ee56ce03e9553b430e67"
+metafile = true
+
+[[files]]
 file = "mods/malilib.pw.toml"
 hash = "8a236f101781e15cb13958bc04e41887190913c0faa2a9cffb828d98c8afcb9e"
 metafile = true
@@ -132,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "f1f012cf7cf3fc8cf69de0ba1e083b7dea79820f62f280f35a5d7af176111324"
+hash = "9aa59328069af659d3ae84fa65a4962c847dceb79abe7174aa1dc72025c5409e"
 metafile = true
 
 [[files]]
@@ -167,7 +197,12 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "c971dfaa35b16ae297bd7fe9a6b46f49ede37fd81c36bbff6a5b24e7ab30ddb9"
+hash = "b0931feb7e9950f6c8b605da138523554d8791229e703ff6bbcb8d5670a6e2d5"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "e1b3d20a2f4495def9905d1ceeb98b150addc389a99259abc52c5d68aa0a4c87"
 metafile = true
 
 [[files]]
@@ -197,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "fc571334ec55dd1b218bc62b43bcb4d5b281ed3194c09fcb43cbbd055c8e6bcc"
+hash = "546965f1ab52fc464c51e36c52305fef231837c22454d22447b8423e379502cd"
 metafile = true
 
 [[files]]
@@ -226,13 +261,18 @@ hash = "620d1017cb489979bdcfc6681c6fddf8fcf8541f39857ac171f7b466d50744e0"
 metafile = true
 
 [[files]]
+file = "mods/tweakermore.pw.toml"
+hash = "c6297b3a78e8ca1d71bb9b5a1cc67669a4f744a0260b8ed99aee7d07aca609b6"
+metafile = true
+
+[[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "67bf5079fa18992b5330342df434e6ad15132369adc8b5c18466e314ec5749da"
 metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "709f6ca927f6d8a7fb40f8306d985e6a538b58791ab6d94531c15fe30f55a05d"
+hash = "54ca51419121142dd3f7c91ef6e891b5e2cd5bc6821bdee714731e52bf8c9dcd"
 metafile = true
 
 [[files]]
@@ -242,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "f30135680288012cbdecb970eb06b1410c9ed188f949b4fa4d95bbd066173c96"
+hash = "63483d2c91d505231013a3e825d534373743a1b5ee74d264c13491deed58c3f1"
 metafile = true
 
 [[files]]
@@ -257,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/wikirenderer.pw.toml"
-hash = "9038c9425bd5c5327c37c3ef5b88d869f12e52db17da15bed1ceee0b90afa63f"
+hash = "5b1cd91c9a9bc4dab851beab4b253853e12245885541a4229d45fbe60775668f"
 metafile = true
 
 [[files]]
@@ -272,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "bdc100eaf32540f16bab4fc82d4ca3318557d184c180dd2ce40df509cff3e6b2"
+hash = "d28a8d7bd2a313e221ce918caaa6440795293d904a26a2285c167d77fd97172f"
 metafile = true
 
 [[files]]

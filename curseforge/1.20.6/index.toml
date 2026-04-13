@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpetgui.pw.toml"
-hash = "9e6b9f13a9279188ac1c1d4c82e8ddfcc49a2d5b0a961b6ae7d165892a4181cc"
+hash = "d1fb80d0d9d657e315a9719eb5e9f227ddbab940b4a69eb2c8bd9814aa22f598"
 metafile = true
 
 [[files]]

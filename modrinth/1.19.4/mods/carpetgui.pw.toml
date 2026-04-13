@@ -1,13 +1,13 @@
 name = "CarpetGUI"
-filename = "carpetgui-1.3.2+1.19.4.jar"
+filename = "carpetgui-1.3.4+1.19.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ieIj9FLp/versions/VESiSr4r/carpetgui-1.3.2%2B1.19.4.jar"
+url = "https://cdn.modrinth.com/data/ieIj9FLp/versions/uQzi0eKg/carpetgui-1.3.4%2B1.19.4.jar"
 hash-format = "sha512"
-hash = "470a9a2bf65689b17c0fb2a9b319c0f796858f6ebe8d783b9a35296982db35151c389fb654b43fef503844d2a6f1eb899113f8ce0d2a6556e220f974135fbeaa"
+hash = "fa64aa6ec582cf76ec2fbfa147aa2188d5e4ddf19cb96df6d348a26589273b7d1dff61e202aee9051497e0bcca9461b8f3f0146e8619cfcbef74caf051e0dec0"
 
 [update]
 [update.modrinth]
 mod-id = "ieIj9FLp"
-version = "VESiSr4r"
+version = "uQzi0eKg"
