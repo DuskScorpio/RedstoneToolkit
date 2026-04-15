@@ -23,6 +23,7 @@ These mods are enabled by default and recommended to the user
 
 #### Carpet
 
+- [Carpet Igny Addition](https://modrinth.com/mod/carpet-igny-addition) 鈥?A Carpet extension adding various technical features including bot management rules
 - [Carpet Mod](https://modrinth.com/mod/carpet) - The most important mod for technical Minecraft; it comes with tons of useful features and commands
 - [Carpet TIS Addition](https://modrinth.com/mod/carpet-tis-addition) - Very useful Carpet extension with lots of new rules and tools, in particular for doing stuff in creative mode
 - [JoaCarpet](https://modrinth.com/mod/joacarpet) - A small Carpet extension with a few useful features for redstone and storage tech

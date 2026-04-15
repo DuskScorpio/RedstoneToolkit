@@ -1,5 +1,6 @@
 ## News
 
+- Added Carpet Igny Addition
 - Added more newly compatible mods to:
   - 26.1-26.1.2:
     - Cubes Without Borders
@@ -16,6 +17,7 @@
 
 ## Updates
 
+- Updated 26.2-snapshot-2 to 26.2-snapshot-3
 - 1.19.4-26.1.2:
   - CarpetGUI
 - 1.21.11-26.2-snapshot-2:

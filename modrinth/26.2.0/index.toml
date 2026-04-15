@@ -2,7 +2,17 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "2b266f9300c5703f567d9c00da219e990c328fa40ddc9a42e9ab4913f1499332"
+hash = "4abe4fab75afecb968ffa652f3f98550407c56245575f8858b28a650550ea945"
+metafile = true
+
+[[files]]
+file = "mods/carpet-igny-addition.pw.toml"
+hash = "f661774d6a5a4e0ba91727991a493d159706ca38999be8c43e7987d3e9f79f50"
+metafile = true
+
+[[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "4fc273d824193823d94456d78254fadbe86ddf476b7c81d7eef5bdf0d9e91aa2"
 metafile = true
 
 [[files]]
@@ -12,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "f64302e3dbf4def3edf0ac867ef22c2bc8c510c1636db12f8694ab758b43ea01"
+hash = "67437cfb7740d22d39d14ec5a4d33a02980177b69fefe6688cfb199a6f5587cd"
 metafile = true
 
 [[files]]
@@ -22,5 +32,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "0e96fc5fa7be3dde754a9b9eb8284a8b074805dfac57346f680dd619f8b267cf"
+hash = "8cc5335f707d56f5a56fe1c6980e82834713621698039fe852f43080620b5ba9"
 metafile = true

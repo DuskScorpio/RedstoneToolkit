@@ -41,6 +41,11 @@ hash = "1867d8809690b04249dd76e67639a0aab07805d625df0f7bb3e0e17506a6d315"
 metafile = true
 
 [[files]]
+file = "mods/carpet-igny-addition.pw.toml"
+hash = "35b1a939cd9b960fd5c9e2ed69c97370ecc81caf4cd9d018efc545d97530ff79"
+metafile = true
+
+[[files]]
 file = "mods/carpet-tis-addition.pw.toml"
 hash = "40e211056e8c54a4a8a8ee092ece8d6c2f2f6c553bbdada7268443c9f8ac108c"
 metafile = true

@@ -1,5 +1,8 @@
 enabled_files:
   # Carpet
+  - mr_slug: carpet-igny-addition
+    cf_slug: carpet-igny-addition
+    version: ">=1.19.4"
   - mr_slug: carpet
     cf_slug: carpet
     name: Carpet
