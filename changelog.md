@@ -18,6 +18,7 @@
 ## Updates
 
 - Updated 26.2-snapshot-2 to 26.2-snapshot-3
+- Updated Fabric loader to 0.19.1
 - 1.19.4-26.1.2:
   - CarpetGUI
 - 1.21.11-26.2-snapshot-2:
