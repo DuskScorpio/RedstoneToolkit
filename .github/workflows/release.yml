@@ -35,7 +35,7 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v6
       - name: create
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           name: ${{ format('Redstone Toolkit v{0}', matrix.tag) }}
           tag_name: ${{ format('release/{0}', matrix.tag) }}
