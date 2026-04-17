@@ -31,7 +31,7 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
         choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
         default=PlatForm.ALL
     )
-    parser_install.add_argument("--version")
+    parser_install.add_argument("--versions")
 
     # create
     parser_create = subparsers.add_parser("create").add_mutually_exclusive_group()
@@ -82,7 +82,7 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
             import_index.run(args.platform)
 
         case "install":
-            install.run(args.platform, args.version)
+            install.run(args.platform, args.versions)
 
         case "create":
             create.run(

@@ -25,11 +25,11 @@ COMMAND = {
     "import": {"--platform": {PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL}},
     "install": (platform_and_version := {
         "--platform": {
-            PlatForm.MODRINTH: (ver := {"--version": None}),
+            PlatForm.MODRINTH: (ver := {"--versions": None}),
             PlatForm.CURSEFORGE: ver,
             PlatForm.ALL: ver
         },
-        "--version": None
+        "--versions": None
     }),
     "create": {"--snapshot", "--versions"},
     "remove": {"--versions"},

@@ -9,24 +9,23 @@ from pathlib import Path
 import re
 
 
-def run(platform: PlatForm, version: str | None):
+def run(platform: PlatForm, versions: str | None):
     clean_log()
-    log = logutil.Logger("install").get_log()
-    platform_list = []
-    if platform != PlatForm.ALL:
-        platform_list.append(platform)
-    else:
-        platform_list.extend([PlatForm.MODRINTH, PlatForm.CURSEFORGE])
-    for i in platform_list:
-        versions = util.get_dir_vers(i)
-        if version is None:
-            for mc_ver in versions:
-                __install(i, mc_ver)
+    platform_dict = {
+        PlatForm.ALL: [PlatForm.MODRINTH, PlatForm.CURSEFORGE],
+        PlatForm.MODRINTH: [PlatForm.MODRINTH],
+        PlatForm.CURSEFORGE: [PlatForm.CURSEFORGE]
+    }
+    for p in platform_dict[platform]:
+        mc_dirs= util.get_dir_vers(p)
+        if versions is None:
+            for mc_dir in mc_dirs:
+                __install(p, mc_dir)
         else:
-            if version in versions:
-                __install(i, version)
-            else:
-                log.error("version \"{}\" not found".format(version))
+            input_dirs = [i for i in versions.split(",") if i in mc_dirs]
+            for input_dir in input_dirs:
+                __install(p, input_dir)
+
 
 
 def __install(platform: PlatForm, mc_ver: str):
