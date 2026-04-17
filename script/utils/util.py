@@ -1,5 +1,6 @@
 from script.utils.constant import *
 from pathlib import Path
+from semantic_version import NpmSpec
 
 import os
 import re
@@ -25,6 +26,14 @@ def try_remove_empty_cache():
     dir_path = Path(".cache")
     if dir_path.exists() and dir_path.is_dir() and not any(dir_path.iterdir()):
         dir_path.rmdir()
+
+
+def validate_condition(condition: str) -> bool:
+    try:
+        NpmSpec(condition)
+        return True
+    except ValueError:
+        return False
 
 
 

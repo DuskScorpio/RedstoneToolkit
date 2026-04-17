@@ -36,5 +36,9 @@ COMMAND = {
     "update": {"--version"},
     "export": platform_and_version,
     "refresh": None,
-    "loader": None
+    "loader": None,
+    "update_version": {
+        "--version": None,
+        "--match": {"*": {"--version": None}}
+    }
 }
