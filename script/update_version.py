@@ -27,3 +27,4 @@ def run(match: str, version: str):
 
             with open(path, "wb") as fw:
                 tomli_w.dump(data, fw)
+            log.info(f"Updating '{platform}/{mc_dir}' pack.toml files to version {version}")
