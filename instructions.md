@@ -2,26 +2,15 @@
 
 1. Run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` in PowerShell as Admin
 2. `Ctrl+Shift+P` > `Python: Create Environment` > `venv` in VS Code to setup virtual environment
-3. Run `pip install -r script/requirements.txt` to install prerequisites
+3. Run `pip install -r requirements.txt` to install prerequisites
 
-## Importing mod index
+## CLI
+Use `python -m script --help` in a virtual environment for more information!
 
-1. Place `.index` folder in the project root `RedstoneTools/`
-2. Run `py import_index.py` from `script/`
-3. `mod_list.yml` will be generated in `RedstoneTools/`
+### Helper
+Start it with `python -m script helper`, It provides you with many parameter hints and autocompletion
 
-## Installing mods
-
-1. Create folders for each game version in project root
-2. Run `../tools/packwiz init` within each version folder
-3. Run `py install.py` from `script/`
-4. Use `py install.py -v x.xx.x` will only install for specified version
-5. Removing mods from `mod_list.yml` will remove the mods from the version folders when `install.py` runs
-
-## Exporting modpack
-
-1. Run `py export.py` from `script/`
-2. Use `py export.py -v x.xx.x` will only export for specified version
+You don't need to type the `python -m script` prefix, it's already included
 
 ## Testing modpack
 
