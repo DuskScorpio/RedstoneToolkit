@@ -9,7 +9,7 @@ enabled_files:
     urls:
       26.1.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1/fabric-carpet-26.1+v260402.jar"
       26.1.2: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1/fabric-carpet-26.1+v260402.jar"
-      26.2.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.2-beta-1/fabric-carpet-26.2-beta-1+v260408.jar"
+      26.2.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.2-beta-2/fabric-carpet-26.2-beta-2+v260416.jar"
   - mr_slug: carpet-tis-addition
     cf_slug: carpet-tis-addition
   - mr_slug: joacarpet

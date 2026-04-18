@@ -1,13 +1,13 @@
 name = "ModernFix-mVUS"
-filename = "modernfix-5.26.2-build.2.jar"
+filename = "modernfix-5.27.5-build.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a280b4abbcbc32dff9171748025615404263bcf1"
+hash = "2a52e6878e4c0237d0a2a45af47fb65342904199"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7919444
+file-id = 7929272
 project-id = 1367508

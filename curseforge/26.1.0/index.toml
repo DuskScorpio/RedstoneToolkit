@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "1519fe4e5d4ed4f060f76b7af8b5b9525d0cc0c584be7741d11de4bda043b37b"
+hash = "453971aa87f16c6395947e68a1884a98675495278f4080ab9a277b0f9a01bdc0"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-block-entities.pw.toml"
-hash = "f09b0e2c04c170f394ddf579f88d952d4915bc7019617e5845393005c87d42d7"
+hash = "1dc0b117dd28028f8d6161783a7a7376d4f12a1da7a6c8cb8bc193c30585c258"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "6d0e9daabf0cb02c33b4ff34f017a9b6e409a289a40ed518fae9dfc85ce288f2"
+hash = "309696b7bffef545e8564a2f787c37819745c171e1bdb4efcb49d8e22b20e68b"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpetgui.pw.toml"
-hash = "ba065699d88e44fd8635e36e06f8c131151537a05733ddcbc4ad16ec328eff7f"
+hash = "acab253800a45da0f4dee8eea15149f2689259eccfcac2a4f4baa9f6075abcf9"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandkeys.pw.toml"
-hash = "70103981e3e23912846ed5e0a937ada1e571d9d3180ddc101bd095030d8579d5"
+hash = "22dda7c3e229749ae633df910819bf11dd73573134cfa1caabaa1489136f8bf1"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "4bc21d02f87779b5911939befd4cdf6cd6d0e711f5f5a6c4d9f71781b86b7f53"
+hash = "4c2810fc908a38360f7d3469265ec3e55f8bb28190f8437a5fe26a98a7e83e98"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "1cba6d37b45593a97ee880e0fd3d8cbfaf0d04a115218551c1a7cf60f3eec391"
+hash = "65136e76cb26fd7113b886e926b60b84e3e5daaebe6fc313fd0cc56bc528acd0"
 metafile = true
 
 [[files]]
@@ -137,12 +137,17 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "8952602526b75b8b93001d5a8e5b3772a023cb2d13ff9d100043bd077b6b3fa7"
+hash = "c9a661d4865d0ba5d2b6356141c6e7ad6246586aa5224d482c23bf309b6bdc3a"
 metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
 hash = "ffcbcf6f4b06966ee9823cf09858298607c5fdeed992d07fe50a0a7a5a6d6ac3"
+metafile = true
+
+[[files]]
+file = "mods/litematica-server-paster.pw.toml"
+hash = "8401233471cca8ab2a3ef7ed8b0feaa216ce8346d652c74cfde4c20caabbeb09"
 metafile = true
 
 [[files]]
@@ -167,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "20ab4f4ce460bc26f1a06bd3d3396c383d816199c7c0314669b918858d0ff1a7"
+hash = "f142fecbae015262b021e1cf94fe28bb0d13f0b0da0dba87edaaea19c715d016"
 metafile = true
 
 [[files]]
@@ -277,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "54ca51419121142dd3f7c91ef6e891b5e2cd5bc6821bdee714731e52bf8c9dcd"
+hash = "92d4b853855bb7fc3c0fd33f3ee1cccc3c0fbcb07765470b18241d86ab930c48"
 metafile = true
 
 [[files]]
@@ -287,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "63483d2c91d505231013a3e825d534373743a1b5ee74d264c13491deed58c3f1"
+hash = "a88707ad8809ec27713d2a8835eb5512842fde8b1c6925ea55a00cc19cc1328f"
 metafile = true
 
 [[files]]
@@ -303,6 +308,11 @@ metafile = true
 [[files]]
 file = "mods/wikirenderer.pw.toml"
 hash = "5b1cd91c9a9bc4dab851beab4b253853e12245885541a4229d45fbe60775668f"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-hang-fix.pw.toml"
+hash = "86b257c06d46d8854c382a3156e4f4e44e738d581f44c8fdab84da74880a9770"
 metafile = true
 
 [[files]]

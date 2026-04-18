@@ -1,0 +1,12 @@
+name = "WorldEdit Hang Fix"
+filename = "worldedit-hang-fix-v1.0.5-mc26.1.2.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7651ec4ca5e994af4a1e63b3fa30f43d3d539265"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7941448
+project-id = 1122137

@@ -6,8 +6,28 @@ hash = "4abe4fab75afecb968ffa652f3f98550407c56245575f8858b28a650550ea945"
 metafile = true
 
 [[files]]
+file = "mods/carpet-igny-addition.pw.toml"
+hash = "f661774d6a5a4e0ba91727991a493d159706ca38999be8c43e7987d3e9f79f50"
+metafile = true
+
+[[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "4f96be262bc2d9c061f6279168ed0cac2fa8b0c35b3da7c7809552defc134516"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "621bfef4f7ce39d113d0c440ffe911864acd629dd77ac2d931daa8c8e9eb0d75"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "67437cfb7740d22d39d14ec5a4d33a02980177b69fefe6688cfb199a6f5587cd"
+hash = "78f9942dd0bf39aa546bdeb4ac8eeae2c4867068699a8cfec67cbfe321f002dc"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "ceb1039761bd28ea41b1c11d3e00e006250f06b684a564b298820f924cdb0ab0"
 metafile = true
 
 [[files]]

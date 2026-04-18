@@ -1,34 +1,39 @@
 ## News
 
-- Added Carpet Igny Addition
 - Added more newly compatible mods to:
   - 26.1-26.1.2:
-    - Cubes Without Borders
-    - Tweakermore
-  - 26.1.2:
-    - Client Commands
-    - EssentialAddons
-    - EssentialClient
-    - ImmediatelyFast
-    - Lithium
-    - Packet Fixer
+    - Litematica Server Paster
+    - WorldEdit Hang Fix
+  - 26.1.2
+    - Worldthreader
+  - 26.2-snapshot-3
+    - Carpet Igny Addition
+    - Carpet TIS Addition
+    - Carpet
+    - Ixeris
 
 ## Changes
 
 ## Updates
 
-- Updated 26.2-snapshot-2 to 26.2-snapshot-3
-- Updated Fabric loader to 0.19.1
-- 1.19.4-26.1.2:
-  - CarpetGUI
-- 1.21.11-26.2-snapshot-2:
-  - ChunkDebug
-  - PackedPacks
-  - Fast Noise
-- 26.1-26.1.2:
-  - ModernFix-mVUS
-- 26.1.2:
-  - Continuity
+- 1.16.5-1.21.11:
+  - Carpet TIS Addition
+  - Ixeris
+  - Litematica Server Paster
   - ViaBackwards
   - ViaVersion
-  - WikiRenderer
+  - WorldEdit Hang fix
+- 1.19.4-26.1.2:
+  - CarpetGUI
+- 1.21.11-26.1.2:
+  - Fast Noise
+- 26.1-26.2-snapshot-3
+  - Fabric API
+- 26.1-26.1.2:
+  - Axiom
+  - Better Block Entities
+  - Command Keys
+  - Cubes Without Borders
+  - ModernFix-mVUS
+- 26.1.2:
+  - Concurrent Chunk Management Engine

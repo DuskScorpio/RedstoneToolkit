@@ -1,0 +1,12 @@
+name = "WorldEdit Hang Fix"
+filename = "worldedit-hang-fix-v1.0.5-mc26.1.2.jar.disabled"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/uz1wuff3/versions/kEIm5OVp/worldedit-hang-fix-v1.0.5-mc26.1.2.jar"
+hash-format = "sha512"
+hash = "dbd92885259ec9dc621516f8988c0fc8dc2e54ac3c9bd1bb6fefbe17d5a748df66a3832349af2498454b252e2be69f69681970005ea7bedc64d616c9e6054ec2"
+
+[update.modrinth]
+mod-id = "uz1wuff3"
+version = "kEIm5OVp"

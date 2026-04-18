@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "1519fe4e5d4ed4f060f76b7af8b5b9525d0cc0c584be7741d11de4bda043b37b"
+hash = "453971aa87f16c6395947e68a1884a98675495278f4080ab9a277b0f9a01bdc0"
 metafile = true
 
 [[files]]
@@ -17,12 +17,12 @@ metafile = true
 
 [[files]]
 file = "mods/better-block-entities.pw.toml"
-hash = "539695e9725d5bff359c6c930d6e7b4173ced1c30e4ed6f7eedce28d992ea241"
+hash = "56ab33230daa33839c1aca1c6c71ffdda1e4794ebcbcb2bc15fcd51a6a44df99"
 metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "8ddfc233cc060425eac2b136c033d0e81deae7e17ffd9a8b3ba9701c71f51f5c"
+hash = "ef61b36de186c8b45cc28df8594acd40e18e85b3b8e486326a0e7d27fae057ae"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "5744b56a958d454adbf2d859355d56a376ad1f70161f75bad53a53c0b513567c"
+hash = "e547748379dcf59fc23f47fb2536ed3d763fe547ab293583deef976b0d2d1069"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpetgui.pw.toml"
-hash = "ba065699d88e44fd8635e36e06f8c131151537a05733ddcbc4ad16ec328eff7f"
+hash = "acab253800a45da0f4dee8eea15149f2689259eccfcac2a4f4baa9f6075abcf9"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandkeys.pw.toml"
-hash = "a75643525bcd803320fdbba64cb12392f5adf6d186f58856503d756ad4925d09"
+hash = "5483b0c391f5ef2a36999d277eab10854563458b122cb7443f44f2e4f79d6b52"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "b1a72fb2356e0ff584d2ba9eee19e034080de29c64ca81419f7b5a7ff3c41d6a"
+hash = "8980abe8780473d61abf6e869db398e56ecf5fa84aa8f45e441bf642f02348bc"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "3fa7042499ca70691864ca28f7e797a489e8be41f7affbdcdbceae794817f72a"
+hash = "1b7dddabe21e51ddc2a0f1a304523089c4aa80dfe03d1921fdb6847a9a7f1065"
 metafile = true
 
 [[files]]
@@ -137,12 +137,17 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "8952602526b75b8b93001d5a8e5b3772a023cb2d13ff9d100043bd077b6b3fa7"
+hash = "c9a661d4865d0ba5d2b6356141c6e7ad6246586aa5224d482c23bf309b6bdc3a"
 metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
 hash = "5d408fdf0666fa36a9cc4e9f9a7b9b9100092d09b42e69482f922248d11a318c"
+metafile = true
+
+[[files]]
+file = "mods/litematica-server-paster.pw.toml"
+hash = "890a3f3fada40e3c356bf7ead4e9d57d282f2cd0c8e53a05cad2188341b21f26"
 metafile = true
 
 [[files]]
@@ -167,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "9aa59328069af659d3ae84fa65a4962c847dceb79abe7174aa1dc72025c5409e"
+hash = "dc12b3aba319df85cefde7e6fb0e89e59399fa304a2bbfacf812fb240c06380b"
 metafile = true
 
 [[files]]
@@ -277,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "54ca51419121142dd3f7c91ef6e891b5e2cd5bc6821bdee714731e52bf8c9dcd"
+hash = "92d4b853855bb7fc3c0fd33f3ee1cccc3c0fbcb07765470b18241d86ab930c48"
 metafile = true
 
 [[files]]
@@ -287,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "63483d2c91d505231013a3e825d534373743a1b5ee74d264c13491deed58c3f1"
+hash = "a88707ad8809ec27713d2a8835eb5512842fde8b1c6925ea55a00cc19cc1328f"
 metafile = true
 
 [[files]]
@@ -306,8 +311,18 @@ hash = "5b1cd91c9a9bc4dab851beab4b253853e12245885541a4229d45fbe60775668f"
 metafile = true
 
 [[files]]
+file = "mods/worldedit-hang-fix.pw.toml"
+hash = "f1ff464a0c91f9f2f6a360f82de8dbf4d4df3ed808061d0575278e116d6c8f8c"
+metafile = true
+
+[[files]]
 file = "mods/worldedit.pw.toml"
 hash = "33fbcfc9b797563eaaf7ff73690e318e44c75a57496bba8d025e7bd027c9b2c0"
+metafile = true
+
+[[files]]
+file = "mods/worldthreader.pw.toml"
+hash = "e64d54e9e4b7a56c3502f58fc005662af87cd3954e9e539d72e3433033c2a74f"
 metafile = true
 
 [[files]]
@@ -317,7 +332,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "d28a8d7bd2a313e221ce918caaa6440795293d904a26a2285c167d77fd97172f"
+hash = "03b368dcdb3b72777b9d47f949c8e4855e8c3a03b38aefc96a0ade06d2baaf65"
 metafile = true
 
 [[files]]

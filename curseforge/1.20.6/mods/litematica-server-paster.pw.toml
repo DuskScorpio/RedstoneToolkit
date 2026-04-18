@@ -1,13 +1,13 @@
 name = "Litematica Server Paster"
-filename = "litematica-server-paster-v1.3.12-mc1.20.6.jar"
+filename = "litematica-server-paster-v1.3.13-mc1.20.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cba891c8cd1c58495a754454a460becc6b62817c"
+hash = "5b4789df500ff6d837c9db78a42bbf03debb5217"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7325514
+file-id = 7936047
 project-id = 760725
