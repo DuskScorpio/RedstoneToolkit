@@ -39,6 +39,6 @@ COMMAND = {
     "loader": None,
     "update_version": {
         "--version": None,
-        "--match": {"*": {"--version": None}}
+        "--match": {"": {"--version": None}}
     }
 }
