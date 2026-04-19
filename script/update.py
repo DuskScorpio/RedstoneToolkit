@@ -7,14 +7,14 @@ import re
 import tomllib
 import tomli_w
 
-def run(version: str | None):
+def run(match: str):
     clean_log()
     for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
-        dir_vers = util.get_dir_vers(platform) if version is None else [version]
+        dir_vers = util.get_dir_vers(platform)
         for dir_ver in dir_vers:
-            path = Path(platform).joinpath(dir_ver)
-            if not path.exists():
+            if not util.check_match(match, dir_ver):
                 continue
+            path = Path(platform).joinpath(dir_ver)
             record = Disable(dir_ver, platform)
             record.init()
             with Popen(

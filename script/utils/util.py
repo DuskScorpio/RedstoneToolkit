@@ -1,6 +1,6 @@
 from script.utils.constant import *
 from pathlib import Path
-from semantic_version import NpmSpec
+from semantic_version import NpmSpec, Version
 
 import os
 import re
@@ -35,6 +35,10 @@ def validate_condition(condition: str) -> bool:
     except ValueError:
         return False
 
+def check_match(match: str, version: str) -> bool:
+    if not validate_condition(match):
+        return False
+    return NpmSpec(match).match(Version(version))
 
 
 if __name__ == "__main__":

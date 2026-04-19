@@ -50,7 +50,11 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
 
     # update
     parser_update = subparsers.add_parser("update", description="Update mod")
-    parser_update.add_argument("--version", help="The name of the Minecraft folder")
+    parser_update.add_argument(
+        "--match",
+        default="*",
+        help="NPM-compliant version matching, default '*'"
+    )
 
     # export
     parser_export = subparsers.add_parser("export", description="Export the integration package")

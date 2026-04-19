@@ -1,7 +1,7 @@
 from script.utils import logutil, util
 from script.utils.constant import *
 from pathlib import Path
-from semantic_version import validate, NpmSpec, Version
+from semantic_version import validate
 
 import tomllib
 import tomli_w
@@ -18,7 +18,7 @@ def run(match: str, version: str):
         dirs = util.get_dir_vers(platform)
         for mc_dir in dirs:
             path = Path(platform).joinpath(mc_dir).joinpath("pack.toml")
-            if not path.exists() or not util.validate_condition(match) or not NpmSpec(match).match(Version(mc_dir)):
+            if not util.check_match(match, mc_dir):
                 continue
             with open(path, "rb") as fr:
                 data = tomllib.load(fr)

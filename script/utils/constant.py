@@ -33,7 +33,7 @@ COMMAND = {
     }),
     "create": {"--snapshot", "--versions"},
     "remove": {"--versions"},
-    "update": {"--version"},
+    "update": {"--match"},
     "export": platform_and_version,
     "refresh": None,
     "loader": None,
