@@ -115,7 +115,7 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
             remove.run(str(args.versions).split(","))
 
         case "update":
-            update.run(args.version)
+            update.run(args.match)
 
         case "export":
             export.run(args.version, args.platform)
