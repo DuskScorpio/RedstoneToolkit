@@ -201,6 +201,7 @@ disabled_files:
     cf_slug: starlight
     version: "<=1.20.4"
   - mr_slug: voxy
+    cf_skip: "*"
   - mr_slug: worldthreader
     cf_slug: worldthreader
 
@@ -244,6 +245,7 @@ disabled_files:
   # Technical
   - mr_slug: axiom
     cf_slug: axiomtool
+    cf_skip: ">=1.21.11" # Not updated to 1.21.11 yet
   - mr_slug: capture-playback
     cf_slug: capture-playback
   - mr_slug: rail-placement-fix

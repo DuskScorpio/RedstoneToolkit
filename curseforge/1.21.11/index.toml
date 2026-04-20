@@ -11,11 +11,6 @@ hash = "7c0f9476539a690fb626d23529c5a534f86f467721e2004ec2e1203c3d09842f"
 metafile = true
 
 [[files]]
-file = "mods/axiom.pw.toml"
-hash = "9d5b9e5f9bfa1af995467ffe9992ae1759e385371ddf5cccd68b73e0300ae36b"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "04f291e09673facfc8e25f103c8b9379a0bb31e91c78f9513cbd808693a2d860"
 metafile = true
@@ -363,11 +358,6 @@ metafile = true
 [[files]]
 file = "mods/vkm.pw.toml"
 hash = "3422b61c9145885c82398ce38a341650bcfa7139c39ac157e51ddbc6f8a47b2a"
-metafile = true
-
-[[files]]
-file = "mods/voxy.pw.toml"
-hash = "cb1166b074dd0664bbacf993e9680e69e993d966e492bd9e9018dca67aed09f2"
 metafile = true
 
 [[files]]
