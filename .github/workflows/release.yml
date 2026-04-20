@@ -98,8 +98,7 @@ jobs:
     needs:
       - find_matrix
       - create_release
-#    if: ${{ always() && fromJSON(needs.find_matrix.outputs.json_str).curseforge.publish }}
-    if: false
+    if: ${{ always() && fromJSON(needs.find_matrix.outputs.json_str).curseforge.publish }}
     # POWERSHELL CANNOT WRITE VARIABLES
     defaults:
       run:
@@ -144,3 +143,5 @@ jobs:
           game-versions: ${{ matrix.mc_ver }}
           changelog-file: changelog.md
           game-version-filter: none
+          
+          fail-mode: warn
