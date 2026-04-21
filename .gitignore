@@ -8,3 +8,4 @@ __pycache__/
 logo/
 export/
 .vscode/
+data.json
