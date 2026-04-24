@@ -49,6 +49,14 @@ COMMAND = {
     "loader": None,
     "update_version": {
         "--version": None,
-        "--match": {"": {"--version": None}}
+        "--match": {"": {"--version": None}},
+        "--platform": {
+            "modrinth": (ver := {
+                "--version": None,
+                "--match": {"": {"--version": None}},
+            }),
+            "curseforge": ver,
+            "all": ver
+        }
     }
 }
