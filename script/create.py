@@ -55,7 +55,6 @@ class Create:
         ) as process:
             for e in process.stdout:
                 log.info(e.strip())
-            process.wait()
         with open(path.joinpath("pack.toml"), "rb") as f:
             data = tomllib.load(f)
         mc_dir_ver: str = str(Version.coerce(data["versions"]["minecraft"]).truncate())

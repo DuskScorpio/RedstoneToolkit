@@ -133,7 +133,6 @@ class Install:
                 self.log.info(text)
                 if re.match("Failed to (add|get file for) project:.*", text) or text == "No projects found!":
                     is_successful = False
-            process.wait()
         return is_successful
 
     @staticmethod
@@ -160,7 +159,6 @@ class Install:
             for e in process.stdout:
                 text = e.strip()
                 self.log.info(text)
-            process.wait()
 
     def __is_installed(self, mod_name: str) -> bool:
         path = Path(self.path).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")

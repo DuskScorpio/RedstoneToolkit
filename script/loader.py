@@ -19,4 +19,3 @@ def run():
             ) as process:
                 for e in process.stdout:
                     log.info(e.strip())
-                process.wait()

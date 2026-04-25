@@ -111,7 +111,6 @@ def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
             ) as process:
                 for text in process.stdout:
                     log.info(text.strip())
-                process.wait()
 
 
 def __get_from_dict(path: Path) -> dict[str, From]:

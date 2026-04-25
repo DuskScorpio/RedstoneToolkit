@@ -26,7 +26,6 @@ def run(match: str):
                 bufsize=1
             ) as process:
                 process_log(process, dir_ver, platform)
-                process.wait()
             record.disable()
 
 def process_log(process: Popen[str], version: str, platform: PlatForm):
@@ -109,7 +108,6 @@ class Disable:
         for e in process.stdout:
             text = e.strip()
             log.info(text)
-        process.wait()
 
 
     def __disable(self, file_name: str):

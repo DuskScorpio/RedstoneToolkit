@@ -58,7 +58,6 @@ class Export:
         ) as process:
             for e in process.stdout:
                 log.info(e.strip())
-            process.wait()
 
     def __refresh(self):
         log = logutil.Logger(f"{self.platform}/{self.version}").get_log()
@@ -72,7 +71,6 @@ class Export:
         ) as process:
             for e in process.stdout:
                 log.info(e.strip())
-            process.wait()
 
     def __write_version(self):
         path = self.path.joinpath("pack.toml")
