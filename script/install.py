@@ -30,7 +30,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
     for enabled_mod in enabled_mods:
         install = Install(
             platform=platform,
-            mc_ver=mc_dir,
+            mc_dir=mc_dir,
             meta=enabled_mod,
             disabled=False,
             file_type=Type.MODS
@@ -42,7 +42,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
     for disabled_mod in disabled_mods:
         install = Install(
             platform=platform,
-            mc_ver=mc_dir,
+            mc_dir=mc_dir,
             meta=disabled_mod,
             disabled=True,
             file_type=Type.MODS
@@ -54,7 +54,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
     for resourcepack in resourcepacks:
         install = Install(
             platform=platform,
-            mc_ver=mc_dir,
+            mc_dir=mc_dir,
             meta=resourcepack,
             disabled=False,
             file_type=Type.RESOURCEPACKS
@@ -67,7 +67,6 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
         log = logutil.Logger(name=f"install/{mc_dir}").get_log()
         for e in process.stdout:
             log.info(e.strip())
-        process.wait()
 
 
 def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
@@ -85,19 +84,21 @@ def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
         from_dict = __get_from_dict(path)
         for meta in meta_list:
             for slug in [MR, CF, NAME]:
-                # check cf_skip
-                if  platform == PlatForm.CURSEFORGE:
-                    cf_skip = meta.get(CF_SKIP)
-                    if cf_skip is not None and util.check_match(cf_skip, mc_dir): continue
-
                 name: str | None = meta.get(slug)
-                if name is None or not name.lower() in remove_ids: continue
+                if name is None: continue # If the name doesn't exist, continue it
+                if name.lower() not in remove_ids: continue # if the mod is new, continue it
+
+                mod_from: From = from_dict.get(name.lower())
+
+                # sb curseforge
+                if platform == PlatForm.CURSEFORGE:
+                    if mod_from.value == PlatForm.MODRINTH: continue
+                    cf_condition: str | None = meta.get(CF_SKIP)
+                    if not cf_condition is None and util.check_match(cf_condition, mc_dir): continue
+
                 match = meta.get("version", "*")
                 if not util.check_match(match, mc_dir): continue
-
-                # cf need remove other platform
-                if (reinstall or platform == PlatForm.CURSEFORGE) and from_dict.get(name.lower()).value != platform: continue
-
+                if reinstall and mod_from != platform: continue
                 remove_ids.remove(name.lower())
         for remove_name in remove_ids:
             with Popen(

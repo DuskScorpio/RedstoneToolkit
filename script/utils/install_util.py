@@ -25,22 +25,22 @@ class Install:
     def __init__(
             self,
             platform: PlatForm,
-            mc_ver: str,
+            mc_dir: str,
             meta: dict,
             disabled: bool,
             file_type: Type
     ):
         self.platform = platform
-        self.mc_ver = mc_ver
+        self.mc_dir = mc_dir
         self.mod_meta = meta
-        self.path = f"./{platform}/{mc_ver}"
+        self.path = f"./{platform}/{mc_dir}"
         self.disabled = disabled
         self.file_type = file_type
-        self.log = logutil.Logger(f"{mc_ver}/{platform}").get_log()
+        self.log = logutil.Logger(f"{mc_dir}/{platform}").get_log()
         self.log_w = logutil.Logger(
-            name=f"{mc_ver}/{platform}",
+            name=f"{mc_dir}/{platform}",
             write=True,
-            log_name=f"{platform}-{mc_ver}-install.log",
+            log_name=f"{platform}-{mc_dir}-install.log",
             level_f=logutil.Level.WARNING
         ).get_log()
 
@@ -48,11 +48,13 @@ class Install:
 
         # sb curseforge
         if self.platform == PlatForm.CURSEFORGE:
-            if CF not in self.mod_meta: return
-            cf_skip = self.mod_meta.get(CF_SKIP)
-            if cf_skip is not None and util.check_match(cf_skip, self.mc_ver): return
+            cf_condition: str | None = self.mod_meta.get(CF_SKIP)
+            if not cf_condition is None and util.check_match(cf_condition, self.mc_dir): return
 
-        if not util.check_match(self.mod_meta.get("version", "*"), self.mc_ver):
+            urls: dict | None = self.mod_meta.get(URLS)
+            if urls is None or self.mc_dir not in urls: return
+
+        if not util.check_match(self.mod_meta.get("version", "*"), self.mc_dir):
             return
         mod_name = self.__install()
         if self.disabled:
@@ -67,7 +69,7 @@ class Install:
             MR: "mr",
             CF: "cf",
             PlatForm.MODRINTH: [MR, CF],
-            PlatForm.CURSEFORGE: [CF] # Curseforge does not allow the installation of mods for other platforms :(
+            PlatForm.CURSEFORGE: [CF] # don't let cf download anything from mr
         }
         for i in platform_map.get(self.platform):
             if i in self.mod_meta:
@@ -79,13 +81,13 @@ class Install:
                     return mod_name
                 name_list.append(mod_name)
 
-        if URLS in self.mod_meta and self.platform != PlatForm.CURSEFORGE:
+        if URLS in self.mod_meta:
             mod_name: str = self.mod_meta.get(NAME)
             if self.__is_installed(mod_name.lower()):
                 return mod_name.lower()
             urls: dict = self.mod_meta.get(URLS)
-            if self.mc_ver in urls:
-                self.__url_install(mod_name, urls[self.mc_ver])
+            if self.mc_dir in urls:
+                self.__url_install(mod_name, urls[self.mc_dir])
                 return mod_name.lower()
             name_list.append(mod_name.lower())
 
@@ -165,7 +167,7 @@ class Install:
         return path.exists()
 
     def __disable(self, mod_name: str):
-        path = Path(self.platform).joinpath(self.mc_ver).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")
+        path = Path(self.platform).joinpath(self.mc_dir).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")
         if not path.exists():
             return
         with open(path, "rb") as f:
@@ -178,7 +180,7 @@ class Install:
             tomli_w.dump(data, f)
 
     def __enable(self, mod_name):
-        path = Path(self.platform).joinpath(self.mc_ver).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")
+        path = Path(self.platform).joinpath(self.mc_dir).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")
         if not Path(path).exists():
             return
         with open(path, "rb") as f:
