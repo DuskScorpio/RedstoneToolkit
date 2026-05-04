@@ -90,7 +90,7 @@ jobs:
           version: ${{ format('{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
           version-type: ${{ steps.data.outputs.type }}
           game-versions: ${{ matrix.mc_ver }}
-          changelog-file: changelog.md
+          modrinth-changelog-file: changelog.md
           game-version-filter: none
 
   curseforge_publish:
@@ -142,7 +142,7 @@ jobs:
           version: ${{ format('{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
           version-type: ${{ steps.data.outputs.type }}
           game-versions: ${{ matrix.mc_ver }}
-          changelog-file: changelog.md
+          curseforge-changelog-file: changelog.md
           game-version-filter: none
           
           fail-mode: warn
