@@ -237,10 +237,8 @@ disabled_files:
     version: ">=1.21.0"
   - mr_slug: sound-controller
     cf_slug: sound-controller
-  - mr_slug: viabackwards
-  - mr_slug: viafabric
-    cf_slug: viafabric
-  - mr_slug: viaversion
+  - mr_slug: viafabricplus
+    cf_slug: viafabricplus
 
   # Technical
   - mr_slug: axiom

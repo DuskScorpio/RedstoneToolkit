@@ -266,11 +266,6 @@ hash = "d220cb36df3eb8b1e58d501b9e4de70cda6e93cc0fa4f36ae6fd40d720069b5b"
 metafile = true
 
 [[files]]
-file = "mods/viafabric.pw.toml"
-hash = "18474d0489552186c898ec2c29344c8e8fd3916d8033de0f4ea95abcf6a57951"
-metafile = true
-
-[[files]]
 file = "mods/worldedit-hang-fix.pw.toml"
 hash = "e534f58c17eb1c0843fa81be8701af111de809ed95d14e0c2c6e3baf3bb26902"
 metafile = true

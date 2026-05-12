@@ -31,6 +31,11 @@ hash = "71bb8a91281120a8fce9b3fad44e1ea26d4a978bd8d3ff3ee68a654586c8ba83"
 metafile = true
 
 [[files]]
+file = "mods/capture-playback.pw.toml"
+hash = "7e93e8cbb8e07a670259f8f042a73c5758757aa1d230907abff59e4b02a34059"
+metafile = true
+
+[[files]]
 file = "mods/carpet-igny-addition.pw.toml"
 hash = "8b8a995c2eef748e88b77f4c7e7a0d841b984a9480674d74969867005c10af07"
 metafile = true
@@ -123,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "de954e56216772900768426c541731ec91d0c7bd1c5037ad2f6cc5552f87c635"
+metafile = true
+
+[[files]]
+file = "mods/g4mespeed.pw.toml"
+hash = "3be5e4acc9b5a1d67ab856d3c0d0bd311cb6eb8a4e7587d9146178d0127ab5f3"
 metafile = true
 
 [[files]]
@@ -311,18 +321,8 @@ hash = "3327137d9a237612b3ca0aeff1c13ffb8c603d3fb187493893b7e7ba59b522a7"
 metafile = true
 
 [[files]]
-file = "mods/viabackwards.pw.toml"
-hash = "5dac8a880f715cd8f6a4c48118a01160a1fc0c0a35e6e901172ec50030f0d90d"
-metafile = true
-
-[[files]]
-file = "mods/viafabric.pw.toml"
-hash = "f97aabc38bc1beb6e5ada7f5582c140d83eecdf9d978aa5809c8b65d39b26f94"
-metafile = true
-
-[[files]]
-file = "mods/viaversion.pw.toml"
-hash = "c1c34424855ae7bd265e90729c3fb959e4605e425e40473ae7bbe2bbc2cef206"
+file = "mods/viafabricplus.pw.toml"
+hash = "d380bfe9315ec54f8e868d0511e89f32043653aa87e3b87ee0041c2ee696ac36"
 metafile = true
 
 [[files]]

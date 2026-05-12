@@ -346,21 +346,6 @@ hash = "e030656570132a7e3b09d63b52a4479de910e05c787a3d8309d2bde493ffb3f7"
 metafile = true
 
 [[files]]
-file = "mods/viabackwards.pw.toml"
-hash = "5dac8a880f715cd8f6a4c48118a01160a1fc0c0a35e6e901172ec50030f0d90d"
-metafile = true
-
-[[files]]
-file = "mods/viafabric.pw.toml"
-hash = "e57e2eb2234023596213f6a06ea33a14928ea41557c1eea0d8575c2cd6f866c7"
-metafile = true
-
-[[files]]
-file = "mods/viaversion.pw.toml"
-hash = "c1c34424855ae7bd265e90729c3fb959e4605e425e40473ae7bbe2bbc2cef206"
-metafile = true
-
-[[files]]
 file = "mods/vkm.pw.toml"
 hash = "012addbf5f34979830a1665e34c323f2404216905f9bbc87ed3a3a615112db7c"
 metafile = true
