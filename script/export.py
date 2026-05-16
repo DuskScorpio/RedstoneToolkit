@@ -1,17 +1,19 @@
-from script.utils.constant import *
-from script.utils import logutil, util
-from subprocess import Popen, PIPE, STDOUT
-from pathlib import Path
-
-import os
 import re
 import shutil
 import tomllib
+from pathlib import Path
+from subprocess import Popen, PIPE, STDOUT
+from tempfile import TemporaryDirectory
+
 import tomli_w
+
+from script.utils import logutil, util
+from script.utils.constant import *
+
 
 def run(version: str | None, platform: PlatForm):
     platform_map = {
-        PlatForm.ALL: [PlatForm.MODRINTH , PlatForm.CURSEFORGE],
+        PlatForm.ALL: [PlatForm.MODRINTH, PlatForm.CURSEFORGE],
         PlatForm.MODRINTH: [PlatForm.MODRINTH],
         PlatForm.CURSEFORGE: [PlatForm.CURSEFORGE]
     }
@@ -28,17 +30,18 @@ def run(version: str | None, platform: PlatForm):
 
 class Export:
     def __init__(self, version: str, platform: PlatForm):
-        self.version = version
-        self.platform = platform
-        self.path = Path(platform).joinpath(version)
-        if not self.path.exists():
+        self._version = version
+        self._platform = platform
+        self._path = Path(platform).joinpath(version)
+        self._temp = TemporaryDirectory(dir=Path())
+        self._temp_path = Path(self._temp.name)
+        if not self._path.exists():
             assert FileNotFoundError
 
     def export(self):
-        cache_path = Path(".cache").joinpath(self.platform).joinpath(self.version)
-        shutil.copytree(self.path, cache_path)
+        shutil.copytree(self._path, self._temp_path, dirs_exist_ok=True)
 
-        shutil.copytree(Path("internal-files"), self.path, dirs_exist_ok=True)
+        shutil.copytree(Path("internal-files"), self._path, dirs_exist_ok=True)
         self.__write_version()
         self.__override_side()
         self.__refresh()
@@ -47,33 +50,33 @@ class Export:
         self.__move_file()
 
     def __export(self):
-        log = logutil.Logger(f"{self.platform}/{self.version}").get_log()
+        log = logutil.Logger(f"{self._platform}/{self._version}").get_log()
         with Popen(
-            [PACKWIZ, self.platform, "export"],
-            cwd=self.path,
-            stdout=PIPE,
-            stderr=STDOUT,
-            text=True,
-            bufsize=1
+                [PACKWIZ, self._platform, "export"],
+                cwd=self._path,
+                stdout=PIPE,
+                stderr=STDOUT,
+                text=True,
+                bufsize=1
         ) as process:
             for e in process.stdout:
                 log.info(e.strip())
 
     def __refresh(self):
-        log = logutil.Logger(f"{self.platform}/{self.version}").get_log()
+        log = logutil.Logger(f"{self._platform}/{self._version}").get_log()
         with Popen(
-            [PACKWIZ, "refresh"],
-            cwd=self.path,
-            stdout=PIPE,
-            stderr=STDOUT,
-            text=True,
-            bufsize=1
+                [PACKWIZ, "refresh"],
+                cwd=self._path,
+                stdout=PIPE,
+                stderr=STDOUT,
+                text=True,
+                bufsize=1
         ) as process:
             for e in process.stdout:
                 log.info(e.strip())
 
     def __write_version(self):
-        path = self.path.joinpath("pack.toml")
+        path = self._path.joinpath("pack.toml")
         is_release = os.getenv("IS_RELEASE", "false")
         run_num = os.getenv("GITHUB_RUN_NUMBER", "1")
         with open(path, "rb") as fr:
@@ -91,7 +94,7 @@ class Export:
 
     def __override_side(self):
         """Some mods don't mark the side correctly, and the temporary workaround is to override all mods' sides as both"""
-        path = self.path.joinpath("mods")
+        path = self._path.joinpath("mods")
         files_path = [f for f in path.iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
         for file_path in files_path:
             with open(file_path, "rb") as fr:
@@ -100,16 +103,15 @@ class Export:
             with open(file_path, "wb") as fw:
                 tomli_w.dump(data, fw)
 
-
     def __move_file(self):
-        with open(self.path.joinpath("pack.toml"), "rb") as f:
+        with open(self._path.joinpath("pack.toml"), "rb") as f:
             data = tomllib.load(f)
         name = str(data["name"])
         version = str(data["version"])
-        end = "mrpack" if self.platform == PlatForm.MODRINTH else "zip"
+        end = "mrpack" if self._platform == PlatForm.MODRINTH else "zip"
         pack_name = f"{name}-{version}.{end}"
 
-        path = self.path.joinpath(pack_name)
+        path = self._path.joinpath(pack_name)
         export_path = Path("export").joinpath(pack_name)
         export_path.parent.mkdir(exist_ok=True)
         shutil.move(path, export_path)
@@ -118,11 +120,6 @@ class Export:
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        cache_path = Path(".cache").joinpath(self.platform).joinpath(self.version)
-        shutil.rmtree(self.path)
-        shutil.copytree(cache_path, self.path)
-        shutil.rmtree(cache_path)
-        if not any(cache_path.parent.iterdir()):
-            cache_path.parent.rmdir()
-        util.try_remove_empty_cache()
-        return True
+        shutil.rmtree(self._path)
+        shutil.copytree(self._temp_path, self._path)
+        self._temp.__exit__(exc_type, exc_val, exc_tb)
