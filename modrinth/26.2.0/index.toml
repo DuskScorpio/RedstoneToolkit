@@ -2,12 +2,12 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "cf7a7253a946956421e65e98172034500b58b99da7449e117f51fadf0afd1f41"
+hash = "b997cf0980966f08f00daaf0bf10c27950ef888ccfd403b15632bb74629915a8"
 metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "922298fab0c74012cc922c3879f2a52d549b22061cd3c312380d078418827254"
+hash = "8b849c5432a82618ac256e5030b453cc042c4d5e6ce70fa7a394059ffd5ac697"
 metafile = true
 
 [[files]]
@@ -22,12 +22,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "42e9c39c96b97c6fe4af97f57fbfa17ac66ed84937c29ff45cff84eef373dbf4"
+hash = "fff7e681c92d2194dfddae1185a387e7535fa533a9dc0129003096400f1271f2"
 metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "b56541371633c18a905ac3b254777c5eeea74593888a06c52aa165f7c811d66e"
+hash = "ede945e96d7c293fad5cddf9b0cdbea25920d904803572cd0dab39713dd7dc34"
 metafile = true
 
 [[files]]
@@ -47,5 +47,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "e5cd9c84ae80fe011cc7358345191dfa13e803a6affbc677360068c86d65f933"
+hash = "3df599d4ee978fa98571f1cae9f5a40c85a82ff087b571752b8e18fdd07ec5a1"
 metafile = true
