@@ -1,7 +1,7 @@
 ## News
 
 - Added Crash Assistant
-- Added 26.2-snapshot-8
+- Added 26.2-pre-1
 - Added newly compatible mods to:
   - 26.1.2:
     - FastQuit
