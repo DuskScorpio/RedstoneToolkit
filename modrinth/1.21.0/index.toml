@@ -407,7 +407,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "8fd822b32044432ca03ab0439c484f74eccb57e6871b1a4c63fef4b3dd2ba80a"
+hash = "b3db939f0021477496785a0fc98e974d93b87d40f7465b46ee07d0857df91ffe"
 metafile = true
 
 [[files]]

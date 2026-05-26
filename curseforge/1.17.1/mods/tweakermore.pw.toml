@@ -1,13 +1,13 @@
 name = "TweakerMore"
-filename = "tweakermore-v3.30.0-mc1.17.1.jar"
+filename = "tweakermore-v3.31.0-mc1.17.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c09766cb4d035eb349a241bce2e7711d1aea8b7b"
+hash = "01105d405a4449dc6f245d0b1db55d009aa85230"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7803637
+file-id = 8123988
 project-id = 531235

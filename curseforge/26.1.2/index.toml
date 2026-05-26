@@ -17,12 +17,12 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "594d649bfd045f71d90bc6d0900afeb6428688e0affe4388b370fdd1da5a5f86"
+hash = "5368e6487592b5681bbaedd022f47034ec84dcfbca1dbb01c6cb710c2a7fb853"
 metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "a1c0bc41f7748fcec5a45285f484129eea40b8b0c6b3fe049c08b8b18a3e6146"
+hash = "a1ce2c14ebed4ea445cb99580ada7b0502ebaa61d5be91b7379244d9cef63699"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "daf7df6cd49a4819e35c17d16d8979a3a4ad0d65254caa6de526b52362e5dbf3"
+hash = "7a1f83ce7641ef09e9df0d60c2d1f76f77821b16937f75858801ad0725064dc5"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b789470c49927c59afc41ebc98781ea8b3fbe6e76e8451ff6109d71e6a46f778"
+hash = "0e4c05edb41c24531e2a5df5be5d0a871a961ac61a6794ec98c4b80347a467a9"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "5ecd5ace66ef819a38e3365c0b39b144be7aa3e55524c313f1b42c0efbe53d28"
+hash = "1f06af5ac10431bf9f8a509d62dda9ffe5ec41d4b1c4a5871f528e1d6adf7690"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "37f2a61d8e18ee1e9672f0702867ce55ac1aaaeff8429aa0acfc8bffa3cfd6bc"
+hash = "ee89d17661d9cc818a92933df8990d9371e914b92cb9226dd88b8575174d889d"
 metafile = true
 
 [[files]]

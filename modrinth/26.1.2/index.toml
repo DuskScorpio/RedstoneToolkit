@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "2f210b27f17b08e039b9a7dfe7cf78550a567cff96bdd4759980e6ad5a32b90d"
+hash = "efb860caad2e720beaab238112a48262d3b405077d748ce895f396dab10513b9"
 metafile = true
 
 [[files]]
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "98ab97a6443fc2910d5e5b6d20dbc99ad7cf4a78b1321a45e730d1593c25aa1c"
+hash = "d613ef69c2710e75ca3704c3180f3a8e7ae3fd35a4e21576ea1dcbf02ddb821a"
 metafile = true
 
 [[files]]
@@ -97,12 +97,12 @@ metafile = true
 
 [[files]]
 file = "mods/essentialclient.pw.toml"
-hash = "4b7c9077112830da6819cf3280545374ee9c5a481f2f0224376571ca44a41244"
+hash = "5c48313165724485064bc6b4e2d374b9c124fe33e850875c03088563cf5c5c84"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "dae57c5a1bea0fb7b104fff48e4dd5b76c0eb46cb198f65b4a3ca13316c86d20"
+hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
 metafile = true
 
 [[files]]
@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-scroller.pw.toml"
-hash = "1ed404c9fa0797a37f7a71e5b242f41ffec469c26a5da51e0026d367939915db"
+hash = "0663ac7b22cca0c9f965bd2e291fa01bc7b2b75deac7efed6fc7fd12a491a636"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "17ff490a0ec172772e45bcb283ac262ba95bb816da090c89f227f6d889ed2676"
+hash = "c8b294d6eaab29151eb2884525b962ef5506e8fc83d31ea839dbc3d30bd99651"
 metafile = true
 
 [[files]]
@@ -197,12 +197,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "fbbb58bd6b308149f74aaabcb9154074dc4ea1e5759ce93d88025efe05dadce1"
+hash = "131f57b021106646b1d243e94154092ba85dd70d5b8c698085fea0008570f46c"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "6e3966fcbc7791a6e6413c5b3a669fe6e4de9b25ce7cb3ed83ff362e9f07b818"
+hash = "1521e14b09f495910837d440057d1b29e96fba81fdb2148b6ac60d9474169872"
 metafile = true
 
 [[files]]
@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "b3bf6eb1cf803d702af91d3ca5f39e7528e1d55afdae03833f6e31698803caa9"
+hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
 metafile = true
 
 [[files]]
@@ -317,12 +317,12 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "c6297b3a78e8ca1d71bb9b5a1cc67669a4f744a0260b8ed99aee7d07aca609b6"
+hash = "eae7f1cfd6d201e7f45fe8de5d192d570e01060495cbd4e26b2336ee49aa5fbf"
 metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "09779e0e1d37a036ef33806a4d45170b6e6b477c35671d3bcaa99e159ca3121d"
+hash = "6557d217f2ec39850a73945d0d3cdd037b631f87342ecf48c0e921d7e44e44af"
 metafile = true
 
 [[files]]
@@ -332,7 +332,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "d380bfe9315ec54f8e868d0511e89f32043653aa87e3b87ee0041c2ee696ac36"
+hash = "47851d46522afed8af6c74b0a1e0b51a0fc15b66ebdb155e6a6f51292a3f2aaf"
 metafile = true
 
 [[files]]
@@ -342,7 +342,7 @@ metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
-hash = "89060f34215eb5fd6c6dcd32edcd53b198cc04dae2fe90b03025b2b4bfd3b897"
+hash = "12032769430d7b0f49187a0299e9d93224187d7bd92b54a35f2d32ea349dd0cc"
 metafile = true
 
 [[files]]

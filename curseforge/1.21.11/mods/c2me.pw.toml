@@ -1,12 +1,12 @@
 name = "Concurrent Chunk Management Engine"
-filename = "c2me-fabric-mc1.21.11-0.3.7+alpha.0.9.jar.disabled"
+filename = "c2me-fabric-mc1.21.11-0.3.7+alpha.0.10.jar.disabled"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8ba48c81c03c5287b7dd1e39e66603c64a1bf3a0"
+hash = "fdd8c2009852fb41118d5c5c0969a6e274d7426c"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 7694219
+file-id = 8126915
 project-id = 533097

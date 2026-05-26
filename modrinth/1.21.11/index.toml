@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "bc1569456f4e153e5df7785ec4a533d5cd33b2ac1229fd83cdb08ce7c44dabad"
+hash = "4430b282935269f150fd3784e25ddb8b405c5bcbcddfded91e6395085927c057"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "fde9e37fa56b49c1a6caf8bb9f48d39d1975ea8285033d0e4146b9282f414ec0"
+hash = "33009936009562dea8138f0e9dc099675c978110039ea6bffa5b161e83d5fb9b"
 metafile = true
 
 [[files]]
@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-scroller.pw.toml"
-hash = "55e3117a19e5bbdf6d283c5dec901ec962be38fe561d786c52656b95eeceb07d"
+hash = "bb53d6fce89f8f986a049f95b4e30b1d3587f2a94e01698e78d7b8bf38846dfa"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "f32a0d33e67c9af35ddfbe4824f5c2dc2d1140e21d50ff07e8d47f064577daca"
+hash = "f224e1c983b97f980d04776d9d38a70aabf66f62fcdf2d4d4a3a6304130be9d9"
 metafile = true
 
 [[files]]
@@ -212,12 +212,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "b618fa7c0aecdc4a82f869892b01ab3714c86dedb427de091177cc5758a0fbb1"
+hash = "1affcff3b4cdb3dcb273844fa2b3015c7d4872ac3f380ba0032cc335d608ddca"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "920430fc3178085cae80ed2bcd794b08d6cb3cfe3b4817542f8e2f3773a52a85"
+hash = "c2fd2486179a29fe50b81f09135cddc61b6553ec82780f37864b3d7b5ea95560"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "69bfe15c54b432a2ac2c791a71842d0fe0ea2dd7f84e59324cc4c76168b85a06"
+hash = "6747f2e71e6d9ae5b6c4aea899f6af5fbbb612aac8c9bbb45990463826af3398"
 metafile = true
 
 [[files]]
@@ -342,12 +342,12 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "e1644658ed4f2b9f30a330533c9eddd1f1b439c21b34266d724543d9034adc12"
+hash = "727f2b74078ebc2176b677eb745ac6fb434ad5e686109eb28df21af4b84c1c7d"
 metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "9a2039716c626d289ce9192dc725c86c63f2babf75b8ad9527d29a54342e0215"
+hash = "2cbe9f67eea4cd968bb41747197fcf463f737511354b5d746140451db3f0e5a7"
 metafile = true
 
 [[files]]
@@ -367,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
-hash = "cbabc64f4a042c6dea8a51b937ff490fc275007ffc097a5bc8ea34e846612bef"
+hash = "ad4b687db5e2da0d2261e60e38420e4b653ae281c5d8d9ede1ba3aad5ccc4105"
 metafile = true
 
 [[files]]
