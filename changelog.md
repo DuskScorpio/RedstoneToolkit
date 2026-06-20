@@ -7,17 +7,18 @@
 ## Updates
 
 - 1.16.5-26.1.2:
-  - Carpet TIS Addition
   - Crash Assistant
   - Fabric Language Kotlin
   - Ixeris
 - 1.17.1-26.1.2:
   - Carpet TIS Addition
   - Crash Assistant
+  - Fabric Language Kotlin
   - VKM
 - 1.18.2-26.1.2:
   - Carpet TIS Addition
   - Crash Assistant
+  - Fabric Language Kotlin
   - Ixeris
   - VKM
 - 1.19.4-26.1.2:
