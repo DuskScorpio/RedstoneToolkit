@@ -32,12 +32,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "113ebac69394a9f77f0472df4ee434d758c9fbf33e84a4a7d4744ff161ea76b3"
+hash = "d1ea8276f475d6afd129a81a201ac2b21b6c3116842ef12289be68220a3ee935"
 metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "96bad0b815557a3712e5ea2730df5cf7928387c8de7bf1903810bbcb82bd8b09"
+hash = "ebfbcc7918e351b5bc3f7685b66b85aa8d70061464abbd08efb2c2562e6e4df9"
 metafile = true
 
 [[files]]

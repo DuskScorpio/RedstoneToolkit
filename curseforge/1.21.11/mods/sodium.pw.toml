@@ -1,13 +1,13 @@
 name = "Sodium"
-filename = "sodium-fabric-0.8.12+mc1.21.11.jar"
+filename = "sodium-fabric-0.8.13-beta.1+mc1.21.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4d80592bef36674e7469ae2737a7704b826289ae"
+hash = "6bb09cfd07a8b143c557b9c549f0e2162b174dc1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8111043
+file-id = 8253991
 project-id = 394468

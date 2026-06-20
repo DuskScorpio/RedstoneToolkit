@@ -42,12 +42,12 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "39b49ed7d24ea75fcfb6d8994878947846623fc32855d0d9b5ae0f70ab2815bc"
+hash = "71a17e78423e683690ac315e2be036178f4db15ca1f5620eff1b27c4d3ee483e"
 metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "f5d12cedcce327087d20aed4658f85c06ff49137eee7dff1a985a1f21d446cb9"
+hash = "d18aa609b0bfb9cdeb11ce0b101662e9ff2e6f09f03e688003f7fa703957b908"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "cda8ddd6c456dae08af04e50d71eb21f06a90bea7e2cbb69358f9efa8bf16dc4"
+hash = "6b718e8cb7e7b3d3b89c462f68ca578c3f4add655e4be7c9291646b0e33d3e00"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "5e92bc699ab4662329763f8cf0c731524bc3dca6e0fbba2ae695457190acd471"
+hash = "b638186285073f2daf8a133460fe9edeb576cb06f74e73f4fc2756607cf07110"
 metafile = true
 
 [[files]]

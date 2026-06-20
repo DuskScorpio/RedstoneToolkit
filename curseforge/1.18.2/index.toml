@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "28dbf13a740351926530d05a0f07b922886287ede01310e2b21546e1c814aab4"
+hash = "46bbdb0669c42ab2a1ff63f0f57b8378fbe6faf3e1e53c4f505dd8a05f861a82"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "45bb8e02308a4a3a65ee603936f4cef0ba8822fcb779ecd23eaf695da9bf6779"
+hash = "e75ce5f6717bdce4db0b40f0209aa67b49fcca53bb10197359322a237a8a23bc"
 metafile = true
 
 [[files]]
