@@ -1,0 +1,13 @@
+name = "NBT Copy"
+filename = "NBTcopy-FABRIC-26.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XIIGRXeq/versions/WzH0lEPZ/NBTcopy-FABRIC-26.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "1c8654cfabad22b58559146d0996ee5cb9e28701d680b47ce648cc2f326fdf2456d1990983ff6ea47ab53104a707d2e0e6cf4f67a630b747d35198ba119c7a15"
+
+[update]
+[update.modrinth]
+mod-id = "XIIGRXeq"
+version = "WzH0lEPZ"

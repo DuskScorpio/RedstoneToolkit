@@ -1,0 +1,12 @@
+name = "ViaFabricPlus"
+filename = "ViaFabricPlus-4.6.0.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rIC2XJV4/versions/B2WCktGU/ViaFabricPlus-4.6.0.jar"
+hash-format = "sha512"
+hash = "e7d25486e8385e4d7f3f1d78a4e7a22e7e938cb189e768dc2caf4cc6e60382d44916df0caecd2ff3019f00e9bb77556afab907a8f07235363ffe4b492168f0af"
+
+[update.modrinth]
+mod-id = "rIC2XJV4"
+version = "B2WCktGU"

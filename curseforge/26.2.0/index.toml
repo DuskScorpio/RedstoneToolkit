@@ -1,6 +1,2 @@
 hash-format = "sha256"
-
-[[files]]
-file = "mods/carpet.pw.toml"
-hash = "fcdd4267b12d96ab5b0bc4e41a50156ed9bf0b0fb7149dca357a7ba360d73a14"
-metafile = true
+files = []
