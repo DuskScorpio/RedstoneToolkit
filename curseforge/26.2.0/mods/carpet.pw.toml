@@ -1,8 +1,0 @@
-name = "Carpet"
-filename = "fabric-carpet-26.2-beta-3+v260422.jar"
-side = "both"
-
-[download]
-url = "https://github.com/gnembon/fabric-carpet/releases/download/v26.2-beta-3/fabric-carpet-26.2-beta-3+v260422.jar"
-hash-format = "sha256"
-hash = "bfe37e30177aaeea4a857462becaacfbbb3e6c1cba555a1e9aa1eb6c52936f14"

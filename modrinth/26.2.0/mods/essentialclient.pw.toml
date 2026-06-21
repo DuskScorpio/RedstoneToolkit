@@ -1,0 +1,13 @@
+name = "EssentialClient"
+filename = "EssentialClient-2.7.0+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sH0dfrKf/versions/jDX3psRH/EssentialClient-2.7.0%2B26.2.jar"
+hash-format = "sha512"
+hash = "9c93636edf6a18d3448e87089cb2e913644d94521aac2f57c361c5e0f8ea783a130191049d4e4b51d859f2e9407628d2dbdf235d9b17c3ee1a92d62b21da6056"
+
+[update]
+[update.modrinth]
+mod-id = "sH0dfrKf"
+version = "jDX3psRH"

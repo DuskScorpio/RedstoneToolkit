@@ -1,0 +1,12 @@
+name = "WorldEdit"
+filename = "worldedit-mod-7.4.4-beta-01.jar.disabled"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/1u6JkXh5/versions/ZL2VC7dm/worldedit-mod-7.4.4-beta-01.jar"
+hash-format = "sha512"
+hash = "92b24bf03d6db26dd776f8c9d551948995ef73f74f135a64a7dce4e84b83225bf6d41fb322963690bda041bae4b4e22b7ac5b7cdac9da151b38be906dc28e72a"
+
+[update.modrinth]
+mod-id = "1u6JkXh5"
+version = "ZL2VC7dm"

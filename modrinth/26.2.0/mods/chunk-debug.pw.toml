@@ -1,0 +1,13 @@
+name = "ChunkDebug"
+filename = "ChunkDebug-2.8.0+26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zQxjhDPq/versions/g0KW5J9N/ChunkDebug-2.8.0%2B26.2.jar"
+hash-format = "sha512"
+hash = "7e5bed2d14df2bd1aef123ed664d5d7092da93610ffa9bfffcdc440eb71e91b584c62f7c3ee9505f30237582e55a2310deb37b9fe71080ce3fd0aef3f18d4816"
+
+[update]
+[update.modrinth]
+mod-id = "zQxjhDPq"
+version = "g0KW5J9N"
