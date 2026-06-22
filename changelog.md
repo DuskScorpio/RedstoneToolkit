@@ -14,13 +14,13 @@
   - Carpet TIS Addition
   - Crash Assistant
   - Fabric Language Kotlin
-  - VKM
+  - Vanilla Keybind Manager
 - 1.18.2-26.1.2:
   - Carpet TIS Addition
   - Crash Assistant
   - Fabric Language Kotlin
   - Ixeris
-  - VKM
+  - Vanilla Keybind Manager
 - 1.19.4-26.1.2:
   - Carpet IGNY Addition
   - Crash Assistant
@@ -36,12 +36,12 @@
   - Crash Assistant
   - Fabric Language Kotlin
   - Ixeris
-  - ZFastNoise
+  - Fast Noise
 - 1.21.11-26.1.2:
   - Carpet IGNY Addition
   - Carpet TIS Addition
   - Crash Assistant
-  - EntityCulling
+  - Entity Culling
   - Fabric Language Kotlin
   - Packed Packs
   - Sodium
@@ -49,15 +49,16 @@
   - AppleSkin
   - Auth Me
   - Better Block Entities
-  - C2ME
-  - Client Commands
+  - Concurrent Chunk Management Engine (Fabric)
+  - clientcommands
   - Command Keys
   - Cubes Without Borders
   - EssentialAddons
+  - Fabric API
   - Lithium
-  - ModernFix
+  - ModernFix-mVUS
   - More Culling
-  - Spark
+  - spark
   - ViaFabricPlus
   - Worldthreader
-  - YACL
+  - YetAnotherConfigLib (YACL)
