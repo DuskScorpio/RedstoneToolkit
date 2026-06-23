@@ -6,21 +6,17 @@ enabled_files:
   - mr_slug: carpet
     cf_slug: carpet
     name: Carpet
-    urls:
-      26.1.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1/fabric-carpet-26.1+v260402.jar"
-      26.1.2: "https://github.com/gnembon/fabric-carpet/releases/download/v26.1/fabric-carpet-26.1+v260402.jar"
-      26.2.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.2-beta-3/fabric-carpet-26.2-beta-3+v260422.jar"
   - mr_slug: carpet-tis-addition
     cf_slug: carpet-tis-addition
   - mr_slug: joacarpet
   - mr_slug: subtick
     name: SubTick
     urls:
-      1.20.6: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc1.20.6-v2.3.jar"
-      1.21.0: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc1.21.1-v2.3.jar"
-      1.21.11: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc1.21.11-v2.3.jar"
-      26.1.0: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc26.1.2-v2.3.jar"
-      26.1.2: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.3/subtick-mc26.1.2-v2.3.jar"
+      1.20.6: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.4/subtick-mc1.20.6-v2.4.jar"
+      1.21.0: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.4/subtick-mc1.21.11-v2.4.jar"
+      1.21.11: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.4/subtick-mc1.21.11-v2.4.jar"
+      26.1.2: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.4/subtick-mc26.1.2-v2.4.jar"
+      26.2.0: "https://github.com/liuyuexiaoyu1/SubTick/releases/download/v2.4/subtick-mc26.2-v2.4.jar"
   - mr_slug: yaca
     version: "<=1.21.10"
 
