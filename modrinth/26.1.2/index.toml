@@ -36,6 +36,11 @@ hash = "7633bbc141e8aee6772086a5083d041db74b3d1a7894c2e4d7c0f18ffe8beeb0"
 metafile = true
 
 [[files]]
+file = "mods/carpet-extra.pw.toml"
+hash = "41447f77b93f0f8387e4479290af6831538914563ea3aa52ab373dc7442356e7"
+metafile = true
+
+[[files]]
 file = "mods/carpet-igny-addition.pw.toml"
 hash = "957e57f2dfacc882166ec7042bef952269b68863e822185cb419728ef4fdbe52"
 metafile = true
@@ -47,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "b140b43c302b60abcd893d3b0bf4a04796f9522af1407916b3e5bd1f10c84e97"
+hash = "fed6e68eacfd81206e9058b6f5532f3f3feb7bf682ae435b4828c68101784a03"
 metafile = true
 
 [[files]]
@@ -286,6 +291,11 @@ hash = "55ea790fa14c772cb16dd14230ad48a835a2fc90b8c6200eeef780c6030f73d9"
 metafile = true
 
 [[files]]
+file = "mods/schematicpreview.pw.toml"
+hash = "346c88dcd4d6638347c84ac904c15dbd6d6e2212c499505375ffe28805770ed4"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "546965f1ab52fc464c51e36c52305fef231837c22454d22447b8423e379502cd"
 metafile = true
@@ -307,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtick.pw.toml"
-hash = "67f345f0e5060913e3c53b04b89f3fdbe02700b9f525a4e78b1dd4461d8e9aee"
+hash = "bd35430836be46de8bedfb9fa06a491db65089ddbb2f7afd568ef88769ccde2f"
 metafile = true
 
 [[files]]

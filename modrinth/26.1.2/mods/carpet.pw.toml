@@ -3,6 +3,11 @@ filename = "fabric-carpet-26.1+v260402.jar"
 side = "both"
 
 [download]
-url = "https://github.com/gnembon/fabric-carpet/releases/download/v26.1/fabric-carpet-26.1+v260402.jar"
-hash-format = "sha256"
-hash = "59bd225d12423a7d7a635ca0c94fa786f97ccebb116922b16d76072da4ee67e7"
+url = "https://cdn.modrinth.com/data/TQTTVgYE/versions/ygtmLbO3/fabric-carpet-26.1%2Bv260402.jar"
+hash-format = "sha512"
+hash = "d98b02eb2bd2c7594aac3913c7ddfc8ef6ff724a6b1e86098611e09c303134626eb76e1c9fe910101c6972c8fe0993fb0b21ea99c7affc0e33a0ac64f941954b"
+
+[update]
+[update.modrinth]
+mod-id = "TQTTVgYE"
+version = "ygtmLbO3"

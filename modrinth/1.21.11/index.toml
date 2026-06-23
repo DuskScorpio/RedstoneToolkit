@@ -327,7 +327,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtick.pw.toml"
-hash = "77df70bf2a26ffae67688a009c34a1f3b0969bb28d8e1b12d8cc8663a632c86c"
+hash = "748b3fd72ffd733cf953d6414ddffb8b78ecab1d860d33b28ec9fc204ce5d8ea"
 metafile = true
 
 [[files]]
