@@ -11,6 +11,11 @@ hash = "05b93e6d1aa07c595141b1b06527ea9c95dd58ed5ae7f5643773dec85900ca33"
 metafile = true
 
 [[files]]
+file = "mods/axiom.pw.toml"
+hash = "79aaf758f848d9589315bff25cdd2b1093bf90e8a99fb1d0d2e272038b31a339"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "3635aff985b59e95eabf5ca9be77d20d25c9d4e2b20f97df42639ea794eda1f3"
 metafile = true
@@ -233,6 +238,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "c7b6e4a7666e9e64a70df0b550db2e25f7150d4c1c2c2e79e81dfbc036ce3a25"
+metafile = true
+
+[[files]]
+file = "mods/subtick.pw.toml"
+hash = "a54edce431bdc25d37be0acca28849e8667d5c4d0af443789a947aea899a4970"
 metafile = true
 
 [[files]]

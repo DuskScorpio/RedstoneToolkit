@@ -31,11 +31,6 @@ hash = "f8cd06d0d996581bb889c42e2f8bfee8141509449ac167bb7078aac5c638f4d1"
 metafile = true
 
 [[files]]
-file = "mods/carpet.pw.toml"
-hash = "b140b43c302b60abcd893d3b0bf4a04796f9522af1407916b3e5bd1f10c84e97"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "7b109a4d89c487576b9af68168b30084211d5f67124e2f5cc5165dbd083d14ea"
 metafile = true
@@ -197,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtick.pw.toml"
-hash = "67f345f0e5060913e3c53b04b89f3fdbe02700b9f525a4e78b1dd4461d8e9aee"
+hash = "bd35430836be46de8bedfb9fa06a491db65089ddbb2f7afd568ef88769ccde2f"
 metafile = true
 
 [[files]]

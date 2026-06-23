@@ -4,3 +4,8 @@ hash-format = "sha256"
 file = "mods/carpet.pw.toml"
 hash = "cf5bc21c0c3b5586245fd9f9700d18f321b0d1484906c7053cc783125f700044"
 metafile = true
+
+[[files]]
+file = "mods/subtick.pw.toml"
+hash = "a54edce431bdc25d37be0acca28849e8667d5c4d0af443789a947aea899a4970"
+metafile = true

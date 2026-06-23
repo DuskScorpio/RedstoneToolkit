@@ -1,6 +1,10 @@
 ## News
 
 - Added 26.2.0
+- Added newly compatible mods to:
+  - 26.1.2:
+    - Carpet Extra
+    - Schematic Preview
 
 ## Changes
 
@@ -30,6 +34,7 @@
   - Carpet IGNY Addition
   - Fabric Language Kotlin
   - Ixeris
+  - SubTick
 - 1.21.0-26.1.2:
   - Carpet IGNY Addition
   - Carpet TIS Addition
