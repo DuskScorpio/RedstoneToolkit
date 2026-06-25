@@ -4,7 +4,7 @@
 - Added newly compatible mods to:
   - 26.1.2:
     - Carpet Extra
-    - Schematic Preview
+    - SchematicPreview
 
 ## Changes
 
@@ -16,54 +16,38 @@
   - Ixeris
 - 1.17.1-26.1.2:
   - Carpet TIS Addition
-  - Crash Assistant
-  - Fabric Language Kotlin
-  - Vanilla Keybind Manager
-- 1.18.2-26.1.2:
-  - Carpet TIS Addition
-  - Crash Assistant
-  - Fabric Language Kotlin
-  - Ixeris
   - Vanilla Keybind Manager
 - 1.19.4-26.1.2:
   - Carpet IGNY Addition
-  - Crash Assistant
-  - Fabric Language Kotlin
-  - Ixeris
+  - Entity Culling
 - 1.20.6-26.1.2:
-  - Carpet IGNY Addition
-  - Fabric Language Kotlin
-  - Ixeris
   - SubTick
 - 1.21.0-26.1.2:
-  - Carpet IGNY Addition
-  - Carpet TIS Addition
-  - Crash Assistant
-  - Fabric Language Kotlin
-  - Ixeris
   - Fast Noise
 - 1.21.11-26.1.2:
-  - Carpet IGNY Addition
-  - Carpet TIS Addition
-  - Crash Assistant
-  - Entity Culling
-  - Fabric Language Kotlin
+  - Concurrent Chunk Management Engine (Fabric)
+  - Litematica
+  - MaLiLib
+  - MiniHUD
+  - ModernFix-mVUS
   - Packed Packs
+  - Reese's Sodium Options
   - Sodium
+  - Tweakeroo
+  - ViaFabricPlus
+  - WikiRenderer
 - 26.1.2:
   - AppleSkin
   - Auth Me
   - Better Block Entities
-  - Concurrent Chunk Management Engine (Fabric)
+  - Carpet
   - clientcommands
   - Command Keys
   - Cubes Without Borders
   - EssentialAddons
   - Fabric API
   - Lithium
-  - ModernFix-mVUS
   - More Culling
   - spark
-  - ViaFabricPlus
   - Worldthreader
   - YetAnotherConfigLib (YACL)

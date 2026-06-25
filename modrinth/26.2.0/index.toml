@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "02ce44e2b6e3aaefd75073c6ba07ebf86290349748c7dc8eb190c2e640fbdca4"
+hash = "149d3e5a33c6ef902b4c517c1b47412782c7a4f493fbed60ee6010f5b6473b60"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "91cbd0f5accaeb5ba27077286c6f4d149d1ac348626623b47ca5392e39625972"
+hash = "fdc6309bf3420b7e358737b05877335191021e8a2376def243deb0e521797166"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "9f972c84d09291d6d182b1b719333abdb80cf5adbf6892d5f3df7f71940fb43f"
+hash = "c0caae18b4631f9e076b0a7993c52044fefe52bd9d434368eea8f704d0a327c2"
 metafile = true
 
 [[files]]
@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "d3279884c1ad04f2af9a742729ff1c922edec4fe4e07aecbc84d1b85cee47e57"
+hash = "ba45e275513fa2abea8849bc7d19e28b280ea991a891c8cdeb9f833eb5204ea7"
 metafile = true
 
 [[files]]
@@ -162,12 +162,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "bbda4daa893a271e15c5f55850f30ba5993466e86fd61b7726bf26709f94c326"
+hash = "5283efb1c3a542a495a063a89c7652581e09b28a88bd900771209414caf46a4e"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "5cb39c231378bdee2916e4419d874aee18b812d9d1c51365326ff60404887b39"
+hash = "3b13c21bfda4229b4df354ef70c9eef30eb018efe9170ddb14e0771c6ff81e8d"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "64eee34685461c44e657b33d9a982c1da9b3e21f2fe139907fc8a6d68359be14"
+hash = "7acfb9e9d7b052728f518574f1e79d20a2ec3296e147fbd3794b033fef381947"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "61b0b90fdcece885bca2ca639e5ddf696b374d51a93e3ee3deb8ecd07d57b9b0"
+hash = "73915f100ddd393168b4cd5dbc2a5057e2470624c837d91eb9a7ff8c6f3977fe"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "f0ec25bb518c22cd4a3e673ab9696ddaf401c489c0a83d35d287404898c7ca6c"
+hash = "aa150a6ad2731254886d12b78aff4d06ba8348164c976727963452fa9837acee"
 metafile = true
 
 [[files]]
@@ -302,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "164ef0e26bba18089a0df494623e8f87ed0be9ba143ed8ddcdd8c8c538eaf1c5"
+hash = "da2b918e1ae55d1073b87bfc3236f37d106f80e0e295e99d374642f35531ada8"
 metafile = true
 
 [[files]]

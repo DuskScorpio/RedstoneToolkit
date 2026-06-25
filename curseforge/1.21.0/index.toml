@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "7aa4bf833215d29a969c7eba3fbe169fa9a9dd780c560b9abf7671a17b9aef73"
+hash = "a35af8a742ebe2d497ab8098630c3f683c52ae0941371cbfdf4a61102caf82b6"
 metafile = true
 
 [[files]]
@@ -357,7 +357,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "d91b49742aa007c4e34fbb77402605b772c1186e7133576103cf43fbbbba517e"
+hash = "7c73b1d4e36bb7cb4445bfed9df1d07378593f70227ab15baced4d6d01ea3d10"
 metafile = true
 
 [[files]]
