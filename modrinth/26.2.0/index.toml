@@ -196,6 +196,11 @@ hash = "abfaa2ee07bd72ce397ed6634349baad0254df8267e924dcb4370245d0dcdece"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "63bbc86e33c7c6ef13127af80ce55e3bada70d56a6ff572e2e6c2871c17826fe"
+metafile = true
+
+[[files]]
 file = "mods/packed-packs.pw.toml"
 hash = "91541c2fc7690c95dc06c6c23cec490b7f49ca6aae7c555ed6b53f8769d5b653"
 metafile = true
@@ -236,6 +241,11 @@ hash = "61b0b90fdcece885bca2ca639e5ddf696b374d51a93e3ee3deb8ecd07d57b9b0"
 metafile = true
 
 [[files]]
+file = "mods/sound-controller.pw.toml"
+hash = "6eadf4db35d3f405bdaeaa885c18acf2c10df70b77767353d3387725b7ee2ead"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "c7b6e4a7666e9e64a70df0b550db2e25f7150d4c1c2c2e79e81dfbc036ce3a25"
 metafile = true
@@ -248,6 +258,11 @@ metafile = true
 [[files]]
 file = "mods/syncmatica.pw.toml"
 hash = "356ee21404f9807c6f18d598535ae17de2465d793341b408e60c50c3e8917a58"
+metafile = true
+
+[[files]]
+file = "mods/techutils.pw.toml"
+hash = "1b4d0ce90d54d860893c1eaffeb7d1383fca8e5674258e5cbde302aba4520332"
 metafile = true
 
 [[files]]

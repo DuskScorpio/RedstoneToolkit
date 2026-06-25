@@ -1,0 +1,12 @@
+name = "Sound Controller"
+filename = "soundcontroller-1.2.6-mc26.2.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uY9zbflw/versions/w9ZTTlnw/soundcontroller-1.2.6-mc26.2.jar"
+hash-format = "sha512"
+hash = "bab5dbbbee6dbfc5db58381a327dcf947e9424c57f523dd88958b38f1bb064775017f50fc3001de5de1abeb92fbddb574d77a0f4e3331d603c35e45fa5b479eb"
+
+[update.modrinth]
+mod-id = "uY9zbflw"
+version = "w9ZTTlnw"
