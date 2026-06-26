@@ -11,11 +11,10 @@
 ## Updates
 
 - 1.16.5-26.1.2:
+  - Carpet TIS Addition
   - Crash Assistant
   - Fabric Language Kotlin
   - Ixeris
-- 1.17.1-26.1.2:
-  - Carpet TIS Addition
   - Vanilla Keybind Manager
 - 1.19.4-26.1.2:
   - Carpet IGNY Addition
@@ -41,6 +40,7 @@
   - Auth Me
   - Better Block Entities
   - Carpet
+  - Carpet Extra
   - clientcommands
   - Command Keys
   - Cubes Without Borders
@@ -48,6 +48,7 @@
   - Fabric API
   - Lithium
   - More Culling
+  - SchematicPreview
   - spark
   - Worldthreader
   - YetAnotherConfigLib (YACL)
