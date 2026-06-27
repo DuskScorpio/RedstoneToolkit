@@ -1,6 +1,7 @@
 from enum import StrEnum, auto
 
 import os
+import platform
 
 
 class PlatForm(StrEnum):
@@ -9,7 +10,11 @@ class PlatForm(StrEnum):
     ALL = auto()
 
 
-PACKWIZ = os.path.abspath("tools/packwiz.exe")
+PACKWIZ_EXE = os.path.abspath("tools/packwiz.exe")
+PACKWIZ_LINUX = os.path.abspath("tools/packwiz")
+PACKWIZ = PACKWIZ_EXE
+if platform.system() == "Linux" and not os.access(PACKWIZ_EXE, os.X_OK):
+    PACKWIZ = PACKWIZ_LINUX
 FILE_PATH = "file_list.yml"
 ENABLED = "enabled_files"
 DISABLED = "disabled_files"
