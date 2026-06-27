@@ -1,0 +1,13 @@
+name = "ModernFix-mVUS"
+filename = "modernfix-5.27.18-build.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TjSm1wrD/versions/RboPRovb/modernfix-5.27.18-build.1.jar"
+hash-format = "sha512"
+hash = "9aec192e3115e131f997ac3a83c7b54d83e27ce9df90a24b68d25de67a4ac173b65ac2191b17a48e26381e444999409b10aad7816e2937c2031d03c3f7f2ed32"
+
+[update]
+[update.modrinth]
+mod-id = "TjSm1wrD"
+version = "RboPRovb"

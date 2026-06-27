@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "149d3e5a33c6ef902b4c517c1b47412782c7a4f493fbed60ee6010f5b6473b60"
+hash = "813f2df6c5ace86ac86063b1cd5f524246bb955f323b56a738709e2e6be8c1e7"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "1c998bd258e1eeebdf39f6a9d7397906f3f5c53c1a99a9677a8bd2c7ba0211fe"
+hash = "41437a15f56b00994815f2bd2371ac84232cd7a1cc29688fe81480b44a935447"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "b4850ffb43d15c8105210859e5005c07d2a402b937b342ea51d85d10df1a073d"
+hash = "cc9675851e43f3698643923f3be8e0241b567731a88deae575eea1825aa64885"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-controller.pw.toml"
-hash = "6eadf4db35d3f405bdaeaa885c18acf2c10df70b77767353d3387725b7ee2ead"
+hash = "c714c81530788cabd4d2b0566bcec8fe8335c30ff504418b213270023e3bed70"
 metafile = true
 
 [[files]]

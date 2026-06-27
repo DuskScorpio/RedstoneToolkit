@@ -1,10 +1,7 @@
 ## News
 
-- Added 26.2.0
-- Added newly compatible mods to:
-  - 26.1.2:
-    - Carpet Extra
-    - SchematicPreview
+- Added 26.2
+- Added 26.3-snapshot-1
 
 ## Changes
 
@@ -21,7 +18,7 @@
   - Entity Culling
 - 1.20.6-26.1.2:
   - SubTick
-- 1.21.0-26.1.2:
+- 1.21-26.1.2:
   - Fast Noise
 - 1.21.11-26.1.2:
   - Concurrent Chunk Management Engine (Fabric)
