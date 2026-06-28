@@ -1,13 +1,13 @@
 name = "Item Scroller"
-filename = "itemscroller-fabric-26.1.2-0.31.4.jar"
+filename = "itemscroller-fabric-26.1.2-0.31.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/JygyCSA4/versions/4IOqE2jc/itemscroller-fabric-26.1.2-0.31.4.jar"
+url = "https://cdn.modrinth.com/data/JygyCSA4/versions/CiSruvT0/itemscroller-fabric-26.1.2-0.31.5.jar"
 hash-format = "sha512"
-hash = "2bca29784de2a4dca330b1230a147e0b8178d223d9a17fc30cb8650bd88c64d6aebfe1020b4e0bde85d9952f883cc93f36a6b8cc049ff4b8e61e39c74f99b28e"
+hash = "32fe9ba3cb914b99997466947b45567bd1258d3fdc78de035ef534dd743bf1e6402f2be299e6ec281801298576233dc8a202b1c3b1a922e88712ffc6beef155b"
 
 [update]
 [update.modrinth]
 mod-id = "JygyCSA4"
-version = "4IOqE2jc"
+version = "CiSruvT0"

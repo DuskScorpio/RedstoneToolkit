@@ -22,6 +22,7 @@
   - Fast Noise
 - 1.21.11-26.1.2:
   - Concurrent Chunk Management Engine (Fabric)
+  - Item Scroller
   - Litematica
   - MaLiLib
   - MiniHUD
