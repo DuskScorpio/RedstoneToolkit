@@ -95,6 +95,8 @@ class Export:
     def __override_side(self):
         """Some mods don't mark the side correctly, and the temporary workaround is to override all mods' sides as both"""
         path = self._path.joinpath("mods")
+        if not path.exists():
+            return
         files_path = [f for f in path.iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
         for file_path in files_path:
             with open(file_path, "rb") as fr:
@@ -112,9 +114,10 @@ class Export:
         pack_name = f"{name}-{version}.{end}"
 
         path = self._path.joinpath(pack_name)
-        export_path = Path("export").joinpath(pack_name)
-        export_path.parent.mkdir(exist_ok=True)
-        shutil.move(path, export_path)
+        if path.exists():
+            export_path = Path("export").joinpath(pack_name)
+            export_path.parent.mkdir(exist_ok=True)
+            shutil.move(path, export_path)
 
     def __enter__(self):
         return self
