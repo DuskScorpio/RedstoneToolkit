@@ -49,10 +49,8 @@ class Install:
         # sb curseforge
         if self.platform == PlatForm.CURSEFORGE:
             cf_condition: str | None = self.mod_meta.get(CF_SKIP)
-            if not cf_condition is None and util.check_match(cf_condition, self.mc_dir): return
-
-            urls: dict | None = self.mod_meta.get(URLS)
-            if urls is None or self.mc_dir not in urls: return
+            if cf_condition is not None and util.check_match(cf_condition, self.mc_dir):
+                return
 
         if not util.check_match(self.mod_meta.get("version", "*"), self.mc_dir):
             return
@@ -90,6 +88,9 @@ class Install:
                 self.__url_install(mod_name, urls[self.mc_dir])
                 return mod_name.lower()
             name_list.append(mod_name.lower())
+
+        if self.platform == PlatForm.CURSEFORGE and not name_list:
+            name_list.append(self.mod_meta.get(MR, "(unknown)"))
 
         mod_name = name_list[0]
         self.log_w.warning(f"{mod_name} install failed!")
