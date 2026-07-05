@@ -61,6 +61,11 @@ hash = "5e7978e61f0bd854f38e504c1e1cda3ad9acbb3db41a75f13befd8a1a853025e"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "68ada1288adb630121a275c986322acf574de936ce9434694de739bb6f4e3b82"
+metafile = true
+
+[[files]]
 file = "mods/cubes-without-borders.pw.toml"
 hash = "f9fe327312d08878c58b47843d6edcd735d199e299b8abc096e212f5ec6950ec"
 metafile = true
@@ -118,6 +123,11 @@ metafile = true
 [[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "5bcf53ed6639c7a3652c45a4fec3f7bed00baad4bcadf1bc8d510056196a76d4"
+metafile = true
+
+[[files]]
+file = "mods/item-scroller.pw.toml"
+hash = "e070177e6075e092483f129586c45c64497175e09688ca48d18b20a52a6d3c9b"
 metafile = true
 
 [[files]]
@@ -263,6 +273,11 @@ metafile = true
 [[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "a5b079c9c67e82d7d5e98679a33e1b756dff2f6398719eb3a89a4bfd92971cda"
+metafile = true
+
+[[files]]
+file = "mods/viafabricplus.pw.toml"
+hash = "950c3660cd1c9044f270d299120c448b2a26914c5b882a540c030614c3fbef0a"
 metafile = true
 
 [[files]]

@@ -1,0 +1,12 @@
+name = "ViaFabricPlus"
+filename = "ViaFabricPlus-4.5.4.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7ec84051599efaffe9c05b6ac0093a31518e776"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8134869
+project-id = 830604

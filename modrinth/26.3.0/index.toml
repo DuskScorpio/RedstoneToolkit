@@ -17,5 +17,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "f00174459fbd6453d56a9d9c30e257f48b7adfaffa68886dec541b16847de45a"
+hash = "657ec98f1acca0d6ad9e5a301ecba54cfa66a3f87423f90cbfe359db75abd9f0"
 metafile = true

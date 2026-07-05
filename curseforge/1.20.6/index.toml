@@ -66,6 +66,11 @@ hash = "ee0ad15b6edafece23baad6b541d0f856872e3f87eaa05e430215314247a6efc"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "50f55086009beef120183ff669638e9e8e958689daf06c2250fa47b0ba98e2c1"
+metafile = true
+
+[[files]]
 file = "mods/cubes-without-borders.pw.toml"
 hash = "4ff596e5d0a5241ee63bf9c01236b14c0a902d7402efb976b1f8d5e0023f2920"
 metafile = true
@@ -308,6 +313,11 @@ metafile = true
 [[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "e74d89e26bf7d98e1869ede3b09096b31b0dd2304d6595d6f806535e2a664eb9"
+metafile = true
+
+[[files]]
+file = "mods/viafabricplus.pw.toml"
+hash = "e5c026a06e0094ce76d38cc09147b48a19db76343d0f55e9483cd88ec8f2d52b"
 metafile = true
 
 [[files]]
