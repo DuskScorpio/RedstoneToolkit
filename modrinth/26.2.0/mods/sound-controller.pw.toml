@@ -1,12 +1,12 @@
 name = "Sound Controller"
-filename = "soundcontroller-fabric-1.3.0-mc26.2.jar.disabled"
+filename = "soundcontroller-fabric-1.4.0-mc26.2.jar.disabled"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/uY9zbflw/versions/CigMsOCJ/soundcontroller-fabric-1.3.0-mc26.2.jar"
+url = "https://cdn.modrinth.com/data/uY9zbflw/versions/5YXU2rID/soundcontroller-fabric-1.4.0-mc26.2.jar"
 hash-format = "sha512"
-hash = "5c10752389c5da61c6acb287fc7298d900497daab97c228ad3467af227ca4cae400e92d55ba1740032c1cfb555135a4a1ce28ea01ee6f642119350f3288875ed"
+hash = "7aa9b069c2356d3df95679a0507085f6c3ed7fa4ddbde44ae4f9f2c5a66e900c8efba7a612174652428a57b845bb7c8f88f5bfb975ef03b007f87ee3f5b5bab2"
 
 [update.modrinth]
 mod-id = "uY9zbflw"
-version = "CigMsOCJ"
+version = "5YXU2rID"

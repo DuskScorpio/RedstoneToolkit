@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "c68ba01b809b1d596402a2338f3dbeb66b1de282ac79051060d79fb1b3f666a4"
+hash = "98d236c8de4fae6c679e38df619011b7b55705e77dfa9039d4ae78922bbf3d8d"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "3706323831fd25bcdb7ef02b669d066650250df1ba2156f5bc037f52aa85da79"
+hash = "044f3ca8adae9c725694052949f2c4e76c9e82575de591dd3f4a417f2a2ef5fb"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "529d45280fe80a43b47d08b13a5fd0a2d86602a08b9d0d434634f56c4bc0adaa"
+hash = "823423238c3c5c3c34d0aecd1dcca537a6f2d5ddb07ab9b2690f9e8024e201b2"
 metafile = true
 
 [[files]]
@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "e33da684e699503000ab8a702e80d8554827290f5cb3f90201682150ee7aa28e"
+hash = "6d2468978f3aa9b82a41e34ef1cebca686b6aa84e6386b55c124023f20d98a8d"
 metafile = true
 
 [[files]]
@@ -177,12 +177,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "f1502d6549753845a7eea8b6ef2adc7e39f241cda6bff6a58f4a27b771cbb221"
+hash = "cdf2de41a956e203deeeaf6898f8c2d3e0f4cf6997308c2601ccd09fa51af71c"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "7b7f033abdb495b0c5892e3e9ff0f2b9c5a633ccef40e506d2f399be5f746cb0"
+hash = "2049f4f0570043c852a55444ecff5a9d5dcc9a023058bf46bbaf8c1eb96569df"
 metafile = true
 
 [[files]]
