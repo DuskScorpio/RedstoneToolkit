@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "fdc6309bf3420b7e358737b05877335191021e8a2376def243deb0e521797166"
+hash = "7e69c1869ee0d211bd0e801859950077af1b2a0cc1f1f73f7e08927d0da86563"
 metafile = true
 
 [[files]]
@@ -167,12 +167,12 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "5974aaa65fd4670bc1cfdf163369a2fb69dd96673d06ff06cd34d484363f2c8d"
+hash = "1be383140e57b167b7e3eb589495752eb8dcb3bdc4c82f7d7934ba7bc869514b"
 metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "ca48f91f6b339797f8186d7adbb60581afac53f1a073f116fb4b1c08a29fa31b"
+hash = "ba528e27fc27b75a1997936bba35cf7d14c4d4d203aab5c067d5ec3ffcd0cfb6"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "63bbc86e33c7c6ef13127af80ce55e3bada70d56a6ff572e2e6c2871c17826fe"
+hash = "bfa06448233b5c9a31994658d00ce7a69cae9d475494182189e13c188604f550"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "cc9675851e43f3698643923f3be8e0241b567731a88deae575eea1825aa64885"
+hash = "3e203bfd412cb6c7c9eccbb621edc24427174afbbe739bff98cf1b51f0636333"
 metafile = true
 
 [[files]]
@@ -227,22 +227,22 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "c5c5c95853820fa8e29d4487fd2379f3f601ab1811a8f1c3f5a28574a3486adf"
+hash = "f06db3e080f41dfdab986b47bbad5f603bcaa60771721463a1d1fdf23963faf2"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "e49481f8cec67aa4643ab47878f449e58f9442e049df3a290f7b215d73d1c022"
+hash = "f59459557165e5ed9022cd5e9182bd3b12ae495e9c300bf9025d03a76eca9fe1"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "73915f100ddd393168b4cd5dbc2a5057e2470624c837d91eb9a7ff8c6f3977fe"
+hash = "56122ab395de07f5f6feefcef4e7688ac01a91ae152f81697472a124209616a7"
 metafile = true
 
 [[files]]
 file = "mods/sound-controller.pw.toml"
-hash = "c714c81530788cabd4d2b0566bcec8fe8335c30ff504418b213270023e3bed70"
+hash = "907c43f3e3b9c5779f52480a1e5870c36a941e5edb5440b599f74fd2ae25dbd2"
 metafile = true
 
 [[files]]
@@ -277,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "af1509eac3fe0784640debe1f1f873e6cb7f8df4e22d0b7e2353f95ecd4e2bb1"
+hash = "5530f53fa7c5f8ab9bc6c2e2feeac334ff10acbaa51ca385faf8fa00bfbc9f99"
 metafile = true
 
 [[files]]
@@ -307,5 +307,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "0d3547f3c0c7d8ee6d017edf78f6bba721e6003c4906d619cb059027751e3cfd"
+hash = "17986da5ffb8dab0c7ad9e837b3e88a6b63b8c96658d28936b746d137c99af57"
 metafile = true

@@ -11,6 +11,11 @@ hash = "e5bd4f8166013303788a2b98d879c66dd82de9c980c6caa24b5cd0fab6a754b0"
 metafile = true
 
 [[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "46609a55eafa7a2b4bf00f5a881c77fe3f0a520bbfb4ad75f5a5196bcea6f39b"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "f00174459fbd6453d56a9d9c30e257f48b7adfaffa68886dec541b16847de45a"
 metafile = true

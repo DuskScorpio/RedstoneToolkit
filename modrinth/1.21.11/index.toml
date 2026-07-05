@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "c9f90b2209445cabf1c8274548f781f9760a7edf46cb1f9a84beccc022c7a3a4"
+hash = "8c6271b3c75cf595807eeb8dc33f6a3274ad58c6a1c76553e7fc06bae486eea4"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "46709e28e32534ef62719f75d5d2e39dd2217811986a65577041f1c059b94dcb"
+hash = "dae9980abe4fa486290dba8800105baf99c1ca114329bc51c8e2643948960681"
 metafile = true
 
 [[files]]
@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "ac5d6ec850236c1493f468c7c0e2c692a0b56d34a48116b7641ef6a14c9f1e6a"
+hash = "4d296ccb546ccbed5f1850f3058b2fde6552132912420509d6802016b76f01e3"
 metafile = true
 
 [[files]]

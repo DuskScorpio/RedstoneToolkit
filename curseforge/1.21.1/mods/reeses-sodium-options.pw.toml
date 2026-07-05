@@ -1,0 +1,13 @@
+name = "Reese's Sodium Options"
+filename = "reeses-sodium-options-fabric-2.2.2+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d0873f9ec75b111377cd5de795cccd05fca980da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8361387
+project-id = 511319

@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "5437a82ada69b0aefc9a19f3c883d2a57eb1f22d23e30a56f0d753ae7cc1f975"
+hash = "138ba2afec6819718c717a4a83990a96f4ed5754dcefcd5bfd122c398f43926f"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "a04fe938eee9b4b6449e4e23c7d3b37210303759257dad72a77c79f90ac9b715"
+hash = "b01942213ea7e729c753605a71a6093a3a94d0a92f92a73a0c9e451bb597b97d"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "a76bbf424f189d2f10a18ce19350766cec46f6a8f2956608c2dfc04607fd1821"
+hash = "98affd0570807ae5bfb45f241ad35ccd76085a34f2277069d4113405d9d8ba59"
 metafile = true
 
 [[files]]
@@ -152,12 +152,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "9fba20f6906e309957580d0583e0fe949ef48db8dc88f7652ffa63f8c869a5b4"
+hash = "af249a20325ad36f4aed5c9d07ca9b5f9203f928a5a85b358c509817a4810b60"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "00acf50f551a9327faaf5774ecc92d47f32963bceeca4a72f64e573375d2da30"
+hash = "3156d9d6750613833dacba18f4597bd2abe59915e800da2558517ba8d1ba230f"
 metafile = true
 
 [[files]]
@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "503e6c45a84b06b0a56a517f5ac57a94c5c627a11eed0c690fd3af53d4746d00"
+hash = "481a950235f8af2cfe5e0fa79e0810271877e5f21bb4d1992e1b1e5bbd9589f7"
 metafile = true
 
 [[files]]
@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "6ac5b60f56dd437ab137fb33c7d4caa5b2f4cd29c58191db0e24178ddf52cc05"
+hash = "36c28a3ada0ecd48fe5aaa200cc3000d5f99444838982ca06b9732a36bae2ee9"
 metafile = true
 
 [[files]]
@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "d220cb36df3eb8b1e58d501b9e4de70cda6e93cc0fa4f36ae6fd40d720069b5b"
+hash = "a5b079c9c67e82d7d5e98679a33e1b756dff2f6398719eb3a89a4bfd92971cda"
 metafile = true
 
 [[files]]
