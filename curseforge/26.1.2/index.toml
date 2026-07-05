@@ -6,6 +6,11 @@ hash = "dae0af660f3a3bbce3952a1787247ef6cb338010d65ddc96737aa97fb8b8c13b"
 metafile = true
 
 [[files]]
+file = "mods/auth-me.pw.toml"
+hash = "740ac4f9bb4f2189d4cf6e45e4c55723ef0e4af0b4d85e730d3c7c05ac95f277"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "68c328a6f95dc78e1212d7c4e58bcb104c9472d00f9f48d32bb1c5530deeef1c"
 metafile = true
@@ -21,6 +26,16 @@ hash = "9ba1e98e77cdeb9494e8b88bac5a5a8f7a0e28c263377ca192815cd04703b380"
 metafile = true
 
 [[files]]
+file = "mods/capture-playback.pw.toml"
+hash = "fc2d4058f9380ed7c7703b1e5dc6dcfe100a3f648806582fa2be7f1de04c3bc1"
+metafile = true
+
+[[files]]
+file = "mods/carpet-extra.pw.toml"
+hash = "ac62b7f02fac90a061f33f70b743aebee2dc394a38508aa4fdd3dc9b20d5bb95"
+metafile = true
+
+[[files]]
 file = "mods/carpet-igny-addition.pw.toml"
 hash = "8aff00eda765ea0d251644ca01084bb99b4b05f024e56863d6caf451edcf5896"
 metafile = true
@@ -28,6 +43,11 @@ metafile = true
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
 hash = "f8cd06d0d996581bb889c42e2f8bfee8141509449ac167bb7078aac5c638f4d1"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "ed10d8d15698a63533fff52c96b239e545a59bf7e9eebac8caab3c1664fcbb10"
 metafile = true
 
 [[files]]
@@ -43,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "d0299852f82d2e6df0c14b4740d71166ba289d1e1371f2a8e50826a21c0e936e"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "3df6965ab47c7fba20ad9a13b88ee43293c1278d423faa7e7ccb7de5a4061d8f"
 metafile = true
 
 [[files]]
@@ -71,8 +96,23 @@ hash = "6cde98be85a9b158be163a976464dc1b5c42c0300ac555f423e1211a02061dd4"
 metafile = true
 
 [[files]]
+file = "mods/fastquit.pw.toml"
+hash = "3d9667bb1f32c2e3748a7ad6af1af5b7acad4067503887678118ba85c2d675d4"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "1fffe5b72ab3b513ebbd19f3d3f0d574b8bb20dd6e34efbb02aeb1b15735e4ee"
+metafile = true
+
+[[files]]
+file = "mods/g4mespeed.pw.toml"
+hash = "12036b54b37b9d9f1b34b26d82d3f64fc287e1f674cbc321cdab077656ee9a1f"
+metafile = true
+
+[[files]]
+file = "mods/hold-that-chunk-v2.pw.toml"
+hash = "52efa2630f3369d57507064100a6cdbc97cc57d88d5f252c124cfe604b04d702"
 metafile = true
 
 [[files]]
@@ -91,8 +131,18 @@ hash = "75d28d36cdc5cd41d4a1e687bc5a3a78be210d5982e33f0db928dd75ff150e9e"
 metafile = true
 
 [[files]]
+file = "mods/item-scroller.pw.toml"
+hash = "331e0a351e849614f13d87b0bea48d02706056f535a5ecc5b37eb4867eb0c587"
+metafile = true
+
+[[files]]
 file = "mods/ixeris.pw.toml"
 hash = "f900fb919212bcae62b54079a4a860d34929762f233a88284a7c935674696bf8"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "6686ac48bc91b3f7861eb4579d94fd55ebd18f2ab4aa091f8a99b9f0da4fa514"
 metafile = true
 
 [[files]]
@@ -106,8 +156,23 @@ hash = "8401233471cca8ab2a3ef7ed8b0feaa216ce8346d652c74cfde4c20caabbeb09"
 metafile = true
 
 [[files]]
+file = "mods/litematica.pw.toml"
+hash = "cd134e4893b924b96ff9749013637f32897ca16248491eba5ef2fd1d49c7ec63"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "caecd9be6b392695c7a5bc5a28487da0a62dea5199b825d0fa0252ff75199157"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "271d6c8c84a7d353d4a51cfc15516a4012f0a2b8d159bccc4ea91e364ff47d34"
+metafile = true
+
+[[files]]
+file = "mods/minihud.pw.toml"
+hash = "239c47c1fe302b94c704f86a0767a8d1c512e22dff21366ad16796869ab07ac2"
 metafile = true
 
 [[files]]
@@ -156,6 +221,11 @@ hash = "9708cb5e7604b29effa99bae0b443498f976a267b9fada6f5cf855463bdbf1e1"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "4f43aceef4cd35b40fcc34dc4b0e2cfa7efa352584e259fa566618d15c5a80d9"
+metafile = true
+
+[[files]]
 file = "mods/rail-placement-fix.pw.toml"
 hash = "b0f887f7c5779d6276ded0deb8b2209567d91131ea34b01b5daeae8f4007a006"
 metafile = true
@@ -172,7 +242,12 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "be95f8dc3e62a84ff23c9ab8f459b55feb11687acdfd093953ad18934a9ec627"
+hash = "c198b954194401f7aeee3810dffc70554951e123791a37d784103ac991b4bcbb"
+metafile = true
+
+[[files]]
+file = "mods/schematicpreview.pw.toml"
+hash = "9b937666754d957315c7815ab2bd4d519fcaaef834133330501cfafc6366fa16"
 metafile = true
 
 [[files]]
@@ -198,6 +273,16 @@ metafile = true
 [[files]]
 file = "mods/tweakermore.pw.toml"
 hash = "ee89d17661d9cc818a92933df8990d9371e914b92cb9226dd88b8575174d889d"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo.pw.toml"
+hash = "190dd1c65562c96b9e717146f377e652a4f3226a94e9195d89cc4f66a9487098"
+metafile = true
+
+[[files]]
+file = "mods/viafabricplus.pw.toml"
+hash = "74ca9e4012c067ec066ede1dc008c19d5574de340c8723581672a5fe23da44d3"
 metafile = true
 
 [[files]]
@@ -227,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "e4ce145f0eab255d207e5ec671e69cc988b0a2c93a07fd7592d4302178078b84"
+hash = "6da9944d033c2e40e93deb2f97320bbcd8f1555b0918d9784d728629aec5838e"
 metafile = true
 
 [[files]]

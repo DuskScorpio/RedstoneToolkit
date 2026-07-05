@@ -121,6 +121,11 @@ hash = "289599ac70b0f0a9a0055f1bd10fb7e2c38c540c3ef49db8779c5c3988a7455c"
 metafile = true
 
 [[files]]
+file = "mods/hold-that-chunk-v2.pw.toml"
+hash = "2bab0998d1b23069194b242a8bcc5afd2fbbc4047218fdf1d997316fe8cd8221"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "41437a15f56b00994815f2bd2371ac84232cd7a1cc29688fe81480b44a935447"
 metafile = true
@@ -227,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "f06db3e080f41dfdab986b47bbad5f603bcaa60771721463a1d1fdf23963faf2"
+hash = "ec7527fb81f7ead1640cd0793567660a4c60d69e4506d211708ec5008b9c8bee"
 metafile = true
 
 [[files]]
@@ -286,13 +291,18 @@ hash = "818e56508c70335f78041beab7a8c2acc0fa5d0c3cd208861e5bb1ccc63dfcca"
 metafile = true
 
 [[files]]
+file = "mods/voxy.pw.toml"
+hash = "c2934b61541bc2e8ae4d546005f055e6ab11390d48c9b3075088cef7626890b1"
+metafile = true
+
+[[files]]
 file = "mods/worldedit-cui.pw.toml"
 hash = "c8d259267ead62f42740113361e2dfcafd3dcea397cc2c4217f37160549f6503"
 metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "0c2e0e510366be2594c140bec9deff44827fd57ee47e24c309f6568ea6396798"
+hash = "a5aa463f5c92f9c45aa3a83d99b981363f243249d45981cf36812aeb8d6137b5"
 metafile = true
 
 [[files]]
@@ -307,5 +317,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "17986da5ffb8dab0c7ad9e837b3e88a6b63b8c96658d28936b746d137c99af57"
+hash = "d4e188553ece0d239c00bafb42c7d144ffc0b331b0c1f32019d35a8d9cdce531"
 metafile = true

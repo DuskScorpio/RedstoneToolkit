@@ -1,0 +1,13 @@
+name = "Hold That Chunk V2"
+filename = "Hold-That-Chunk-V2-2.0.0+26.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c9fb80d087e8592766ada79ac566aa026e2ed96"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8002838
+project-id = 1340139

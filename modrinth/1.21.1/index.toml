@@ -401,6 +401,11 @@ hash = "9a1695184cdb4646ae5deef3ed576e7dc1235cff1ff20493aa482a2c512928b0"
 metafile = true
 
 [[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "2abab42cc7f1a19201d0e100d855c5a154dd440d125a49800e74820016bf1c72"
+metafile = true
+
+[[files]]
 file = "mods/techutils.pw.toml"
 hash = "72022494b54659e2a8622492f29545f33294b098cf921aaebc1310b004e5226b"
 metafile = true

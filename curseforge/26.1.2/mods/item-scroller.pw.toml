@@ -1,0 +1,13 @@
+name = "Item Scroller"
+filename = "itemscroller-fabric-26.1.2-0.31.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c94209ed38b4a721d3f2622483c0673b8ec2586"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8334194
+project-id = 242064

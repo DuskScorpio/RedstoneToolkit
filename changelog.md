@@ -1,10 +1,12 @@
 ## News
 
+- Added 1.21.1
 - Added 26.2
 - Added 26.3-snapshot-2
-- Added 1.21.1
 
 ## Changes
+
+- Removed 1.21
 
 ## Updates
 
@@ -19,10 +21,24 @@
   - Entity Culling
 - 1.20.6-26.1.2:
   - SubTick
-- 1.21.0-26.1.2:
+- 1.21.11-26.1.2:
+  - Concurrent Chunk Management Engine (Fabric)
+  - Fast Noise
+  - Item Scroller
+  - Litematica
+  - MaLiLib
+  - MiniHUD
+  - ModernFix-mVUS
+  - Packed Packs
+  - Reese's Sodium Options
+  - Sodium
+  - Tweakeroo
+  - ViaFabricPlus
+  - WikiRenderer
+- 26.1.2:
   - AppleSkin
   - Auth Me
-  - Concurrent Chunk Management Engine (Fabric)
+  - Better Block Entities
   - Carpet
   - Carpet Extra
   - clientcommands
@@ -31,85 +47,11 @@
   - EssentialAddons
   - Fabric API
   - ImmediatelyFast
-  - Item Scroller
-  - Litematica
   - Lithium
-  - MaLiLib
-  - MiniHUD
   - More Culling
-  - Reese's Sodium Options
+  - ScalableLux
   - SchematicPreview
-  - Sodium
   - Sodium Extra
   - spark
-  - Tweakeroo
-  - ViaFabricPlus
-  - YetAnotherConfigLib (YACL)
-  - Fast Noise
-- 1.21.11-26.1.2:
-  - ModernFix-mVUS
-  - Packed Packs
-  - WikiRenderer
-- 1.21.0:
-  - Axiom
-  - BadOptimizations
-  - Better Suggestions
-  - Capture & Playback
-  - CarpetGUI
-  - ChunkDebug
-  - ClearDespawn Reworked
-  - Cloth Config API
-  - Continuity
-  - DashLoader
-  - Disable Custom Worlds Advice
-  - Doormat
-  - Dynamic FPS
-  - Enhanced Block Entities
-  - EssentialClient
-  - Fabrishot
-  - FastQuit
-  - FerriteCore
-  - kennytvs-epic-force-close-loading-screen-mod-for-fabric
-  - Fzzy Config
-  - G4mespeed
-  - Hold That Chunk V2
-  - Indium
-  - Inv View
-  - Iris Shaders
-  - Isometric Renders
-  - JoaCarpet
-  - Krypton
-  - LibJF
-  - Litematica Server Paster
-  - Litemoretica
-  - MagicLib
-  - malibind
-  - Masa Gadget
-  - Model Gap Fix
-  - ModernFix
-  - Mod Menu
-  - NBT Autocomplete
-  - NBT Copy
-  - No Chat Reports
-  - oωo (owo-lib)
-  - Packet Fixer
-  - Particle Core
-  - Pick Block Pro
-  - Rail Placement Fix
-  - Redstone Multimeter Fabric
-  - Respackopts
-  - ScalableLux
-  - Sound Controller
-  - Suggestion Tweaker
-  - Syncmatica
-  - Technical Utilities
-  - ToolTipFix
-  - TweakerMore
-  - WeCuiFix
-  - WorldEdit
-  - WorldEdit CUI
-  - WorldEdit Hang Fix
-  - YetAnotherCarpetAddition
-- 26.1.2:
-  - Better Block Entities
   - Worldthreader
+  - YetAnotherConfigLib (YACL)

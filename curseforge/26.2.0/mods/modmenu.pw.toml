@@ -1,0 +1,13 @@
+name = "Mod Menu"
+filename = "modmenu-20.0.0-beta.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eccb69023a351a8a1531ea70d04732120c1167aa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8302403
+project-id = 308702

@@ -1,0 +1,13 @@
+name = "MiniHUD"
+filename = "minihud-fabric-26.1.2-0.39.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d342f95e4a6c23ec0986047d236dbf5cf55b6cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8334214
+project-id = 244260

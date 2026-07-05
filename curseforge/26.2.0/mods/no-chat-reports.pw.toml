@@ -1,0 +1,12 @@
+name = "No Chat Reports"
+filename = "NoChatReports-FABRIC-26.2-v2.20.1.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0c095e6ee699cb1f5c9732ef632cf93998b1d468"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8366460
+project-id = 634062
