@@ -1,13 +1,13 @@
 name = "Carpet IGNY Addition"
-filename = "carpet-igny-addition-v1.11.4-mc1.21.11.jar"
+filename = "carpet-igny-addition-v1.12.0-mc1.21.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9efa9918014d057759f03c1e4a35cc2c9ce4ae79"
+hash = "7ff65dc3a652acafc3ccd89c805ced9907a1a8ea"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8246067
+file-id = 8376082
 project-id = 1479191

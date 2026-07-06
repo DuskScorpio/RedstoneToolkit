@@ -1,13 +1,13 @@
 name = "MagicLib"
-filename = "MagicLib-mc1.18.2-fabric-0.8.838-stable.jar"
+filename = "MagicLib-mc1.18.2-fabric-0.8.852-stable.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e72f2d8f8ba8baba1115197e54fbca592ab297d7"
+hash = "2dc30d37c0d0057d3a723449999e34fc7f119430"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8107180
+file-id = 8373980
 project-id = 576459

@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "e31e1d159bf5542faf13c28cf4010921acc01570927f847e41fbc333d74b230a"
+hash = "07bfde2800c661f6c9bd8189e5de0e1270a01b51a04ab6c13ee3ef3fa7545a05"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/magiclib.pw.toml"
-hash = "38853d5303109e0f7ca231ffdc7b3cc4888957b7bb8a75b9c3820b1442d13818"
+hash = "7bbbb9e136cf8aa5a9f7a5561bd06726e5e23a614da2fe62f5119a3ac73436dd"
 metafile = true
 
 [[files]]

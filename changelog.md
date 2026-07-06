@@ -21,6 +21,8 @@
   - Entity Culling
 - 1.20.6-26.1.2:
   - SubTick
+- 1.17.1-1.18.2:
+  - MagicLib
 - 1.21.11-26.1.2:
   - Concurrent Chunk Management Engine (Fabric)
   - Fast Noise

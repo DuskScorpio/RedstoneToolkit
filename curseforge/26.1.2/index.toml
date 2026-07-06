@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "8aff00eda765ea0d251644ca01084bb99b4b05f024e56863d6caf451edcf5896"
+hash = "2545255646c72ca95196f60fd609300159aa57baf3dab52cf1205d6cc9f69ad2"
 metafile = true
 
 [[files]]
@@ -257,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "2049f4f0570043c852a55444ecff5a9d5dcc9a023058bf46bbaf8c1eb96569df"
+hash = "f6f54497576fafd7dcd3e2ea7ced4b48b91ca2728faba3e4c385205ca35d404e"
 metafile = true
 
 [[files]]

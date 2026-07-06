@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "5eca378aed6f8093f0a4fe6c99dc0bc6b6670f81865bbef0b4d8de15dcd13483"
+hash = "b63348ad8e9466abe4f700e4da759d6e37e1b50c0e69f8571fc2b706a875042f"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "1bf5cf8ab2af260b40de346417165e9750a2e4d7fceaf14a59c8c265379bdc65"
+hash = "30399af7f802b83ae13c7bfab261e0e0a5338e3546e6c1adc62d62575150cd8c"
 metafile = true
 
 [[files]]
