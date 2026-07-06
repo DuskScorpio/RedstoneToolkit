@@ -26,6 +26,7 @@
 - 1.21.11-26.1.2:
   - Concurrent Chunk Management Engine (Fabric)
   - Fast Noise
+  - ImmediatelyFast
   - Item Scroller
   - Litematica
   - MaLiLib
@@ -48,7 +49,6 @@
   - Cubes Without Borders
   - EssentialAddons
   - Fabric API
-  - ImmediatelyFast
   - Lithium
   - More Culling
   - ScalableLux

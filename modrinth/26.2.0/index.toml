@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "813f2df6c5ace86ac86063b1cd5f524246bb955f323b56a738709e2e6be8c1e7"
+hash = "5aa96a4b35b027c2e713892270612a822819dfdf292305e60f41faa4fd6bbc11"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "031a8219c5987e0c96959770a85b5afaca73cbb8c30d7bdd3d37b3a37dfa1037"
+hash = "f498d174b1f3686b7b0926d65526ea528edd75f9805472bd8e47723b8d196696"
 metafile = true
 
 [[files]]

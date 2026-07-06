@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "9ba1e98e77cdeb9494e8b88bac5a5a8f7a0e28c263377ca192815cd04703b380"
+hash = "25ce81aa4e507a8b9de046bb810be92f305546bda25ed302074264be3b9a4a4f"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "2545255646c72ca95196f60fd609300159aa57baf3dab52cf1205d6cc9f69ad2"
+hash = "a6c96e52756aa966d4f0c55770ebcffe09609f74e74a232bb2579abeac6a12b7"
 metafile = true
 
 [[files]]
