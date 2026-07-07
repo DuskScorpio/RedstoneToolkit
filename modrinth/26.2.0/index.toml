@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "f498d174b1f3686b7b0926d65526ea528edd75f9805472bd8e47723b8d196696"
+hash = "4edc15533a9a3a3a6ed975ae3818ca623363aee6d313968c8df0ba3cc88b3f04"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "7e69c1869ee0d211bd0e801859950077af1b2a0cc1f1f73f7e08927d0da86563"
+hash = "fa280daf316543afff2f69db87c655fdac0eab4a0455ff055714d43313247785"
 metafile = true
 
 [[files]]

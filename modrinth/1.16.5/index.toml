@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/magiclib.pw.toml"
-hash = "e115f56ad301f92ac327c3c2b3a3bf7a7fbfa17986db8acaf14dc4c34a863050"
+hash = "d4f3b9c8b73ecd80c55ecd70a855b0d79d358445dc9d169a5de447fc0216e4e2"
 metafile = true
 
 [[files]]

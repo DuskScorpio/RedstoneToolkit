@@ -16,13 +16,13 @@
   - Fabric Language Kotlin
   - Ixeris
   - Vanilla Keybind Manager
+- 1.16.5-1.20.6:
+  - MagicLib
 - 1.19.4-26.1.2:
   - Carpet IGNY Addition
   - Entity Culling
 - 1.20.6-26.1.2:
   - SubTick
-- 1.17.1-1.18.2:
-  - MagicLib
 - 1.21.11-26.1.2:
   - Concurrent Chunk Management Engine (Fabric)
   - Fast Noise
@@ -35,6 +35,7 @@
   - Packed Packs
   - Reese's Sodium Options
   - Sodium
+  - Sodium Extra
   - Tweakeroo
   - ViaFabricPlus
   - WikiRenderer
@@ -53,7 +54,6 @@
   - More Culling
   - ScalableLux
   - SchematicPreview
-  - Sodium Extra
   - spark
   - Worldthreader
   - YetAnotherConfigLib (YACL)

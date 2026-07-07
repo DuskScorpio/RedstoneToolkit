@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "a6c96e52756aa966d4f0c55770ebcffe09609f74e74a232bb2579abeac6a12b7"
+hash = "b0c63f7243cf7e0f757eb4ec3bafd9151310b254ca5c3da45bc9b03aae9757a3"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "cd134e4893b924b96ff9749013637f32897ca16248491eba5ef2fd1d49c7ec63"
+hash = "22be46436a8cbc2bcb6f5f136442788af9e2a77e1abbb3c6db4bd6726bef4af8"
 metafile = true
 
 [[files]]

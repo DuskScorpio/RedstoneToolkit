@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "c13e75ee04ae7804c1d2e3acbf642a0b177f1dbc025f874cda08d31a38527b73"
+hash = "52e3586e10fab2d07d55c7bb093dd638718103afef8f0270ff56b01cfff47523"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "e06c511605c76ac6ec2401bd31a47f93c4410ac75c65262c0988363d6b56c5dc"
+hash = "c9740c02e1261be9e02ae118c37d6a644766db53d6ff4024a5027d0755d2552e"
 metafile = true
 
 [[files]]
@@ -307,12 +307,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "c981186152855877c0ad49d6d3e2fe0cc5ed8c7c86a009d31bcf9d2999f3e0ea"
+hash = "5008b709220bcfc7b41402bd7d8fe580edcc4168299f04746d2c596a809ec046"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "3a67700d08398b07a73dd7babc0301b1b54108591c8883765ba8a828f8f50104"
+hash = "723a13737a51aa682f385ede7e4bfa925b1dfb435436ab2f69dc25c4be1b2c04"
 metafile = true
 
 [[files]]
