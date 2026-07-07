@@ -7,8 +7,11 @@ import re
 import tomllib
 import tomli_w
 
+RATE_LIMIT_RE = re.compile(r"^Failed to check updates for (.+): failed to get latest version: .*\b429\b")
+
 def run(match: str):
     clean_log()
+    rate_limit_failures: list[str] = []
     for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
         dir_vers = util.get_dir_vers(platform)
         for dir_ver in dir_vers:
@@ -25,11 +28,19 @@ def run(match: str):
                 text=True,
                 bufsize=1
             ) as process:
-                process_log(process, dir_ver, platform)
+                rate_limited_mods = process_log(process, dir_ver, platform)
+            if rate_limited_mods:
+                rate_limit_failures.extend("{}/{}: {}".format(dir_ver, platform, mod) for mod in sorted(rate_limited_mods))
             record.disable()
+    if rate_limit_failures:
+        log = logutil.Logger("update", write=True, log_name="summary-update.log").get_log()
+        for mod in rate_limit_failures:
+            log.error("Modrinth 429 left update unchecked for {}".format(mod))
+        raise SystemExit(1)
 
-def process_log(process: Popen[str], version: str, platform: PlatForm):
+def process_log(process: Popen[str], version: str, platform: PlatForm) -> set[str]:
     name_dict = name_id_dict(version, platform)
+    rate_limited_mods = set()
     for line in process.stdout:
         text = line.strip()
         log_1 = logutil.Logger(
@@ -42,6 +53,9 @@ def process_log(process: Popen[str], version: str, platform: PlatForm):
             log_1.warning(text.replace("Warning: ", ""))
         else:
             log_1.info(text)
+        rate_limit_match = RATE_LIMIT_RE.match(text)
+        if rate_limit_match:
+            rate_limited_mods.add(rate_limit_match.group(1))
         if re.match(".+: .+ -> .+", text):
             match = re.search(".+:", text)
             if match:
@@ -54,6 +68,7 @@ def process_log(process: Popen[str], version: str, platform: PlatForm):
                 # Some mods like to use strange names that cause them to not be parsed properly and return the original data
                 mod_id = name_dict.get(name_for_output, name_for_output)
                 log_2.info("{} update completed!".format(mod_id))
+    return rate_limited_mods
 
 
 def name_id_dict(mc_ver: str, platform: PlatForm) -> dict[str, str]:
