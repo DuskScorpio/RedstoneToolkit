@@ -7,7 +7,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "e1f9ac321a77d8a9652369f1e7b0c2f71c5fb499fdcd19b92cb631de0b45871f"
+hash = "d14442b36c50af1c2a1babe4243099d3949430fec2a4149c1a6d4ab99ce95cd0"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "81ed65fc9bad0d8a01599f976e30606edbb5200f863d1bd55b96128c6f036cde"
 metafile = true
 
 [[files]]
