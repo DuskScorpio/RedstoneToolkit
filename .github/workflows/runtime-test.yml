@@ -1,0 +1,240 @@
+name: runtime-test
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Modrinth pack folder/version to test
+        required: true
+        default: all
+        type: string
+  pull_request:
+    paths:
+      - "modrinth/**/pack.toml"
+      - "curseforge/**/pack.toml"
+  push:
+    branches:
+      - runtime-modpack-tests
+    paths:
+      - "modrinth/**/pack.toml"
+      - "curseforge/**/pack.toml"
+
+jobs:
+  build-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+
+      - name: build matrix
+        id: matrix
+        shell: bash
+        env:
+          REQUESTED_VERSION: ${{ inputs.version || 'all' }}
+          MC_RUNTIME_TEST_VERSION: ${{ vars.MC_RUNTIME_TEST_VERSION || 'latest' }}
+          MC_RUNTIME_TEST_FALLBACK_VERSION: ${{ vars.MC_RUNTIME_TEST_FALLBACK_VERSION || '4.4.0' }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          matrix="$(python3 .github/workflows/script/runtime-test-matrix.py)"
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+
+  runtime-test:
+    needs: build-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.build-matrix.outputs.matrix) }}
+    env:
+      PACK_VERSION: ${{ matrix.version }}
+      TEST_MODE: ${{ matrix.mode }}
+      JAVA_OVERRIDE: ${{ matrix.java || '' }}
+      MC_RUNTIME_TEST_VERSION: ${{ matrix.runtime_test_version }}
+      PACKWIZ_URL: http://127.0.0.1:8080/pack.toml
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+
+      - name: read pack metadata
+        id: pack
+        shell: bash
+        run: |
+          python3 .github/workflows/script/runtime-test-metadata.py "modrinth/$PACK_VERSION/pack.toml" >> "$GITHUB_OUTPUT"
+
+      - name: select java version
+        id: java
+        shell: bash
+        run: |
+          if [ -n "$JAVA_OVERRIDE" ]; then
+            java_version="$JAVA_OVERRIDE"
+          else
+            java_version="${{ steps.pack.outputs.java_version }}"
+          fi
+
+          echo "java_version=$java_version" >> "$GITHUB_OUTPUT"
+          echo "Using Java $java_version for $PACK_VERSION"
+
+      - name: setup java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ steps.java.outputs.java_version }}
+
+      - name: stage internal files
+        shell: bash
+        run: |
+          chmod +x tools/packwiz
+          cp -r internal-files/. "modrinth/$PACK_VERSION/"
+          (
+            cd "modrinth/$PACK_VERSION"
+            ../../tools/packwiz refresh
+          )
+
+      - name: start packwiz server
+        shell: bash
+        run: |
+          mkdir -p logs
+          (
+            cd "modrinth/$PACK_VERSION"
+            ../../tools/packwiz serve --port 8080 > "../../logs/packwiz-serve.log" 2>&1
+          ) &
+          echo "$!" > packwiz-serve.pid
+          curl --fail --retry 20 --retry-delay 1 --retry-all-errors "$PACKWIZ_URL" > /tmp/pack.toml
+
+      - name: install packwiz pack
+        shell: bash
+        run: |
+          mkdir -p run
+          cp tools/packwiz-installer-bootstrap.jar run/
+          cp tools/packwiz-installer.jar run/
+          (
+            cd run
+            java -jar packwiz-installer-bootstrap.jar \
+              --bootstrap-no-update \
+              --bootstrap-main-jar packwiz-installer.jar \
+              -g \
+              -s client \
+              "$PACKWIZ_URL"
+          )
+
+      - name: download headlessmc
+        shell: bash
+        run: |
+          curl --fail --location --retry 5 --retry-delay 2 \
+            --output headlessmc-launcher-2.9.0.jar \
+            https://github.com/3arthqu4ke/headlessmc/releases/download/2.9.0/headlessmc-launcher-2.9.0.jar
+
+      - name: reset cached minecraft install
+        shell: bash
+        run: |
+          rm -rf "$HOME/.minecraft/versions/${{ steps.pack.outputs.minecraft_version }}"
+          find "$HOME/.minecraft/versions" -mindepth 1 -maxdepth 1 -type d \
+            -name "*${{ steps.pack.outputs.minecraft_version }}*" \
+            -exec rm -rf {} + 2>/dev/null || true
+
+      - name: configure headlessmc java selection
+        shell: bash
+        run: |
+          mkdir -p HeadlessMC
+          printf '%s\n' \
+            "hmc.auto.download.java=false" \
+            >> HeadlessMC/config.properties
+
+      - name: configure headlessmc
+        if: ${{ matrix.mode == 'boot' }}
+        shell: bash
+        run: |
+          mkdir -p HeadlessMC run/mods
+          printf '%s\n' \
+            "hmc.java.versions=$JAVA_HOME/bin/java" \
+            "hmc.gamedir=$PWD/run" \
+            "hmc.offline=true" \
+            "hmc.rethrow.launch.exceptions=true" \
+            "hmc.exit.on.failed.command=true" \
+            "hmc.auto.download.java=false" \
+            "hmc.assets.dummy=true" \
+            >> HeadlessMC/config.properties
+
+      - name: install fabric for boot test
+        if: ${{ matrix.mode == 'boot' }}
+        shell: bash
+        run: |
+          if [ ! -f "$HOME/.minecraft/versions/${{ steps.pack.outputs.minecraft_version }}/${{ steps.pack.outputs.minecraft_version }}.json" ]; then
+            java -jar headlessmc-launcher-2.9.0.jar --command download "${{ steps.pack.outputs.minecraft_version }}"
+            java -jar headlessmc-launcher-2.9.0.jar --command fabric "${{ steps.pack.outputs.minecraft_version }}" --java "${{ steps.java.outputs.java_version }}"
+          fi
+
+      - name: download mc-runtime-test
+        if: ${{ matrix.mode == 'runtime' }}
+        shell: bash
+        run: |
+          curl --fail --location --retry 5 --retry-delay 2 \
+            --output "run/mods/mc-runtime-test-${{ steps.pack.outputs.minecraft_version }}-$MC_RUNTIME_TEST_VERSION-fabric-release.jar" \
+            "https://github.com/headlesshq/mc-runtime-test/releases/download/$MC_RUNTIME_TEST_VERSION/mc-runtime-test-${{ steps.pack.outputs.minecraft_version }}-$MC_RUNTIME_TEST_VERSION-fabric-release.jar"
+
+      - name: install xvfb utilities
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y xvfb x11-xserver-utils
+
+      - name: run minecraft client
+        if: ${{ matrix.mode == 'runtime' }}
+        timeout-minutes: 5
+        uses: headlesshq/mc-runtime-test@4.4.0
+        with:
+          mc: ${{ steps.pack.outputs.minecraft_version }}
+          modloader: fabric
+          regex: .*fabric.*
+          mc-runtime-test: none
+          java: ${{ steps.java.outputs.java_version }}
+          fabric-api: none
+          download-hmc: false
+          cache-mc: false
+
+      - name: boot minecraft client
+        if: ${{ matrix.mode == 'boot' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          xvfb-run java \
+            -Dhmc.check.xvfb=true \
+            -jar headlessmc-launcher-2.9.0.jar \
+            --command launch ".*fabric.*" -regex --jvm "-Djava.awt.headless=true" &
+          game_pid="$!"
+
+          for _ in $(seq 1 180); do
+            if grep -q "Backend library:" run/logs/latest.log 2>/dev/null; then
+              echo "Minecraft client booted successfully."
+              kill "$game_pid" || true
+              wait "$game_pid" || true
+              exit 0
+            fi
+
+            if ! kill -0 "$game_pid" 2>/dev/null; then
+              echo "Minecraft exited before boot marker was reached."
+              wait "$game_pid"
+            fi
+
+            sleep 1
+          done
+
+          echo "Timed out waiting for Minecraft boot marker."
+          kill "$game_pid" || true
+          wait "$game_pid" || true
+          exit 1
+
+      - name: upload runtime logs
+        if: ${{ always() && env.ACT != 'true' }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: runtime-test-logs-modrinth-${{ env.PACK_VERSION }}-${{ env.TEST_MODE }}
+          path: |
+            logs/
+            run/logs/
+            run/crash-reports/
+          if-no-files-found: ignore
