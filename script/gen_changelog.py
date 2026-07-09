@@ -10,6 +10,7 @@ Writes result to stdout.
 """
 from __future__ import annotations
 
+import os
 import re
 import subprocess
 import sys
@@ -18,7 +19,7 @@ from collections import defaultdict
 from pathlib import Path
 
 BASE_DEFAULT = "bb754d4"
-REPO = Path("/home/duskscorpio/repos/RedstoneToolkit")
+REPO = Path.cwd()
 PLATFORM = "modrinth"
 
 
@@ -36,8 +37,9 @@ def resolve_base(cli_base: str | None = None) -> str:
     if cli_base:
         return cli_base
 
+    remote = os.environ.get("CHANGELOG_REMOTE", "origin")
     tags = []
-    for line in run_git("ls-remote", "--tags", "origin", "release/*").splitlines():
+    for line in run_git("ls-remote", "--tags", remote, "release/*").splitlines():
         ref = line.split()[-1]
         if not ref.endswith("^{}"):
             tags.append(ref.removeprefix("refs/tags/"))

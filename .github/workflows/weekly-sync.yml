@@ -1,0 +1,75 @@
+name: weekly-sync
+
+on:
+  schedule:
+    - cron: '0 9 * * 0'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: setup python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: install pip dependencies
+        run: pip install ruamel.yaml tomli_w prompt-toolkit loguru semantic-version
+
+      - name: make packwiz executable
+        run: chmod +x tools/packwiz
+
+      - name: add upstream remote
+        run: git remote add upstream https://github.com/DuskScorpio/RedstoneToolkit.git
+
+      - name: run modpack sync
+        run: |
+          python -m script update || true
+          python -m script install || true
+
+      - name: generate changelog
+        env:
+          CHANGELOG_REMOTE: upstream
+        run: python script/gen_changelog.py > changelog.md
+
+      - name: show changes
+        run: |
+          echo "=== git status ==="
+          git status --short
+          echo ""
+          echo "=== changelog.md ==="
+          cat changelog.md
+
+      - name: commit and push
+        id: commit
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "No changes to commit."
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git add -A
+          git commit -m "Sync modpack updates"
+          git push origin "HEAD:${{ github.ref_name }}"
+          echo "changes=true" >> "$GITHUB_OUTPUT"
+
+      - name: dispatch runtime-test
+        if: steps.commit.outputs.changes == 'true'
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/runtime-test.yml/dispatches" \
+            -d '{"ref":"${{ github.ref_name }}","inputs":{"version":"all"}}'
