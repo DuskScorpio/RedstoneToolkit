@@ -6,6 +6,16 @@ hash = "19c4597ec695be38e1fa763c738688773e3d37283b4f7301a07a157d343c60cb"
 metafile = true
 
 [[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "073b93723ea0ef93b730e50362890e0f8fc1b4c923070690f8125f6886e9594c"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "e3c94663cfea11136fd9ea8c97053f01562b485a135abf8443a14d3579d8830d"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "4fdf8fc8db9c769f2970283f28971ea0080f1840d0e51aaf559795bc531ada08"
 metafile = true
