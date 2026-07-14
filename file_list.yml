@@ -149,6 +149,7 @@ enabled_files:
     version: "<1.19.4 || >1.19.4" # Does not work on 1.19.4
   - mr_slug: masa-gadget
     cf_slug: masa-gadget
+    version: "<1.21.1" # Incompatible with newer Litematica
   - mr_slug: masaadditions
   - mr_slug: nbt-copy
     cf_slug: nbt-copy
