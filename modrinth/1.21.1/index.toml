@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "d18aa609b0bfb9cdeb11ce0b101662e9ff2e6f09f03e688003f7fa703957b908"
+hash = "83ada5e7938fa70a4946e3c6ee9f018fcb19eda8be942824739479b820936d9c"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "6b718e8cb7e7b3d3b89c462f68ca578c3f4add655e4be7c9291646b0e33d3e00"
+hash = "5ddc0deaf72aa139e5ad698049973a84a46f508521dd68762b88e1a605684aa4"
 metafile = true
 
 [[files]]
@@ -271,11 +271,6 @@ hash = "4842a349ba8e18407a4e32ef184ad1d2a437ff8e5b0c158391b6225216b4b8ce"
 metafile = true
 
 [[files]]
-file = "mods/masa-gadget.pw.toml"
-hash = "ae97904e6c316f31a4e3e04d0da22361b88c0ab6203d72712b2c5ba8b5d7d424"
-metafile = true
-
-[[files]]
 file = "mods/minihud.pw.toml"
 hash = "8ef7d55010287b46fce10e263cccf91fa345a1272428f9c74557060c5a21f735"
 metafile = true
@@ -352,7 +347,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "199afe54af3cf9487f30f198b8fdf5d9d52c1dc9fa82301822e6a99c0b2ce9d6"
+hash = "5c3470087119ed251fbb9849ba29cb50d03d5732d055820a391cfec6e37c5333"
 metafile = true
 
 [[files]]
@@ -362,7 +357,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "57db9d1f9eb6cfe3849907e37acec2a2653c762e41442baccc244f52fcd8ddd0"
+hash = "4292e44478413f110ff0eb8afb72434ce6a6f8bd1b2355547cd6f66827734d40"
 metafile = true
 
 [[files]]
@@ -372,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "a1d480c169158c9fdd151631b1a9b0999b2a640b7df555f5eb0cf8b13639d1ff"
+hash = "05e1ff1f1448ca7aa8ebf18d0561a961bbb8e93004942c6b18f0666a2e3b6b11"
 metafile = true
 
 [[files]]
@@ -407,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "9a0c59caf68db2f1a5dc7639b36bb27970795b7527f88136174eb4daac26bbd3"
+hash = "794c3233df64d5eb426b2faaec8da5a9caebba25666cad71ee33b65d2cd60fd5"
 metafile = true
 
 [[files]]
@@ -467,7 +462,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "084d4829f068ebfcac03a4eb9fd560df13f7eff79624416ceb6b677fc90d98f3"
+hash = "d7d7ec685479f2db034eb64766e322f22d9a7f65de3e1aaaa33bd004f9b85f02"
 metafile = true
 
 [[files]]

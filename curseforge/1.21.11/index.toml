@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "a03ec6f67cbd77081592f51493fc66b1c7d0ec05eb7c524e33235a24176ba2ff"
+hash = "93e40f408e85500fa656706a9a09ba425f500676f376c8159923f3a6c24a0f57"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "68ada1288adb630121a275c986322acf574de936ce9434694de739bb6f4e3b82"
+hash = "9f993e370ec1f73543d8077ee0ce93de803616a9f6a36545486b0a2d9e805867"
 metafile = true
 
 [[files]]
@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "af249a20325ad36f4aed5c9d07ca9b5f9203f928a5a85b358c509817a4810b60"
+hash = "7cb21edfa7993f38add988d9dad384cc73ed369978873d265632e66485b2c6af"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "65b0757e35b23994e140ee985a5a5b0bb36711e1ad879719fa15c30790983d54"
+hash = "e6787a15b68b01c6070ac1139ae58de25e7e263344debc5ab18da2f0445690e9"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "481a950235f8af2cfe5e0fa79e0810271877e5f21bb4d1992e1b1e5bbd9589f7"
+hash = "551073fbdc08323dba3cc785fb217d253188d511c32a8e1a122b22506752e6ea"
 metafile = true
 
 [[files]]
@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "2e29b7d5886393ea6dd3630c3c8b5f30dd3c171518f16cd9a190bc3c20343764"
+hash = "626a1e45ea7ed59a77d54daa2342caa16cb2cbe719bb99794221b55f8e270ea1"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "36c28a3ada0ecd48fe5aaa200cc3000d5f99444838982ca06b9732a36bae2ee9"
+hash = "9d667144a403d11aabc433fb4b70c4a3769506f871c7fc0d91e77840aaf71b56"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "30399af7f802b83ae13c7bfab261e0e0a5338e3546e6c1adc62d62575150cd8c"
+hash = "30f5d29a14417d8842904984f7da04d5c2f4c4ef4f3673bf11a8760545a668ba"
 metafile = true
 
 [[files]]

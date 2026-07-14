@@ -6,6 +6,8 @@ enabled_files:
   - mr_slug: carpet
     cf_slug: carpet
     name: Carpet
+    urls:
+      26.3.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.3-beta-2/fabric-carpet-26.3-beta-2%2Bv260709.jar"
   - mr_slug: carpet-tis-addition
     cf_slug: carpet-tis-addition
   - mr_slug: joacarpet
@@ -147,6 +149,7 @@ enabled_files:
     version: "<1.19.4 || >1.19.4" # Does not work on 1.19.4
   - mr_slug: masa-gadget
     cf_slug: masa-gadget
+    version: "<1.21.1" # Incompatible with newer Litematica
   - mr_slug: masaadditions
   - mr_slug: nbt-copy
     cf_slug: nbt-copy
@@ -200,6 +203,7 @@ disabled_files:
     version: "<=1.20.4"
   - mr_slug: voxy
     cf_skip: "*"
+    version: "<26.1.2 || >26.1.2"
   - mr_slug: worldthreader
     cf_slug: worldthreader
 

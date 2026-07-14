@@ -5,6 +5,11 @@
       "-breaks": {
         "worldedit": "IGNORED"
       }
+    },
+    "techutils": {
+      "-depends": {
+        "litematica": "IGNORED"
+      }
     }
   }
 }
