@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "2785ba5d979ac4f95421a3df7b54ecf2a10e616eb566769388e643a5e91f396b"
+hash = "66ae4a425e4a101670d5c354483013c2dfe031cacdcad2f6719f61764becc742"
 metafile = true
 
 [[files]]
@@ -297,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "f2ee65228e59f2623a3c27a2456ed3aac3fe0e02b96f263976b99ef59cf56d05"
+hash = "45122afe30723fa622917ecd558b22e2bf4c2883ba84fb406c168e12c8d7177e"
 metafile = true
 
 [[files]]
@@ -307,12 +307,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "3c5cbbf4755a6a7c0f4f61a243dc6198674f9e2e72faf7d30cc45a3bca3f28a8"
+hash = "f628fb27a4ac42dc6340d7b496747e4a1a4bbf764e8a00854b8cb79581c1ae59"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "723a13737a51aa682f385ede7e4bfa925b1dfb435436ab2f69dc25c4be1b2c04"
+hash = "9404aa71aa027cac3e354b8d3e8c05f6fa2defe7ced3d99cbdfbb5a35627c15b"
 metafile = true
 
 [[files]]
