@@ -38,17 +38,20 @@ def resolve_base(cli_base: str | None = None) -> str:
         return cli_base
 
     remote = os.environ.get("CHANGELOG_REMOTE", "origin")
-    tags = []
+    tags: list[tuple[str, str]] = []
     for line in run_git("ls-remote", "--tags", remote, "release/*").splitlines():
-        ref = line.split()[-1]
+        sha, ref = line.split()[:2]
         if not ref.endswith("^{}"):
-            tags.append(ref.removeprefix("refs/tags/"))
+            tags.append((ref.removeprefix("refs/tags/"), sha))
 
     if not tags:
         return BASE_DEFAULT
 
-    latest = sorted(tags, key=lambda tag: tuple(int(x) for x in re.findall(r"\d+", tag)))[-1]
-    return run_git("rev-list", "-n", "1", latest).strip() or BASE_DEFAULT
+    latest_tag, latest_sha = sorted(
+        tags,
+        key=lambda item: tuple(int(x) for x in re.findall(r"\d+", item[0])),
+    )[-1]
+    return latest_sha or run_git("rev-list", "-n", "1", latest_tag).strip() or BASE_DEFAULT
 
 
 def read_pack(path: Path) -> dict:
