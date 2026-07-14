@@ -8,6 +8,11 @@ on:
         required: true
         default: all
         type: string
+      enable_disabled_mods:
+        description: Temporarily enable disabled mods before testing
+        required: false
+        default: false
+        type: boolean
   pull_request:
     paths:
       - "modrinth/**/pack.toml"
@@ -88,6 +93,43 @@ jobs:
         run: |
           chmod +x tools/packwiz
           cp -r internal-files/. "modrinth/$PACK_VERSION/"
+          (
+            cd "modrinth/$PACK_VERSION"
+            ../../tools/packwiz refresh
+          )
+
+      - name: temporarily enable disabled mods
+        if: ${{ inputs.enable_disabled_mods == true }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          pack_version = os.environ["PACK_VERSION"]
+          mods_dir = Path("modrinth") / pack_version / "mods"
+          enabled = []
+
+          for path in sorted(mods_dir.glob("*.pw.toml")):
+              text = path.read_text()
+              updated = re.sub(
+                  r'^(filename\s*=\s*")([^"\n]+)\.disabled(")\s*$',
+                  r'\1\2\3',
+                  text,
+                  flags=re.MULTILINE,
+              )
+              if updated != text:
+                  path.write_text(updated)
+                  enabled.append(str(path))
+
+          if enabled:
+              print("Temporarily enabled disabled mods:")
+              for path in enabled:
+                  print(f"- {path}")
+          else:
+              print("No disabled mods found to enable.")
+          PY
           (
             cd "modrinth/$PACK_VERSION"
             ../../tools/packwiz refresh
