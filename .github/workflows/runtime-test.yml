@@ -8,6 +8,11 @@ on:
         required: true
         default: all
         type: string
+      enable_disabled_mods:
+        description: Temporarily enable disabled mods before testing
+        required: false
+        default: false
+        type: boolean
   pull_request:
     paths:
       - "modrinth/**/pack.toml"
@@ -93,6 +98,70 @@ jobs:
             ../../tools/packwiz refresh
           )
 
+      - name: temporarily enable disabled mods
+        if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || inputs.enable_disabled_mods == true }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          pack_version = os.environ["PACK_VERSION"]
+          mods_dir = Path("modrinth") / pack_version / "mods"
+          enabled = []
+          skipped = []
+          keep_disabled = {
+              # Known hard conflicts when all optional mods are enabled.
+              "1.16.5": {"dashloader", "essentialaddons"},
+              "1.18.2": {"dashloader"},
+              "1.19.4": {"dashloader", "viafabricplus"},
+              "1.21.1": {"spark"},
+              "1.21.11": {"voxy"},
+              "26.2.0": {"voxy"},
+          }.get(pack_version, set())
+
+          for path in sorted(mods_dir.glob("*.pw.toml")):
+              mod_id = path.name.removesuffix(".pw.toml")
+              if mod_id in keep_disabled:
+                  updated = re.sub(
+                      r'^(filename\s*=\s*")([^"\n]+?)(\.disabled)?(")\s*$',
+                      r'\1\2.disabled\4',
+                      path.read_text(),
+                      flags=re.MULTILINE,
+                  )
+                  path.write_text(updated)
+                  skipped.append(str(path))
+                  continue
+
+              text = path.read_text()
+              updated = re.sub(
+                  r'^(filename\s*=\s*")([^"\n]+)\.disabled(")\s*$',
+                  r'\1\2\3',
+                  text,
+                  flags=re.MULTILINE,
+              )
+              if updated != text:
+                  path.write_text(updated)
+                  enabled.append(str(path))
+
+          if enabled:
+              print("Temporarily enabled disabled mods:")
+              for path in enabled:
+                  print(f"- {path}")
+          else:
+              print("No disabled mods found to enable.")
+
+          if skipped:
+              print("Kept known-conflict mods disabled:")
+              for path in skipped:
+                  print(f"- {path}")
+          PY
+          (
+            cd "modrinth/$PACK_VERSION"
+            ../../tools/packwiz refresh
+          )
+
       - name: start packwiz server
         shell: bash
         run: |
@@ -116,7 +185,7 @@ jobs:
               --bootstrap-no-update \
               --bootstrap-main-jar packwiz-installer.jar \
               -g \
-              -s client \
+              -s both \
               "$PACKWIZ_URL"
           )
 
