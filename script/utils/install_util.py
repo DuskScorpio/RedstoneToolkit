@@ -9,6 +9,8 @@ import re
 import tomllib
 import tomli_w
 
+RATE_LIMIT_RE = re.compile(r"^Failed to add project: .*\b429\b")
+
 
 class Type(StrEnum):
     MODS = auto()
@@ -44,24 +46,26 @@ class Install:
             level_f=logutil.Level.WARNING
         ).get_log()
 
-    def install(self):
+    def install(self) -> set[str]:
 
         # sb curseforge
         if self.platform == PlatForm.CURSEFORGE:
             cf_condition: str | None = self.mod_meta.get(CF_SKIP)
             if cf_condition is not None and util.check_match(cf_condition, self.mc_dir):
-                return
+                return set()
 
         if not util.check_match(self.mod_meta.get("version", "*"), self.mc_dir):
-            return
-        mod_name = self.__install()
+            return set()
+        mod_name, rate_limited_mods = self.__install()
         if self.disabled:
             self.__disable(mod_name)
         else:
             self.__enable(mod_name)
+        return rate_limited_mods
 
-    def __install(self) -> str:
+    def __install(self) -> tuple[str, set[str]]:
         name_list = []
+        rate_limited_mods = set()
 
         platform_map = {
             MR: "mr",
@@ -73,20 +77,22 @@ class Install:
             if i in self.mod_meta:
                 mod_name = self.mod_meta.get(i)
                 if self.__is_installed(mod_name):
-                    return mod_name
-                successful = self.__try_install(platform_map[i], mod_name)
+                    return mod_name, rate_limited_mods
+                successful, rate_limited = self.__try_install(platform_map[i], mod_name)
+                if rate_limited:
+                    rate_limited_mods.add(mod_name)
                 if successful:
-                    return mod_name
+                    return mod_name, rate_limited_mods
                 name_list.append(mod_name)
 
         if URLS in self.mod_meta:
             mod_name: str = self.mod_meta.get(NAME)
             if self.__is_installed(mod_name.lower()):
-                return mod_name.lower()
+                return mod_name.lower(), rate_limited_mods
             urls: dict = self.mod_meta.get(URLS)
             if self.mc_dir in urls:
                 self.__url_install(mod_name, urls[self.mc_dir])
-                return mod_name.lower()
+                return mod_name.lower(), rate_limited_mods
             name_list.append(mod_name.lower())
 
         if self.platform == PlatForm.CURSEFORGE and not name_list:
@@ -94,9 +100,9 @@ class Install:
 
         mod_name = name_list[0]
         self.log_w.warning(f"{mod_name} install failed!")
-        return mod_name
+        return mod_name, rate_limited_mods
 
-    def __try_install(self, platform: str, mod_name: str) -> bool:
+    def __try_install(self, platform: str, mod_name: str) -> tuple[bool, bool]:
         args = [PACKWIZ, platform, "add", mod_name]
 
         # we only need the mod for curseforge
@@ -121,27 +127,40 @@ class Install:
         ) as process:
             # Don't change these, because it works by mystical powers
             flag = False
+            search_flag = False
             is_successful = True
+            rate_limited = False
             event = Event()
+            search_event = Event()
             for e in process.stdout:
                 text = e.strip()
                 if text == "Dependencies found:" and not flag:
                     flag = True
-                    thread = Thread(target=self.__input_thread, args=(process, event,), daemon=True)
+                    thread = Thread(target=self.__input_thread, args=(process, event, "n"), daemon=True)
+                    thread.start()
+                if text == "0) Cancel" and not search_flag:
+                    search_flag = True
+                    is_successful = False
+                    thread = Thread(target=self.__input_thread, args=(process, search_event, "0"), daemon=True)
                     thread.start()
                 if flag:
                     event.set()
+                if search_flag:
+                    search_event.set()
                 self.log.info(text)
                 if re.match("Failed to (add|get file for) project:.*", text) or text == "No projects found!":
                     is_successful = False
-        return is_successful
+                if RATE_LIMIT_RE.match(text):
+                    self.log_w.warning(f"{mod_name} rate-limited (429)")
+                    rate_limited = True
+        return is_successful, rate_limited
 
     @staticmethod
-    def __input_thread(popen: Popen, event: Event):
+    def __input_thread(popen: Popen, event: Event, response: str):
         while True:
             event.wait(timeout=3)
             if not event.is_set():
-                popen.stdin.write("n\n")
+                popen.stdin.write(f"{response}\n")
                 popen.stdin.flush()
                 break
             else:

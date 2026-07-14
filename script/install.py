@@ -16,15 +16,24 @@ def run(input_platform: PlatForm, match: str, reinstall: bool):
     with open(FILE_PATH, "r", encoding=UTF_8) as f:
         yaml = YAML()
         data = yaml.load(f)
+    rate_limit_failures: list[str] = []
     for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE] if input_platform == PlatForm.ALL else [input_platform]:
         mc_dirs = util.get_dir_vers(platform)
         for mc_dir in mc_dirs:
             if not util.check_match(match, mc_dir): continue
             remove_file(platform, mc_dir, data, reinstall)
-            __install(platform, mc_dir, data)
+            rate_limited = __install(platform, mc_dir, data)
+            if rate_limited:
+                rate_limit_failures.extend("{}/{}: {}".format(mc_dir, platform, mod) for mod in sorted(rate_limited))
+    if rate_limit_failures:
+        log = logutil.Logger("install", write=True, log_name="summary-install.log").get_log()
+        for mod in rate_limit_failures:
+            log.error("Modrinth 429 left install unchecked for {}".format(mod))
+        raise SystemExit(1)
 
 
-def __install(platform: PlatForm, mc_dir: str, data: dict):
+def __install(platform: PlatForm, mc_dir: str, data: dict) -> set[str]:
+    rate_limited_mods = set()
     # install enabled_mods
     enabled_mods: list[dict[str, Any]] = data[ENABLED]
     for enabled_mod in enabled_mods:
@@ -35,7 +44,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
             disabled=False,
             file_type=Type.MODS
         )
-        install.install()
+        rate_limited_mods |= install.install()
 
     # install disabled_mods
     disabled_mods: list[dict[str, Any]] = data[DISABLED]
@@ -47,7 +56,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
             disabled=True,
             file_type=Type.MODS
         )
-        install.install()
+        rate_limited_mods |= install.install()
 
     # install resourcepacks
     resourcepacks: list[dict[str, Any]] = data[RESOURCE]
@@ -59,7 +68,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
             disabled=False,
             file_type=Type.RESOURCEPACKS
         )
-        install.install()
+        rate_limited_mods |= install.install()
 
     # tomil-w changes something, so it needs to be refreshed
     path = Path(platform).joinpath(mc_dir)
@@ -67,6 +76,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
         log = logutil.Logger(name=f"install/{mc_dir}").get_log()
         for e in process.stdout:
             log.info(e.strip())
+    return rate_limited_mods
 
 
 def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
