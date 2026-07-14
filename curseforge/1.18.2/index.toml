@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "46bbdb0669c42ab2a1ff63f0f57b8378fbe6faf3e1e53c4f505dd8a05f861a82"
+hash = "159cad18f08ac2d2295d0a15c9e629ea6591c1c9540a4d5e00bb498417a98aab"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "1fe37850733c4d1e0239c2a25139ee3b9e8d99d4337b94c1b1d4e3b51c31db72"
+hash = "d8dcffde9d894c7611615b9b35dee45ce213cf1e7bb04eca6098b7073a7d1143"
 metafile = true
 
 [[files]]

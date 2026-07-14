@@ -22,12 +22,12 @@ metafile = true
 
 [[files]]
 file = "mods/better-block-entities.pw.toml"
-hash = "ed77981a14b7bbdd247709fa1ee08a685c8d0dfff7f52f14542f79ae6f43a7bf"
+hash = "549f571b8a25fa25e39490c37eb412af36c75afc7ce21304cfed0cc8549bb2bd"
 metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "5aa96a4b35b027c2e713892270612a822819dfdf292305e60f41faa4fd6bbc11"
+hash = "867f1c762e964cea6bb9dc48c8c2d7e134a6864ad9a5c949d9cb7457d3538ecd"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "cb593d873f1733c1b1760de243aa0b2238320b4e7349ff62068bed39f7c3e285"
+hash = "f10e9eaa369a132fe062800b47741d0106e87ef7c8b6a433ef89547d0f35b0de"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandkeys.pw.toml"
-hash = "5964733f276e6a2b906763541483bf1ae8819b91cef9a0a695331da96d0e1984"
+hash = "dab67de45f5e567bccda7d88c31e48d787e5906e40a08baf2dfb15be0615a45b"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "b354e978ac188b1cf44325872560e74c5d674abf8c3a1ee067bc2cd82c4e96c3"
+hash = "c0f8dd38f84e89870316f0c65ba98bf43fbe38464f9b99ad65e2f06d8a3c1c63"
 metafile = true
 
 [[files]]
@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "41437a15f56b00994815f2bd2371ac84232cd7a1cc29688fe81480b44a935447"
+hash = "4558d459a64d360ef8954016a272f690b45e74fe8f078388a5a6329e5fa973f6"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "bea23e3d6acc4f09caeacca875129a0199cfc5a7c9d2c8756828dbc6ba8e7c22"
+hash = "f897fd0cfe506bed72862d0796c4fccf0be570d7622c77e45d646d69aa6566b9"
 metafile = true
 
 [[files]]
@@ -162,12 +162,12 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "a03bc03c304dbf24952d51fb768c85fd227dfc45a8b38dc26d5c8053e54ae168"
+hash = "009d9135e8d02bc34226c7451b792421026fd94d40d2da7b10adfe56b50873b5"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "d655305d7933a11ed9c0c8edb57868c053b9c995c121c00b47061cf0e098c92a"
+hash = "b7e98520b66f5a11f8a4ad84e518de34d97d1ca84152f3a427d9e7820299fbdd"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "1be383140e57b167b7e3eb589495752eb8dcb3bdc4c82f7d7934ba7bc869514b"
+hash = "c0f7962965342e52e79ccef61a3b2bc70c51250bbb38bc26929d8b09ba6d926c"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "7acfb9e9d7b052728f518574f1e79d20a2ec3296e147fbd3794b033fef381947"
+hash = "9ceb72b7c586df8828ee5e9eaf096c913f8debe92805cd5ce6c4ea8922e5fe1d"
 metafile = true
 
 [[files]]
@@ -221,13 +221,18 @@ hash = "dee7a005fbd32004a27ace52e8b9d9e586fa3b0ec608698d6f2fd4675ef3f35d"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "ee72eb8f39a3d98dd6693a01a460a50ff88843270d23478f80413b609d1ade87"
+metafile = true
+
+[[files]]
 file = "mods/rail-placement-fix.pw.toml"
 hash = "da1e9a3047c4bcca3d593f90dac92acbd7df500a3f32dc68bb3ccdba9461f5a9"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "3e203bfd412cb6c7c9eccbb621edc24427174afbbe739bff98cf1b51f0636333"
+hash = "a4c435e9a1f73fc2bc34b144e582c2e019d0a3eec99925ddd2aaae727370ea76"
 metafile = true
 
 [[files]]
@@ -237,17 +242,17 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "ec7527fb81f7ead1640cd0793567660a4c60d69e4506d211708ec5008b9c8bee"
+hash = "7a2849338319a82bc5da80de42922b5f540420c3eae16149501f155b0f8b2cd8"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "f59459557165e5ed9022cd5e9182bd3b12ae495e9c300bf9025d03a76eca9fe1"
+hash = "23bd2f19c11a1b0b2870dafd6d5321af3549b22e84149bfd6ff3ff49af388788"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "9c0841e3426cc58863e4c883f191329334940827d87615fd7c7484547861d867"
+hash = "a899b14d4bbab643586ac2734da162e9cae579d461f81776804c598a03297ebe"
 metafile = true
 
 [[files]]
@@ -267,12 +272,12 @@ metafile = true
 
 [[files]]
 file = "mods/syncmatica.pw.toml"
-hash = "356ee21404f9807c6f18d598535ae17de2465d793341b408e60c50c3e8917a58"
+hash = "a8cfd56f9a2a99a9b93e05e41decad8c4b245bba7ed0b27a3032e5d6d1a09e23"
 metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "1b4d0ce90d54d860893c1eaffeb7d1383fca8e5674258e5cbde302aba4520332"
+hash = "e45bbeaba109cac1d0bd8347eefd24c1df14a22b1856c2cd39bf4449ef8a1f57"
 metafile = true
 
 [[files]]
@@ -297,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
-hash = "c2934b61541bc2e8ae4d546005f055e6ab11390d48c9b3075088cef7626890b1"
+hash = "d9605d42eb7c0d52c20c25a909aa95dd93794cc2d5f61518dc831e0e0d614c12"
 metafile = true
 
 [[files]]
@@ -322,5 +327,10 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "d4e188553ece0d239c00bafb42c7d144ffc0b331b0c1f32019d35a8d9cdce531"
+hash = "e5c11614ca365cf34dd1396626ae26292a064d8dc4cfd82f0984974b22244664"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "e3e9969aba842a573092443612c2289a22568a1fe9f02e434bcb0ed1ac8c1206"
 metafile = true

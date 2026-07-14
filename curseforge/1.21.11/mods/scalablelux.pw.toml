@@ -1,12 +1,12 @@
 name = "ScalableLux"
-filename = "ScalableLux-0.1.6+fabric.c25518a-all.jar.disabled"
+filename = "ScalableLux-fabric-0.3.0-alpha.0.3-all.jar.disabled"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9df93ab6442fa374c17fab6b5181fe2c215d9d5b"
+hash = "e834feeca2246156f01df257da910d47dd9a5916"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 7035318
+file-id = 8401482
 project-id = 1055925

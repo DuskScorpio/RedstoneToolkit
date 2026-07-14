@@ -1,13 +1,13 @@
 name = "Syncmatica"
-filename = "syncmatica-fabric-26.2-0.3.18.jar"
+filename = "syncmatica-fabric-26.2-0.3.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bfneejKo/versions/qeU4LUwM/syncmatica-fabric-26.2-0.3.18.jar"
+url = "https://cdn.modrinth.com/data/bfneejKo/versions/f74T22XS/syncmatica-fabric-26.2-0.3.19.jar"
 hash-format = "sha512"
-hash = "94c643084d33f9c750abdc7efbc5889fb99f77cccffc01c565b48c59eb882f2edde2b8d4bae23e5c9ae709ebf039ff4f28b09a1a0f437e4e321661e8e5620132"
+hash = "e44660878dfdf80b2091e6206715cac0658dcc38b2b80ab36bd3e28e3a34a17c727f7f2206dc01d9d84f73096ee49656e51e1c47669d7e33f67f096e3a44e12a"
 
 [update]
 [update.modrinth]
 mod-id = "bfneejKo"
-version = "qeU4LUwM"
+version = "f74T22XS"

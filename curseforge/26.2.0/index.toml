@@ -17,12 +17,12 @@ metafile = true
 
 [[files]]
 file = "mods/better-block-entities.pw.toml"
-hash = "7e23582220be12bc72880e963748f0c186f9aadce11ed92d3baa862e786fc7a8"
+hash = "5d10543383161459d7bbc55eea31fb8c8f46f9d7fa197b5d240fe5c9b2e90f12"
 metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "f554043658c4f489ec6bad021e1189c257b5ee57edb14de192a448fa18e64a88"
+hash = "2374caf1cd8b94825bacf9166de371382c3cc4fb229884ee0d5c41e5e608cc3b"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "9d030773d6379538e6e3aad6c4f03648c527f5e7cf5412d0e5c21baa58bdfc14"
+hash = "e85c3785add0b09a30dded8152f8e1be4736bbb47818f9d70d1584812fceb890"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandkeys.pw.toml"
-hash = "aaa5ed418168670054f9f08fe472597bcdbbe56da9e3c6a169e8cf6899305979"
+hash = "7f7ece3e7b319c7a3b3fd1b832e2c84c901193c3369f38c6439c129a5efef492"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "685d042155e286e2fedf8cbeffd09f75aa7e5cf5122b198e50e257647270a20b"
+hash = "4378f995a69597e2be001d52e0e03da5c314adab309661bd4b8be88402796162"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "f78f21d6c0cfc69847ce55276c081a6a438775d7f60038b6a2e0a2e6eca936fc"
+hash = "1a4e9aaa6fe056d5e75188417a03d3b76eaf8dcc116cd08bfea86971d151af2f"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "3f3535c29763f889272b939b223c763b612673effa5e77fecee68459caf9f682"
+hash = "a62a9c1e94a4512d44304ff57376f8c34eb4e225d573e3f6b4089bd29f82e3ab"
 metafile = true
 
 [[files]]
@@ -127,12 +127,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "4dff456660324c8c631d6d71c6e49a824e67640cacc0408c9a92d1d0e174799a"
+hash = "3b4ab92dd5c39fbe0f5af3d73f0d7f3df3e2450842055353b0a5dc8fb9dae534"
 metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "b024680413cfb0846f277fff4c8811f018eae4982baa0b391c59fd80f76f7a88"
+hash = "00a38490a8c148f78c9d3be1e85f9aa30877535345a841316bc302b8b9eaa3fd"
 metafile = true
 
 [[files]]
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "099008be64c2334ec87465957dbe592086a47a152d3f0b8856cbad7e841a7974"
+hash = "053ba7151a4e6a78322f07c7f889fc869b5853eab76ea86abb606653b6faff05"
 metafile = true
 
 [[files]]
@@ -181,8 +181,13 @@ hash = "2245502cbabd5ec1bb7537b5ef222337defd305352eb1310b2ac207d5d669d00"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "6b7f3b632aa84c1fe77669e3d96db36aaf8b1257b95395def59b7c41fac52248"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "d6942a0062fe43126090cb7745b7e412377d07e402810bb4a2cda66036de0bbd"
+hash = "feeff4192a62d121b32142f0a4ab2f8ec1b7a24fe143af0574d35b0a2de34eae"
 metafile = true
 
 [[files]]
@@ -192,17 +197,17 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "e29dd9c32f3e80782071dcbeebc8ae541ffeabe8c2aa4d1012ae3d3693268e80"
+hash = "644017ec669b0560eedbb488f39d0e43183f635173da320ba151989fb65a435d"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "d7a0fb360c21c0fea71b69977ec1af06e0bd2d8f3cfbdc7fbdec48ecef4fc758"
+hash = "5e15de80352e345a51e6438ceb1df99f3201eaaaba59640c7591dfa96f8e24ef"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "116ce9d1daeb06b6fd42d0a4b641858130a39fc624a32ed8ad56427e76f19e57"
+hash = "fcba2772ec69ae0ac2c24edddfb9f9ec1c9ac49a8f9008086432cedba4b2aca6"
 metafile = true
 
 [[files]]
@@ -252,5 +257,10 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "723dcde16545318cd4ae100468e81843e91487acc4fa7ec5552c60a5a43e476e"
+hash = "7b06968e492f0349ff822141da900d7b606ce9ef92a938e640ed492d2e96b518"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "81c0ad8588b1ee79a7b512f255fe1587c0edf30c8a8645e4ab5db369c43c12a6"
 metafile = true
