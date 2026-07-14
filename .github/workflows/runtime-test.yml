@@ -158,7 +158,6 @@ jobs:
               --bootstrap-no-update \
               --bootstrap-main-jar packwiz-installer.jar \
               -g \
-              -s client \
               "$PACKWIZ_URL"
           )
 
