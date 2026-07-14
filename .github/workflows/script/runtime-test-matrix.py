@@ -16,6 +16,7 @@ from typing import Any
 DEFAULT_RUNTIME_TEST_FALLBACK_VERSION = "4.4.0"
 JAVA_MINIMUM_RULES = (
     ("26.0.0", 25),
+    ("1.21.1", 25),
     ("1.19.4", 21),
     ("1.16.5", 17),
 )
