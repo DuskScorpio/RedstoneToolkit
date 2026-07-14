@@ -8,6 +8,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
       actions: write
@@ -31,10 +32,27 @@ jobs:
       - name: add upstream remote
         run: git remote add upstream https://github.com/DuskScorpio/RedstoneToolkit.git
 
-      - name: run modpack sync
+      - name: run script update
+        timeout-minutes: 10
         run: |
-          python -m script update || true
-          python -m script install || true
+          set +e
+          python -m script update
+          UPDATE_EXIT=$?
+          set -e
+          if [ $UPDATE_EXIT -ne 0 ]; then
+            echo "[WARN] script update exited $UPDATE_EXIT — some mods rate-limited, see logs/summary-update.log"
+          fi
+
+      - name: run script install
+        timeout-minutes: 20
+        run: |
+          set +e
+          python -m script install
+          INSTALL_EXIT=$?
+          set -e
+          if [ $INSTALL_EXIT -ne 0 ]; then
+            echo "[WARN] script install exited $INSTALL_EXIT — some mods rate-limited, see logs/summary-install.log"
+          fi
 
       - name: generate changelog
         env:
@@ -48,6 +66,13 @@ jobs:
           echo ""
           echo "=== changelog.md ==="
           cat changelog.md
+
+      - name: upload sync logs
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: sync-logs
+          path: logs/
 
       - name: commit and push
         id: commit
