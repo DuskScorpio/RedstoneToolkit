@@ -1,0 +1,89 @@
+name: snapshot-discover
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit and push generated snapshot/release changes
+        type: boolean
+        default: true
+      dispatch_runtime_test:
+        description: Dispatch full runtime test after committing changes
+        type: boolean
+        default: true
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: setup python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: install pip dependencies
+        run: pip install ruamel.yaml tomli_w prompt-toolkit loguru semantic-version
+
+      - name: make packwiz executable
+        run: chmod +x tools/packwiz
+
+      - name: add upstream remote
+        run: git remote add upstream https://github.com/DuskScorpio/RedstoneToolkit.git || true
+
+      - name: discover snapshot/release
+        id: discover
+        timeout-minutes: 35
+        run: python .github/workflows/script/snapshot-discover.py
+
+      - name: show changes
+        if: always()
+        run: |
+          echo "=== git status ==="
+          git status --short
+          echo ""
+          echo "=== git diff --stat ==="
+          git diff --stat
+          echo ""
+          echo "=== changelog.md ==="
+          cat changelog.md
+
+      - name: upload snapshot logs
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: snapshot-discover-logs
+          path: logs/
+
+      - name: commit and push
+        id: commit
+        if: ${{ inputs.commit_changes && steps.discover.outputs.changes == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No staged changes to commit."
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "${{ steps.discover.outputs.commit_message }}"
+          git push origin "HEAD:${{ github.ref_name }}"
+          echo "changes=true" >> "$GITHUB_OUTPUT"
+
+      - name: dispatch runtime-test
+        if: ${{ inputs.dispatch_runtime_test && steps.commit.outputs.changes == 'true' }}
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/runtime-test.yml/dispatches" \
+            -d '{"ref":"${{ github.ref_name }}","inputs":{"version":"all","enable_disabled_mods":"true"}}'
