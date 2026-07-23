@@ -146,6 +146,30 @@ def main() -> None:
         if folder not in current_mc_versions
     ]
 
+    newly_compatible: dict[str, list[str]] = defaultdict(list)
+    added_mod_paths = run_git(
+        "diff",
+        "--name-only",
+        "--diff-filter=A",
+        base,
+        "--",
+        f"{PLATFORM}/*/mods/*.pw.toml",
+    ).splitlines()
+    for rel in added_mod_paths:
+        path = REPO / rel
+        parts = Path(rel).parts
+        if len(parts) != 4:
+            continue
+        _, folder, mods_dir, filename = parts
+        if (
+            path.exists()
+            and mods_dir == "mods"
+            and filename.endswith(".pw.toml")
+            and folder in folder_order
+            and folder not in news_folders
+        ):
+            newly_compatible[folder].append(filename.removesuffix(".pw.toml"))
+
     mod_versions: dict[str, set[str]] = defaultdict(set)
     changed_paths = run_git(
         "diff",
@@ -177,6 +201,12 @@ def main() -> None:
 
     out = ["## News", ""]
     out.extend(news_added)
+    if newly_compatible:
+        out.append("- Added newly compatible mods to:")
+        for folder in sorted(newly_compatible, key=lambda f: folder_order[f]):
+            out.append(f"  - {current_mc_versions[folder]}:")
+            for slug in sorted(set(newly_compatible[folder]), key=lambda s: resolve_mod_name(s, [folder]).lower()):
+                out.append(f"    - {resolve_mod_name(slug, [folder])}")
     out += ["", "## Changes", ""]
     out.extend(changes_removed)
     out += ["", "## Updates", ""]
