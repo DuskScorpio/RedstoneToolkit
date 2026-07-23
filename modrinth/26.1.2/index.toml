@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "96e983cb9e9d239b508fd808433d73087514c7177eddf481a5174925dc46fac0"
+hash = "90a1f3d243f14f80186617aa74b61d4e7bd5e76b05f5c1a44b8e5c63ee3fc79a"
 metafile = true
 
 [[files]]
@@ -382,7 +382,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "e212db98871e5d51f2015f3134090353cec414333af3ba2e6015b8c642f5267b"
+hash = "fca5afdd9955e658237d14f21a8473610c659b3fb85652ff8de8314fa3322b07"
 metafile = true
 
 [[files]]

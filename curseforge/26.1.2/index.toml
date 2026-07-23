@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "0a1a143d9e49dc674b49104566869c919470864a9103d511da2aca462e568f26"
+hash = "27e08636677c81a909c42a636d34627c7585cea559f4d506108e84c8a4fd1268"
 metafile = true
 
 [[files]]

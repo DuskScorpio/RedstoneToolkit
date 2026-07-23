@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "07888039cd6e318a6ca4cb4aa3196025a1f17203d9fa9b86b5dbc45e912c5e5e"
+hash = "85b142055db3e9b52a8074e2eb5ff6e34c341058dc64cae7e5bf1e5af1719b49"
 metafile = true
 
 [[files]]
@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "64fa8a53cf8a189ca25a802fcf6916afb04718c0c470688b3daa9b1a281b0854"
+hash = "4e8ced468a24b6e691e2f4e1878379b06f8d9bc5fa7f2b1cc7d5fbf75b756676"
 metafile = true
 
 [[files]]
