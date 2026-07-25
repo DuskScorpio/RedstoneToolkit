@@ -1,20 +1,32 @@
-from enum import StrEnum, auto
-
-import os
 import platform as platforms
+from enum import StrEnum, Enum, auto
+from pathlib import Path
+from warnings import deprecated
 
 
-class PlatForm(StrEnum):
+@deprecated("will remove")
+class PlatFormLegacy(StrEnum):
     MODRINTH = auto()
     CURSEFORGE = auto()
     ALL = auto()
 
 
-PACKWIZ_EXE = os.path.abspath("tools/packwiz.exe")
-PACKWIZ_LINUX = os.path.abspath("tools/packwiz")
-PACKWIZ = PACKWIZ_EXE
-if platforms.system() == "Linux" and not os.access(PACKWIZ_EXE, os.X_OK):
-    PACKWIZ = PACKWIZ_LINUX
+class PlatformSource(StrEnum):
+    MODRINTH = auto()
+    CURSEFORGE = auto()
+
+
+class PlatformSourceList(Enum):
+    MODRINTH = [PlatformSource.MODRINTH]
+    CURSEFORGE = [PlatformSource.CURSEFORGE]
+    ALL = [PlatformSource.MODRINTH, PlatformSource.CURSEFORGE]
+
+    @property
+    def name(self):
+        return super().name.lower()
+
+
+PACKWIZ = Path("tools").joinpath("packwiz.exe" if platforms.system() == "Windows" else "packwiz").absolute()
 FILE_PATH = "file_list.yml"
 ENABLED = "enabled_files"
 DISABLED = "disabled_files"
@@ -29,12 +41,12 @@ UTF_8 = "utf-8"
 
 COMMAND = {
     "stop": None,
-    "import": {"--platform": {PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL}},
+    "import": {"--platform": {PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL}},
     "install": (platform_and_version := {
         "--platform": {
-            PlatForm.MODRINTH: (ver := {"--match": {"": {"--reinstall": None}}}),
-            PlatForm.CURSEFORGE: ver,
-            PlatForm.ALL: ver
+            PlatFormLegacy.MODRINTH: (ver := {"--match": {"": {"--reinstall": None}}}),
+            PlatFormLegacy.CURSEFORGE: ver,
+            PlatFormLegacy.ALL: ver
         },
         "--match": {"": {"--reinstall": None}},
         "--reinstall": None
@@ -44,9 +56,9 @@ COMMAND = {
     "update": {"--match"},
     "export": {
         "--platform": {
-            PlatForm.MODRINTH: {"--version": None},
-            PlatForm.CURSEFORGE: {"--version": None},
-            PlatForm.ALL: {"--version": None}
+            PlatFormLegacy.MODRINTH: {"--version": None},
+            PlatFormLegacy.CURSEFORGE: {"--version": None},
+            PlatFormLegacy.ALL: {"--version": None}
         },
         "--version": None
     },

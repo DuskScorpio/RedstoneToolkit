@@ -11,13 +11,13 @@ import re
 import tomllib
 
 
-def run(input_platform: PlatForm, match: str, reinstall: bool):
+def run(input_platform: PlatFormLegacy, match: str, reinstall: bool):
     clean_log()
     with open(FILE_PATH, "r", encoding=UTF_8) as f:
         yaml = YAML()
         data = yaml.load(f)
     rate_limit_failures: list[str] = []
-    for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE] if input_platform == PlatForm.ALL else [input_platform]:
+    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE] if input_platform == PlatFormLegacy.ALL else [input_platform]:
         mc_dirs = util.get_dir_vers(platform)
         for mc_dir in mc_dirs:
             if not util.check_match(match, mc_dir): continue
@@ -32,7 +32,7 @@ def run(input_platform: PlatForm, match: str, reinstall: bool):
         raise SystemExit(1)
 
 
-def __install(platform: PlatForm, mc_dir: str, data: dict) -> set[str]:
+def __install(platform: PlatFormLegacy, mc_dir: str, data: dict) -> set[str]:
     rate_limited_mods = set()
     # install enabled_mods
     enabled_mods: list[dict[str, Any]] = data[ENABLED]
@@ -79,7 +79,7 @@ def __install(platform: PlatForm, mc_dir: str, data: dict) -> set[str]:
     return rate_limited_mods
 
 
-def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
+def remove_file(platform: PlatFormLegacy, mc_dir: str, data: dict, reinstall: bool):
     log = logutil.Logger(f"install/({platform}/{mc_dir})").get_log()
     run_path = Path(platform).joinpath(mc_dir)
     file_class = {
@@ -101,8 +101,8 @@ def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
                 mod_from: From = from_dict.get(name.lower())
 
                 # sb curseforge
-                if platform == PlatForm.CURSEFORGE:
-                    if mod_from.value == PlatForm.MODRINTH: continue
+                if platform == PlatFormLegacy.CURSEFORGE:
+                    if mod_from.value == PlatFormLegacy.MODRINTH: continue
                     cf_condition: str | None = meta.get(CF_SKIP)
                     if not cf_condition is None and util.check_match(cf_condition, mc_dir): continue
 

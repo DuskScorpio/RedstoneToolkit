@@ -11,11 +11,11 @@ from script.utils import logutil, util
 from script.utils.constant import *
 
 
-def run(version: str | None, platform: PlatForm):
+def run(version: str | None, platform: PlatFormLegacy):
     platform_map = {
-        PlatForm.ALL: [PlatForm.MODRINTH, PlatForm.CURSEFORGE],
-        PlatForm.MODRINTH: [PlatForm.MODRINTH],
-        PlatForm.CURSEFORGE: [PlatForm.CURSEFORGE]
+        PlatFormLegacy.ALL: [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE],
+        PlatFormLegacy.MODRINTH: [PlatFormLegacy.MODRINTH],
+        PlatFormLegacy.CURSEFORGE: [PlatFormLegacy.CURSEFORGE]
     }
     for p in platform_map[platform]:
         if version is None:
@@ -29,7 +29,8 @@ def run(version: str | None, platform: PlatForm):
 
 
 class Export:
-    def __init__(self, version: str, platform: PlatForm):
+    def __init__(self, version: str, platform: PlatFormLegacy):
+        self._log = logutil.get_log("export")
         self._version = version
         self._platform = platform
         self._path = Path(platform).joinpath(version)
@@ -50,7 +51,6 @@ class Export:
         self.__move_file()
 
     def __export(self):
-        log = logutil.Logger(f"{self._platform}/{self._version}").get_log()
         with Popen(
                 [PACKWIZ, self._platform, "export"],
                 cwd=self._path,
@@ -60,10 +60,9 @@ class Export:
                 bufsize=1
         ) as process:
             for e in process.stdout:
-                log.info(e.strip())
+                self._log.info(f"({self._platform}/{self._version}) {e.strip()}")
 
     def __refresh(self):
-        log = logutil.Logger(f"{self._platform}/{self._version}").get_log()
         with Popen(
                 [PACKWIZ, "refresh"],
                 cwd=self._path,
@@ -73,7 +72,7 @@ class Export:
                 bufsize=1
         ) as process:
             for e in process.stdout:
-                log.info(e.strip())
+                self._log.debug(f"({self._platform}/{self._version}) {e.strip()}")
 
     def __write_version(self):
         path = self._path.joinpath("pack.toml")
@@ -110,7 +109,7 @@ class Export:
             data = tomllib.load(f)
         name = str(data["name"])
         version = str(data["version"])
-        end = "mrpack" if self._platform == PlatForm.MODRINTH else "zip"
+        end = "mrpack" if self._platform == PlatFormLegacy.MODRINTH else "zip"
         pack_name = f"{name}-{version}.{end}"
 
         path = self._path.joinpath(pack_name)

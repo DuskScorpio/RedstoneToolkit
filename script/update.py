@@ -1,145 +1,93 @@
-from script.utils.constant import *
-from script.utils import logutil, util
-from pathlib import Path
-from subprocess import Popen, PIPE, STDOUT
-
 import re
 import tomllib
+from subprocess import Popen, STDOUT, PIPE
+
 import tomli_w
 
-RATE_LIMIT_RE = re.compile(r"^Failed to check updates for (.+): failed to get latest version: .*\b429\b")
+from script.utils import util, logutil
+from script.utils.constant import *
+
 
 def run(match: str):
-    clean_log()
-    rate_limit_failures: list[str] = []
-    for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
-        dir_vers = util.get_dir_vers(platform)
-        for dir_ver in dir_vers:
-            if not util.check_match(match, dir_ver):
+    for platform_source in PlatformSource:
+        mc_dirs = util.get_dir_vers(platform_source)
+        for mc_dir in mc_dirs:
+            if not util.check_match(match, mc_dir):
                 continue
-            path = Path(platform).joinpath(dir_ver)
-            record = Disable(dir_ver, platform)
-            record.init()
-            with Popen(
-                [PACKWIZ, "update", "--all", "--yes"],
-                stdout=PIPE,
-                stderr=STDOUT,
-                cwd=path,
-                text=True,
-                bufsize=1
-            ) as process:
-                rate_limited_mods = process_log(process, dir_ver, platform)
-            if rate_limited_mods:
-                rate_limit_failures.extend("{}/{}: {}".format(dir_ver, platform, mod) for mod in sorted(rate_limited_mods))
-            record.disable()
-    if rate_limit_failures:
-        log = logutil.Logger("update", write=True, log_name="summary-update.log").get_log()
-        for mod in rate_limit_failures:
-            log.error("Modrinth 429 left update unchecked for {}".format(mod))
-        raise SystemExit(1)
-
-def process_log(process: Popen[str], version: str, platform: PlatForm) -> set[str]:
-    name_dict = name_id_dict(version, platform)
-    rate_limited_mods = set()
-    for line in process.stdout:
-        text = line.strip()
-        log_1 = logutil.Logger(
-            f"{version}/{platform}",
-            write=True,
-            log_name=f"{platform}-{version}-update.log",
-            level_f=logutil.Level.WARNING
-        ).get_log()
-        if re.match("Warning:.*", text):
-            log_1.warning(text.replace("Warning: ", ""))
-        else:
-            log_1.info(text)
-        rate_limit_match = RATE_LIMIT_RE.match(text)
-        if rate_limit_match:
-            rate_limited_mods.add(rate_limit_match.group(1))
-        if re.match(".+: .+ -> .+", text):
-            match = re.search(".+:", text)
-            if match:
-                log_2 = logutil.Logger(
-                    f"{version}/{platform}",
-                    write=True,
-                    log_name=f"{platform}-{version}-update.log"
-                ).get_log()
-                name_for_output = match.group().strip()[:-1]
-                # Some mods like to use strange names that cause them to not be parsed properly and return the original data
-                mod_id = name_dict.get(name_for_output, name_for_output)
-                log_2.info("{} update completed!".format(mod_id))
-    return rate_limited_mods
+            path = Path(platform_source).joinpath(mc_dir)
+            update(path, platform_source, mc_dir)
 
 
-def name_id_dict(mc_ver: str, platform: PlatForm) -> dict[str, str]:
-    path = Path(platform).joinpath(mc_ver).joinpath("mods")
-    path.mkdir(parents=True, exist_ok=True)
-    files = [f.name for f in path.iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
-    name_and_id = {}
-    for file in files:
-        with open(path.joinpath(file), "rb") as f:
-            data = tomllib.load(f)
-        name = data[NAME]
-        mod_id = file.replace(".pw.toml", "")
-        name_and_id[name] = mod_id
-
-    return name_and_id
-
-
-def clean_log():
-    path = Path("logs")
-    if path.exists():
-        file_path_list = [f for f in path.iterdir() if re.match(".*-update\\.log", f.name)]
-        for file_path in file_path_list:
-            file_path.unlink()
+def update(cwd: Path, platform: PlatformSource, mc_dir: str):
+    record = Disabled(platform, mc_dir)
+    record.mark()
+    with Popen(
+        [PACKWIZ, "update", "--all", "--yes"],
+        stdout=PIPE,
+        stderr=STDOUT,
+        cwd=cwd,
+        text=True,
+        bufsize=1
+    ) as popen:
+        for e in popen.stdout:
+            process_log(e.strip(), platform, mc_dir)
+    record.disable()
 
 
-class Disable:
-    __disabled_list = []
+def process_log(info: str, platform: PlatformSource, mc_dir: str):
+    log = logutil.get_log("update")
+    prefix = f"({platform}/{mc_dir})"
+    log.debug(f"{prefix} {info}")
+    if re.match(".+: .+ -> .+", info):
+        match = re.search(".+:", info)
+        mod_name = match.group()[:-1]
+        log.info(f"{prefix} {mod_name} update successful!")
+    elif re.match("Failed to check updates for .*", info):
+        match = re.search("Failed to check updates for .+:", info)
+        mod_name = match.group()[28:-1]
+        log.error(f"{prefix} {mod_name} update failed!")
 
-    def __init__(self, version: str, platform: PlatForm):
-        self.version = version
+
+class Disabled:
+    def __init__(self, platform: PlatformSource, mc_dir: str):
         self.platform = platform
+        self.mc_dir = mc_dir
+        self.disabled_list: list[Path] = []
+        self.cwd = Path(platform).joinpath(mc_dir)
 
-    def init(self):
-        path = Path(self.platform).joinpath(self.version).joinpath("mods")
-        if path.exists():
-            file_list = [f for f in path.iterdir() if re.match(".*\\.pw\\.toml", f.name)]
-            for file in file_list:
-                with open(file, "rb") as f:
-                    data = tomllib.load(f)
-                if re.match(".*\\.disabled", data["filename"]):
-                    self.__disabled_list.append(file.name)
+    def mark(self):
+        mods_dir = self.cwd.joinpath("mods")
+        if not mods_dir.exists():
+            return
+        for mod_path in mods_dir.iterdir():
+            with mod_path.open("rb") as fr:
+                data = tomllib.load(fr)
+            filename: str = data["filename"]
+            if filename.endswith(".disabled"):
+                self.disabled_list.append(mod_path)
 
     def disable(self):
-        log = logutil.Logger("update").get_log()
-        for file_name in self.__disabled_list:
-            self.__disable(file_name)
-        process = Popen(
+        for mod_path in self.disabled_list:
+            if not mod_path.exists():
+                continue
+            with mod_path.open("rb") as fr:
+                data = tomllib.load(fr)
+            filename: str = data["filename"]
+            if not filename.endswith(".disabled"):
+                data["filename"] = filename + ".disabled"
+                with mod_path.open("wb") as fw:
+                    tomli_w.dump(data, fw)
+        self._refresh()
+
+    def _refresh(self):
+        log = logutil.get_log("update")
+        with Popen(
             [PACKWIZ, "refresh"],
-            cwd=Path(self.platform).joinpath(self.version),
             stdout=PIPE,
+            stderr=STDOUT,
+            cwd=self.cwd,
             text=True,
             bufsize=1
-        )
-        for e in process.stdout:
-            text = e.strip()
-            log.info(text)
-
-
-    def __disable(self, file_name: str):
-        path = Path(self.platform).joinpath(self.version).joinpath("mods").joinpath(file_name)
-        if not path.exists():
-            return
-        with open(path, "rb") as fr:
-            data = tomllib.load(fr)
-        original_name = data["filename"]
-        if re.match(".*\\.disabled", original_name):
-            return
-        data["filename"] = original_name + ".disabled"
-        with open(path, "wb") as fw:
-            tomli_w.dump(data, fw)
-
-
-if __name__ == "__main__":
-    print(logutil.Level.WARNING.name)
+        ) as popen:
+            for e in popen.stdout:
+                log.debug(f"({self.platform}/{self.mc_dir}) {e.strip()}")

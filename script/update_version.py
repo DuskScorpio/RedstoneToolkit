@@ -7,16 +7,16 @@ import tomllib
 import tomli_w
 
 
-def run(match: str, version: str, platform: PlatForm):
-    log = logutil.Logger("update_version").get_log()
+def run(match: str, version: str, platform: PlatFormLegacy):
+    log = logutil.get_log("update_version", False)
     if not validate(version):
         log.error(f"Invalid version format '{version}'. Expected format: X.Y.Z")
         return
 
     platform_map = {
-        PlatForm.MODRINTH: [PlatForm.MODRINTH],
-        PlatForm.CURSEFORGE: [PlatForm.CURSEFORGE],
-        PlatForm.ALL: [PlatForm.MODRINTH, PlatForm.CURSEFORGE]
+        PlatFormLegacy.MODRINTH: [PlatFormLegacy.MODRINTH],
+        PlatFormLegacy.CURSEFORGE: [PlatFormLegacy.CURSEFORGE],
+        PlatFormLegacy.ALL: [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]
     }
     for hit_platform in platform_map[platform]:
         dirs = util.get_dir_vers(hit_platform)

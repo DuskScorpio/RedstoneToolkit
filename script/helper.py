@@ -7,7 +7,7 @@ from prompt_toolkit.completion import Completer, CompleteEvent, Completion, Word
 from prompt_toolkit.document import Document
 
 from script.utils.constant import *
-from script.utils.logutil import Logger
+from script.utils.logutil import get_log
 
 import shlex
 
@@ -15,7 +15,7 @@ import shlex
 def run():
     from script.utils.call import call, From
     completer = HelperCompleter.from_nested_dict(COMMAND)
-    log = Logger("helper").get_log()
+    log = get_log("helper", False)
     session = PromptSession()
     while True:
         text = session.prompt(">> ", completer=completer)

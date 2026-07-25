@@ -33,6 +33,7 @@ class Create:
         self._snapshot = snapshot
         self._temp = TemporaryDirectory(dir=Path())
         self._temp_path = Path(self._temp.name)
+        self._log = logutil.get_log("create", False)
 
     def __enter__(self):
         return self
@@ -42,7 +43,6 @@ class Create:
 
     def create(self):
         self._parser_version()
-        log = logutil.Logger("create").get_log()
         with Popen(
                 self._arg,
                 cwd=self._temp_path,
@@ -52,11 +52,11 @@ class Create:
                 bufsize=1
         ) as popen:
             for e in popen.stdout:
-                log.info(e.strip())
+                self._log.info(e.strip())
         with self._temp_path.joinpath("pack.toml").open("rb") as f:
             data = tomllib.load(f)
         mc_dir_ver: str = str(Version.coerce(data["versions"]["minecraft"]).truncate())
-        for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
+        for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
             copy_path = Path(platform).joinpath(mc_dir_ver)
             if not copy_path.exists():
                 shutil.copytree(self._temp_path, copy_path)
@@ -70,7 +70,7 @@ class Create:
             self._arg.extend(["--mc-version", self._version])
 
         ver_list: list[Version] = list()
-        for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
+        for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
             dir_vers = util.get_dir_vers(platform)
             for dir_ver in dir_vers:
                 path = Path(platform).joinpath(dir_ver).joinpath("pack.toml")

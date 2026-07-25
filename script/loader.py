@@ -4,10 +4,10 @@ from pathlib import Path
 from subprocess import Popen, STDOUT, PIPE
 
 def run():
-    for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
+    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
         dirs = util.get_dir_vers(platform)
         for mc_dir in dirs:
-            log = logutil.Logger(f"{platform}/{mc_dir}").get_log()
+            log = logutil.get_log("update_loader")
             path = Path(platform).joinpath(mc_dir)
             with Popen(
                 [PACKWIZ, "migrate", "loader", "latest"],
@@ -18,4 +18,4 @@ def run():
                 bufsize=1
             ) as process:
                 for e in process.stdout:
-                    log.info(e.strip())
+                    log.info(f"({platform}/{mc_dir}) {e.strip()}")

@@ -5,8 +5,8 @@ from pathlib import Path
 import shutil
 
 def run(vers: list[str]):
-    log = logutil.Logger("remove").get_log()
-    for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
+    log = logutil.get_log("remove", False)
+    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
         for dir_ver in vers:
             path = Path(platform).joinpath(dir_ver)
             if path.exists():

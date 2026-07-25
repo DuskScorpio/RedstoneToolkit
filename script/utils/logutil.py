@@ -1,50 +1,71 @@
-from loguru import logger
-from enum import Enum, auto
+from logging import FileHandler, Formatter, INFO, DEBUG
+from pathlib import Path
+from datetime import datetime
+from functools import cache
 
-import sys
-
-
-class Level(Enum):
-    DEBUG = auto()
-    INFO = auto()
-    WARNING = auto()
+from colorlog import StreamHandler, getLogger, ColoredFormatter
 
 
 class Logger:
-    def __init__(
-            self,
-            name: str,
-            write: bool=False,
-            log_name: str="",
-            level_c: Level=Level.INFO,
-            level_f: Level=Level.INFO
-    ):
-        self.logger = logger.bind(name=name)
-        self.logger.remove()
-        self.level_c = level_c.name
-        self.level_f = level_f.name
-        self.__add_console()
-        self.log_name = log_name
+    def __init__(self, name: str, write: bool = True):
+        self.clean_log(name)
+        self.logger = getLogger(name)
+        self.logger.setLevel(DEBUG)
+
+        handler = StreamHandler()
+        handler.setFormatter(
+            ColoredFormatter(
+                fmt="[%(bold_green)s%(asctime)s%(reset)s] " +
+                    "[%(log_color)s%(levelname)s%(reset)s/%(name)s]: " +
+                    "%(message)s",
+                datefmt="%Y-%m-%d/%H:%M:%S",
+                log_colors={
+                    "DEBUG": "cyan",
+                    "INFO": "green",
+                    "WARNING": "yellow",
+                    "ERROR": "red",
+                    "CRITICAL": "red,bg_white"
+                }
+            )
+        )
+        handler.setLevel(DEBUG)
+        self.logger.addHandler(handler)
+
         if write:
-            self.__add_file()
+            log_dir = Path("logs")
+            log_dir.mkdir(exist_ok=True)
+            file_name = datetime.now().strftime(f"{name}-%Y-%m-%d_%H_%M_%S")
+            file_path = log_dir.joinpath(f"{file_name}.log")
+            file_handler = FileHandler(file_path, mode="w", encoding='utf-8')
+            file_handler.setFormatter(
+                Formatter(
+                    fmt="[%(asctime)s] [%(levelname)s/%(name)s]: %(message)s",
+                    datefmt="%Y-%m-%d/%H:%M:%S"
+                )
+            )
+            file_handler.setLevel(INFO)
+            self.logger.addHandler(file_handler)
 
-
-    def __add_console(self):
-        self.logger.add(
-            sink=sys.stdout,
-            format="<green>[{time:HH:mm:ss}]</green> <level>[{level}/({extra[name]})]</level>: <level>{message}</level>",
-            level=self.level_c,
-            colorize=True
-        )
-
-
-    def __add_file(self):
-        self.logger.add(
-            sink="./logs/{}".format(self.log_name),
-            format="[{time:HH:mm:ss}] [{level}/({extra[name]})]: {message}",
-            level=self.level_f
-        )
-
-
-    def get_log(self):
+    def get_logger(self):
         return self.logger
+
+    @staticmethod
+    def clean_log(name: str):
+        log_path = Path("log")
+        if not log_path.exists() or not log_path.is_dir():
+            return
+
+        def sort_time(path: Path):
+            path_name = path.name.replace(".log", "")
+            return datetime.strptime(path_name, f"{name}-%Y-%m-%d_%H_%M_%S")
+
+        file_path = [i for i in log_path.iterdir() if i.is_file() and i.name.startswith(f"{name}-")]
+        file_path.sort(key=sort_time)
+        if len(file_path) > 4:
+            for i in file_path[0: len(file_path) - 4]:
+                i.unlink()
+
+
+@cache
+def get_log(name: str, write: bool = True):
+    return Logger(name, write).get_logger()

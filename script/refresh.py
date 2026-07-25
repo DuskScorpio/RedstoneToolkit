@@ -4,10 +4,10 @@ from pathlib import Path
 from subprocess import Popen, PIPE, STDOUT
 
 def run():
-    for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
+    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
         vers = util.get_dir_vers(platform)
         for mc_ver in vers:
-            log = logutil.Logger(f"{platform}/{mc_ver}").get_log()
+            log = logutil.get_log("refresh", False)
             path = Path(platform).joinpath(mc_ver)
             with Popen(
                 [PACKWIZ, "refresh"],
@@ -18,4 +18,4 @@ def run():
                 bufsize=1
             ) as process:
                 for e in process.stdout:
-                    log.info(e.strip())
+                    log.info(f"({platform}/{mc_ver}) {e.strip()}")

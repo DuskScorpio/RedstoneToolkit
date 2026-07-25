@@ -26,7 +26,7 @@ class From(StrEnum):
 class Install:
     def __init__(
             self,
-            platform: PlatForm,
+            platform: PlatFormLegacy,
             mc_dir: str,
             meta: dict,
             disabled: bool,
@@ -49,7 +49,7 @@ class Install:
     def install(self) -> set[str]:
 
         # sb curseforge
-        if self.platform == PlatForm.CURSEFORGE:
+        if self.platform == PlatFormLegacy.CURSEFORGE:
             cf_condition: str | None = self.mod_meta.get(CF_SKIP)
             if cf_condition is not None and util.check_match(cf_condition, self.mc_dir):
                 return set()
@@ -70,8 +70,8 @@ class Install:
         platform_map = {
             MR: "mr",
             CF: "cf",
-            PlatForm.MODRINTH: [MR, CF],
-            PlatForm.CURSEFORGE: [CF] # don't let cf download anything from mr
+            PlatFormLegacy.MODRINTH: [MR, CF],
+            PlatFormLegacy.CURSEFORGE: [CF] # don't let cf download anything from mr
         }
         for i in platform_map.get(self.platform):
             if i in self.mod_meta:
@@ -95,7 +95,7 @@ class Install:
                 return mod_name.lower(), rate_limited_mods
             name_list.append(mod_name.lower())
 
-        if self.platform == PlatForm.CURSEFORGE and not name_list:
+        if self.platform == PlatFormLegacy.CURSEFORGE and not name_list:
             name_list.append(self.mod_meta.get(MR, "(unknown)"))
 
         mod_name = name_list[0]

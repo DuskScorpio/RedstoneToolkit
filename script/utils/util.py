@@ -1,21 +1,20 @@
 import re
-from pathlib import Path
 
 from semantic_version import NpmSpec, Version
 
 from script.utils.constant import *
 
 
-def get_dir_vers(platform: PlatForm) -> list[str]:
-    if platform == PlatForm.ALL:
+def get_dir_vers(platform: PlatformSource | PlatFormLegacy) -> list[str]:
+    if platform == PlatFormLegacy.ALL:
         assert TypeError
     dir_path = Path(platform)
     return [i.name for i in dir_path.iterdir() if
             i.is_dir() and dir_path.joinpath(i.name).joinpath("pack.toml").exists()]
 
 
-def get_dir_mods(platform: PlatForm, mc_ver: str) -> list[str]:
-    if platform == PlatForm.ALL:
+def get_dir_mods(platform: PlatformSource | PlatFormLegacy, mc_ver: str) -> list[str]:
+    if platform == PlatFormLegacy.ALL:
         assert TypeError
     mod_path = Path(platform).joinpath(mc_ver).joinpath("mods")
     if not mod_path.exists():
@@ -36,9 +35,3 @@ def check_match(match: str, version: str) -> bool:
     if not validate_condition(match):
         return False
     return NpmSpec(match).match(Version(version))
-
-
-if __name__ == "__main__":
-    path = Path(__file__).resolve().parent.parent.parent
-    os.chdir(path)
-    print(get_dir_mods(PlatForm.MODRINTH, "1.21.11"))

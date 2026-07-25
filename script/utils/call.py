@@ -1,8 +1,8 @@
 from argparse import ArgumentParser, Namespace
-from enum import Enum, auto
+
 from script import import_index, helper, install, create, remove, update, export, refresh, loader, update_version
-from script.utils.logutil import Logger
 from script.utils.constant import *
+from script.utils.logutil import get_log
 
 
 class From(Enum):
@@ -20,8 +20,8 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser_import = subparsers.add_parser("import", description="Import mods from the '.index' folder")
     parser_import.add_argument(
         "--platform",
-        choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
-        default=PlatForm.MODRINTH,
+        choices=[PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL],
+        default=PlatFormLegacy.MODRINTH,
         help="default 'modrinth'"
     )
 
@@ -29,8 +29,8 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser_install = subparsers.add_parser("install", description="parse and download files from 'file_list'")
     parser_install.add_argument(
         "--platform",
-        choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
-        default=PlatForm.ALL,
+        choices=[PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL],
+        default=PlatFormLegacy.ALL,
         help="default 'all'"
     )
     parser_install.add_argument(
@@ -70,8 +70,8 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser_export.add_argument("--version", help="The name of the Minecraft folder")
     parser_export.add_argument(
         "--platform",
-        choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
-        default=PlatForm.ALL,
+        choices=[PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL],
+        default=PlatFormLegacy.ALL,
         help="default 'all'"
     )
 
@@ -95,8 +95,8 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     )
     parser_update_version.add_argument(
         "--platform",
-        choices=[PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL],
-        default=PlatForm.ALL,
+        choices=[PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL],
+        default=PlatFormLegacy.ALL,
         help="default 'all'"
     )
 
@@ -111,7 +111,7 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
             if by == From.HUMAN:
                 helper.run()
             else:
-                log = Logger("helper").get_log()
+                log = get_log("helper", False)
                 log.error("WHAT ARE YOU DOING???")
 
         case "import":
