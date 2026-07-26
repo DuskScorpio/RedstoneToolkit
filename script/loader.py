@@ -6,7 +6,7 @@ from script.utils.constant import *
 
 
 def run():
-    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
+    for platform in PlatformSource:
         dirs = util.get_dir_vers(platform)
         for mc_dir in dirs:
             log = logutil.get_log("update_loader")
