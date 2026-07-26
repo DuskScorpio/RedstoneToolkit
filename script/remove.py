@@ -7,7 +7,7 @@ from script.utils.constant import *
 
 def run(vers: list[str]):
     log = logutil.get_log("remove", False)
-    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
+    for platform in PlatformSource:
         for dir_ver in vers:
             path = Path(platform).joinpath(dir_ver)
             if path.exists():
