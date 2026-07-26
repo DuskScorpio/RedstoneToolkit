@@ -100,8 +100,12 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     )
     parser_update_version.add_argument(
         "--platform",
-        choices=[PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL],
-        default=PlatFormLegacy.ALL,
+        choices=[
+            PlatformSourceList.MODRINTH.name,
+            PlatformSourceList.CURSEFORGE.name,
+            PlatformSourceList.ALL.name
+        ],
+        default=PlatformSourceList.ALL.name,
         help="default 'all'"
     )
 
@@ -147,4 +151,4 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
             loader.run()
 
         case "update_version":
-            update_version.run(args.match, args.version, args.platform)
+            update_version.run(args.match, args.version, util.get_platform_list(args.platform))

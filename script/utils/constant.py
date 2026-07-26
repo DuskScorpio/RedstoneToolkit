@@ -3,6 +3,24 @@ from enum import StrEnum, Enum, auto
 from pathlib import Path
 from warnings import deprecated
 
+__all__ = [
+    "PlatFormLegacy",
+    "PlatformSource",
+    "PlatformSourceList",
+    "PACKWIZ",
+    "FILE_PATH",
+    "ENABLED",
+    "DISABLED",
+    "RESOURCE",
+    "MR",
+    "CF",
+    "NAME",
+    "URLS",
+    "CF_SKIP",
+    "UTF_8",
+    "COMMAND"
+]
+
 
 @deprecated("will remove")
 class PlatFormLegacy(StrEnum):
