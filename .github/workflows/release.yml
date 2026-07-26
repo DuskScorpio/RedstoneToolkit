@@ -76,7 +76,7 @@ jobs:
       - name: export
         run: ${{ format('python -m script export --platform {0} --version {1}', env.PLATFORM, steps.data.outputs.dir) }}
       - name: publish
-        uses: Kir-Antipov/mc-publish@v3.3
+        uses: Kira-NT/mc-publish@v3
         with:
           modrinth-id: ccYQOriP
           modrinth-token: ${{ secrets.MR_TOKEN }}
@@ -128,7 +128,7 @@ jobs:
       - name: export
         run: ${{ format('python -m script export --platform {0} --version {1}', env.PLATFORM, steps.data.outputs.dir) }}
       - name: publish
-        uses: Kir-Antipov/mc-publish@v3.3
+        uses: Kira-NT/mc-publish@v3
         with:
           curseforge-id: 1449021
           curseforge-token: ${{ secrets.CF_TOKEN }}
