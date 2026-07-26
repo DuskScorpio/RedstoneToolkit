@@ -23,8 +23,12 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser_import = subparsers.add_parser("import", description="Import mods from the '.index' folder")
     parser_import.add_argument(
         "--platform",
-        choices=[PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL],
-        default=PlatFormLegacy.MODRINTH,
+        choices=[
+            PlatformSourceList.MODRINTH.name,
+            PlatformSourceList.CURSEFORGE.name,
+            PlatformSourceList.ALL.name
+        ],
+        default=PlatformSourceList.ALL.name,
         help="default 'modrinth'"
     )
 
@@ -127,7 +131,7 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
                 log.error("WHAT ARE YOU DOING???")
 
         case "import":
-            import_index.run(args.platform)
+            import_index.run(util.get_platform_list(args.platform))
 
         case "install":
             install.run(args.platform, args.match, args.reinstall)

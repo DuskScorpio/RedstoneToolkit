@@ -8,20 +8,17 @@ from script.utils.constant import *
 INDEX_DIR = Path(".index")
 
 
-def run(platform: PlatFormLegacy = PlatFormLegacy.MODRINTH):
-    if platform != PlatFormLegacy.ALL:
+def run(platforms: list[PlatformSource]):
+    for platform in platforms:
         __import_index(platform)
-    else:
-        for i in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
-            __import_index(i)
 
 
-def __import_index(platform: str = "mr"):
+def __import_index(platform: PlatformSource):
     if not INDEX_DIR.exists() or not INDEX_DIR.is_dir(): return
     yaml = YAML()
     yaml.indent(mapping=2, sequence=4, offset=2)
     yaml.preserve_quotes = True
-    if platform == PlatFormLegacy.MODRINTH:
+    if platform == PlatformSource.MODRINTH:
         now_slug = MR
         other_slug = CF
     else:
