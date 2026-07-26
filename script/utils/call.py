@@ -1,14 +1,16 @@
 from argparse import ArgumentParser, Namespace
+from enum import Enum, auto
 
 from script import import_index, helper, install, create, remove, update, export, refresh, loader, update_version
+from script.utils import util
 from script.utils.constant import *
 from script.utils.logutil import get_log
-from script.utils import util
 
 
 class From(Enum):
     HELPER = auto()
     HUMAN = auto()
+
 
 def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser = ArgumentParser()
@@ -46,7 +48,8 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     )
 
     # create
-    parser_create = subparsers.add_parser("create", description="Create a Minecraft version").add_mutually_exclusive_group()
+    parser_create = subparsers.add_parser("create",
+                                          description="Create a Minecraft version").add_mutually_exclusive_group()
     parser_create.add_argument("--versions", help="Minecraft version, if there are multiple uses ',' split")
     parser_create.add_argument("--snapshot", action="store_true", help="Use the latest snapshot")
 

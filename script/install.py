@@ -1,14 +1,14 @@
-from typing import Any
-
-from script.utils.constant import *
-from script.utils import util, logutil
-from script.utils.install_util import Type, From, Install
-from pathlib import Path
-from ruamel.yaml import YAML
-from subprocess import Popen, STDOUT, PIPE
-
 import re
 import tomllib
+from pathlib import Path
+from subprocess import Popen, STDOUT, PIPE
+from typing import Any
+
+from ruamel.yaml import YAML
+
+from script.utils import util, logutil
+from script.utils.constant import *
+from script.utils.install_util import Type, From, Install
 
 
 def run(input_platform: PlatFormLegacy, match: str, reinstall: bool):
@@ -17,7 +17,8 @@ def run(input_platform: PlatFormLegacy, match: str, reinstall: bool):
         yaml = YAML()
         data = yaml.load(f)
     rate_limit_failures: list[str] = []
-    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE] if input_platform == PlatFormLegacy.ALL else [input_platform]:
+    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE] if input_platform == PlatFormLegacy.ALL else [
+        input_platform]:
         mc_dirs = util.get_dir_vers(platform)
         for mc_dir in mc_dirs:
             if not util.check_match(match, mc_dir): continue
@@ -95,8 +96,8 @@ def remove_file(platform: PlatFormLegacy, mc_dir: str, data: dict, reinstall: bo
         for meta in meta_list:
             for slug in [MR, CF, NAME]:
                 name: str | None = meta.get(slug)
-                if name is None: continue # If the name doesn't exist, continue it
-                if name.lower() not in remove_ids: continue # if the mod is new, continue it
+                if name is None: continue  # If the name doesn't exist, continue it
+                if name.lower() not in remove_ids: continue  # if the mod is new, continue it
 
                 mod_from: From = from_dict.get(name.lower())
 

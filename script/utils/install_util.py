@@ -1,13 +1,14 @@
-from script.utils.constant import *
-from script.utils import logutil, util
-from subprocess import Popen, PIPE, STDOUT
-from enum import StrEnum, auto
-from pathlib import Path
-from threading import Thread, Event
-
 import re
 import tomllib
+from enum import StrEnum, auto
+from pathlib import Path
+from subprocess import Popen, PIPE, STDOUT
+from threading import Thread, Event
+
 import tomli_w
+
+from script.utils import logutil, util
+from script.utils.constant import *
 
 RATE_LIMIT_RE = re.compile(r"^Failed to add project: .*\b429\b")
 
@@ -25,12 +26,12 @@ class From(StrEnum):
 
 class Install:
     def __init__(
-            self,
-            platform: PlatFormLegacy,
-            mc_dir: str,
-            meta: dict,
-            disabled: bool,
-            file_type: Type
+        self,
+        platform: PlatFormLegacy,
+        mc_dir: str,
+        meta: dict,
+        disabled: bool,
+        file_type: Type
     ):
         self.platform = platform
         self.mc_dir = mc_dir
@@ -71,7 +72,7 @@ class Install:
             MR: "mr",
             CF: "cf",
             PlatFormLegacy.MODRINTH: [MR, CF],
-            PlatFormLegacy.CURSEFORGE: [CF] # don't let cf download anything from mr
+            PlatFormLegacy.CURSEFORGE: [CF]  # don't let cf download anything from mr
         }
         for i in platform_map.get(self.platform):
             if i in self.mod_meta:
@@ -117,13 +118,13 @@ class Install:
                     raise ValueError
 
         with Popen(
-                args,
-                cwd=self.path,
-                text=True,
-                stdout=PIPE,
-                stderr=STDOUT,
-                stdin=PIPE,
-                bufsize=1
+            args,
+            cwd=self.path,
+            text=True,
+            stdout=PIPE,
+            stderr=STDOUT,
+            stdin=PIPE,
+            bufsize=1
         ) as process:
             # Don't change these, because it works by mystical powers
             flag = False
@@ -168,13 +169,13 @@ class Install:
 
     def __url_install(self, mod_name: str, url: str):
         with Popen(
-                [PACKWIZ, "url", "add", mod_name, url],
-                cwd=self.path,
-                text=True,
-                stdout=PIPE,
-                stderr=PIPE,
-                stdin=PIPE,
-                bufsize=1
+            [PACKWIZ, "url", "add", mod_name, url],
+            cwd=self.path,
+            text=True,
+            stdout=PIPE,
+            stderr=PIPE,
+            stdin=PIPE,
+            bufsize=1
         ) as process:
             for e in process.stdout:
                 text = e.strip()

@@ -2,6 +2,7 @@ import os
 import re
 import shutil
 import tomllib
+from pathlib import Path
 from subprocess import Popen, PIPE, STDOUT
 from tempfile import TemporaryDirectory
 
@@ -17,7 +18,6 @@ def run(version: str | None, platform_list: list[PlatformSource]):
         for mc_dir in mc_dirs:
             with Export(mc_dir, platform) as e:
                 e.export()
-
 
 
 class Export:

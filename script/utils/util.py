@@ -1,4 +1,5 @@
 import re
+from pathlib import Path
 from typing import Literal
 
 from semantic_version import NpmSpec, Version
@@ -36,6 +37,7 @@ def check_match(match: str, version: str) -> bool:
     if not validate_condition(match):
         return False
     return NpmSpec(match).match(Version(version))
+
 
 def get_platform_list(platform: Literal["modrinth", "curseforge", "all"]):
     match platform:

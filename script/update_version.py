@@ -1,10 +1,11 @@
-from script.utils import logutil, util
-from script.utils.constant import *
+import tomllib
 from pathlib import Path
+
+import tomli_w
 from semantic_version import validate
 
-import tomllib
-import tomli_w
+from script.utils import logutil, util
+from script.utils.constant import *
 
 
 def run(match: str, version: str, platforms: list[PlatformSource]):

@@ -44,12 +44,12 @@ class Create:
     def create(self):
         self._parser_version()
         with Popen(
-                self._arg,
-                cwd=self._temp_path,
-                text=True,
-                stdout=PIPE,
-                stderr=STDOUT,
-                bufsize=1
+            self._arg,
+            cwd=self._temp_path,
+            text=True,
+            stdout=PIPE,
+            stderr=STDOUT,
+            bufsize=1
         ) as popen:
             for e in popen.stdout:
                 self._log.info(e.strip())

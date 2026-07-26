@@ -1,8 +1,9 @@
-from script.utils.constant import *
-from script.utils import logutil
+import shutil
 from pathlib import Path
 
-import shutil
+from script.utils import logutil
+from script.utils.constant import *
+
 
 def run(vers: list[str]):
     log = logutil.get_log("remove", False)

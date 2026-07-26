@@ -212,7 +212,7 @@ def main() -> None:
     out += ["", "## Updates", ""]
 
     for start, end in sorted(updates, key=lambda key: (-(key[1] - key[0] + 1), key[0], key[1])):
-        range_folders = folders[start : end + 1]
+        range_folders = folders[start: end + 1]
         start_mc = current_mc_versions[range_folders[0]]
         end_mc = current_mc_versions[range_folders[-1]]
         label = f"{start_mc}-{end_mc}:" if start_mc != end_mc else f"{start_mc}:"

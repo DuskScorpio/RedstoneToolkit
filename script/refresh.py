@@ -1,7 +1,9 @@
-from script.utils.constant import *
-from script.utils import logutil, util
 from pathlib import Path
 from subprocess import Popen, PIPE, STDOUT
+
+from script.utils import logutil, util
+from script.utils.constant import *
+
 
 def run():
     for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:

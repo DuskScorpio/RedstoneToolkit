@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import shlex
 from typing import Iterable, override
 
 from prompt_toolkit import PromptSession
@@ -8,8 +9,6 @@ from prompt_toolkit.document import Document
 
 from script.utils.constant import *
 from script.utils.logutil import get_log
-
-import shlex
 
 
 def run():
@@ -30,13 +29,12 @@ def run():
 
 class HelperCompleter(Completer):
     def __init__(
-            self,
-            options: dict[str, Completer | None],
-            no_empty_options: dict[str, Completer | None]
+        self,
+        options: dict[str, Completer | None],
+        no_empty_options: dict[str, Completer | None]
     ):
         self.options = options
         self.no_empty_options = no_empty_options
-
 
     @classmethod
     def from_nested_dict(cls, data: dict) -> HelperCompleter:
@@ -66,7 +64,6 @@ class HelperCompleter(Completer):
                 assert value is None
                 options_no_empty[key] = None
         return cls(options, options_no_empty)
-
 
     @override
     def get_completions(self, document: Document, complete_event: CompleteEvent) -> Iterable[Completion]:

@@ -1,11 +1,12 @@
+import re
 from pathlib import Path
+
 from ruamel.yaml import YAML
+
 from script.utils.constant import *
 
-import re
-
-
 INDEX_DIR = Path(".index")
+
 
 def run(platform: PlatFormLegacy = PlatFormLegacy.MODRINTH):
     if platform != PlatFormLegacy.ALL:
