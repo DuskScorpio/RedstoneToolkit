@@ -6,7 +6,7 @@ from script.utils.constant import *
 
 
 def run():
-    for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
+    for platform in PlatformSource:
         vers = util.get_dir_vers(platform)
         for mc_ver in vers:
             log = logutil.get_log("refresh", False)
