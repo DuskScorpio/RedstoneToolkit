@@ -59,12 +59,16 @@ UTF_8 = "utf-8"
 
 COMMAND = {
     "stop": None,
-    "import": {"--platform": {PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL}},
+    "import": {
+        "--platform": {
+            PlatformSourceList.MODRINTH.name, PlatformSourceList.CURSEFORGE.name, PlatformSourceList.ALL.name
+        }
+    },
     "install": (platform_and_version := {
         "--platform": {
-            PlatFormLegacy.MODRINTH: (ver := {"--match": {"": {"--reinstall": None}}}),
-            PlatFormLegacy.CURSEFORGE: ver,
-            PlatFormLegacy.ALL: ver
+            PlatformSourceList.MODRINTH.name: (ver := {"--match": {"": {"--reinstall": None}}}),
+            PlatformSourceList.CURSEFORGE.name: ver,
+            PlatformSourceList.ALL.name: ver
         },
         "--match": {"": {"--reinstall": None}},
         "--reinstall": None
@@ -74,9 +78,9 @@ COMMAND = {
     "update": {"--match"},
     "export": {
         "--platform": {
-            PlatFormLegacy.MODRINTH: {"--version": None},
-            PlatFormLegacy.CURSEFORGE: {"--version": None},
-            PlatFormLegacy.ALL: {"--version": None}
+            PlatformSourceList.MODRINTH.name: {"--version": None},
+            PlatformSourceList.CURSEFORGE.name: {"--version": None},
+            PlatformSourceList.ALL.name: {"--version": None}
         },
         "--version": None
     },
