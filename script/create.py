@@ -56,7 +56,7 @@ class Create:
         with self._temp_path.joinpath("pack.toml").open("rb") as f:
             data = tomllib.load(f)
         mc_dir_ver: str = str(Version.coerce(data["versions"]["minecraft"]).truncate())
-        for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
+        for platform in PlatformSource:
             copy_path = Path(platform).joinpath(mc_dir_ver)
             if not copy_path.exists():
                 shutil.copytree(self._temp_path, copy_path)
@@ -70,7 +70,7 @@ class Create:
             self._arg.extend(["--mc-version", self._version])
 
         ver_list: list[Version] = list()
-        for platform in [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE]:
+        for platform in PlatformSource:
             dir_vers = util.get_dir_vers(platform)
             for dir_ver in dir_vers:
                 path = Path(platform).joinpath(dir_ver).joinpath("pack.toml")
