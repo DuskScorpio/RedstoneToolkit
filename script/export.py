@@ -1,7 +1,7 @@
+import os
 import re
 import shutil
 import tomllib
-from pathlib import Path
 from subprocess import Popen, PIPE, STDOUT
 from tempfile import TemporaryDirectory
 
@@ -11,25 +11,17 @@ from script.utils import logutil, util
 from script.utils.constant import *
 
 
-def run(version: str | None, platform: PlatFormLegacy):
-    platform_map = {
-        PlatFormLegacy.ALL: [PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE],
-        PlatFormLegacy.MODRINTH: [PlatFormLegacy.MODRINTH],
-        PlatFormLegacy.CURSEFORGE: [PlatFormLegacy.CURSEFORGE]
-    }
-    for p in platform_map[platform]:
-        if version is None:
-            versions = util.get_dir_vers(p)
-            for dir_ver in versions:
-                with Export(dir_ver, p) as e:
-                    e.export()
-        else:
-            with Export(version, p) as e:
+def run(version: str | None, platform_list: list[PlatformSource]):
+    for platform in platform_list:
+        mc_dirs = util.get_dir_vers(platform) if version is None else [version]
+        for mc_dir in mc_dirs:
+            with Export(mc_dir, platform) as e:
                 e.export()
 
 
+
 class Export:
-    def __init__(self, version: str, platform: PlatFormLegacy):
+    def __init__(self, version: str, platform: PlatformSource):
         self._log = logutil.get_log("export")
         self._version = version
         self._platform = platform
@@ -52,24 +44,24 @@ class Export:
 
     def __export(self):
         with Popen(
-                [PACKWIZ, self._platform, "export"],
-                cwd=self._path,
-                stdout=PIPE,
-                stderr=STDOUT,
-                text=True,
-                bufsize=1
+            [PACKWIZ, self._platform, "export"],
+            cwd=self._path,
+            stdout=PIPE,
+            stderr=STDOUT,
+            text=True,
+            bufsize=1
         ) as process:
             for e in process.stdout:
                 self._log.info(f"({self._platform}/{self._version}) {e.strip()}")
 
     def __refresh(self):
         with Popen(
-                [PACKWIZ, "refresh"],
-                cwd=self._path,
-                stdout=PIPE,
-                stderr=STDOUT,
-                text=True,
-                bufsize=1
+            [PACKWIZ, "refresh"],
+            cwd=self._path,
+            stdout=PIPE,
+            stderr=STDOUT,
+            text=True,
+            bufsize=1
         ) as process:
             for e in process.stdout:
                 self._log.debug(f"({self._platform}/{self._version}) {e.strip()}")
@@ -78,7 +70,7 @@ class Export:
         path = self._path.joinpath("pack.toml")
         is_release = os.getenv("IS_RELEASE", "false")
         run_num = os.getenv("GITHUB_RUN_NUMBER", "1")
-        with open(path, "rb") as fr:
+        with path.open("rb") as fr:
             data = tomllib.load(fr)
         original_version = data["version"]
         mc_version = data["versions"]["minecraft"]
@@ -88,7 +80,7 @@ class Export:
             data["version"] = original_version + "-alpha.{0}+mc{1}".format(run_num, mc_version)
         else:
             data["version"] = original_version + "+mc{}".format(mc_version)
-        with open(path, "wb") as fw:
+        with path.open("wb") as fw:
             tomli_w.dump(data, fw)
 
     def __override_side(self):
@@ -98,18 +90,18 @@ class Export:
             return
         files_path = [f for f in path.iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
         for file_path in files_path:
-            with open(file_path, "rb") as fr:
+            with file_path.open("rb") as fr:
                 data = tomllib.load(fr)
             data["side"] = "both"
-            with open(file_path, "wb") as fw:
+            with file_path.open("wb") as fw:
                 tomli_w.dump(data, fw)
 
     def __move_file(self):
-        with open(self._path.joinpath("pack.toml"), "rb") as f:
+        with self._path.joinpath("pack.toml").open("rb") as f:
             data = tomllib.load(f)
         name = str(data["name"])
         version = str(data["version"])
-        end = "mrpack" if self._platform == PlatFormLegacy.MODRINTH else "zip"
+        end = "mrpack" if self._platform == PlatformSource.MODRINTH else "zip"
         pack_name = f"{name}-{version}.{end}"
 
         path = self._path.joinpath(pack_name)

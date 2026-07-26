@@ -3,6 +3,7 @@ from argparse import ArgumentParser, Namespace
 from script import import_index, helper, install, create, remove, update, export, refresh, loader, update_version
 from script.utils.constant import *
 from script.utils.logutil import get_log
+from script.utils import util
 
 
 class From(Enum):
@@ -70,8 +71,12 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
     parser_export.add_argument("--version", help="The name of the Minecraft folder")
     parser_export.add_argument(
         "--platform",
-        choices=[PlatFormLegacy.MODRINTH, PlatFormLegacy.CURSEFORGE, PlatFormLegacy.ALL],
-        default=PlatFormLegacy.ALL,
+        choices=[
+            PlatformSourceList.MODRINTH.name,
+            PlatformSourceList.CURSEFORGE.name,
+            PlatformSourceList.ALL.name
+        ],
+        default=PlatformSourceList.ALL.name,
         help="default 'all'"
     )
 
@@ -133,7 +138,7 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
             update.run(args.match)
 
         case "export":
-            export.run(args.version, args.platform)
+            export.run(args.version, util.get_platform_list(args.platform))
 
         case "refresh":
             refresh.run()
