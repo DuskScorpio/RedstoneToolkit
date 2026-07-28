@@ -1,0 +1,13 @@
+name = "IBCarpet"
+filename = "ibcarpet-1.21.11-26.07.17.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/dZhnUIjT/versions/cFdqKDqe/ibcarpet-1.21.11-26.07.17.jar"
+hash-format = "sha512"
+hash = "a7ce0a39f10bde826c281f2cf70b5a9d45531f0e71f4ebf7801d99ab1d3ff0617a2b2fbe8355ad3dfad9af03c6c2bde94c460a28a80b82723f7c0f519720731e"
+
+[update]
+[update.modrinth]
+mod-id = "dZhnUIjT"
+version = "cFdqKDqe"

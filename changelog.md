@@ -1,8 +1,13 @@
 ## News
 
 - Added newly compatible mods to:
+  - 1.21.11:
+    - IBCarpet
+  - 26.1.2:
+    - IBCarpet
   - 26.2:
     - G4mespeed
+    - IBCarpet
     - Krypton
     - Redstone Multimeter Fabric
 
@@ -23,6 +28,8 @@
   - Fabric API
 - 1.21.1-26.2:
   - Concurrent Chunk Management Engine (Fabric)
+- 1.21.11-26.2:
+  - IBCarpet
 - 26.1.2-26.2:
   - Better Block Entities
   - YetAnotherConfigLib (YACL)

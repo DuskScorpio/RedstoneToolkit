@@ -1,0 +1,13 @@
+name = "IBCarpet"
+filename = "ibcarpet-26.2-26.07.16.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/dZhnUIjT/versions/kT3CS8ld/ibcarpet-26.2-26.07.16.jar"
+hash-format = "sha512"
+hash = "03865900a385ad9913d5240ed7454f3d9a5c06ad0f7b6fac33757914e98d31577f46b453533358bf1d9755e3955756a81cfef796bc1733de86a599a2030c920f"
+
+[update]
+[update.modrinth]
+mod-id = "dZhnUIjT"
+version = "kT3CS8ld"

@@ -10,7 +10,10 @@ enabled_files:
       26.3.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.3-beta-2/fabric-carpet-26.3-beta-2%2Bv260709.jar"
   - mr_slug: carpet-tis-addition
     cf_slug: carpet-tis-addition
+  - mr_slug: ibcarpet
+    version: ">1.21.1"
   - mr_slug: joacarpet
+    version: "<=1.21.1"
   - mr_slug: subtick
     name: SubTick
     urls:
