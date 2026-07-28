@@ -32,6 +32,7 @@ These mods are enabled by default and recommended to the user
 - [Carpet Igny Addition](https://modrinth.com/mod/carpet-igny-addition) 鈥?A Carpet extension adding various technical features including bot management rules
 - [Carpet Mod](https://modrinth.com/mod/carpet) - The most important mod for technical Minecraft; it comes with tons of useful features and commands
 - [Carpet TIS Addition](https://modrinth.com/mod/carpet-tis-addition) - Very useful Carpet extension with lots of new rules and tools, in particular for doing stuff in creative mode
+- [IBCarpet](https://modrinth.com/mod/ibcarpet) - A Carpet extension for exaggerating rare item entity RNG outcomes, porting JoaCarpet's insane behavior feature to newer versions
 - [JoaCarpet](https://modrinth.com/mod/joacarpet) - A small Carpet extension with a few useful features for redstone and storage tech
 - [SubTick](https://modrinth.com/mod/subtick) - Allows freezing and stepping through block ticks, fluid ticks, block events, entities, and block entities individually, with HUD visualization and configurable defaults
 - [Yet Another Carpet Addition](https://modrinth.com/mod/yaca) - Adds a lot of useful features, including visualization for scheduled ticks, hopper cooldowns, random ticks, block updates, etc. Provides GUI interfaces for Carpet rule management and hopper counter tracking
