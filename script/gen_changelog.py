@@ -125,11 +125,36 @@ def resolve_mod_name(slug: str, folders: list[str]) -> str:
     return slug.replace("-", " ").replace("_", " ").title()
 
 
+def normalize_mod_id(value: str) -> str:
+    value = value.strip().strip('"\'')
+    value = re.sub(r"\s+#.*$", "", value).strip()
+    return re.sub(r"[\s_-]+", "-", value.lower())
+
+
+def newly_added_file_list_ids(base: str) -> set[str]:
+    ids: set[str] = set()
+    diff = run_git("diff", "--unified=0", base, "--", "file_list.yml")
+    for line in diff.splitlines():
+        if not line.startswith("+") or line.startswith("+++"):
+            continue
+        match = re.match(r"^\+\s*(?:-\s*)?(mr_slug|cf_slug|name):\s*(.+?)\s*$", line)
+        if match:
+            ids.add(normalize_mod_id(match.group(2)))
+    return ids
+
+
+def is_new_pack_mod(slug: str, folders: list[str], new_file_list_ids: set[str]) -> bool:
+    if normalize_mod_id(slug) in new_file_list_ids:
+        return True
+    return normalize_mod_id(resolve_mod_name(slug, folders)) in new_file_list_ids
+
+
 def main() -> None:
     base = resolve_base(sys.argv[1] if len(sys.argv) > 1 else None)
     folders, current_mc_versions = current_folders_and_versions()
     base_mc_versions = base_folders_and_versions(base)
     folder_order = {folder: i for i, folder in enumerate(folders)}
+    new_file_list_ids = newly_added_file_list_ids(base)
 
     news_added: list[str] = []
     news_folders: set[str] = set()
@@ -168,7 +193,9 @@ def main() -> None:
             and folder in folder_order
             and folder not in news_folders
         ):
-            newly_compatible[folder].append(filename.removesuffix(".pw.toml"))
+            slug = filename.removesuffix(".pw.toml")
+            if not is_new_pack_mod(slug, [folder], new_file_list_ids):
+                newly_compatible[folder].append(slug)
 
     mod_versions: dict[str, set[str]] = defaultdict(set)
     changed_paths = run_git(
@@ -192,7 +219,9 @@ def main() -> None:
             and folder in folder_order
             and folder not in news_folders
         ):
-            mod_versions[filename.removesuffix(".pw.toml")].add(folder)
+            slug = filename.removesuffix(".pw.toml")
+            if not is_new_pack_mod(slug, [folder], new_file_list_ids):
+                mod_versions[slug].add(folder)
 
     updates: dict[tuple[int, int], list[str]] = defaultdict(list)
     for slug, version_folders in mod_versions.items():
@@ -201,6 +230,8 @@ def main() -> None:
 
     out = ["## News", ""]
     out.extend(news_added)
+    for mod_id in sorted(new_file_list_ids):
+        out.append(f"- Added {resolve_mod_name(mod_id, folders)}")
     if newly_compatible:
         out.append("- Added newly compatible mods to:")
         for folder in sorted(newly_compatible, key=lambda f: folder_order[f]):
