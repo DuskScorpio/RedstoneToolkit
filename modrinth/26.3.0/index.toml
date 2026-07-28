@@ -6,11 +6,6 @@ hash = "55e984844c0a1e82575f794c3ec74d50952dc4cf306f1ae30ced6118e72b60b9"
 metafile = true
 
 [[files]]
-file = "mods/carpet.pw.toml"
-hash = "e3c94663cfea11136fd9ea8c97053f01562b485a135abf8443a14d3579d8830d"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "e1ff7493b3c0358d4a8cae563a9c13d7e422f056be7e438d186e395a5fa9f90b"
 metafile = true
