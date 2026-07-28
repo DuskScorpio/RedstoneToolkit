@@ -1,13 +1,10 @@
 ## News
 
+- Added 26.3-snapshot-6
+- Added IBCarpet
 - Added newly compatible mods to:
-  - 1.21.11:
-    - IBCarpet
-  - 26.1.2:
-    - IBCarpet
   - 26.2:
     - G4mespeed
-    - IBCarpet
     - Krypton
     - Redstone Multimeter Fabric
 
@@ -16,20 +13,16 @@
 
 ## Updates
 
-- 1.16.5-26.3-snapshot-3:
-  - Carpet TIS Addition
 - 1.16.5-26.2:
+  - Carpet TIS Addition
   - Fabric Language Kotlin
 - 1.19.4-26.2:
   - Carpet IGNY Addition
 - 1.20.6-26.2:
   - G4mespeed
-- 1.21.1-26.3-snapshot-3:
-  - Fabric API
 - 1.21.1-26.2:
   - Concurrent Chunk Management Engine (Fabric)
-- 1.21.11-26.2:
-  - IBCarpet
+  - Fabric API
 - 26.1.2-26.2:
   - Better Block Entities
   - YetAnotherConfigLib (YACL)
