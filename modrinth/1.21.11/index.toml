@@ -161,6 +161,11 @@ hash = "eb90e157646cd2c519fb35d1ebc3c0c1676d970083e142ca083547f28d6ce60c"
 metafile = true
 
 [[files]]
+file = "mods/ibcarpet.pw.toml"
+hash = "114860d720d29c4ee622f84191d821846fa2fb6924e3f0c7cc60f199ef30353f"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "9cb9fbb7431ed58a8bb7bf25d1b9fcc8706fc57400db7acffef06e25971552fa"
 metafile = true
