@@ -11,6 +11,11 @@ hash = "e1ff7493b3c0358d4a8cae563a9c13d7e422f056be7e438d186e395a5fa9f90b"
 metafile = true
 
 [[files]]
+file = "mods/yacl.pw.toml"
+hash = "cfa801490452f4c70d57a026d874f8f61333ee945a94b362455c3c3d440fa9ea"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "71f44bd10628bc3e997e3682217a2c3e80e3d2d57aa966f2b7f5169d586eca54"
 metafile = true

@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "6078dd5c26e06006982d778633d30cf67862be90f31d3862c511af0bdf189ea3"
+hash = "3aef8c5db8ebe27c58add9ebb8229271ef99d6100b23740709dd96dfceaef99a"
 metafile = true
 
 [[files]]
@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "2fa93c0d83f0cce1e3642bd8f2c5f9595627649c89b245e3d718826bf11fff04"
+hash = "4e8cb6c4c836da5c61358bb7252f37628feb981d53aeaaecdd435a13d6a67759"
 metafile = true
 
 [[files]]
@@ -312,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "d20a96797f1205d96cb85c464fbf142beac7e2828f921e72aad3a00a56ebc71f"
+hash = "52c70cf9482d485379ced9855edf9ebf6b07fbc50272786b8d6cb3356e4932ea"
 metafile = true
 
 [[files]]

@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "f79e3bcc454b880352499fa676ac641fff89aef7b6b1a91593e3cb23c1bae62a"
+hash = "72d0ac89f34cf67add6b6b2d6fa07b5254ddad8410455fb35592ed04625e64bf"
 metafile = true
 
 [[files]]
@@ -398,6 +398,11 @@ metafile = true
 [[files]]
 file = "mods/vkm.pw.toml"
 hash = "fa34e77710e685078e8280b437f50d0e3c982c7886d76f9148ea11e70334ce7f"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-cui.pw.toml"
+hash = "41192c4001088980a8130f404b89b168aeeb933dcbdd2b7f6f66828fc7060b6e"
 metafile = true
 
 [[files]]

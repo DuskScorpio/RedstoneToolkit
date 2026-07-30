@@ -1,12 +1,12 @@
 name = "Respackopts"
-filename = "respackopts-26.1.2.jar.disabled"
+filename = "respackopts-26.1.3.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TiF5QWZY/versions/dU7TVFGF/respackopts-26.1.2.jar"
+url = "https://cdn.modrinth.com/data/TiF5QWZY/versions/uxEEozNq/respackopts-26.1.3.jar"
 hash-format = "sha512"
-hash = "82c26338b37dbfd0b7da4c4b707db11ba039041e88257ceab4ebacdcd23887e109b088144a4b5a2fd7a01fc05c0af4ff477e99e533d258798f00d041b929e283"
+hash = "eb95049954cedbfff2013a4f72bd9da2a2dadc86238efa7939e5dc90932e09b17307ee992fa8ce55a5096d91a0c4d071572553a22508aa0c4428a6d024d3dba9"
 
 [update.modrinth]
 mod-id = "TiF5QWZY"
-version = "dU7TVFGF"
+version = "uxEEozNq"

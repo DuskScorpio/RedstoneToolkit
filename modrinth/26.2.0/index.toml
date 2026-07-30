@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "e557cece70a2ebaab8850f837389aa1bc1a50c7cd73763c64b2038c7fc934e85"
+hash = "065095dd733befd111f3d6366b5675727d76abe5a8f16d6eaa6dfb0cc4c49c31"
 metafile = true
 
 [[files]]
@@ -102,12 +102,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "dc5490cc1a9231b0d32ec3e72f9d34279fc1d1ff6fb5a7d288b1f36faec0a6a0"
+hash = "848db8de89cc26314f20f6cf86e6c2cfc6e2cdd1a30a7d494575a4e24a8ef9f6"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "2a760e528bf27c3eb4ae7c06200d91ee9c2849295addaa2add05495c7dee9528"
+metafile = true
+
+[[files]]
+file = "mods/fastquit.pw.toml"
+hash = "95c091b5c1c232a85abb5064f614fdc68e47fb2cb3881a9f6eacc86c8d65ecc4"
 metafile = true
 
 [[files]]
@@ -162,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "81ed65fc9bad0d8a01599f976e30606edbb5200f863d1bd55b96128c6f036cde"
+hash = "e8f3ab9ca9b83d6d8417bd6ba95908aada01d25f909286712bfec071f600681a"
 metafile = true
 
 [[files]]
@@ -172,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
-hash = "0c37d8fbfbaffbafc6ba9a678800fac3609d3013eed5e6a385a6bafc43f8545f"
+hash = "3592104264c036b20e925f66587c9b5b0200b58714020df87e8fc2f69c596fdc"
 metafile = true
 
 [[files]]
@@ -182,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "b7e98520b66f5a11f8a4ad84e518de34d97d1ca84152f3a427d9e7820299fbdd"
+hash = "a5ee497ec151dd6e6b946091e12e2c56362e5c772c4b8ea175b2e81277cc708d"
 metafile = true
 
 [[files]]
@@ -257,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/respackopts.pw.toml"
-hash = "d27b4f9daa70c661470ded8034b679ceef8c65bb5021b87eb86106301420e6d4"
+hash = "7dd917958b02e784082427a689b3f2f46d4b5907a07f42bfde89367711693cbe"
 metafile = true
 
 [[files]]
@@ -272,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "a899b14d4bbab643586ac2734da162e9cae579d461f81776804c598a03297ebe"
+hash = "edcb5b9c085d67c0dedccd83e016481c24f91b6b077367838283c959df03336a"
 metafile = true
 
 [[files]]
@@ -327,7 +332,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit-cui.pw.toml"
-hash = "c8d259267ead62f42740113361e2dfcafd3dcea397cc2c4217f37160549f6503"
+hash = "65aabcc109ebf8f783b5450141a140a749d33c7212df3b6e349a2664a0fefb67"
 metafile = true
 
 [[files]]
@@ -347,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "ce401883b05c014d67fa3040187fcb1e0f0accd50bfe48fe53b59aa304748bdc"
+hash = "4ba8d9034987370f6a68c3434a19f3828a21d6000e883fd1b986f888721d000e"
 metafile = true
 
 [[files]]

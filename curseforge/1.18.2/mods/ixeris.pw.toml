@@ -1,13 +1,13 @@
 name = "Ixeris"
-filename = "Ixeris-4.5.2+1.18.2-fabric.jar"
+filename = "Ixeris-4.6.1+1.18.2-fabric.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "465151c1482af177995a1e684b3fa84274aeb3cc"
+hash = "a79b51bbbc68b8ce2252112220d923a1bee0fa75"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8385037
+file-id = 8516914
 project-id = 1285307
