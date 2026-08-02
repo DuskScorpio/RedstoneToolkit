@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "8c838de30fb7f3a6ec9dbfe80345a2bcacefffc0cd9b808f05d1df8defd675d1"
+hash = "102b8fc0538cce38b8b8a8a32f831178bbc25634af2201c4f8c03fe93bbf1ab3"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "385dadfb7ac433727228e39cb84c0ba06aaf791f40db2a914ed55ca868135f2b"
+hash = "9f748c6a9169617bd3ada95237e6a929ce1f84680f97f12f0bef964fcbae76c0"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "8583970061b070fe6adc2f1e1c176a34912ba009072652c32edf53efe984d89b"
+hash = "da77a6a39c37f38a7ca9b05bb10e77f2b9bbb5f973b235c056c873b0a49fb87c"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "c6e477794f44cc1099f73a8a467d616061b3c7bdffbc860808908ab8f1d36948"
+hash = "64519d8556d172b8d11e8d6e057c76524f541eeb1b29b8464f2ec325cdb2085e"
 metafile = true
 
 [[files]]
