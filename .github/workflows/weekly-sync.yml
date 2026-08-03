@@ -48,7 +48,7 @@ jobs:
         timeout-minutes: 20
         run: |
           set +e
-          python -m script install
+          python -m script install --reinstall
           INSTALL_EXIT=$?
           set -e
           if [ $INSTALL_EXIT -ne 0 ]; then
