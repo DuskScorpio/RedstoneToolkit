@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "636e3547c41bf00e903349125bebb3b65153ce41125525e77a22239332941110"
+hash = "20561e8f80eb23b35924138b56dea0fd74db4042b3c9af8199674d5c73f3eec2"
 metafile = true
 
 [[files]]
@@ -412,12 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "078433b48ef61031dc4b63673f8ace0461e193a0bd5d5f9890f8fa1f8d24c986"
-metafile = true
-
-[[files]]
-file = "mods/worldeditcui-fabric.pw.toml"
-hash = "6667c0d15bd2e44970aee2fb2ebe1dc81b53cb4bde6a51e8142e8c6591a894e2"
+hash = "a938052bd763e3cba0270038a0f17159330d656ba154d5e392cf149085480f97"
 metafile = true
 
 [[files]]

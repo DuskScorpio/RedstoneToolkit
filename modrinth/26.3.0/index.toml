@@ -11,6 +11,11 @@ hash = "e1ff7493b3c0358d4a8cae563a9c13d7e422f056be7e438d186e395a5fa9f90b"
 metafile = true
 
 [[files]]
+file = "mods/ixeris.pw.toml"
+hash = "a7b71977982ceac78624e4bb8d7e7596926fd24802742764c328fd187a6c2d90"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "cfa801490452f4c70d57a026d874f8f61333ee945a94b362455c3c3d440fa9ea"
 metafile = true

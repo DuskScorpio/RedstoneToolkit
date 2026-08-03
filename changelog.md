@@ -29,9 +29,12 @@
   - Carpet IGNY Addition
 - 1.20.6-26.2:
   - G4mespeed
+- 1.16.5-1.19.4:
+  - WorldEdit
 - 1.21.1-26.2:
   - Concurrent Chunk Management Engine (Fabric)
   - Fabric API
+  - More Culling
   - Sodium
 - 1.21.11-26.2:
   - Fast Noise
@@ -41,6 +44,8 @@
   - Lithium
   - Respackopts
   - YetAnotherConfigLib (YACL)
+- 1.21.1:
+  - Capture & Playback
 - 26.2:
   - clientcommands
   - FastQuit

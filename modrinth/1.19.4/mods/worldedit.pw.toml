@@ -3,10 +3,10 @@ filename = "worldedit-mod-7.2.14.jar.disabled"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "86290086a4f0d77e839d4003f13b01785afe7a4b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/1u6JkXh5/versions/MaJdQbX5/worldedit-mod-7.2.14.jar"
+hash-format = "sha512"
+hash = "ea569f6e64ae3e2327cb69ffdade97b9ae7b6fad6aa42921cbd182fc3987f72d04c93fa66638f68d9126f331bc9c31a8340fb7ef344c2ed40644837cab419982"
 
-[update.curseforge]
-file-id = 4445118
-project-id = 225608
+[update.modrinth]
+mod-id = "1u6JkXh5"
+version = "MaJdQbX5"
