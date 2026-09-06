@@ -49,6 +49,7 @@
   - Packed Packs
   - Sodium
 - 1.21.11-26.2:
+  - Item Scroller
   - Litematica
   - MaLiLib
   - MiniHUD

@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-scroller.pw.toml"
-hash = "9f46381e0cc1d5d9c8bd613e0a5e31584dac70089c632c0e41d275c5bdfd7a5c"
+hash = "9c88eccd75ba98abdecea94d9a9a70e085ac95034fae9d4bc79a6f9b9641f7d1"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "2cebce7154e5eb2b3787c69795893fc57b2df92b6acc710a7d5b1675029ec34f"
+hash = "737265495e3e1727d41d80ae57acbd8839e243331f0d2057a77433088e66c028"
 metafile = true
 
 [[files]]
@@ -202,12 +202,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "34c37b333214a9a803a0745ea41d230bdb33922e5ab5ea05a3a6320c1ed5be93"
+hash = "7acf0e421b5d19448fb1572d10c481760a6ffe68f452b074b1fc8c993ce1556b"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "f746c9185fc01e9676793c2e81e2b6fd7853f7ba8b0236d97d1d22a69a92e1f8"
+hash = "c4e9775beb3fa4a3e9db0a53881eb531bafd39580a786d200e5ff18da2b69409"
 metafile = true
 
 [[files]]
@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "b8abd20d6b0d8c38262a1962059eba7b0045de8473df783643c75f7ca9a92fbf"
+hash = "f944ac269538ae4b1088b6d4ba576f754f2279bbe4a75f689f21afba39fa3f5c"
 metafile = true
 
 [[files]]
@@ -332,12 +332,12 @@ metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "bfbdfb3c78cdc62a0ff01a7444c2745248d589d7927ff1814cbe3ad512c90d53"
+hash = "84a1ee4078568898046061003cc26c78d65ad8466dd4ea77de2582eede127135"
 metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "291d5158a2aae47ced15d36965653d43f78b995cbdb4c8cd7a64ec856cdd451f"
+hash = "f58e8f3e5d3f334b59baacb81ca36ccef3c582d48b95d6fc38f360088f6f1b24"
 metafile = true
 
 [[files]]
@@ -377,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "9171a6a788ccba0c128dbc05bd3101fc69b9e1240656dcf549f25814ab800a10"
+hash = "76ccaabef4826055a839f157c8e783c0cc447eca8b8761ab2741487722b2a8f4"
 metafile = true
 
 [[files]]

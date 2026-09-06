@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "9c93ff8ccab300123bc8a6df409e03dfa46a043d5d8cec4fa5fccb0e3e05be4d"
+hash = "24e5bfb60f991670dc8805b5e887c969653036138800ba7ce30b53b56f4a4abf"
 metafile = true
 
 [[files]]
@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "cc1a8ab2c65a00ea0a9ba80dbcbe44eab71485e3319bbfda8f7427b87741da84"
+hash = "809fc67789e4123ac08a529400e343b6a2c756579969175b89599c16cdb66483"
 metafile = true
 
 [[files]]

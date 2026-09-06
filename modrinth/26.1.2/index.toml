@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "248ab9966b3167d292014044877495ebbafdbac9b306f2cf359e71e446fe1b2e"
+hash = "cd41dd035ddf0ee9407e6ca86e9482e19a41a5fa75bf91b87d39cb8e9a430cfa"
 metafile = true
 
 [[files]]
@@ -332,7 +332,7 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "4b83027df01088d1ecd26c2423fabe6bdf93010d2f600b0e961185c7a77fd408"
+hash = "cb8f513479d378eef273dff249b1cae31e52564760753937a67f9b54078b38cb"
 metafile = true
 
 [[files]]
