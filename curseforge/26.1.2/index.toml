@@ -82,12 +82,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "367695b6a2764a68c444ab26e38c9636b2c1927bc990272db3574baeffe1e93c"
+hash = "c948304627e6b7ad250567c89655ad341362de53df5b82a76093b5225cfb9696"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "704a42a40185a75cf00b255e8935df11d0311fd9a5506b1c2a1b4ddd03b5919a"
+hash = "2877c92939db04cc8c107a936971fdb82da7d159ab69451563df932d53c0b66a"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "c0e84c99f8a28a73feec250e234759b657c5b352a5ecfa29f392676f84892240"
+hash = "dfba56296a59f223af6d60deac410fd6c4142d6ea6da28540b419154bf449754"
 metafile = true
 
 [[files]]
@@ -257,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "c6e8e849efacdab28cb0dd519093e611fc30a61ff5772e003dd4551f74953207"
+hash = "8042e68a770dd93d66d62f1c304b34418bdb8784be0011ec6c966d3f09093d24"
 metafile = true
 
 [[files]]
@@ -312,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "bccb2ebe7ffcec87b082b2b1bdb221bd998ef37873df7bd80734b882a126c269"
+hash = "8b44b102b702f09d85a8adde80b76cf193a9466594c4184eb02dcced59d876ef"
 metafile = true
 
 [[files]]

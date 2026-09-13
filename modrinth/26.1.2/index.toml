@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "fc8f988dee1f449bade9ae94cf94b7a183decc7823b16671ba749b33beafd737"
+hash = "ec8c87c80cd326d2aba4ce2fd4870d497c4f5934c15ed1ff562c4e3ce90e55ef"
 metafile = true
 
 [[files]]
@@ -332,7 +332,7 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "cb8f513479d378eef273dff249b1cae31e52564760753937a67f9b54078b38cb"
+hash = "83e368bf9cdcda7206d9794f4357ba60dcdd65b4c97cea7bb85523bf9a00499a"
 metafile = true
 
 [[files]]
@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "c0c416bd855aadd37316e34923c775d1db05d37900fb2f130b0861e6b5262a3c"
+hash = "bb5ee4098fc449f90bc6dd63fabce38d59f0c10ef34c68333d9d7f231377c42c"
 metafile = true
 
 [[files]]

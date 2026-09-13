@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "704a42a40185a75cf00b255e8935df11d0311fd9a5506b1c2a1b4ddd03b5919a"
+hash = "2877c92939db04cc8c107a936971fdb82da7d159ab69451563df932d53c0b66a"
 metafile = true
 
 [[files]]

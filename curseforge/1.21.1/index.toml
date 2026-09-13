@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "704a42a40185a75cf00b255e8935df11d0311fd9a5506b1c2a1b4ddd03b5919a"
+hash = "2877c92939db04cc8c107a936971fdb82da7d159ab69451563df932d53c0b66a"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "6c8f76e8903081d046a9c985a2497eb2597533ec37b7093650a4f26402ac8ae7"
+hash = "3a6c41194af05b2cd350c808ff9edd39ebb20ecd926e3d4fc8c250975b5b17cf"
 metafile = true
 
 [[files]]

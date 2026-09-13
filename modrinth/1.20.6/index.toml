@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "2a760e528bf27c3eb4ae7c06200d91ee9c2849295addaa2add05495c7dee9528"
+hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
 metafile = true
 
 [[files]]
@@ -412,7 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/yaca.pw.toml"
-hash = "fbb1095928f5194d115829f0cea10068880504f9d1c9e4ec728408bc48041cac"
+hash = "c5ac888d88409ba0ae7e5a88d5fc8b34d71751ee97a9a10b4ad744e3219f13d3"
 metafile = true
 
 [[files]]

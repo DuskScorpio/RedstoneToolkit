@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "2a760e528bf27c3eb4ae7c06200d91ee9c2849295addaa2add05495c7dee9528"
+hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
 metafile = true
 
 [[files]]
@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "087d5032dacba652d926527ee8fb2a4f85cedcb9bc0706cac6e1c4733b1be594"
+hash = "32ccffb6a4a0b469ffcdc09727118aec54b10f732f8b1d647fc65b96183a972c"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "42b7626512aae16b6a20d9af980490ea4019a528e1f72b291c89b86d5b0e5d2a"
+hash = "3f98b8818a028223e2f1fe07b0f4e1afa873aafa28770f6c7a275c57d2f50f15"
 metafile = true
 
 [[files]]
@@ -347,7 +347,7 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "6ab74f2981e2481fa65857bc212204cc335d47fdac693dd8db8f4aa82418da98"
+hash = "9b6bab0cf89f68472426c2f03d9dae623f46fe1b5701bc2e105ef36cb750a317"
 metafile = true
 
 [[files]]

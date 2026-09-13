@@ -77,12 +77,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "be9c2b9910b3ad2ec867756951fc56523906980338721e7a575278a0fa994a58"
+hash = "8e6b72209a7202f9d2ba35f25d78f4227a4eaf19e1444aafab1868b1931ade50"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "704a42a40185a75cf00b255e8935df11d0311fd9a5506b1c2a1b4ddd03b5919a"
+hash = "2877c92939db04cc8c107a936971fdb82da7d159ab69451563df932d53c0b66a"
 metafile = true
 
 [[files]]
@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "a62a9c1e94a4512d44304ff57376f8c34eb4e225d573e3f6b4089bd29f82e3ab"
+hash = "2f236b72e0183b56122e0152007366b2527763daea821b1584adbde0c36a9df7"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "053ba7151a4e6a78322f07c7f889fc869b5853eab76ea86abb606653b6faff05"
+hash = "d822c8973069f22c58de98709f3b0186488924a275901d9167ed235dd2965f61"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "644017ec669b0560eedbb488f39d0e43183f635173da320ba151989fb65a435d"
+hash = "063573de6afc53c6eed593b64c145a65342adc1f23db9f534cec6bd2bf70afd4"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "2dfc06c6875c1f945fec0124cdca03cba4a5bc99d33e9346479e01bc95d975c8"
+hash = "f7483f8c8e57f22e01d18aa036189f2ad1d66c4fd245b4182be2bb93d3898956"
 metafile = true
 
 [[files]]
@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "24e5bfb60f991670dc8805b5e887c969653036138800ba7ce30b53b56f4a4abf"
+hash = "c4fc73fcaa31e13287382be60cea58245f4996ed383195bf83091ea9c2cdc304"
 metafile = true
 
 [[files]]
@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "809fc67789e4123ac08a529400e343b6a2c756579969175b89599c16cdb66483"
+hash = "b458f680d8f3c77ffa75292d607339f25d21aaaa981cda463c86936863d52d05"
 metafile = true
 
 [[files]]

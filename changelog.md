@@ -60,23 +60,26 @@
   - ViaFabricPlus
 - 26.1.2-26.2:
   - Better Block Entities
+  - Iris Shaders
   - LibJF
   - Lithium
   - oωo (owo-lib)
   - Respackopts
   - WikiRenderer
   - YetAnotherConfigLib (YACL)
+- 1.20.6:
+  - YetAnotherCarpetAddition
 - 1.21.1:
   - ScalableLux
-- 26.1.2:
-  - Iris Shaders
 - 26.2:
   - CarpetGUI
   - clientcommands
   - EssentialAddons
   - FastQuit
   - Krypton
+  - Mod Menu
   - No Chat Reports
   - Packet Fixer
   - Redstone Multimeter Fabric
+  - spark
   - voxy

@@ -1,13 +1,13 @@
 name = "Fabric Language Kotlin"
-filename = "fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar"
+filename = "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "620cb137a9dc69ce86f3114f19d9eedab16366f5"
+hash = "62ae40a31b689b52fde399f2143d547a631e942c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8439967
+file-id = 8829788
 project-id = 308769
