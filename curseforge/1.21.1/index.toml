@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "14745eff067cad992739c3016e9f33d30a768451a664012f87b45e281dbe1c62"
+hash = "22306c54878b18b2daf22d92d6a72af7f775cc4f0ec2f9ed3d06dde75e61dc99"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "7e772dbc24a23ed3eafa8d6c1e7a8fb21d0085ee06028216362daea8206938c4"
+hash = "6decb1776d0efb071c017932175eadb02cca772f4a1555f4efe134f6bf7c16f5"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "0dec1d0ed048b290dac8fef44d39d8d857b93c5573d55f5249c834484b8a7a47"
+hash = "e388f2698fa079cb6bdfd16e4b9373f6e98c202b77e5a0c517ec899f95d73f78"
 metafile = true
 
 [[files]]
@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "65058da5d4584498a05fa76af7973469974d4574fd17a49f8d1d73998c2be97a"
+hash = "b0dd8291a63a7f4fff2e9009d23c912721af67b790522207f8a7b0d528c93d3a"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "37ade85361b94bf37771d0d9e5356f7539632295f038f64a98c1f5475ec1d07d"
+hash = "edd0011f4d151303ef017546999aec7cf38095ab4609f4381c262d6aa595f6bd"
 metafile = true
 
 [[files]]

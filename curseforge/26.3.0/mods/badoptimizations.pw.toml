@@ -1,0 +1,13 @@
+name = "BadOptimizations"
+filename = "BadOptimizations-2.4.1-26.3-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4cc25ce6217326ff14169f5358921773297e9475"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8891658
+project-id = 949555

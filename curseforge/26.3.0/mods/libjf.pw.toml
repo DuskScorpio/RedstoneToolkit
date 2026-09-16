@@ -1,0 +1,12 @@
+name = "LibJF"
+filename = "libjf-26.3.0.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c57a5caf1f4228116cb7ce861e20150b8a5b61d2"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8889306
+project-id = 482600

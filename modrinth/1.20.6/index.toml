@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "26803f67ad6e7925a58e9d3e8f7ce2d19d341e8b2f6d7be2f3f16aa61a575579"
+hash = "b79512e3a211054dace817d6de0e6e86f613748e2563a0443cdfd7ff271867eb"
 metafile = true
 
 [[files]]

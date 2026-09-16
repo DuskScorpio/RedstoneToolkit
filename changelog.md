@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.3-snapshot-6
+- Added 26.3
 - Added IBCarpet
 - Added newly compatible mods to:
   - 1.16.5:
@@ -49,6 +49,7 @@
   - Packed Packs
   - Sodium
 - 1.21.11-26.2:
+  - Fzzy Config
   - Item Scroller
   - Litematica
   - MaLiLib
@@ -81,5 +82,7 @@
   - No Chat Reports
   - Packet Fixer
   - Redstone Multimeter Fabric
+  - Reese's Sodium Options
+  - Sodium Extra
   - spark
   - voxy

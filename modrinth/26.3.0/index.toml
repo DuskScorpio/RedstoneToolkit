@@ -1,2 +1,116 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "fab0f8da4e12ee8f400a8f8a95619dc3aa6881ea0821a25f5cc6f2c77ecacf45"
+metafile = true
+
+[[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "97ffadc9852dc08c2d2b3c26d9bd8befb42e4e92a02ad8c171f7b960c7eb9b4f"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "f0bf30f6e3dad1d49c067982461a1a2b061da7ddc87114d5131894b106f2c777"
+metafile = true
+
+[[files]]
+file = "mods/chunk-debug.pw.toml"
+hash = "f5aec6603ddb64a62898c75aa0991034a56b222f1dee1b3dc2c8f63ca9c6659a"
+metafile = true
+
+[[files]]
+file = "mods/client-commands.pw.toml"
+hash = "f3d191996a8097020f44e85275a940520d2dde766b32d2d9c02ce52940bcbfd8"
+metafile = true
+
+[[files]]
+file = "mods/commandkeys.pw.toml"
+hash = "8a94a68e5828668fad5ba1c00107067cf329c1f093fc0421f8290fe2b098b057"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "88afd766d48dc5d7256bbaf3a6ce1bf74ff066917cd479e131a0d64714f733d6"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "de893e3ffe8c044bebbd37e7f3b1f1c51fab05c5765dd587494b19e0529ea5e0"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "e3a8b560330802ec556f34a7de7a73bc712202359a657a36b39e6f85598bf8b8"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "bd842d14ebb84eb6fb734c1a5fb98b614cc85f639f7fd0ad2cb2d7be6dd7d9c6"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "1dd64c231265868ce86638bc90dbe9d32c21ef9768ae4a4ebc49a24232bdae41"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
+hash = "17adbcec8ef98fd8a122a19160dfb7157d1216c8a1c6afa254e00af7df98098f"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "7988328c529c7b387e10c936df449de9d5669c98e830fe3875fdca3d3905ff29"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "f32ebeb468312cf555bd84d09c1a3a6e6f9ed992e4afc3ce9620aca571490806"
+metafile = true
+
+[[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "c0a6b7d905de3dc4c6b9ada7f491645f12fbd3c63d4be8da45a8906d64389717"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "ff6f634392e5fefbad2b57257e99472c4d8e07ca348f50f0d01ad729b48e8e45"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "1afa2f6df06fae8266b3548f7cc5517537a6b2f06797da4e614efda461f090c2"
+metafile = true
+
+[[files]]
+file = "mods/respackopts.pw.toml"
+hash = "8fc71431d068cda2a1ffa6aad82071d643b85be88c7e17c6ef93b5aacb399c65"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "063573de6afc53c6eed593b64c145a65342adc1f23db9f534cec6bd2bf70afd4"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "69d683554d0db2dc59ce9ed08b28743ddb56d9ea12b80e52e43051d082987bd2"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "54d699d9ba85bb08b9fd3696a11c7449ea1175a118805855143e1c88fa54aa6b"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "254c71d7e0ce74ca91e070d2dacff9d9f4deffe17bbda20449962741568fab44"
+metafile = true
