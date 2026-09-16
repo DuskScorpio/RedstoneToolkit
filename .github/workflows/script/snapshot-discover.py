@@ -5,7 +5,6 @@ import json
 import os
 import subprocess
 import sys
-import time
 import tomllib
 import urllib.request
 from pathlib import Path
@@ -15,7 +14,6 @@ from semantic_version import Version
 
 REPO = Path.cwd()
 MANIFEST_URL = "https://launchermeta.mojang.com/mc/game/version_manifest.json"
-CHANGELOG_SCRIPT = REPO / "script" / "gen_changelog.py"
 PYTHON = sys.executable
 
 
@@ -79,60 +77,6 @@ def needs_update(version_id: str | None) -> tuple[bool, str | None, str | None]:
     return current_version != version_id, version_dir, current_version
 
 
-def install_version(version_dir: str) -> dict[str, Any]:
-    cmd = [PYTHON, "-m", "script", "install", "--platform", "all", "--match", version_dir]
-    print(">>> " + " ".join(cmd), flush=True)
-    proc = subprocess.Popen(
-        cmd,
-        cwd=REPO,
-        text=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-    )
-    warn_count = 0
-    success_count = 0
-    sample_failures: list[str] = []
-    assert proc.stdout is not None
-    while True:
-        line = proc.stdout.readline()
-        if line:
-            line = line.rstrip("\n")
-            print(line, flush=True)
-            lower = line.lower()
-            if "install failed!" in lower:
-                warn_count += 1
-                if len(sample_failures) < 8:
-                    sample_failures.append(line)
-            if "successfully added!" in lower:
-                success_count += 1
-        ret = proc.poll()
-        if ret is not None:
-            for rest in proc.stdout.read().splitlines():
-                print(rest, flush=True)
-                lower = rest.lower()
-                if "install failed!" in lower:
-                    warn_count += 1
-                    if len(sample_failures) < 8:
-                        sample_failures.append(rest)
-                if "successfully added!" in lower:
-                    success_count += 1
-            if ret != 0:
-                print(f"[WARN] install for {version_dir} exited {ret}; continuing so partial availability is visible", flush=True)
-            return {
-                "exit_code": ret,
-                "warnings": warn_count,
-                "added": success_count,
-                "sample_failures": sample_failures,
-            }
-        time.sleep(1)
-
-
-def regenerate_changelog() -> None:
-    env = os.environ.copy()
-    env.setdefault("CHANGELOG_REMOTE", "upstream")
-    result = run([PYTHON, str(CHANGELOG_SCRIPT)], env=env)
-    (REPO / "changelog.md").write_text(result.stdout, encoding="utf-8")
-
 
 def git_changed_files() -> list[str]:
     result = subprocess.run(
@@ -151,14 +95,15 @@ def main() -> None:
     print(f"Latest snapshot: {latest_snap}", flush=True)
     print(f"Latest release: {latest_rel}", flush=True)
 
-    actions: list[tuple[str, str, str, str | None]] = []
+    # Collect actions keyed by target directory; release overwrites snapshot
+    actions: dict[str, tuple[str, str, str | None]] = {}
     snap_needed, snap_dir, current_snap = needs_update(latest_snap)
     if snap_needed and latest_snap and snap_dir:
-        actions.append(("snapshot", latest_snap, snap_dir, current_snap))
+        actions[snap_dir] = ("snapshot", latest_snap, current_snap)
 
     rel_needed, rel_dir, current_rel = needs_update(latest_rel)
     if rel_needed and latest_rel and rel_dir:
-        actions.append(("release", latest_rel, rel_dir, current_rel))
+        actions[rel_dir] = ("release", latest_rel, current_rel)
 
     if not actions:
         print("\nSnapshot discover run complete.\n")
@@ -169,10 +114,7 @@ def main() -> None:
         set_output("changes", "false")
         return
 
-    completed: list[tuple[str, str, str, str | None]] = []
-    install_summaries: list[tuple[str, dict[str, object]]] = []
-
-    for kind, version_id, target_dir, previous_version in actions:
+    for target_dir, (kind, version_id, previous_version) in actions.items():
         print(f"\n=== Setting up {kind}: {version_id} -> {target_dir} ===", flush=True)
         run([PYTHON, "-m", "script", "remove", "--versions", target_dir])
         if kind == "snapshot":
@@ -180,17 +122,13 @@ def main() -> None:
         else:
             run([PYTHON, "-m", "script", "create", "--versions", version_id])
 
-        install_summaries.append((target_dir, install_version(target_dir)))
-        regenerate_changelog()
-        completed.append((kind, version_id, target_dir, previous_version))
-
-    versions = [version_id for _, version_id, _, _ in completed]
+    versions = [v for _, v, _ in actions.values()]
     commit_msg = f"Add {versions[0]}" if len(versions) == 1 else f"Add {' and '.join(versions)}"
     changed = git_changed_files()
 
     print("\nSnapshot discover run complete.\n")
     print("Detected update:")
-    for kind, version_id, target_dir, previous_version in completed:
+    for target_dir, (kind, version_id, previous_version) in actions.items():
         if previous_version and previous_version != version_id:
             print(f"- {kind}: {previous_version} -> {version_id}")
         else:
@@ -199,24 +137,11 @@ def main() -> None:
 
     print("\nResult:")
     print("- remove/create: success")
-    for target_dir, summary in install_summaries:
-        warnings = int(summary["warnings"])
-        exit_code = int(summary["exit_code"])
-        status = "completed with warnings" if warnings or exit_code else "completed"
-        print(f"- install {target_dir}: {status} (exit {exit_code}, failed/unavailable {warnings}, added {summary['added']})")
-    print("- changelog: regenerated")
     print(f"- proposed commit: {commit_msg}")
     print(f"- changed files: {len(changed)}\n")
     print("Changed files:")
     for line in changed:
         print(f"- {line}")
-
-    for target_dir, summary in install_summaries:
-        sample_failures = summary["sample_failures"]
-        if sample_failures:
-            print(f"\nSample install failures for {target_dir}:")
-            for line in sample_failures:
-                print(f"- {line}")
 
     set_output("changes", "true" if changed else "false")
     set_output("commit_message", commit_msg)
