@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "a3a87e30e93688966faaed3a8f38d34296b1b08b2ed9470f6180d83fc39230f5"
+hash = "5c5108caf113d3e776b9cd9dc3f3300fb51316c8892e52e6e32258e72afb2200"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "2a760e528bf27c3eb4ae7c06200d91ee9c2849295addaa2add05495c7dee9528"
+hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "4283111ce9757054aee2b2b08cb85b6afa7943ae3c6374c79a0275cdbc3def45"
+hash = "9fd2e42d188d3afbebfbf1c94c5020a04acce2eb625ba9db6809b83dfc8580fc"
 metafile = true
 
 [[files]]

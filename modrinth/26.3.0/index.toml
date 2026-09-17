@@ -76,13 +76,18 @@ hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "bd842d14ebb84eb6fb734c1a5fb98b614cc85f639f7fd0ad2cb2d7be6dd7d9c6"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "1c50c1f347b63837550fb615baa12dc8b6229cc00d21c4257fa2902c1957b557"
+hash = "a7f6a1543f41198911a8b1e5e059fa0c8003365ebd6c2314e2dfa0806aff300a"
 metafile = true
 
 [[files]]
@@ -92,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "99963103e833ee3164c5b39c37d07d2d6287396b6640d3b2727cdf2d3e51e5c2"
+hash = "e053cf9bd42c32218490ff47f691d1688a05fd0a095e67418098f6b000738926"
 metafile = true
 
 [[files]]
@@ -102,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "7988328c529c7b387e10c936df449de9d5669c98e830fe3875fdca3d3905ff29"
+hash = "d68f9ad500e062c1e3b59f25bf72416e579d18d836b104f2712464298932eca7"
 metafile = true
 
 [[files]]
@@ -158,6 +163,11 @@ metafile = true
 [[files]]
 file = "mods/sound-controller.pw.toml"
 hash = "aa21052e013553676070bba8b03c54fa519d75315bd82997a1bcbaab8d92a006"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "cfa801490452f4c70d57a026d874f8f61333ee945a94b362455c3c3d440fa9ea"
 metafile = true
 
 [[files]]

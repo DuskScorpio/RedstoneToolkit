@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "4c9bf5518bcab3b94d625f08e3237676418ef1901bb1efa58b4b5f15db8c9d6a"
+hash = "299661290f2ed9f487516644116458821ea4292f188a452034ab2c5a7ab4a908"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "7c8b7a12e9ff825956aa67acd8cea9c731771c893faf6c8c43ab6de0c993b232"
+hash = "a81360fe8884eb7cb27f98c8cfd22e5b8df8ac27dc53b51114d3f41527ab5702"
 metafile = true
 
 [[files]]

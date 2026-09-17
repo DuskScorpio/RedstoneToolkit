@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "28d5b91fe8eb4b87dc6bc9a4eeaef835b0f2d046b63eb8d3914f0dda0083dec7"
+hash = "346d39c22c4b7a68c4fd4f6d01c7d5126a17bb2878c56b4082a634cb3dfb5a46"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "59cfcd6b1911a96c5eac2caabd1b4f1e82a127ab37f993c38f31695894708fd0"
+hash = "e93d732d605668e5855f4ffa5382774445133e9a5886d52b058d8d18bc9330e8"
 metafile = true
 
 [[files]]
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "b423dc594889a55704a570ede0cf468c2ff0752d04971bd414b6e54549e9095a"
+hash = "a3ad8f11fdbbbf8bb142d5371cb07b8d51df8c57744550381ff6cf24ef654ae1"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "063573de6afc53c6eed593b64c145a65342adc1f23db9f534cec6bd2bf70afd4"
+hash = "d0aa7491daab1a0c68be3c2457ae8a1c154612c48f06309dd7cc876d21a1460a"
 metafile = true
 
 [[files]]

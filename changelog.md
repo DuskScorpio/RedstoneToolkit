@@ -2,6 +2,7 @@
 
 - Added 26.3
 - Added IBCarpet
+- Added ZConfig
 - Added newly compatible mods to:
   - 1.16.5:
     - WorldEdit CUI
@@ -43,13 +44,15 @@
   - Concurrent Chunk Management Engine (Fabric)
   - Fabric API
   - Fast Noise
+  - Fzzy Config
   - ImmediatelyFast
   - More Culling
   - NBT Autocomplete
   - Packed Packs
+  - Reese's Sodium Options
   - Sodium
+  - Sodium Extra
 - 1.21.11-26.2:
-  - Fzzy Config
   - Item Scroller
   - Litematica
   - MaLiLib
@@ -59,6 +62,8 @@
   - Technical Utilities
   - Tweakeroo
   - ViaFabricPlus
+- 1.20.6-1.21.1:
+  - YetAnotherCarpetAddition
 - 26.1.2-26.2:
   - Better Block Entities
   - Iris Shaders
@@ -66,10 +71,9 @@
   - Lithium
   - oωo (owo-lib)
   - Respackopts
+  - spark
   - WikiRenderer
   - YetAnotherConfigLib (YACL)
-- 1.20.6:
-  - YetAnotherCarpetAddition
 - 1.21.1:
   - ScalableLux
 - 26.2:
@@ -82,7 +86,4 @@
   - No Chat Reports
   - Packet Fixer
   - Redstone Multimeter Fabric
-  - Reese's Sodium Options
-  - Sodium Extra
-  - spark
   - voxy

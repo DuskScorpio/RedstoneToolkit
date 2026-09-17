@@ -1,13 +1,13 @@
 name = "YetAnotherCarpetAddition"
-filename = "yetanothercarpetaddition-v1.3.9-mc1.21.1+build.103.jar"
+filename = "yetanothercarpetaddition-v1.3.10.1-mc1.21.1-SNAPSHOT.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Iib8xwCx/versions/vRP5458a/yetanothercarpetaddition-v1.3.9-mc1.21.1%2Bbuild.103.jar"
+url = "https://cdn.modrinth.com/data/Iib8xwCx/versions/qYdw74sQ/yetanothercarpetaddition-v1.3.10.1-mc1.21.1-SNAPSHOT.jar"
 hash-format = "sha512"
-hash = "99524be50327ddee6ffdb438ffecd5c03d4b3427dd1b389e9453a81d75684953a3e8d171cf5d039c8ec718ce1a9002bcd91f867333fd87df06f45bc480411160"
+hash = "98ab53cbe9cc51c9c8b6c759b899006472f94eab63f39bd5b597c44cff468d6921a8ce23893a639c7781e6f2e0a1a6992c700f8ab382b231cc62ee7b54b725bc"
 
 [update]
 [update.modrinth]
 mod-id = "Iib8xwCx"
-version = "vRP5458a"
+version = "qYdw74sQ"
