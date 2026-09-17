@@ -1,12 +1,12 @@
 name = "ScalableLux"
-filename = "ScalableLux-fabric-0.3.0-alpha.0.4-all.jar.disabled"
+filename = "ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar.disabled"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b363d41dbe12000ed8290cf4ea85c888093fa10a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Ps1zyz6x/versions/g4eqNSKd/ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar"
+hash-format = "sha512"
+hash = "ded5a939fb20ab81c1f33b147ca9b98050773dbb28dff16df939c7d567b626809522994ec8dbfb99e7f498dc6a4e62f25e141a87d18efb43f73fc5ad1569ccc9"
 
-[update.curseforge]
-file-id = 8863253
-project-id = 1055925
+[update.modrinth]
+mod-id = "Ps1zyz6x"
+version = "g4eqNSKd"

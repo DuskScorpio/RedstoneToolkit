@@ -1,0 +1,12 @@
+name = "Sound Controller"
+filename = "soundcontroller-fabric-1.4.1-mc26.3.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uY9zbflw/versions/6FBOJLK2/soundcontroller-fabric-1.4.1-mc26.3.jar"
+hash-format = "sha512"
+hash = "e70b81e68785ca4bbf66e6a212c9aedce2990496260e96429980625e3c7325126738b960da61b1606faf11e65f1b18479f254ccaadcff50954c5a0f87577fab6"
+
+[update.modrinth]
+mod-id = "uY9zbflw"
+version = "6FBOJLK2"

@@ -3,10 +3,10 @@ filename = "respackopts-26.3.0.jar.disabled"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "57aaafb29cac9fc0f17fed16124fa9e42fb7c65d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/TiF5QWZY/versions/Whg3OJJA/respackopts-26.3.0.jar"
+hash-format = "sha512"
+hash = "22f977be3f462b02423d10e136c193959c391fc429b0ba0207aab245e6b967047aed6405d27708c6dc3144377076ff352898e695d8637d619ff2be3e9fe791b2"
 
-[update.curseforge]
-file-id = 8890282
-project-id = 430090
+[update.modrinth]
+mod-id = "TiF5QWZY"
+version = "Whg3OJJA"
