@@ -1,0 +1,13 @@
+name = "ZConfig"
+filename = "zconfig-1.0.0+1.21.x.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb9fe03e6f64b900317d7edf305c1d7d43412a60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8569990
+project-id = 1632946

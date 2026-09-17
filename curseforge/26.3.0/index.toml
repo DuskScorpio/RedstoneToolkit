@@ -16,6 +16,16 @@ hash = "1520cc936ed30befb7d988e647fc3cac52dc46142f08c752965170b812c46f8d"
 metafile = true
 
 [[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "cbe5bc5958fcc693a992e6ac7cc79905f34ef23652f0d927cb88272f592d89c8"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "ec6b05b3441e1c042faf73aa0416b60ecd83c237857776eeb40e666c440ca111"
+metafile = true
+
+[[files]]
 file = "mods/commandkeys.pw.toml"
 hash = "229377667ed41879809fb077dba0348b0cf8b7507b5cb5baec4c9b7c2cf2cd31"
 metafile = true
@@ -46,8 +56,18 @@ hash = "137722593de8f036edba0bd3c840bff8371d66014c9f7c4a84180b55d87e3ef0"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "59cfcd6b1911a96c5eac2caabd1b4f1e82a127ab37f993c38f31695894708fd0"
+metafile = true
+
+[[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "4a6129505f587b13c48993b13d78644b1ca590c3bc1404bf3e47ffe2d2e78983"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "82f4f4dd99dfd93b269f4b8cea2af819d08448541d6d559d9b2c481b784e40c6"
 metafile = true
 
 [[files]]
@@ -61,8 +81,23 @@ hash = "b423dc594889a55704a570ede0cf468c2ff0752d04971bd414b6e54549e9095a"
 metafile = true
 
 [[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "a5e15d5e47be587827117a2d06c8452c741f91102674c77188a1f189a2af8b70"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "e44507cfdd84a5a774aef6e5b64dabd130ccb057a9040dfc02ceb2127e4a2736"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "e3963a3ecbd7a89265d8441d1bd9def9b910f5e14ad8a6030d86e15ccf16d3bd"
+metafile = true
+
+[[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "9d0958a2be802051194ef87b1cab9bf7ebbd8421f3c9617712c698ea03996e59"
 metafile = true
 
 [[files]]
@@ -93,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "56746c54223304245ccc48a0598a0a1c426697219bb118906988d83a79d02031"
+metafile = true
+
+[[files]]
+file = "mods/zconfig.pw.toml"
+hash = "4044d9e9233f375151750e0480c7e5142b2f82db91b7524e69fb99deb2d7ffcd"
 metafile = true
 
 [[files]]

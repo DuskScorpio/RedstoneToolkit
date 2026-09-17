@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/axiom.pw.toml"
+hash = "63a72288437685216c68e2109f58f0673cb3ac780117124168eeaa5673a946a9"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "fab0f8da4e12ee8f400a8f8a95619dc3aa6881ea0821a25f5cc6f2c77ecacf45"
 metafile = true
@@ -16,6 +21,11 @@ hash = "f0bf30f6e3dad1d49c067982461a1a2b061da7ddc87114d5131894b106f2c777"
 metafile = true
 
 [[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "9b2df8e4a60ffb3e6052557131b2c7ca476a2788902f8678d83f5bcad281932b"
+metafile = true
+
+[[files]]
 file = "mods/chunk-debug.pw.toml"
 hash = "f5aec6603ddb64a62898c75aa0991034a56b222f1dee1b3dc2c8f63ca9c6659a"
 metafile = true
@@ -23,6 +33,11 @@ metafile = true
 [[files]]
 file = "mods/client-commands.pw.toml"
 hash = "f3d191996a8097020f44e85275a940520d2dde766b32d2d9c02ce52940bcbfd8"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "55554bc0f0370f38eea13d1cc9ef2a8cbe253f3c1b837a08e733300b478ea266"
 metafile = true
 
 [[files]]
@@ -41,6 +56,11 @@ hash = "de893e3ffe8c044bebbd37e7f3b1f1c51fab05c5765dd587494b19e0529ea5e0"
 metafile = true
 
 [[files]]
+file = "mods/essentialaddons.pw.toml"
+hash = "b7f2532f354c60e7989a348aeed5e651ca6e0091552a623b262bc412310c8dab"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "e3a8b560330802ec556f34a7de7a73bc712202359a657a36b39e6f85598bf8b8"
 metafile = true
@@ -56,8 +76,18 @@ hash = "bd842d14ebb84eb6fb734c1a5fb98b614cc85f639f7fd0ad2cb2d7be6dd7d9c6"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "1c50c1f347b63837550fb615baa12dc8b6229cc00d21c4257fa2902c1957b557"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "1dd64c231265868ce86638bc90dbe9d32c21ef9768ae4a4ebc49a24232bdae41"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "99963103e833ee3164c5b39c37d07d2d6287396b6640d3b2727cdf2d3e51e5c2"
 metafile = true
 
 [[files]]
@@ -68,6 +98,16 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "7988328c529c7b387e10c936df449de9d5669c98e830fe3875fdca3d3905ff29"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "4d46615697276151aa0c7403f8368d467cb7dd12b040659b67bd34364d0f9780"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "85475cc5c63e9e38695503a70847582ca21f8ba46f7465979d92dff22b009fd2"
 metafile = true
 
 [[files]]
@@ -92,12 +132,12 @@ metafile = true
 
 [[files]]
 file = "mods/respackopts.pw.toml"
-hash = "8fc71431d068cda2a1ffa6aad82071d643b85be88c7e17c6ef93b5aacb399c65"
+hash = "21ed290b383a21b0209c12b62750b821b84770ab1463a0d18a7ea53bd31e2bcf"
 metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "063573de6afc53c6eed593b64c145a65342adc1f23db9f534cec6bd2bf70afd4"
+hash = "1b7005e4c4b2643496489cb1eca97074b419eabc19cf25f7229b55d829da42d0"
 metafile = true
 
 [[files]]
@@ -108,6 +148,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "54d699d9ba85bb08b9fd3696a11c7449ea1175a118805855143e1c88fa54aa6b"
+metafile = true
+
+[[files]]
+file = "mods/sound-controller.pw.toml"
+hash = "aa21052e013553676070bba8b03c54fa519d75315bd82997a1bcbaab8d92a006"
+metafile = true
+
+[[files]]
+file = "mods/zconfig.pw.toml"
+hash = "8078347c8e2fd79bbb3e414fd36bc319e2d043f8d3b955c14f430fee0b5d6843"
 metafile = true
 
 [[files]]
