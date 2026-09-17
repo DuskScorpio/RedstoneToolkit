@@ -26,6 +26,11 @@ hash = "9b2df8e4a60ffb3e6052557131b2c7ca476a2788902f8678d83f5bcad281932b"
 metafile = true
 
 [[files]]
+file = "mods/carpet.pw.toml"
+hash = "45d5d119046062a8ccf00c4fa48c180282520fc196d6192d3711e42f079e55d8"
+metafile = true
+
+[[files]]
 file = "mods/chunk-debug.pw.toml"
 hash = "f5aec6603ddb64a62898c75aa0991034a56b222f1dee1b3dc2c8f63ca9c6659a"
 metafile = true
