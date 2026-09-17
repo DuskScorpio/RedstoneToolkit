@@ -6,7 +6,6 @@ enabled_files:
   - mr_slug: carpet
     cf_slug: carpet
     name: Carpet
-    version: "<26.3.0"
   - mr_slug: carpet-tis-addition
     cf_slug: carpet-tis-addition
   - mr_slug: ibcarpet
