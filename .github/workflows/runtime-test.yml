@@ -19,7 +19,7 @@ on:
       - "curseforge/**/pack.toml"
   push:
     branches:
-      - runtime-modpack-tests
+      - main
     paths:
       - "modrinth/**/pack.toml"
       - "curseforge/**/pack.toml"
