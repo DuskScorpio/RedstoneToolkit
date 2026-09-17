@@ -51,6 +51,8 @@ enabled_files:
     cf_slug: owo-lib
   - mr_slug: yacl
     cf_slug: yacl
+  - mr_slug: zconfig
+    cf_slug: zconfig
 
   # Performance
   - mr_slug: badoptimizations

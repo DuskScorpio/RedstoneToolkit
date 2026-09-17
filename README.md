@@ -59,6 +59,7 @@ These mods are enabled by default and recommended to the user
 - [MaLiLib](https://modrinth.com/mod/malilib) - Library required by Masa's mods
 - [oωo](https://modrinth.com/mod/owo-lib) - Library required by Isometric Renders and WikiRenderer
 - [YetAnotherConfigLib](https://modrinth.com/mod/yacl) - Configuration library required by multiple mods
+- [ZConfig](https://modrinth.com/mod/zconfig) - Configuration library required by Fast Noise
 
 </details>
 
