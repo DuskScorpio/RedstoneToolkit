@@ -69,6 +69,7 @@
   - Iris Shaders
   - LibJF
   - Lithium
+  - Mod Menu
   - oωo (owo-lib)
   - Respackopts
   - spark
@@ -82,7 +83,6 @@
   - EssentialAddons
   - FastQuit
   - Krypton
-  - Mod Menu
   - No Chat Reports
   - Packet Fixer
   - Redstone Multimeter Fabric

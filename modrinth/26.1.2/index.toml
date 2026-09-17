@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "46fef05ac2db098b2368f16c28519534278a261e42bfedb2c6c24bacbf8e06ec"
+hash = "b9c0e95ff4a8353d1bcafcba91ad9971b68b10e292358a96dac4f7cfbf9f0bae"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "bdccdd240316a3b7b118108a3bae3e348a11d38146d1e5423c7cc91b68cc0b67"
+hash = "a9fa07e8f471f832afd1030ea0258d3ac30c53ec6588938b6cc97ce7db4130b2"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "fed9bdaac0173f3cab2692f538441afda1e2cd46c6f6363790b424c009e34e03"
+hash = "46c13077e518b312d993a6853c3cd046b724cfc48664481ec0b651ed308aa292"
 metafile = true
 
 [[files]]
@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "50a21fc12ee0751212a3eefa6cb0afce74691e5cc7861ce6386267eaf5688195"
+hash = "2c2e1873d86a5afe3ffeb50b841fabb56e77f9d67eb9dcbc2126caa93f79dbfa"
 metafile = true
 
 [[files]]
@@ -227,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "137f9f7268efee46f378498be772d7828ac77ba239294c7051a782c9f0ee56ae"
+hash = "9d031aefb9acf62b4c7c6b6f53d4427db1996de071895c06d921c2977c7d7e48"
 metafile = true
 
 [[files]]
@@ -257,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "eb6182eff9cb41548b7b629e0a8ec85a27582bddc5d85318216a50ceb51deb4a"
+hash = "9e3ab6864521d96e23135fa56105f2252d458697ac622809cd6e68cdf767c995"
 metafile = true
 
 [[files]]
@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "6a487f3191e67284ec51e3c884d6fe30eac1cec120869c690d6eccc2db9dfc39"
+hash = "1c782c464f8119d2367fd785c3524bf571f9c3e14634022e888e24f0046a2163"
 metafile = true
 
 [[files]]
@@ -302,12 +302,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "76f0c3b0f97c781fab964ec383b5031d780814e63abe7c456354187deaafaae2"
+hash = "734a061544bad93b004eb110f67de8e99651f2a0d97533101ce44dbe66b2b619"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "8532ef1557ef154dc93177fef2d61df8debd8f4def08142a7ac41d0416e4b12f"
+hash = "ee002e5d6ad62150afe62bf8a6f254f56630e2ae9d414131f89cf2676664a493"
 metafile = true
 
 [[files]]
