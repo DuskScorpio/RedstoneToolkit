@@ -48,6 +48,17 @@ jobs:
           name: snapshot-discover-logs
           path: logs/
 
+      - name: update fabric loader
+        timeout-minutes: 5
+        run: |
+          set +e
+          python -m script loader
+          LOADER_EXIT=$?
+          set -e
+          if [ $LOADER_EXIT -ne 0 ]; then
+            echo "[WARN] script loader exited $LOADER_EXIT"
+          fi
+
       - name: run script update
         timeout-minutes: 10
         run: |
