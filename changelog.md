@@ -24,6 +24,7 @@
 
 ## Changes
 
+- Removed Better Block Entities
 
 ## Updates
 
