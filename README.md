@@ -67,7 +67,6 @@ These mods are enabled by default and recommended to the user
 <summary><strong>Performance</strong></summary>
 
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations) - Micro optimizations that improve client performance without altering gameplay
-- [Better Block Entities](https://modrinth.com/mod/better-block-entities) - Optimizes block entity rendering for smoother performance and reduced lag on versions ≥1.21.6
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe) [[1]](#ref-1) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.4
 - [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
 - [Fast Noise](https://modrinth.com/mod/zfastnoise) - Replaces the vanilla noise generator with a faster implementation to speed up world generation
@@ -79,6 +78,7 @@ These mods are enabled by default and recommended to the user
 - [ModernFix](https://modrinth.com/mod/modernfix) [[2]](#ref-2) - Improves performance and reduces memory usage
 - [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
 - [More Culling](https://modrinth.com/mod/moreculling) - Changes how multiple types of culling are handled to improve performance
+- [Optimized Block Entities](https://modrinth.com/mod/obe) - Client-side block entity rendering optimization with animation support on versions >1.21.4
 - [Smooth Boot](https://modrinth.com/mod/smoothboot-fabric) - Optimize Minecraft loading performance to be smoother on low end systems and scale better on high end systems
 - [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
 - [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
