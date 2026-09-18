@@ -1,13 +1,13 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-hash = "e9dae46a0b8c7af1c2d778118219ca4fd7e159ee200bb813e1e9da0c0f4441c2"
+file = "mods/appleskin.pw.toml"
+hash = "fc9c2f4e8e4a257667109506a641c1cd54613d1ee95206a8d31ce0723d8dd645"
 metafile = true
 
 [[files]]
-file = "mods/better-block-entities.pw.toml"
-hash = "e711aa74ebc08294f6a161278234aaea10f1bbb3610ed9caf2616f08d430823c"
+file = "mods/badoptimizations.pw.toml"
+hash = "e9dae46a0b8c7af1c2d778118219ca4fd7e159ee200bb813e1e9da0c0f4441c2"
 metafile = true
 
 [[files]]
@@ -61,6 +61,11 @@ hash = "137722593de8f036edba0bd3c840bff8371d66014c9f7c4a84180b55d87e3ef0"
 metafile = true
 
 [[files]]
+file = "mods/hold-that-chunk-v2.pw.toml"
+hash = "408133dbb9ab367a21af8f6fdc38879ad18289d1e4d2cc40368380deb3824f37"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "e93d732d605668e5855f4ffa5382774445133e9a5886d52b058d8d18bc9330e8"
 metafile = true
@@ -98,6 +103,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "e3963a3ecbd7a89265d8441d1bd9def9b910f5e14ad8a6030d86e15ccf16d3bd"
+metafile = true
+
+[[files]]
+file = "mods/obe.pw.toml"
+hash = "8e58cd77e110dc1a566f66eb5341c2367cc92beb562dd0b3932f2c7a0e2541a7"
 metafile = true
 
 [[files]]
