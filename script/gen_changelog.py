@@ -253,8 +253,8 @@ def main() -> None:
                 out.append(f"    - {resolve_mod_name(slug, [folder])}")
     out += ["", "## Changes", ""]
     out.extend(changes_removed)
-    truly_removed = removed_file_list_ids_set - new_file_list_ids
-    for mod_id in sorted(truly_removed):
+    removed_mods = removed_file_list_ids_set - new_file_list_ids
+    for mod_id in sorted(removed_mods):
         out.append(f"- Removed {resolve_mod_name(mod_id, folders)}")
     out += ["", "## Updates", ""]
 
