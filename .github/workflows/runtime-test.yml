@@ -13,10 +13,6 @@ on:
         required: false
         default: false
         type: boolean
-  pull_request:
-    paths:
-      - "modrinth/**/pack.toml"
-      - "curseforge/**/pack.toml"
   push:
     branches:
       - main
