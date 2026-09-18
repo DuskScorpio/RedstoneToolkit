@@ -69,12 +69,20 @@ def current_pack_minecraft(version_dir: str) -> str | None:
         return None
 
 
-def needs_update(version_id: str | None) -> tuple[bool, str | None, str | None]:
+def needs_update(version_id: str | None, latest_release: str | None = None) -> tuple[bool, str | None, str | None]:
     if not version_id:
         return False, None, None
     version_dir = dir_name(version_id)
-    current_version = current_pack_minecraft(version_dir)
-    return current_version != version_id, version_dir, current_version
+    version_path = REPO / "modrinth" / version_dir
+    if not version_path.exists():
+        return True, version_dir, None
+    current = current_pack_minecraft(version_dir)
+    if current == version_id:
+        return False, None, None
+    # If the directory has the latest release, skip snapshot/rc versions that map to the same dir
+    if latest_release and current == latest_release and dir_name(latest_release) == version_dir:
+        return False, None, None
+    return True, version_dir, current
 
 
 
@@ -97,11 +105,11 @@ def main() -> None:
 
     # Collect actions keyed by target directory; release overwrites snapshot
     actions: dict[str, tuple[str, str, str | None]] = {}
-    snap_needed, snap_dir, current_snap = needs_update(latest_snap)
+    snap_needed, snap_dir, current_snap = needs_update(latest_snap, latest_rel)
     if snap_needed and latest_snap and snap_dir:
         actions[snap_dir] = ("snapshot", latest_snap, current_snap)
 
-    rel_needed, rel_dir, current_rel = needs_update(latest_rel)
+    rel_needed, rel_dir, current_rel = needs_update(latest_rel, latest_rel)
     if rel_needed and latest_rel and rel_dir:
         actions[rel_dir] = ("release", latest_rel, current_rel)
 
