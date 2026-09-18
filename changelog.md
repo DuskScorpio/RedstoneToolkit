@@ -2,6 +2,7 @@
 
 - Added 26.3
 - Added IBCarpet
+- Added Optimized Block Entities [OBE]
 - Added ZConfig
 - Added newly compatible mods to:
   - 1.16.5:
@@ -65,7 +66,6 @@
 - 1.20.6-1.21.1:
   - YetAnotherCarpetAddition
 - 26.1.2-26.2:
-  - Better Block Entities
   - Iris Shaders
   - LibJF
   - Lithium
