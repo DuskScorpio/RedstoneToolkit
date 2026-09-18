@@ -143,6 +143,18 @@ def newly_added_file_list_ids(base: str) -> set[str]:
     return ids
 
 
+def removed_file_list_ids(base: str) -> set[str]:
+    ids: set[str] = set()
+    diff = run_git("diff", "--unified=0", base, "--", "file_list.yml")
+    for line in diff.splitlines():
+        if not line.startswith("-") or line.startswith("---"):
+            continue
+        match = re.match(r"^\-\s*(?:-\s*)?(mr_slug|cf_slug|name):\s*(.+?)\s*$", line)
+        if match:
+            ids.add(normalize_mod_id(match.group(2)))
+    return ids
+
+
 def is_new_pack_mod(slug: str, folders: list[str], new_file_list_ids: set[str]) -> bool:
     if normalize_mod_id(slug) in new_file_list_ids:
         return True
@@ -155,6 +167,7 @@ def main() -> None:
     base_mc_versions = base_folders_and_versions(base)
     folder_order = {folder: i for i, folder in enumerate(folders)}
     new_file_list_ids = newly_added_file_list_ids(base)
+    removed_file_list_ids_set = removed_file_list_ids(base)
 
     news_added: list[str] = []
     news_folders: set[str] = set()
@@ -240,6 +253,9 @@ def main() -> None:
                 out.append(f"    - {resolve_mod_name(slug, [folder])}")
     out += ["", "## Changes", ""]
     out.extend(changes_removed)
+    removed_mods = removed_file_list_ids_set - new_file_list_ids
+    for mod_id in sorted(removed_mods):
+        out.append(f"- Removed {resolve_mod_name(mod_id, folders)}")
     out += ["", "## Updates", ""]
 
     for start, end in sorted(updates, key=lambda key: (-(key[1] - key[0] + 1), key[0], key[1])):

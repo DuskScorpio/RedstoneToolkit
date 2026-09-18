@@ -1,6 +1,6 @@
 name = "RedstoneToolkit"
 author = "Scorpio"
-version = "0.14.0"
+version = "0.15.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -9,5 +9,5 @@ hash-format = "sha256"
 hash = "d92f8439bc1c303cda379e953654a1ffcdc0d1923e56fc9989b4a772a53218f7"
 
 [versions]
-fabric = "0.19.3"
+fabric = "0.19.5"
 minecraft = "1.18.2"

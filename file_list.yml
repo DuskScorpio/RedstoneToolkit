@@ -56,9 +56,6 @@ enabled_files:
   # Performance
   - mr_slug: badoptimizations
     cf_slug: badoptimizations
-  - mr_slug: better-block-entities
-    cf_slug: better-block-entities
-    version: ">=1.21.6"
   - mr_slug: ebe
     cf_slug: enhanced-block-entities
     version: "<=1.21.4"
@@ -84,6 +81,9 @@ enabled_files:
     version: ">=1.21.5"
   - mr_slug: moreculling
     cf_slug: moreculling
+  - mr_slug: obe
+    cf_slug: obe
+    version: ">1.21.4"
   - mr_slug: particle-core
     cf_slug: particle-core
   - mr_slug: smoothboot-fabric

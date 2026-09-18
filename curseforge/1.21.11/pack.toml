@@ -1,13 +1,13 @@
 name = "RedstoneToolkit"
 author = "Scorpio"
-version = "0.14.0"
+version = "0.15.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "16b3335cf95b5bd704aba068670dbb38a3b7f57961865467a913103cb52d4e48"
+hash = "c48733d55507250a0eee57c4e327b7c011beb2997745b7d0ab7fc32c2ef3a499"
 
 [versions]
-fabric = "0.19.3"
+fabric = "0.19.5"
 minecraft = "1.21.11"

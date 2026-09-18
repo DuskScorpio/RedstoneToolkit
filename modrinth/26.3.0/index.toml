@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "d9ec0722ae575b8a94684f6ce45d332a2294b07806eb6b12ef7bedbd9b384d11"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
 hash = "63a72288437685216c68e2109f58f0673cb3ac780117124168eeaa5673a946a9"
 metafile = true
@@ -8,11 +13,6 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "fab0f8da4e12ee8f400a8f8a95619dc3aa6881ea0821a25f5cc6f2c77ecacf45"
-metafile = true
-
-[[files]]
-file = "mods/better-block-entities.pw.toml"
-hash = "97ffadc9852dc08c2d2b3c26d9bd8befb42e4e92a02ad8c171f7b960c7eb9b4f"
 metafile = true
 
 [[files]]
@@ -76,6 +76,11 @@ hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
 metafile = true
 
 [[files]]
+file = "mods/fastquit.pw.toml"
+hash = "95c091b5c1c232a85abb5064f614fdc68e47fb2cb3881a9f6eacc86c8d65ecc4"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
@@ -83,6 +88,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "bd842d14ebb84eb6fb734c1a5fb98b614cc85f639f7fd0ad2cb2d7be6dd7d9c6"
+metafile = true
+
+[[files]]
+file = "mods/hold-that-chunk-v2.pw.toml"
+hash = "e6db4bf772c98a26399b745cd824e17dc8ec856017bb49bac28f0a4a4f885830"
 metafile = true
 
 [[files]]
@@ -123,6 +133,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "f32ebeb468312cf555bd84d09c1a3a6e6f9ed992e4afc3ce9620aca571490806"
+metafile = true
+
+[[files]]
+file = "mods/obe.pw.toml"
+hash = "6e0b8305ee2c9b162614bcbf86315b8576c630fcbc586468c94ce17f4d393162"
 metafile = true
 
 [[files]]

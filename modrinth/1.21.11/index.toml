@@ -21,11 +21,6 @@ hash = "cea82e078dd6c0ae66b98d63650b54f4d19a85e7df2bcc80f2061bb8cb94d899"
 metafile = true
 
 [[files]]
-file = "mods/better-block-entities.pw.toml"
-hash = "b4cd1e372388fadea8346cb3e83ba043bbbb722d139d3ac4e56849c0bb46aade"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "e2ebdc0637c6054a377cae7cdb508faa7d7efe0825ee1de872c481ebceae97b1"
 metafile = true
@@ -258,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "31188934bcb30e1c88efe708b3ffdb7b9ae34595815c909fceb244fbab31cb88"
+metafile = true
+
+[[files]]
+file = "mods/obe.pw.toml"
+hash = "6c30bb399dfeb6e6c7f3fd808f8ab4d82f4a521f4845ca16acb2f4036db63e72"
 metafile = true
 
 [[files]]
