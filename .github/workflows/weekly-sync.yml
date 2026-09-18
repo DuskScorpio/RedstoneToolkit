@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 9 * * 0'
   workflow_dispatch:
+    inputs:
+      match:
+        description: "NPM-compliant version match filter (e.g. 26.3.0, 1.21.x). Default: *"
+        required: false
+        default: "*"
+        type: string
 
 jobs:
   sync:
@@ -37,7 +43,7 @@ jobs:
         timeout-minutes: 10
         run: |
           set +e
-          python -m script update
+          python -m script update --match "${{ inputs.match || '*' }}"
           UPDATE_EXIT=$?
           set -e
           if [ $UPDATE_EXIT -ne 0 ]; then
@@ -48,7 +54,7 @@ jobs:
         timeout-minutes: 20
         run: |
           set +e
-          python -m script install --reinstall
+          python -m script install --reinstall --match "${{ inputs.match || '*' }}"
           INSTALL_EXIT=$?
           set -e
           if [ $INSTALL_EXIT -ne 0 ]; then
