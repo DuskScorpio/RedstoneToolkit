@@ -1,0 +1,12 @@
+name = "GugleCarpetAddition"
+filename = "gugle-carpet-addition-2.6.0-1.16.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "215c1b9cd7d58dc393f0994276074c60b29b4ede"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 4361021
+project-id = 662867

@@ -1,0 +1,12 @@
+name = "Capture & Playback"
+filename = "g4mespeed-capture-playback-0.8.0-beta-mc26.3.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5602ae4297cd2d850a89e35f825fa4d2e1b3757e"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8981554
+project-id = 544471

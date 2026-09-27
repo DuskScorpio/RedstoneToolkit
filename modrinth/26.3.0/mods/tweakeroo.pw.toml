@@ -1,0 +1,13 @@
+name = "Tweakeroo"
+filename = "tweakeroo-fabric-26.3-0.30.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/t5wuYk45/versions/MtPXEGTi/tweakeroo-fabric-26.3-0.30.0.jar"
+hash-format = "sha512"
+hash = "7ce23a227ea35d8e5ccf8875e79ccbae86a463ccb5916c3ac3f5207321976f19c5c8530293cecc726b34c4e9124c4bee6a19c15dd4a50c41e47398643804b4dd"
+
+[update]
+[update.modrinth]
+mod-id = "t5wuYk45"
+version = "MtPXEGTi"

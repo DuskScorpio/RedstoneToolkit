@@ -116,6 +116,11 @@ hash = "d1a60987c05198928f09cdf0c6e0dc786a743215be316e7c66d81659f676385c"
 metafile = true
 
 [[files]]
+file = "mods/gca.pw.toml"
+hash = "ccb1ab6772c6f350299a3404d23fb76449711892ca4f266014f2deb78a3ccb73"
+metafile = true
+
+[[files]]
 file = "mods/indium.pw.toml"
 hash = "8c9fe752f5503af0feb09cd8055ca760ae78b28f80ff1f4d1f3219e0ddaac40f"
 metafile = true
@@ -142,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "964ffa1b0f393ad94aaa9548a073f6fc17cfc89c6a2e7b44a337bae5c5964f5f"
+hash = "9027ea03241a96f12a8ced7a2bdcd7004415f2d5de56f1f2f8db90d1765e6330"
 metafile = true
 
 [[files]]
@@ -152,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica-server-paster.pw.toml"
-hash = "90e2e39d8984e45ca941a6931ea3adbc17548f4760dfcf0d63377ba415fb715a"
+hash = "6ece0937a9ac184c2dc55f377e30fb52b55c27861280476dfb4757d3b3653f1f"
 metafile = true
 
 [[files]]
@@ -277,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/vkm.pw.toml"
-hash = "2d683b5b109f15db44300170259a200e2f1c52f31f0f23d951df150307295525"
+hash = "ad2e9be7a7056d58a65f3de1a54b71c63f3478a18b3c15891fb1f0a9fc2a6dde"
 metafile = true
 
 [[files]]

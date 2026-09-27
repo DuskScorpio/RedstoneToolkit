@@ -1,0 +1,12 @@
+name = "Worldthreader"
+filename = "Worldthreader-3.2.0.jar.disabled"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/LwH5rYyd/versions/hqEvFrrM/Worldthreader-3.2.0.jar"
+hash-format = "sha512"
+hash = "35efb40e3b1d3e6f5840f3fd5f856ed113820ac55c9a0fa2ec4a462f1257515d0e8e4709ace1698f31a7a42c5e0a07af5ecd40789f4be0a1928a9841d30259ae"
+
+[update.modrinth]
+mod-id = "LwH5rYyd"
+version = "hqEvFrrM"

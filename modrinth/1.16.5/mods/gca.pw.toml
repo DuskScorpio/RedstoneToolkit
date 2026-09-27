@@ -1,0 +1,12 @@
+name = "GugleCarpetAddition"
+filename = "gugle-carpet-addition-2.6.0-1.19.jar.disabled"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/UHjbX5mk/versions/QTsuBFtB/gugle-carpet-addition-2.6.0-1.19.jar"
+hash-format = "sha512"
+hash = "7951a073a61549e7ab5aabf24804db2d7a9d1016f009f56a15bbf48bb1f51a79da17dfe20f9bcbee250c10c22faae0a2218442b39b9d0bb2596259664a12e277"
+
+[update.modrinth]
+mod-id = "UHjbX5mk"
+version = "QTsuBFtB"

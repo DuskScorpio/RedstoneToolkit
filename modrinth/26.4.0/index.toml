@@ -1,0 +1,26 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "dc1e534be35d13c2cb5d3b0c74eccb0fa2a6c9e586eafe8e0224ed7c4c91f081"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "3498ff755adaf87b28f248ef0da54835e7f665a1b3b1a7a8ab5eddd562fa884c"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "dbb5cf88bce65102602c6ceb7e767e493564765949cb92104ac6efa623fadd90"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "88b8febfff809451e53077eb1b4dfc8830e921692d10be6f98ca1b6e2876da1c"
+metafile = true
+
+[[files]]
+file = "mods/zconfig.pw.toml"
+hash = "8078347c8e2fd79bbb3e414fd36bc319e2d043f8d3b955c14f430fee0b5d6843"
+metafile = true

@@ -1,0 +1,12 @@
+name = "Rail Placement Fix"
+filename = "rail-placement-fix-1.2.0.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7z0IZqoa/versions/qbowj3cu/rail-placement-fix-1.2.0.jar"
+hash-format = "sha512"
+hash = "e7cfd147e57d64b28fb23dc9489015a8bab470548e564fae828a6b0d16a9914b0894c20eb0699c6398cc080a41281e168a32523b550c03dacc93f0acd955c9d0"
+
+[update.modrinth]
+mod-id = "7z0IZqoa"
+version = "qbowj3cu"
