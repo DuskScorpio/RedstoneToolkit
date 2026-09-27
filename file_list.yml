@@ -179,6 +179,8 @@ disabled_files:
     cf_slug: carpet-extra
   - mr_slug: doormat
   - mr_slug: essentialaddons
+  - mr_slug: gca
+    cf_slug: gca
 
   # Fixes
   - mr_slug: wecuifix

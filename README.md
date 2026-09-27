@@ -150,6 +150,7 @@ These mods are disabled by default and can be enabled if desired
 - [Carpet Extra](https://modrinth.com/mod/carpet-extra) - Adds Carpet rules that introduce non‑vanilla mechanics for technical play. Extends dispenser behavior to place blocks, feed and interact with animals, while enabling renewable conversions.
 - [Doormat](https://modrinth.com/mod/doormat) - Provides Carpet rules for experimental redstone mechanics. Introduces a Tinker Kit system that allows per‑component configuration of quasi‑connectivity, block update emissions, etc.
 - [Essential Addons](https://modrinth.com/mod/essentialaddons) - Integrates the functionality of the Spigot plugin Essentials alongside additional features. Adds mechanics such as stackable shulkers and nesting shulkers inside shulkers
+- [GugleCarpetAddition](https://modrinth.com/mod/gca) - A Carpet extension adding bot management, inventory access, and various quality-of-life features
 
 </details>
 
