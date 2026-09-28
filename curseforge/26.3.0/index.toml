@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "a3ad8f11fdbbbf8bb142d5371cb07b8d51df8c57744550381ff6cf24ef654ae1"
+hash = "e8db529387e9971974bb74ada3d025196de9c5db7f12b2272b119475cac88659"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "d93046d9e85a20f5d580fcac93566314a5b4d04ccea21fe3e455246ae530a832"
+hash = "7942c2a41f62c3ccaa27b2c4ea2fe6b396e6f56f2b3c50febc8dbadccb2bdd3c"
 metafile = true
 
 [[files]]

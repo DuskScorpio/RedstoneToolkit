@@ -1,12 +1,12 @@
 name = "EssentialAddons"
-filename = "EssentialAddons-2.6.1+26.3.jar.disabled"
+filename = "EssentialAddons-2.6.2+26.3.jar.disabled"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/3WQaouc1/versions/z85W57NI/EssentialAddons-2.6.1%2B26.3.jar"
+url = "https://cdn.modrinth.com/data/3WQaouc1/versions/D9P4NfXE/EssentialAddons-2.6.2%2B26.3.jar"
 hash-format = "sha512"
-hash = "4ed8a6e019274c74b01dc7974dd9630426b202933f5810e96c4389131519412979eba0c45c2624c5d9e2eaa2bd656d9c2b289ea0fce980f9009b584102039433"
+hash = "89499079d82e44761a8a579ee14f796205ca4e7f45fb6b05d9e72102f3d0f5f21f047e281e248c80a359e6cee23cf184ef927b678e7acaacfd461bf42522c9a7"
 
 [update.modrinth]
 mod-id = "3WQaouc1"
-version = "z85W57NI"
+version = "D9P4NfXE"

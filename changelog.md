@@ -2,6 +2,31 @@
 
 - Added 26.4-snapshot-1
 - Added GugleCarpetAddition
+- Added newly compatible mods to:
+  - 26.2:
+    - Litematica Server Paster
+  - 26.3:
+    - Capture & Playback
+    - Carpet IGNY Addition
+    - CarpetGUI
+    - G4mespeed
+    - Inv View
+    - Item Scroller
+    - Litematica
+    - Litematica Server Paster
+    - MaLiLib
+    - MiniHUD
+    - NBT Autocomplete
+    - Rail Placement Fix
+    - SchematicPreview
+    - Syncmatica
+    - Technical Utilities
+    - TweakerMore
+    - Tweakeroo
+    - Vanilla Keybind Manager
+    - WorldEdit
+    - WorldEdit CUI
+    - Worldthreader
 
 ## Changes
 
@@ -10,37 +35,49 @@
 
 - 1.16.5-26.3:
   - Ixeris
-- 1.16.5-26.2:
-  - Vanilla Keybind Manager
-- 1.16.5-1.21.11:
   - Litematica Server Paster
+  - Vanilla Keybind Manager
 - 1.19.4-26.3:
-  - Entity Culling
-- 1.19.4-26.2:
   - Carpet IGNY Addition
   - CarpetGUI
+  - Entity Culling
 - 1.21.1-26.3:
   - Axiom
   - Mod Menu
-  - Packed Packs
-- 1.21.1-26.2:
   - NBT Autocomplete
-- 1.21.11-26.2:
+  - Packed Packs
+- 1.21.11-26.3:
   - Technical Utilities
 - 26.2-26.3:
   - Crash Assistant
   - ModernFix-mVUS
   - Optimized Block Entities [OBE]
+  - WorldEdit CUI
   - YetAnotherConfigLib (YACL)
 - 26.1.2:
   - spark
   - WikiRenderer
-- 26.2:
-  - WorldEdit CUI
 - 26.3:
+  - Capture & Playback
   - Cloth Config API
   - Concurrent Chunk Management Engine (Fabric)
+  - EssentialAddons
   - Fzzy Config
+  - G4mespeed
+  - Inv View
+  - Item Scroller
   - LibJF
+  - Litematica
+  - Lithium
+  - MaLiLib
+  - MiniHUD
+  - Rail Placement Fix
   - Reese's Sodium Options
+  - SchematicPreview
   - Sodium
+  - Syncmatica
+  - TweakerMore
+  - Tweakeroo
+  - ViaFabricPlus
+  - WorldEdit
+  - Worldthreader
