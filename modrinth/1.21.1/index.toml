@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/magiclib.pw.toml"
-hash = "90481de2ca7d0744662bb6d59845869edd5d8ce699160d35c58c6aadf4779e0f"
+hash = "97f1157269d637ceca548383636b7305621bc2c95101d7559534ca2a3966da06"
 metafile = true
 
 [[files]]
@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "a862c07509a595d840805cb5af14650a77f4ed20f9ba3f6726d9b2a9d78a68fd"
+hash = "2a734cb0c2361d0fa2e0543164464f0edfbbdb88ee439a6e1d7d0e289116b808"
 metafile = true
 
 [[files]]

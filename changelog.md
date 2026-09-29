@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.4-snapshot-1
+- Added 26.4-snapshot-2
 - Added GugleCarpetAddition
 - Added newly compatible mods to:
   - 26.2:
@@ -46,14 +46,18 @@
   - Mod Menu
   - NBT Autocomplete
   - Packed Packs
+- 1.18.2-1.21.1:
+  - MagicLib
 - 1.21.11-26.3:
+  - ModernFix-mVUS
   - Technical Utilities
 - 26.2-26.3:
   - Crash Assistant
-  - ModernFix-mVUS
   - Optimized Block Entities [OBE]
   - WorldEdit CUI
   - YetAnotherConfigLib (YACL)
+- 1.21.11:
+  - Iris Shaders
 - 26.1.2:
   - spark
   - WikiRenderer

@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "9438ad87f88ead4474e5de80502905ccc8bed14de4477ca1449837473ef8b3d2"
+hash = "84f58c55f6f85f84d19dd67abea1cae050b886414b40654466b69e8b6b01ccbc"
 metafile = true
 
 [[files]]
@@ -252,5 +252,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "ecab33d606b541b712579403fed21a1e49c38d81db7febb796fbc09c6daa496b"
+hash = "2369ac771106e1a32d6a05e2841afea76de4151c55ee12506996db442201ece4"
 metafile = true

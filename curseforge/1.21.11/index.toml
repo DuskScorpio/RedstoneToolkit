@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "5bcf53ed6639c7a3652c45a4fec3f7bed00baad4bcadf1bc8d510056196a76d4"
+hash = "ad85bd6b88c8fad1f212149374591f331e0bbd46625e36bed3b583e90c769d68"
 metafile = true
 
 [[files]]
@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "41708f74d41b3ca1046dc4dc0c5747aad34be9b370ab0073cd6f423cc7750dcc"
+hash = "526d184c02206ff042c2e6c59fe269fd54ed32e5e4cd165cf02db161a0800ca6"
 metafile = true
 
 [[files]]

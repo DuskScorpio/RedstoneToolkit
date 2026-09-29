@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "c10fa51edd36370e1a126d3c8f8716bc78b5ce812403dafb6546e73642e46dbd"
+hash = "9a23ec9b0b6c5c00504c5c9d7ae7fb40fa4ad90fd1dbd7b3a8e8d987a0d742ef"
 metafile = true
 
 [[files]]
@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "496f7d1bad22abbde478ccf9fde458732afbc93ab9e5765d85f2501e23ce8db5"
+hash = "db026db2e6fb5b7f395646f39ccd40ed9b2937bf43e531335e103fcdae3b896c"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "269c16c988223351730359f9f1bc9ae11e2ee68c714879805fce9bb9796f07c0"
+hash = "fb36f09617aa4f71188df721149397d1385551c7393fa0d415da0f3b010794df"
 metafile = true
 
 [[files]]
