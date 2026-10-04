@@ -41,31 +41,34 @@
   - Carpet IGNY Addition
   - CarpetGUI
   - Entity Culling
+- 1.16.5-1.21.1:
+  - MagicLib
 - 1.21.1-26.3:
   - Axiom
   - Mod Menu
   - NBT Autocomplete
   - Packed Packs
-- 1.18.2-1.21.1:
-  - MagicLib
 - 1.21.11-26.3:
+  - Iris Shaders
   - ModernFix-mVUS
   - Technical Utilities
+- 26.1.2-26.3:
+  - Concurrent Chunk Management Engine (Fabric)
+  - YetAnotherConfigLib (YACL)
 - 26.2-26.3:
   - Crash Assistant
   - Optimized Block Entities [OBE]
   - WorldEdit CUI
-  - YetAnotherConfigLib (YACL)
-- 1.21.11:
-  - Iris Shaders
+- 1.21.1:
+  - Command Keys
 - 26.1.2:
   - spark
   - WikiRenderer
 - 26.3:
   - Capture & Playback
   - Cloth Config API
-  - Concurrent Chunk Management Engine (Fabric)
   - EssentialAddons
+  - Fast Noise
   - Fzzy Config
   - G4mespeed
   - Inv View
@@ -75,6 +78,7 @@
   - Lithium
   - MaLiLib
   - MiniHUD
+  - More Culling
   - Rail Placement Fix
   - Reese's Sodium Options
   - SchematicPreview

@@ -1,0 +1,13 @@
+name = "Syncmatica"
+filename = "syncmatica-fabric-1.20.6-0.3.12-sakura.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57b2453b89195007b838dada0ca56b0543bfd9f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9046985
+project-id = 525116

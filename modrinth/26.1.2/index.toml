@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "b9c0e95ff4a8353d1bcafcba91ad9971b68b10e292358a96dac4f7cfbf9f0bae"
+hash = "5f78f78443ce06d333e2622dd7a8eeec66977e1bd4f1926736da1ab715dc97f9"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica-server-paster.pw.toml"
-hash = "890a3f3fada40e3c356bf7ead4e9d57d282f2cd0c8e53a05cad2188341b21f26"
+hash = "cd873df6789cfe07216f73897fbcbffaa343af3fc849175be260789bd5d825bd"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "942c6e78a982e74376fd92a7528070fbfdec26a6715452b82b33e9edada61d68"
+hash = "3cd0529ac102204a3466fb055719798f934081a8a510de9935f88cce08c29d57"
 metafile = true
 
 [[files]]
@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "fca5afdd9955e658237d14f21a8473610c659b3fb85652ff8de8314fa3322b07"
+hash = "568c2b12cadae2518cd83506a96e023e06552ff99d35322f6cb85f755f187686"
 metafile = true
 
 [[files]]

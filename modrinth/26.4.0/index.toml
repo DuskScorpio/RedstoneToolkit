@@ -1,6 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "9c194552f1b4aa35c6521782b477e8989a3413fb4f5765322cedae1269b64b8b"
+metafile = true
+
+[[files]]
+file = "mods/carpet-igny-addition.pw.toml"
+hash = "57bf0818763ffe12cd489da0fbe080e927b4164976852d3e3e15b3fc6ea40365"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "0d71e053d82597a9dbf5599d5f0ece176ff43a058527b493b54096b46b547859"
+metafile = true
+
+[[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "fe61bb571b8622c8f5f86700656df040a120a09b876d7cc51613a6a0a48f2dd1"
+hash = "951fd3a2fbeffe0d92c3354d3ebd44a56c5cbc60edb70a74d2ac2cf5cacfde77"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "c3945c3b54442aa04fea8f4470987843f70859ed5572a9e7201c46245d55eb61"
 metafile = true

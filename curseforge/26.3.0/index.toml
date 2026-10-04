@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "9d3a624ddfc972a46ba97fa4bd0c3d335543cb4adf06b3d04f90f5543a283a0d"
+hash = "3ed5c33c8918c4a5e4c0ab8e3ae5d5911392d06ffffd68e6967442b00d19c5b3"
 metafile = true
 
 [[files]]
@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "be62cb1d4a5893a702bfa836910c3bbd82275b2bdb28c46dc9469ae966ed83d3"
+hash = "fe9883dcf08a16a20bba3e21bff8557cbc1a22cd5a828f14dfa9f7aabce995cf"
 metafile = true
 
 [[files]]
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "530b93c48867ae49500d7ec84c3e0850d0a7952defa900c250bc929ef57ab297"
+hash = "6419d3d42aa720b9896dfd1b279f7f3c50a468e053acbd8f95ba2d4500ef221a"
 metafile = true
 
 [[files]]
@@ -112,12 +112,17 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "4a6129505f587b13c48993b13d78644b1ca590c3bc1404bf3e47ffe2d2e78983"
+hash = "55731f06646caca455d6d9667ef82e004dcf937b1fc4da448b2c8016c1b458b9"
 metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
 hash = "6a1fe7c9ee260e765a913112d2c44c05528c1c46bd9bae4f53c31a6075998ba5"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "5443311b06b73b5b47362a31dc4792f58f3c6a4a78977a3eb60331948b7635f6"
 metafile = true
 
 [[files]]
@@ -147,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "e3963a3ecbd7a89265d8441d1bd9def9b910f5e14ad8a6030d86e15ccf16d3bd"
+hash = "ff15b977981713d110ea997f00b7606fb26ea760ae86324915ff02fed80e3688"
 metafile = true
 
 [[files]]
@@ -161,8 +166,13 @@ hash = "c426f1d18df148717f9b4e1c675fd81f638134c09b7e846b9508b6fc4e377358"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "55d913ef2e6c2b91ca1b45bcb9cfb5f87de2c6e6d0b9ae9f63eeddeface53cfe"
+metafile = true
+
+[[files]]
 file = "mods/obe.pw.toml"
-hash = "d0ddc65bc7489223a6f3e5a1d1f20a7b5059b39956cebebbdd58f8510e280279"
+hash = "e7b222130521f48d9d8542e0cac44e5ef74161f0a330c723b5b08b6482f4b5d1"
 metafile = true
 
 [[files]]
@@ -216,6 +226,11 @@ hash = "1dbf2d33a89fc4277dc26d58ee0a579117a52e80413fdb599c3176760520888e"
 metafile = true
 
 [[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "1ececd07695f20d4c5554e67aca01bba633ee0c41038e10e9ccb17cf12356b3c"
+metafile = true
+
+[[files]]
 file = "mods/tweakermore.pw.toml"
 hash = "65db35f8b95dc46c1bfed4cc7eb7140f2f8cd1b219325fa4a6a92085007419d2"
 metafile = true
@@ -252,5 +267,10 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "2369ac771106e1a32d6a05e2841afea76de4151c55ee12506996db442201ece4"
+hash = "0b56dc12c711c5f76162e1a907f9ab21f893690d146b1ecbe081d4dfc48f3f13"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "30459ac033ea0ec9bf45966fbe74a7695f8684c8f574d9e830a526e2908afe51"
 metafile = true

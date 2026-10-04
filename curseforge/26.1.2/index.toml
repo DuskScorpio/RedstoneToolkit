@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "299661290f2ed9f487516644116458821ea4292f188a452034ab2c5a7ab4a908"
+hash = "f57380feb2b6e44e8ac15ae770d6b5a637a4556e44a56016becf340e719a682b"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "d86276361d7f35a609170df1f91b78a0528eb61c2c4a5a811c295bffa1307f07"
+hash = "75e9c0bf77067bbb200d98d0388ca5c7e71b972257923f3dee1100dbb8d73ff1"
 metafile = true
 
 [[files]]
@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "394c1601601a1c9220414992235569601f56c934c5e80dda2e437ad51f7820f8"
+hash = "170fc581f8f4cb4413bbe4022bb8a66f4b23c46eae3748fdf13dde124669ecf2"
 metafile = true
 
 [[files]]
@@ -276,6 +276,11 @@ hash = "bd35430836be46de8bedfb9fa06a491db65089ddbb2f7afd568ef88769ccde2f"
 metafile = true
 
 [[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "39710b981cf27e58648f6a4c55c6894b947b6859c4eb0a01288b1dce2ff1f7ca"
+metafile = true
+
+[[files]]
 file = "mods/tweakermore.pw.toml"
 hash = "9a47bd098848de5b7154bc47424e5d5d6c56761b33621bc75343be8208df2f3d"
 metafile = true
@@ -327,5 +332,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/redstone-tweaks.pw.toml"
-hash = "81c0ad8588b1ee79a7b512f255fe1587c0edf30c8a8645e4ab5db369c43c12a6"
+hash = "30459ac033ea0ec9bf45966fbe74a7695f8684c8f574d9e830a526e2908afe51"
 metafile = true

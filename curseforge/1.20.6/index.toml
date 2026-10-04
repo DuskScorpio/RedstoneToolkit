@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "9471015e6bd291583219d4c0cd5da2d584d47b7730b6861f5e571fab650f95df"
+hash = "f91ae3bb39e54597a366f5ad6b45924a27851946d38475eb23756fdd0c48154e"
 metafile = true
 
 [[files]]
@@ -303,6 +303,11 @@ metafile = true
 [[files]]
 file = "mods/suggestion-tweaker.pw.toml"
 hash = "1c2b6fbad56bb9480aa67366ef12d666e69dd043c1e8001c2b68f34f227e8cc4"
+metafile = true
+
+[[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "c8bd61da3520e0ef19546cc39559fa576cb591557ef7812303cbec8734231a9b"
 metafile = true
 
 [[files]]

@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "8139f9d7921b20871ea82cee4afcc5c79f6c778980bc73c0f1d88aac2c6cbcac"
+hash = "6645d183cb7932904c957793aa07e98b5096226d18c8378134892c03b03daa0e"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "f38fef6cb8842f89a293d86713fa34ad99838830329ac6e4844f025bddb81a0d"
+hash = "525a3ec36505b41a7aead4521ce13d94056d1e1305fcb2c10abc7a6367644307"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "6a00e79ede036ca000b0340f10080d4702665e567e9c0a1738a6dd03d977b26a"
+hash = "c58c2833133c443be550bcdec3a2438b2dadeae2ebc2c6799e820cce86ce4b95"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "1dd64c231265868ce86638bc90dbe9d32c21ef9768ae4a4ebc49a24232bdae41"
+hash = "87958f6d2d4d3aea377f92aa66ba54e537e6e0a3fdf630f72322dd44cabb54d4"
 metafile = true
 
 [[files]]
@@ -168,6 +168,11 @@ metafile = true
 [[files]]
 file = "mods/ixeris.pw.toml"
 hash = "af1aa288455f8d8e4ce04e4bc8b06e2a9d1a6d833dfc83465ecaa7b0558d95b8"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "4d8432eed6984a86acf6c9f056755b3f9082eb8fcb5b3f37e96498e7871e40c9"
 metafile = true
 
 [[files]]
@@ -212,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "f32ebeb468312cf555bd84d09c1a3a6e6f9ed992e4afc3ce9620aca571490806"
+hash = "6859959461c25d035a508bd97e4ea9ddcc8241e37f1ea92e3b4d920f601913a4"
 metafile = true
 
 [[files]]
@@ -226,13 +231,18 @@ hash = "abfaa2ee07bd72ce397ed6634349baad0254df8267e924dcb4370245d0dcdece"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "3bfbc2d19394ae63fd7d85168e4dd6354989bd54a79cdf5f673433d23e164956"
+metafile = true
+
+[[files]]
 file = "mods/obe.pw.toml"
-hash = "6085a1524b3992e4caf884266228d06f7f93d4f001ae84fb79d5a39e1eef6dc1"
+hash = "e03b0a1863923b270fb2a2b2400d5c9739374bb834442b0f09975db17ca4fa68"
 metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "7f5d484b41fa0608346789ece8433ad109e9d401f867ff85377553d95a373f90"
+hash = "126cb1d23709b3d258c613da05d02c27f983e3706abe67ee94822f42efca1f75"
 metafile = true
 
 [[files]]
@@ -292,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "df213341e455bb5564003804d6efd4715297e9fa0e976161dcc12ad849446bd0"
+hash = "29c4c0384749b336c3f5fef636e616f2b8cc4afcfe626c6e16d4a0335f43b229"
 metafile = true
 
 [[files]]
@@ -347,5 +357,10 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "254c71d7e0ce74ca91e070d2dacff9d9f4deffe17bbda20449962741568fab44"
+hash = "9340ec50bcad12369714aa7975a8e53d6fd20473f6f4a65c18f5eaeaaab8295a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "784770b9d54a6ab880c0b3905c64ccff0adfa07a7b152fc1a057bfdcfaad706a"
 metafile = true

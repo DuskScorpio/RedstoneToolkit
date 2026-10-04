@@ -1,0 +1,13 @@
+name = "Syncmatica"
+filename = "syncmatica-fabric-26.3-0.3.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "554319fbea6c0f7e17c73a4fec4f984374da63dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9046951
+project-id = 525116

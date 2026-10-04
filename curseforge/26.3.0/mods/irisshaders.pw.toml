@@ -1,12 +1,12 @@
 name = "Iris Shaders"
-filename = "iris-fabric-1.11.6+mc26.3.jar.disabled"
+filename = "iris-fabric-1.11.7+mc26.3.jar.disabled"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "63493cf8c58754bf6b9db297b895aeb17393e4df"
+hash = "fa03640ba1e4ef2f7ae3619c6373a06e46d0ba2c"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 8888283
+file-id = 9015108
 project-id = 455508
