@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/vkm.pw.toml"
-hash = "01e1e8a065cc105a7f166ff37ddd174cf6c134d4691bcb52e7107fd61bc12294"
+hash = "7520b84a906b45e69a47ff727c1fbb84d3e86665e4611c91d053590a3fb18778"
 metafile = true
 
 [[files]]

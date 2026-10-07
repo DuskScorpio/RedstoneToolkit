@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.4-snapshot-2
+- Added 26.4-snapshot-3
 - Added GugleCarpetAddition
 - Added newly compatible mods to:
   - 26.2:
@@ -12,11 +12,13 @@
     - G4mespeed
     - Inv View
     - Item Scroller
+    - Krypton
     - Litematica
     - Litematica Server Paster
     - MaLiLib
     - MiniHUD
     - NBT Autocomplete
+    - No Chat Reports
     - Rail Placement Fix
     - SchematicPreview
     - Syncmatica
@@ -54,10 +56,11 @@
   - Technical Utilities
 - 26.1.2-26.3:
   - Concurrent Chunk Management Engine (Fabric)
+  - Optimized Block Entities [OBE]
   - YetAnotherConfigLib (YACL)
 - 26.2-26.3:
   - Crash Assistant
-  - Optimized Block Entities [OBE]
+  - Fast Noise
   - WorldEdit CUI
 - 1.21.1:
   - Command Keys
@@ -68,17 +71,18 @@
   - Capture & Playback
   - Cloth Config API
   - EssentialAddons
-  - Fast Noise
   - Fzzy Config
   - G4mespeed
   - Inv View
   - Item Scroller
+  - Krypton
   - LibJF
   - Litematica
   - Lithium
   - MaLiLib
   - MiniHUD
   - More Culling
+  - No Chat Reports
   - Rail Placement Fix
   - Reese's Sodium Options
   - SchematicPreview

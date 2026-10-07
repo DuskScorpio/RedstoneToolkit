@@ -1,0 +1,12 @@
+name = "Unobtainable Blocks"
+filename = "unobtainableblocks-1.4.0+mc26.3.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JQpkGd3T/versions/GECsGAPM/unobtainableblocks-1.4.0%2Bmc26.3.jar"
+hash-format = "sha512"
+hash = "9cea1820e662a9976e28dcd3ca03f8553eca74b6e72fc7327d25fb925ea7eea70f88b3f92258110716ad6b8cf601092534031c39670f3b88bc4463a6c1932623"
+
+[update.modrinth]
+mod-id = "JQpkGd3T"
+version = "GECsGAPM"

@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "db8df4c2bb3ffbc3007c45034d731cfc392665a5163a375c05397244cf0c17af"
+hash = "944345ecf0b6f3f93cee4674718fe3f1ff65596273edd9b8d21f5b77450a7287"
 metafile = true
 
 [[files]]
@@ -346,6 +346,11 @@ hash = "84a1ee4078568898046061003cc26c78d65ad8466dd4ea77de2582eede127135"
 metafile = true
 
 [[files]]
+file = "mods/unobtainable-blocks.pw.toml"
+hash = "c662d187071b0a47b2b2b29482e300de0178da3a13c9f066fd79acc7b84f3d8a"
+metafile = true
+
+[[files]]
 file = "mods/viafabricplus.pw.toml"
 hash = "3c5780f2cd8696703bd760f022dde9638d52dafb088af3aee2d17bf0e2a52f12"
 metafile = true
@@ -392,7 +397,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "0a0636ace08da4d39a638a3fde48b1c3b62fca5207c680000f3431d6bd509b24"
+hash = "5deb863b47d7d4a6567b18856e062fbf4c47bc2fc9cd55c5cfaf6f887d846494"
 metafile = true
 
 [[files]]

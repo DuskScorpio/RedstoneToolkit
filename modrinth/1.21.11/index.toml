@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "dcc9518df88d4e6d41387efcbad38925ce78c0067ed73a2a859df8a5cdf27262"
+hash = "506016a9cee9e15a164f5400a905c0486a9fd266772a3d094f6ce3a7acd0a108"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "fb36f09617aa4f71188df721149397d1385551c7393fa0d415da0f3b010794df"
+hash = "b458466fbf24d9f1eeab390ee84195c26a1170d9d399237ed1c8ca98060e834f"
 metafile = true
 
 [[files]]
