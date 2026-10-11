@@ -11,6 +11,11 @@ hash = "b5eced7c733f6f647063a64603118e492a3fd0be3c28511dca0bf2c2833d43e4"
 metafile = true
 
 [[files]]
+file = "mods/gca.pw.toml"
+hash = "89eaefa08f413b2cc6b0b84c7bcb91f2dd7f4d672e1588b18c73c4a9603e6903"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "cba33a81b81e845e3a614724751322292fb8c1d0c74ccc1509aa7181b03d052e"
 metafile = true

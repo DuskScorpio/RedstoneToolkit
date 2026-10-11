@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "3ed5c33c8918c4a5e4c0ab8e3ae5d5911392d06ffffd68e6967442b00d19c5b3"
+hash = "991e0cc9164bc05628c90058a94aff9b4e03218c1e952c71e940070aff2dadc5"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandkeys.pw.toml"
-hash = "229377667ed41879809fb077dba0348b0cf8b7507b5cb5baec4c9b7c2cf2cd31"
+hash = "c7c50cc64929fc58b3e737b792467d92ec7a149790b2eed1f0cd8077ccdc24bd"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "2468a029ed5873440116000c8e2e64c4e32f76eb9493b9e705d9adbef1b10773"
+hash = "cd080dc9b375472550624a33a8a4c4f6e2b6128ec9344effd50cae90b92eb4ad"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "2877c92939db04cc8c107a936971fdb82da7d159ab69451563df932d53c0b66a"
+hash = "5321d13b6ae98db0638cd18d214bc5bfa37b1bd75e42d8df7d417368bbbe8149"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/gca.pw.toml"
-hash = "02b7c05b512ae68d2c2ea96c52bfd6758a4a9125a497f2e164c42a6f78409357"
+hash = "71570de1dca59036c6ad9243e6a6416c144513a551684f6c12713a65eed2afa4"
 metafile = true
 
 [[files]]
@@ -113,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "55731f06646caca455d6d9667ef82e004dcf937b1fc4da448b2c8016c1b458b9"
+metafile = true
+
+[[files]]
+file = "mods/item-scroller.pw.toml"
+hash = "85aaa03c1f149bae79d2d56288983b1e3efd0236290ff4c6993e552a6ba9b638"
 metafile = true
 
 [[files]]
@@ -138,6 +143,16 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "e8db529387e9971974bb74ada3d025196de9c5db7f12b2272b119475cac88659"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "1e7c6701150b83f607c8fd03c06178d531b454f656db3937b3b4650ed10a6de6"
+metafile = true
+
+[[files]]
+file = "mods/minihud.pw.toml"
+hash = "0bec2619b0da8a40c4a6867a8ca075c1365bbacac382b6dd1252d7c0c68ba6a4"
 metafile = true
 
 [[files]]
@@ -172,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "e7b222130521f48d9d8542e0cac44e5ef74161f0a330c723b5b08b6482f4b5d1"
+hash = "c0a165790c8b647e8deee2b49009e7d05b9ba5a806d52ee6f9b5266edb9dea44"
 metafile = true
 
 [[files]]
@@ -183,6 +198,11 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "e46eebb2008d76c8c3a89a12d3a33fbd9cfa5f79564923b32d13534512b70976"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "0a108206a23a0f2757d2eb55b43e795a8e296f860e39aeea1a91c2f8aecce5b9"
 metafile = true
 
 [[files]]
@@ -233,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/tweakermore.pw.toml"
 hash = "65db35f8b95dc46c1bfed4cc7eb7140f2f8cd1b219325fa4a6a92085007419d2"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo.pw.toml"
+hash = "522a12d46d8f9d2e031d3265cba58216873daef9caf925cc25d8fadcfbdb453a"
 metafile = true
 
 [[files]]

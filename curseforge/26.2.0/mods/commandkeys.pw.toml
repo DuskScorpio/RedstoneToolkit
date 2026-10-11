@@ -1,13 +1,13 @@
 name = "Command Keys"
-filename = "commandkeys-fabric-3.103.1+26.2.jar"
+filename = "commandkeys-fabric-3.103.2+26.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e20342fa928fd76c7c21bd49796636b5c85aee2d"
+hash = "6ed6a6e8f4d7b16c3c13b0d1cc68e19c78771aee"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8389464
+file-id = 9106938
 project-id = 873388

@@ -5,6 +5,7 @@
 - Added newly compatible mods to:
   - 26.2:
     - Litematica Server Paster
+    - Unobtainable Blocks
   - 26.3:
     - Capture & Playback
     - Carpet IGNY Addition
@@ -25,6 +26,7 @@
     - Technical Utilities
     - TweakerMore
     - Tweakeroo
+    - Unobtainable Blocks
     - Vanilla Keybind Manager
     - WorldEdit
     - WorldEdit CUI
@@ -39,6 +41,8 @@
   - Ixeris
   - Litematica Server Paster
   - Vanilla Keybind Manager
+- 1.16.5-26.1.2:
+  - Fabric Language Kotlin
 - 1.19.4-26.3:
   - Carpet IGNY Addition
   - CarpetGUI
@@ -47,23 +51,24 @@
   - MagicLib
 - 1.21.1-26.3:
   - Axiom
+  - Concurrent Chunk Management Engine (Fabric)
   - Mod Menu
   - NBT Autocomplete
   - Packed Packs
+- 1.21.1-26.2:
+  - Command Keys
 - 1.21.11-26.3:
   - Iris Shaders
   - ModernFix-mVUS
+  - Optimized Block Entities [OBE]
   - Technical Utilities
 - 26.1.2-26.3:
-  - Concurrent Chunk Management Engine (Fabric)
-  - Optimized Block Entities [OBE]
+  - Fast Noise
   - YetAnotherConfigLib (YACL)
 - 26.2-26.3:
   - Crash Assistant
-  - Fast Noise
+  - Unobtainable Blocks
   - WorldEdit CUI
-- 1.21.1:
-  - Command Keys
 - 26.1.2:
   - spark
   - WikiRenderer

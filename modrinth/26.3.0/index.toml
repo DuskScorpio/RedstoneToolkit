@@ -251,6 +251,11 @@ hash = "ff6f634392e5fefbad2b57257e99472c4d8e07ca348f50f0d01ad729b48e8e45"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "71caedb7cbca7125255b94204d502a5da3d026c19dc687d68a4475c189f3f434"
+metafile = true
+
+[[files]]
 file = "mods/rail-placement-fix.pw.toml"
 hash = "da1e9a3047c4bcca3d593f90dac92acbd7df500a3f32dc68bb3ccdba9461f5a9"
 metafile = true

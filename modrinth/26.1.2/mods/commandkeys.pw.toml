@@ -1,13 +1,13 @@
 name = "Command Keys"
-filename = "commandkeys-fabric-3.102.4+26.1.2.jar"
+filename = "commandkeys-fabric-3.102.5+26.1.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/65UyswbY/versions/FZA80Lan/commandkeys-fabric-3.102.4%2B26.1.2.jar"
+url = "https://cdn.modrinth.com/data/65UyswbY/versions/L9RMY2Hm/commandkeys-fabric-3.102.5%2B26.1.2.jar"
 hash-format = "sha512"
-hash = "b84090214cb006b92c2c58867bb7070ec36060e57effd45c152a076dd287e2e286defa2ed9ec27302f99bbe95aeb8b6df1b10961efc255826ce8ab50da767937"
+hash = "6ba93c128b713ec136a248ce2f359c8faa23abe693ad4c092ebc685dfcaffade5cac122c0c8cdaaf82f80ae1a02d8bbda783fcd7bc71f48d82db1f3766d49d5d"
 
 [update]
 [update.modrinth]
 mod-id = "65UyswbY"
-version = "FZA80Lan"
+version = "L9RMY2Hm"

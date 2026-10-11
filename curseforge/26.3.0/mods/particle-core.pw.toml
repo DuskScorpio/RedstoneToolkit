@@ -1,0 +1,13 @@
+name = "Particle Core"
+filename = "particle_core-0.3.3+fix1+26.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e04e1a40ea29c704c5ce008a8e737938a53a7f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9118707
+project-id = 985426

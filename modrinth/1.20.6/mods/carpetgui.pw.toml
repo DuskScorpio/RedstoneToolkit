@@ -1,13 +1,13 @@
 name = "CarpetGUI"
-filename = "carpetgui-1.3.5-hotfix+1.20.5.jar"
+filename = "carpetgui-2.0.0+1.20.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ieIj9FLp/versions/cVPCq0L2/carpetgui-1.3.5-hotfix%2B1.20.5.jar"
+url = "https://cdn.modrinth.com/data/ieIj9FLp/versions/jvM5CFou/carpetgui-2.0.0%2B1.20.5.jar"
 hash-format = "sha512"
-hash = "e7108a987a21d87e375a79834b4f9b7a4a9532550e8cec19224f2b5b1c0b3d6b6c5a5c3b62cbd9f2d1a782114eaefcce85b27e0d08ad5f3882689233fb047fdd"
+hash = "925856ade6e4d13d129889ca6e1667bba94bd9bb8c60c2c2c878887540069b3c365a08a9f935faf1eacaaf0f1a8bd1e86001b6de2f12c450595b6566e9051e31"
 
 [update]
 [update.modrinth]
 mod-id = "ieIj9FLp"
-version = "cVPCq0L2"
+version = "jvM5CFou"
