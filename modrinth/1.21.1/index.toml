@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "6952b56c5ce2f254a065b545ad959f7854eebd47a6535c88cfb88c514c3facde"
+hash = "0b308099ee0e43d625d1bff0804425e981bd1b7f049a322bae1ffb20eb4cd221"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "10930324bc5d409d8d557b003a1b7eaf1af00dc336db8f7aea877335f0748aa1"
+hash = "9a98d8e1a0e8453f43fa01b8c0c0de6b93058b4784c9c2f54f0fbda9588da682"
 metafile = true
 
 [[files]]

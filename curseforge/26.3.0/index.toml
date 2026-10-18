@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "991e0cc9164bc05628c90058a94aff9b4e03218c1e952c71e940070aff2dadc5"
+hash = "6b18491aef7749cdccc60702d5b2ad2d03a8c4e4fc0912e28d914a4047f30cdb"
 metafile = true
 
 [[files]]
@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "00a6e949bbd2bf546ef9d59526b47bc702bea425af5bbc7f1ace1438e6fc12a6"
+hash = "7589c04e7f746e3ebd7fadb75c3a50ea1f0cf972141a10a307a1cd245b2b637c"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "770d1c73da2ebf25d6f4fab1fbe207fb78e971a3f41e3705c490b684bcbad2ae"
+hash = "da559c8d1283b3542ceb0766a9750fad7f6f909e533cca454007f4d90c96a70e"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "c0a165790c8b647e8deee2b49009e7d05b9ba5a806d52ee6f9b5266edb9dea44"
+hash = "fe8ce652109ca783f90446ecbd8939a18e08fd6aa3da122ea779d8900f4fe208"
 metafile = true
 
 [[files]]
@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "4dd03f66108f68997e092c3bd3838629fe45bd01681b4f42977b42655b8c1176"
+hash = "7a48224c7585d83af423d7e2052be89f07de16909afffb85a590019162981904"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "3ab239835fcf0110ff10070aeab382334b53401b2288379283e5bf451b28fd86"
+hash = "f4b1f7a5d40f55c9df0ddadb1704aa316136dff957c50189c88cb107aff0d83a"
 metafile = true
 
 [[files]]
@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "b719fb7acc26be8057572e12011f39e8f296cffdaae6ccedad7fef3d394a13a2"
+hash = "c0a1073bd7aba0bd8826a9b294657e7bd14062fac98ca62513a8141e11ff1a9c"
 metafile = true
 
 [[files]]

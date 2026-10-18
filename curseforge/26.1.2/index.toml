@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "3db4f971b4d90897f0730b57af64a5f48b8a01f91ed0343f33d1f1b0379e6e3b"
+hash = "3a82a7f9cf2c03cb436072906015b39017b064134650a47cfafc4d87cc901fb5"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "1fffe5b72ab3b513ebbd19f3d3f0d574b8bb20dd6e34efbb02aeb1b15735e4ee"
+hash = "b5c112b2de869ea5b505b60c1b84e0b3522e8c1dc59acfce7cd415a2c8398672"
 metafile = true
 
 [[files]]
@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "73fd06f6379cb1a02bcbddfdb926399549d6ad6dccd63fcd230ea80f389508d4"
+hash = "66e620bad45bd4cf28652c48de831d8a205d74474c23b9a472bcd20329d1c593"
 metafile = true
 
 [[files]]

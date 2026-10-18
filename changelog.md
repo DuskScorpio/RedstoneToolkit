@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.4-snapshot-3
+- Added 26.4-snapshot-4
 - Added GugleCarpetAddition
 - Added newly compatible mods to:
   - 26.2:
@@ -20,6 +20,7 @@
     - MiniHUD
     - NBT Autocomplete
     - No Chat Reports
+    - Particle Core
     - Rail Placement Fix
     - SchematicPreview
     - Syncmatica
@@ -58,17 +59,19 @@
 - 1.21.1-26.2:
   - Command Keys
 - 1.21.11-26.3:
+  - Fast Noise
   - Iris Shaders
   - ModernFix-mVUS
   - Optimized Block Entities [OBE]
   - Technical Utilities
 - 26.1.2-26.3:
-  - Fast Noise
   - YetAnotherConfigLib (YACL)
 - 26.2-26.3:
   - Crash Assistant
   - Unobtainable Blocks
   - WorldEdit CUI
+- 1.21.1:
+  - ImmediatelyFast
 - 26.1.2:
   - spark
   - WikiRenderer
@@ -88,6 +91,7 @@
   - MiniHUD
   - More Culling
   - No Chat Reports
+  - Particle Core
   - Rail Placement Fix
   - Reese's Sodium Options
   - SchematicPreview
