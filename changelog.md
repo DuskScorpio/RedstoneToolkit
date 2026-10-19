@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.4-snapshot-6
+- Added 26.4-snapshot-4
 - Added GugleCarpetAddition
 - Added newly compatible mods to:
   - 26.2:
@@ -10,7 +10,6 @@
     - Capture & Playback
     - Carpet IGNY Addition
     - CarpetGUI
-    - Cubes Without Borders
     - G4mespeed
     - Inv View
     - Item Scroller
@@ -23,7 +22,6 @@
     - No Chat Reports
     - Particle Core
     - Rail Placement Fix
-    - Redstone Multimeter Fabric
     - SchematicPreview
     - Syncmatica
     - Technical Utilities
@@ -31,7 +29,6 @@
     - Tweakeroo
     - Unobtainable Blocks
     - Vanilla Keybind Manager
-    - voxy
     - WorldEdit
     - WorldEdit CUI
     - Worldthreader
@@ -42,70 +39,52 @@
 ## Updates
 
 - 1.16.5-26.3:
-  - Cubes Without Borders
-  - Fabric Language Kotlin
   - Ixeris
-  - Litematica Server Paster
+- 1.16.5-26.2:
   - Vanilla Keybind Manager
+- 1.16.5-26.1.2:
+  - Fabric Language Kotlin
+  - Litematica Server Paster
 - 1.19.4-26.3:
-  - Carpet IGNY Addition
-  - CarpetGUI
   - Entity Culling
 - 1.16.5-1.21.1:
   - MagicLib
+- 1.19.4-26.2:
+  - Carpet IGNY Addition
+  - CarpetGUI
 - 1.21.1-26.3:
   - Axiom
-  - Command Keys
   - Concurrent Chunk Management Engine (Fabric)
   - Mod Menu
-  - NBT Autocomplete
   - Packed Packs
-  - Sodium Extra
+- 1.21.1-26.2:
+  - Command Keys
+  - NBT Autocomplete
 - 1.21.11-26.3:
   - Fast Noise
   - Iris Shaders
   - ModernFix-mVUS
   - Optimized Block Entities [OBE]
-  - Redstone Multimeter Fabric
+- 1.21.11-26.2:
   - Technical Utilities
 - 26.1.2-26.3:
-  - Fzzy Config
-  - Unobtainable Blocks
   - YetAnotherConfigLib (YACL)
 - 26.2-26.3:
   - Crash Assistant
-  - Particle Core
-  - ViaFabricPlus
-  - WorldEdit CUI
 - 1.21.1:
   - ImmediatelyFast
 - 26.1.2:
   - spark
   - WikiRenderer
+- 26.2:
+  - WorldEdit CUI
 - 26.3:
-  - Capture & Playback
-  - clientcommands
   - Cloth Config API
   - EssentialAddons
-  - Fabric API
-  - G4mespeed
-  - Inv View
-  - Item Scroller
-  - Krypton
+  - Fzzy Config
   - LibJF
-  - Litematica
   - Lithium
-  - MaLiLib
-  - MiniHUD
   - More Culling
-  - No Chat Reports
-  - Rail Placement Fix
   - Reese's Sodium Options
-  - SchematicPreview
   - Sodium
-  - Syncmatica
-  - TweakerMore
-  - Tweakeroo
-  - voxy
-  - WorldEdit
-  - Worldthreader
+  - ViaFabricPlus

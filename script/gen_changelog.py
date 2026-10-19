@@ -271,7 +271,7 @@ def main() -> None:
         for slug in sorted(updates[(start, end)], key=lambda s: resolve_mod_name(s, range_folders).lower()):
             out.append(f"  - {resolve_mod_name(slug, range_folders)}")
 
-    print("\n".join(out))
+    (REPO / "changelog.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
