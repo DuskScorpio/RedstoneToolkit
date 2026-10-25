@@ -1,12 +1,12 @@
 name = "Cubes Without Borders"
-filename = "cwb-4.1.0+26.1.jar.disabled"
+filename = "cwb-5.0.0+26.1.jar.disabled"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7bd02b375c6ffdfdcdad053113706b95ebd289f3"
+hash = "eb0ee9e80e999cd45e47aaec80cb92f1cb57f3d2"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 8288549
+file-id = 9309022
 project-id = 975120

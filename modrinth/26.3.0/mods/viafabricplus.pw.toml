@@ -1,12 +1,12 @@
 name = "ViaFabricPlus"
-filename = "ViaFabricPlus-5.1.1.jar.disabled"
+filename = "ViaFabricPlus-5.1.2.jar.disabled"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/rIC2XJV4/versions/vV9NPd0U/ViaFabricPlus-5.1.1.jar"
+url = "https://cdn.modrinth.com/data/rIC2XJV4/versions/USbdQnMN/ViaFabricPlus-5.1.2.jar"
 hash-format = "sha512"
-hash = "6d17337a833ebd6ab8dba31820196569fdda7ac2164f60bd1d05072c858a2840355d08d524decffe7d50bb4f95f489bcf4b0a114fb00fb0bc0d1be455f2c2afa"
+hash = "9e9cfb42ce09d5a18b876c20a18d8a6e76fc334976a44f14f2546b99cbf2ebc01b3f092ed2c1ba978a0213859e175e2387d05a32844166a741fa3fe18655022f"
 
 [update.modrinth]
 mod-id = "rIC2XJV4"
-version = "vV9NPd0U"
+version = "USbdQnMN"

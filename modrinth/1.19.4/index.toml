@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpetgui.pw.toml"
-hash = "a5e38814aba31cf5a2277c1be4eb82ba2f030ad52a4c1f938d8df24a86e8c4d4"
+hash = "642a7ef72b44f7c2afe7a23412f6d8aa8a991d9301a8563bd92c26abb3fe08a7"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "62b020c4da3425d223728244d92b644f5c33e3afad891aee2bfc84e86e221561"
+hash = "a285c09ad73f802c14367f57f18159043297d76f4f81923298f8875e9aa00521"
 metafile = true
 
 [[files]]
@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "313e815b70a8429ca22d3e87699b93d39f86cab357aebce27a3f8d43241fb6bf"
+hash = "8baa2784799b3bef7f6e2bcfe891cbe4763ae1418707e0e8b8df8dd5bda4d91f"
 metafile = true
 
 [[files]]

@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "4da6db433e8e2571f4c02eb26d3931696b485ab4496e0fcc16c8dd9fcd4a723b"
+hash = "1dbc3826ef9ef618f9d239a5f3f821c6bc047812f9e1603778482d0b5530cec5"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/gca.pw.toml"
-hash = "71570de1dca59036c6ad9243e6a6416c144513a551684f6c12713a65eed2afa4"
+hash = "b61831f8bdb88fec54b87766cbdac82001093a3e7eb40e6233af3a3d63c0ab0d"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "a87081063735b50042c3f7ef50024399179c929590aa32a56a969c5ad4407613"
+hash = "efa4f25dd2107b5098547820ae67eb6008d1e8cb8854ad1ba28bbf3e5e1acc88"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "22be46436a8cbc2bcb6f5f136442788af9e2a77e1abbb3c6db4bd6726bef4af8"
+hash = "36b4d081ccdbcde058114aea8cb9540e0374905feb64c77865a5a6c78b191859"
 metafile = true
 
 [[files]]
@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "66e620bad45bd4cf28652c48de831d8a205d74474c23b9a472bcd20329d1c593"
+hash = "9d5bb9024041860d1c80885dc26990cf152b50092984e94fef8a175f66242111"
 metafile = true
 
 [[files]]

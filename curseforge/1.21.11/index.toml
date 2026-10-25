@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "f9fe327312d08878c58b47843d6edcd735d199e299b8abc096e212f5ec6950ec"
+hash = "dc8813f5324c39400504b26ab8f4a7e515a1d34ed13ba872396a20d8b90cb372"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/gca.pw.toml"
-hash = "71570de1dca59036c6ad9243e6a6416c144513a551684f6c12713a65eed2afa4"
+hash = "b61831f8bdb88fec54b87766cbdac82001093a3e7eb40e6233af3a3d63c0ab0d"
 metafile = true
 
 [[files]]
@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "c13be92de9caca0cb526839a5b6d603712ce45cb64e3eca97ee7fadc7ecfa4f7"
+hash = "b04bd99931a74ac1974a443edd016d01ab730ecaa85e4b2fdbfb6f124cea2bdf"
 metafile = true
 
 [[files]]
@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "b0128d8a50a16d78d52f5b50ab67878e5e5f989b59ddcc015cb16b722bea5913"
+hash = "84ee23419aecfd7193b3fc00b46eb69d38c0f674e6459ae1c2023fccd451cd62"
 metafile = true
 
 [[files]]
@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "f90935fc9a24be6aca52ebb4593f19cc0204eae8cb825542ac74fed7394ce6b9"
+hash = "3f1cc05583f6aca853cbbe041b56522ab8d1373dcb76e5b8b8894add9f6a320c"
 metafile = true
 
 [[files]]

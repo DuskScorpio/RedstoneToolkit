@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/carpet-igny-addition.pw.toml"
-hash = "2b9ce99da559a42bc1db0ebb500ddb9dd82d6949ba86b805854d8ac3b0e2bdab"
+file = "mods/c2me-fabric.pw.toml"
+hash = "cb0b16c7a0001dfbbe87f074f5c99635aff570a058f9a75006c479082d58bc1c"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "1e2c404a655f925cbfbb70ca2836c23f47c43a44f5296526989bf8bd370295c7"
+metafile = true
+
+[[files]]
+file = "mods/gca.pw.toml"
+hash = "4efa471b6d2fddffd07a4200ab3f852f0810de22e23d5919637d8631bbf0feb4"
 metafile = true

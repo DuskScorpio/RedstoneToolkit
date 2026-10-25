@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.4-snapshot-4
+- Added 26.4-snapshot-5
 - Added GugleCarpetAddition
 - Added newly compatible mods to:
   - 26.2:
@@ -39,11 +39,12 @@
 ## Updates
 
 - 1.16.5-26.3:
+  - Fabric Language Kotlin
   - Ixeris
   - Litematica Server Paster
   - Vanilla Keybind Manager
-- 1.16.5-26.1.2:
-  - Fabric Language Kotlin
+- 1.16.5-26.2:
+  - Cubes Without Borders
 - 1.19.4-26.3:
   - Carpet IGNY Addition
   - CarpetGUI
@@ -52,23 +53,27 @@
   - MagicLib
 - 1.21.1-26.3:
   - Axiom
+  - Command Keys
   - Concurrent Chunk Management Engine (Fabric)
   - Mod Menu
   - NBT Autocomplete
   - Packed Packs
-- 1.21.1-26.2:
-  - Command Keys
 - 1.21.11-26.3:
   - Fast Noise
   - Iris Shaders
   - ModernFix-mVUS
   - Optimized Block Entities [OBE]
   - Technical Utilities
+- 1.21.11-26.2:
+  - Redstone Multimeter Fabric
 - 26.1.2-26.3:
+  - Fzzy Config
+  - Unobtainable Blocks
   - YetAnotherConfigLib (YACL)
 - 26.2-26.3:
   - Crash Assistant
-  - Unobtainable Blocks
+  - Particle Core
+  - ViaFabricPlus
   - WorldEdit CUI
 - 1.21.1:
   - ImmediatelyFast
@@ -77,9 +82,10 @@
   - WikiRenderer
 - 26.3:
   - Capture & Playback
+  - clientcommands
   - Cloth Config API
   - EssentialAddons
-  - Fzzy Config
+  - Fabric API
   - G4mespeed
   - Inv View
   - Item Scroller
@@ -91,7 +97,6 @@
   - MiniHUD
   - More Culling
   - No Chat Reports
-  - Particle Core
   - Rail Placement Fix
   - Reese's Sodium Options
   - SchematicPreview
@@ -99,6 +104,5 @@
   - Syncmatica
   - TweakerMore
   - Tweakeroo
-  - ViaFabricPlus
   - WorldEdit
   - Worldthreader

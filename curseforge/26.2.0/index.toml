@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "7a4b04eea830e36e894e3b5777d6bac6c16d07e14fd18283761a0d445af8362a"
+hash = "b2d812d86060d6412f3ec3bb4d8d432e459f656b54eb721ae16921d6156104d1"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/gca.pw.toml"
-hash = "71570de1dca59036c6ad9243e6a6416c144513a551684f6c12713a65eed2afa4"
+hash = "b61831f8bdb88fec54b87766cbdac82001093a3e7eb40e6233af3a3d63c0ab0d"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "331608d38005bcfcb86bdd65d3c52ba328db47b5efa8d4de37024d43b35b57b2"
+hash = "fd2d42e929521170f7d6a26a44f7afd2bf4324edc798c499c9b5b8c727f6c0a2"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "b09c8b9106268e00db1033bebb4fc64e63bedd2be6bd8bea892891f62e69bf63"
+hash = "3c2b70d9495b0718a85e087148c099b0d3fc6a644417d1e6ffd6ff9a1d189adb"
 metafile = true
 
 [[files]]
@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "931f4ad3c8b7c3f475a12c740cd772d2af251ed5658697e1c6e27e9b2796a1c6"
+hash = "9f5b9d7e5694bb9d163413c84f00912c539e59aab0c39f455ca465b3e236f287"
 metafile = true
 
 [[files]]

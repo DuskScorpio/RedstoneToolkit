@@ -1,12 +1,12 @@
 name = "Unobtainable Blocks"
-filename = "unobtainableblocks-1.4.0+mc26.1.jar.disabled"
+filename = "unobtainableblocks-1.4.0+mc26.3.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JQpkGd3T/versions/DnvkGBhQ/unobtainableblocks-1.4.0%2Bmc26.1.jar"
+url = "https://cdn.modrinth.com/data/JQpkGd3T/versions/GECsGAPM/unobtainableblocks-1.4.0%2Bmc26.3.jar"
 hash-format = "sha512"
-hash = "56a6a2b939da4f151ffe9bcafb5c1c0c70609f2ecbc2f661db47129541331e374811805bbe921567ea90aea06c002255b4593317d1bc0f7589b93b5c18b78eae"
+hash = "9cea1820e662a9976e28dcd3ca03f8553eca74b6e72fc7327d25fb925ea7eea70f88b3f92258110716ad6b8cf601092534031c39670f3b88bc4463a6c1932623"
 
 [update.modrinth]
 mod-id = "JQpkGd3T"
-version = "DnvkGBhQ"
+version = "GECsGAPM"

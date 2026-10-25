@@ -1,13 +1,13 @@
 name = "Ixeris"
-filename = "Ixeris-4.6.8+1.16.5-fabric.jar"
+filename = "Ixeris-4.6.10+1.16.5-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/p8RJPJIC/versions/nKpaI4Zl/Ixeris-4.6.8%2B1.16.5-fabric.jar"
+url = "https://cdn.modrinth.com/data/p8RJPJIC/versions/Fk7XLSFc/Ixeris-4.6.10%2B1.16.5-fabric.jar"
 hash-format = "sha512"
-hash = "4d3b67938f41a9a04d89f8cd0581d8dcbca4adda47a5bd0245308c5a5797bd702085e4ecf1fcc25928c1972aa6a28e1f46d5df56a42b9b4ce1a64f50a9976e80"
+hash = "e2370c46ba66cca3ac7fb545e7922303b54e1d9d2fb03750e486a8087840b15ea6b92dbad4d2023ea8c7a40100010d6f8c70b290a279292661b6eb5174d972ec"
 
 [update]
 [update.modrinth]
 mod-id = "p8RJPJIC"
-version = "nKpaI4Zl"
+version = "Fk7XLSFc"

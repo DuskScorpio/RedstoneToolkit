@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "8531b91b9d082eeaa0be9c37d60376150bbeaa81bebac6d32fe0f3e58d85e25e"
+hash = "def158025629e2cfeff4b2e0e3030391bdee79b2ba66a68e370f22228b9b51bb"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "e1c5adf08e2b991c1daf880597bdd55bccd998117773df0e3925b67b75bdb1e2"
+hash = "0a7f8331674ff47b4d01f245b79d990a53dcb35e8914bbb16e46d18d2c31d3ef"
 metafile = true
 
 [[files]]
