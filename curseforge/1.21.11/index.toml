@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "b04bd99931a74ac1974a443edd016d01ab730ecaa85e4b2fdbfb6f124cea2bdf"
+hash = "9309934d9aeeaf0f88af853de11ed6ebbb40637cb598317e7696897fa0b57d66"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "5a509c2497a0f6098f11313db6842470cb4e9fec0416d0baab69f3960f3c34e5"
+hash = "144e5e575269a2457b4b1c68436c49d1686a0c1e92eeef38f26ac75add687049"
 metafile = true
 
 [[files]]
@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "213c17ffeace079d1263b75a64126d5fca1e87989eef095078c5385bd9995815"
+hash = "282ced9f0d629ceadb1edc2e018d4cef90b4eb6b0eea3dcf9d5c5ed0e3584fc1"
 metafile = true
 
 [[files]]

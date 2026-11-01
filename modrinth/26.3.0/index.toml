@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "2b6b42e67e8c050bd13d6ea33396b0e4bab7a404dd35e166a46d874d1ab20224"
+hash = "730789f2835bc8322b6c131c0991292b0ce3fcaf33c81099ab142d24e0528750"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "a5dd86a4e914c2738eab7c62da2de48c65a3f82d0e021d59026938b595f6f0a3"
+hash = "8c2c5c7174a01b1f3c3c62653f3431a9dcf108e736c4f14c4a49b6b5e03c10b0"
 metafile = true
 
 [[files]]
@@ -111,6 +111,11 @@ hash = "1811d49906aa7a1e7f1230535c6fec91be45129d028f7900cf35571a497e42b3"
 metafile = true
 
 [[files]]
+file = "mods/fabrishot.pw.toml"
+hash = "3c718004fda802c4d32a99b4c3885182eac6e1e073073b969a67949e1fe27aed"
+metafile = true
+
+[[files]]
 file = "mods/fastquit.pw.toml"
 hash = "95c091b5c1c232a85abb5064f614fdc68e47fb2cb3881a9f6eacc86c8d65ecc4"
 metafile = true
@@ -172,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "1aed8e425e3ba52c904c6fc928642932d148db140f788a204dfd828292b16f19"
+hash = "3bb2439ed9e9fb3fa980112396aead7723bd206289b4055db74b3f560b472f7f"
 metafile = true
 
 [[files]]
@@ -197,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "a39389e4c813b70b984a0c8aed769825b32c321ee0b9aed1151d92cb38f77357"
+hash = "b44f3ab71e52f1aaae97cf8644f2316042de8b7777d6b6794567c8c7d220bd2b"
 metafile = true
 
 [[files]]
@@ -292,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "69d683554d0db2dc59ce9ed08b28743ddb56d9ea12b80e52e43051d082987bd2"
+hash = "56bb32f1d8f7148d559b15806185b69023a7b04d228ed6143a54601ee5e57279"
 metafile = true
 
 [[files]]
@@ -337,7 +342,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "536735d7ad1508b2bb6fb279324bb4bea6abdac943bc5c341cd19c9784c2dc53"
+hash = "eed863d78f7a4feebd0749be79c0ec6761b081eb1cea0a2dff1dcb8d1754018c"
 metafile = true
 
 [[files]]
@@ -382,7 +387,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "9340ec50bcad12369714aa7975a8e53d6fd20473f6f4a65c18f5eaeaaab8295a"
+hash = "cf91f2e90c6b5ee044754e70bcbb574dc4a182604b42398bd2476ed1d68df1f5"
 metafile = true
 
 [[files]]

@@ -81,6 +81,11 @@ hash = "5321d13b6ae98db0638cd18d214bc5bfa37b1bd75e42d8df7d417368bbbe8149"
 metafile = true
 
 [[files]]
+file = "mods/fabrishot.pw.toml"
+hash = "54bc95ebf6d489fd470a0ec94b947345e3c5c3ef5dd144bc37922624f8c92463"
+metafile = true
+
+[[files]]
 file = "mods/fastquit.pw.toml"
 hash = "29e18aaa435d747139a9afee4c75856169ad4fa5f83d3449502c14732df54539"
 metafile = true
@@ -127,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "fd2d42e929521170f7d6a26a44f7afd2bf4324edc798c499c9b5b8c727f6c0a2"
+hash = "13a358092999b8ed985f1c80523c5abc1200dbd8bf511ac24a2f4eabff999289"
 metafile = true
 
 [[files]]
@@ -247,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "9379df7922db3313dd8986e86e0f320b94489c334b3d1429b3ec46e66b57e54c"
+hash = "63b7bf68d994f63c76165e72d9fa738a8c1db8a003c0118c83d69832702c2e36"
 metafile = true
 
 [[files]]

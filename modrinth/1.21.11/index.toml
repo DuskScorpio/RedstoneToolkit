@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "8a2cdb6cfffc7376b78dfa43c580bb1d14bf08bcf545269eba61bf189e902e95"
+hash = "20d26bcf7f2f4ef4eb858390034231cb2907577a43e9c49ea6a75667c120f0fc"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "7ac79e33d54e290d9754862ae42d29a2eeb9729aaa049db5e5c0a39ca160e037"
+hash = "c4994330f57e84a0636152b4863e312bfaf282a1dacccbee8144266fd6e26aba"
 metafile = true
 
 [[files]]
@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "566dcba93a306fd381d7b423efde974fd0ed8b4b059b0595c72eba68abd6e490"
+hash = "547b9ee1303835034375f028c5af0a7fdfb688b209440cb8f677464a35242804"
 metafile = true
 
 [[files]]

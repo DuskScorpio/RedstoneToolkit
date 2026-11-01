@@ -1,0 +1,12 @@
+name = "Fabrishot"
+filename = "fabrishot-1.18.0.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6737662bd856299ceb91356dfaa35d6532d48467"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9383483
+project-id = 404870

@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "6b18491aef7749cdccc60702d5b2ad2d03a8c4e4fc0912e28d914a4047f30cdb"
+hash = "61181b17a0f459467e858ae5b17ac7bf01fa6221ff7e55dcc16fcbfb8328bb95"
 metafile = true
 
 [[files]]
@@ -81,6 +81,11 @@ hash = "5321d13b6ae98db0638cd18d214bc5bfa37b1bd75e42d8df7d417368bbbe8149"
 metafile = true
 
 [[files]]
+file = "mods/fabrishot.pw.toml"
+hash = "cadf0831a403ac511128780b5db1b0ea58df5bffcc272ffa79fd8d77db1251d4"
+metafile = true
+
+[[files]]
 file = "mods/fastquit.pw.toml"
 hash = "29e18aaa435d747139a9afee4c75856169ad4fa5f83d3449502c14732df54539"
 metafile = true
@@ -127,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "90dd0552acdff567b294c6bb38dc2b57ca0c8e47f40cf3e854fb2047284c9433"
+hash = "abf3f55caf58bd0e409881ca398f27a2310b50390865dec108957b714493c880"
 metafile = true
 
 [[files]]
@@ -147,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "e8db529387e9971974bb74ada3d025196de9c5db7f12b2272b119475cac88659"
+hash = "6a1934dda49a64546423c6496b56629b65498529000b7a383bf6bfaa9178eea6"
 metafile = true
 
 [[files]]
@@ -237,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "b788ead3987f283fc3482d3a8b2d9f81099731172e99bf244900226b3b4d4bcb"
+hash = "9c3787b611989fae8156724a30c98eae10952a98a9178481ff0325b32bde75dd"
 metafile = true
 
 [[files]]
@@ -267,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "c36d12a1e163a598ded9b57233edf518900b340e42ae7851bfa09dcd05101d47"
+hash = "ec405d092d569c93368ddb9961eab5caae7c98a5ceb61ae486a0f6b2694b1aa2"
 metafile = true
 
 [[files]]
@@ -297,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "0b56dc12c711c5f76162e1a907f9ab21f893690d146b1ecbe081d4dfc48f3f13"
+hash = "d97dceb69eb57ac263877372120a768672ee02f88bfcc1b883d3e2ecd12ef9e1"
 metafile = true
 
 [[files]]

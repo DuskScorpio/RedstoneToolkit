@@ -1,0 +1,12 @@
+name = "Fabrishot"
+filename = "fabrishot-1.18.0.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3qsfQtE9/versions/3Ajux16J/fabrishot-1.18.0.jar"
+hash-format = "sha512"
+hash = "e8ca729451e7a17cc4538bcd468e7721ca2ac5d6ab36ec7cdd2f94114fee21f74c8221954c105289a003112a98ccc12d5bb58c3c841c62a164fe30e1a057a492"
+
+[update.modrinth]
+mod-id = "3qsfQtE9"
+version = "3Ajux16J"

@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.4-snapshot-5
+- Added 26.4-snapshot-6
 - Added GugleCarpetAddition
 - Added newly compatible mods to:
   - 26.2:
@@ -10,6 +10,7 @@
     - Capture & Playback
     - Carpet IGNY Addition
     - CarpetGUI
+    - Cubes Without Borders
     - G4mespeed
     - Inv View
     - Item Scroller
@@ -22,6 +23,7 @@
     - No Chat Reports
     - Particle Core
     - Rail Placement Fix
+    - Redstone Multimeter Fabric
     - SchematicPreview
     - Syncmatica
     - Technical Utilities
@@ -29,6 +31,7 @@
     - Tweakeroo
     - Unobtainable Blocks
     - Vanilla Keybind Manager
+    - voxy
     - WorldEdit
     - WorldEdit CUI
     - Worldthreader
@@ -39,12 +42,11 @@
 ## Updates
 
 - 1.16.5-26.3:
+  - Cubes Without Borders
   - Fabric Language Kotlin
   - Ixeris
   - Litematica Server Paster
   - Vanilla Keybind Manager
-- 1.16.5-26.2:
-  - Cubes Without Borders
 - 1.19.4-26.3:
   - Carpet IGNY Addition
   - CarpetGUI
@@ -58,14 +60,14 @@
   - Mod Menu
   - NBT Autocomplete
   - Packed Packs
+  - Sodium Extra
 - 1.21.11-26.3:
   - Fast Noise
   - Iris Shaders
   - ModernFix-mVUS
   - Optimized Block Entities [OBE]
-  - Technical Utilities
-- 1.21.11-26.2:
   - Redstone Multimeter Fabric
+  - Technical Utilities
 - 26.1.2-26.3:
   - Fzzy Config
   - Unobtainable Blocks
@@ -104,5 +106,6 @@
   - Syncmatica
   - TweakerMore
   - Tweakeroo
+  - voxy
   - WorldEdit
   - Worldthreader
