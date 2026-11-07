@@ -1,0 +1,12 @@
+name = "voxy"
+filename = "voxy-0.2.20-beta.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fxxUqruK/versions/iIrM8ZKQ/voxy-0.2.20-beta.jar"
+hash-format = "sha512"
+hash = "ab502017b3241e1307717ca426ba564f1450ddb7d9d37e95759e57ee5edc7cb014aa48628f51f6010ffd2a410dadf1f4eea7ba86c0da6233059c0a6120157a01"
+
+[update.modrinth]
+mod-id = "fxxUqruK"
+version = "iIrM8ZKQ"

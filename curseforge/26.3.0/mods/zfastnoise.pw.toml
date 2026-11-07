@@ -1,13 +1,13 @@
 name = "Fast Noise"
-filename = "zfastnoise-1.1.1+26.3.jar"
+filename = "zfastnoise-1.1.2-26.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f440a683630858b8d4d69a170eae4428e0e5af51"
+hash = "e8a325192fbe976e04795f45d7062f1241648a5e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9026898
+file-id = 9369345
 project-id = 1460602

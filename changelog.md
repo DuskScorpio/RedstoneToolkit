@@ -1,90 +1,93 @@
 ## News
 
-- Added 26.4-snapshot-4
+- Added 1.21.1
+- Added 26.2
+- Added 26.3
+- Added 26.4-snapshot-7
 - Added GugleCarpetAddition
+- Added IBCarpet
+- Added Optimized Block Entities [OBE]
+- Added ZConfig
 - Added newly compatible mods to:
-  - 26.2:
-    - Litematica Server Paster
-    - Unobtainable Blocks
-  - 26.3:
-    - Capture & Playback
-    - Carpet IGNY Addition
-    - CarpetGUI
-    - G4mespeed
-    - Inv View
-    - Item Scroller
-    - Krypton
-    - Litematica
-    - Litematica Server Paster
-    - MaLiLib
-    - MiniHUD
-    - NBT Autocomplete
-    - No Chat Reports
-    - Particle Core
-    - Rail Placement Fix
-    - SchematicPreview
-    - Syncmatica
-    - Technical Utilities
-    - TweakerMore
-    - Tweakeroo
-    - Unobtainable Blocks
-    - Vanilla Keybind Manager
-    - WorldEdit
+  - 1.16.5:
     - WorldEdit CUI
-    - Worldthreader
+  - 1.18.2:
+    - WorldEdit CUI
+  - 1.19.4:
+    - WorldEdit CUI
+  - 26.1.2:
+    - Carpet Extra
+    - SchematicPreview
 
 ## Changes
 
+- Removed 1.21
+- Removed Better Block Entities
 
 ## Updates
 
-- 1.16.5-26.3:
-  - Ixeris
-- 1.16.5-26.2:
-  - Vanilla Keybind Manager
 - 1.16.5-26.1.2:
+  - Carpet TIS Addition
+  - Crash Assistant
   - Fabric Language Kotlin
+  - Ixeris
   - Litematica Server Paster
-- 1.19.4-26.3:
-  - Entity Culling
-- 1.16.5-1.21.1:
+  - TweakerMore
+  - Vanilla Keybind Manager
+- 1.16.5-1.20.6:
   - MagicLib
-- 1.19.4-26.2:
+- 1.19.4-26.1.2:
   - Carpet IGNY Addition
   - CarpetGUI
-- 1.21.1-26.3:
+  - Entity Culling
+- 1.16.5-1.19.4:
+  - WorldEdit
+- 1.20.6-26.1.2:
+  - Capture & Playback
+  - Fast Noise
+  - G4mespeed
+  - SubTick
+- 1.21.11-26.1.2:
   - Axiom
   - Concurrent Chunk Management Engine (Fabric)
-  - Mod Menu
-  - Packed Packs
-- 1.21.1-26.2:
-  - Command Keys
-  - NBT Autocomplete
-- 1.21.11-26.3:
-  - Fast Noise
-  - Iris Shaders
-  - ModernFix-mVUS
-  - Optimized Block Entities [OBE]
-- 1.21.11-26.2:
-  - Technical Utilities
-- 26.1.2-26.3:
-  - YetAnotherConfigLib (YACL)
-- 26.2-26.3:
-  - Crash Assistant
-- 1.21.1:
+  - Fabric API
   - ImmediatelyFast
-- 26.1.2:
-  - spark
+  - Iris Shaders
+  - Item Scroller
+  - Litematica
+  - MaLiLib
+  - MiniHUD
+  - Mod Menu
+  - ModernFix-mVUS
+  - NBT Autocomplete
+  - Packed Packs
+  - Reese's Sodium Options
+  - ScalableLux
+  - Sodium
+  - Sodium Extra
+  - Syncmatica
+  - Technical Utilities
+  - Tweakeroo
+  - ViaFabricPlus
   - WikiRenderer
-- 26.2:
-  - WorldEdit CUI
-- 26.3:
-  - Cloth Config API
-  - EssentialAddons
+- 1.20.6:
+  - YetAnotherCarpetAddition
+- 1.21.11:
   - Fzzy Config
+  - SchematicPreview
+- 26.1.2:
+  - AppleSkin
+  - Auth Me
+  - Carpet
+  - clientcommands
+  - Command Keys
+  - Cubes Without Borders
+  - EssentialAddons
   - LibJF
   - Lithium
   - More Culling
-  - Reese's Sodium Options
-  - Sodium
-  - ViaFabricPlus
+  - oωo (owo-lib)
+  - Respackopts
+  - spark
+  - Worldthreader
+  - YetAnotherConfigLib (YACL)

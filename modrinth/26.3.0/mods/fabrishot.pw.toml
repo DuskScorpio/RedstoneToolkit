@@ -1,0 +1,12 @@
+name = "Fabrishot"
+filename = "fabrishot-1.19.0.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3qsfQtE9/versions/OUYZYPVS/fabrishot-1.19.0.jar"
+hash-format = "sha512"
+hash = "c04e334c9903fd3ae90e6914844738f92cc756891e5568a5e8fc1205476cf1faa5c6711bb4688181942ed07dcd8c554df34dcbc2070c910d9418974c6ca74bfa"
+
+[update.modrinth]
+mod-id = "3qsfQtE9"
+version = "OUYZYPVS"
