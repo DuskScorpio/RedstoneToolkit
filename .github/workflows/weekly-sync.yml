@@ -82,7 +82,7 @@ jobs:
           fi
 
       - name: generate changelog
-        run: python script/gen_changelog.py > changelog.md
+        run: python script/gen_changelog.py
 
       - name: show changes
         run: |

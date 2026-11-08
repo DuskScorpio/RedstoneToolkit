@@ -210,6 +210,8 @@ def main() -> None:
             if not is_new_pack_mod(slug, [folder], new_file_list_ids):
                 newly_compatible[folder].append(slug)
 
+    added_paths_set = set(added_mod_paths)
+
     mod_versions: dict[str, set[str]] = defaultdict(set)
     changed_paths = run_git(
         "diff",
@@ -220,6 +222,8 @@ def main() -> None:
         f"{PLATFORM}/*/mods/*.pw.toml",
     ).splitlines()
     for rel in changed_paths:
+        if rel in added_paths_set:
+            continue
         path = REPO / rel
         parts = Path(rel).parts
         if len(parts) != 4:
@@ -267,7 +271,7 @@ def main() -> None:
         for slug in sorted(updates[(start, end)], key=lambda s: resolve_mod_name(s, range_folders).lower()):
             out.append(f"  - {resolve_mod_name(slug, range_folders)}")
 
-    print("\n".join(out))
+    (REPO / "changelog.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
