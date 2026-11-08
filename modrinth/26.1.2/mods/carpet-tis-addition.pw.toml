@@ -1,13 +1,13 @@
 name = "Carpet TIS Addition"
-filename = "carpet-tis-addition-v1.82.4-mc26.1.2.jar"
+filename = "carpet-tis-addition-v1.83.2-mc26.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jE0SjGuf/versions/5mBVN5D0/carpet-tis-addition-v1.82.4-mc26.1.2.jar"
+url = "https://cdn.modrinth.com/data/jE0SjGuf/versions/3qCIBxJx/carpet-tis-addition-v1.83.2-mc26.1.2.jar"
 hash-format = "sha512"
-hash = "d735920a724845c2606fed5a30ad779c05e90c81ce82d315b7cf7e14e8219a6431490a74ddd8d0773b762a78bfffcef9cfdb118a801fd5cd1557e82815cf170a"
+hash = "831295f78e516fb55a236d4fa074a27e633c06d3e1b6807f87897d52003e4f684d47c3f227768b327d5be7828e2e8d1976d099fcc2ebbd523cf0b0faecb678a3"
 
 [update]
 [update.modrinth]
 mod-id = "jE0SjGuf"
-version = "5mBVN5D0"
+version = "3qCIBxJx"

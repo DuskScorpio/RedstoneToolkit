@@ -51,6 +51,8 @@
   - Vanilla Keybind Manager
 - 1.16.5-26.1.2:
   - Litematica Server Paster
+- 1.18.2-26.3:
+  - Carpet TIS Addition
 - 1.19.4-26.3:
   - Entity Culling
 - 1.16.5-1.21.1:
@@ -91,7 +93,6 @@
   - Particle Core
   - WorldEdit CUI
 - 26.3:
-  - Carpet TIS Addition
   - ChunkDebug
   - clientcommands
   - Cloth Config API

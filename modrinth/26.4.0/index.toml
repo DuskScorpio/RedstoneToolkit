@@ -1,2 +1,16 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "36f9550e34df4af0786d48831da947cc61a8008c79983c3932c924f75d78216e"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "8cf29cbd438f1eb9a04b2d5ea469a7503870845eba62c15f8cb2fe6d24bf1c3c"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "02be113043905d03aeefcd9b2f8d00efd011de5ee916d6fc9bcd6b9a54f09a5c"
+metafile = true

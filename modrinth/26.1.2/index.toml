@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "5f78f78443ce06d333e2622dd7a8eeec66977e1bd4f1926736da1ab715dc97f9"
+hash = "4da992ef3a4a5f648ebdac958409994f64bfcd8df2571770829473dcf4dd82a3"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "02fd3220504beae2ea90c121804e4c2ded3e61c99451314ec41bd468245ea907"
+hash = "644bf3db11c40e0a9443fa33e7658deb96969689a11033cfcaa3aaa85210b3e6"
 metafile = true
 
 [[files]]
