@@ -1,16 +1,2 @@
 hash-format = "sha256"
-
-[[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "85f192e283df95f67b380b029629f4b915d6634d7a5ae71031d8f932c485965c"
-metafile = true
-
-[[files]]
-file = "mods/fabric-api.pw.toml"
-hash = "f44afa43de55b53824d6de340a950038e74e7dd82707953df48d474bea1418f7"
-metafile = true
-
-[[files]]
-file = "mods/modmenu.pw.toml"
-hash = "207c9dfefcedb60b44354b04b91626be6d70f5556a218f4d222c73426bbfd75a"
-metafile = true
+files = []

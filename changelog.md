@@ -1,15 +1,18 @@
 ## News
 
-- Added 26.4-snapshot-4
+- Added 26.4-snapshot-7
 - Added GugleCarpetAddition
 - Added newly compatible mods to:
   - 26.2:
+    - Fabrishot
     - Litematica Server Paster
     - Unobtainable Blocks
   - 26.3:
     - Capture & Playback
     - Carpet IGNY Addition
     - CarpetGUI
+    - Cubes Without Borders
+    - Fabrishot
     - G4mespeed
     - Inv View
     - Item Scroller
@@ -22,6 +25,7 @@
     - No Chat Reports
     - Particle Core
     - Rail Placement Fix
+    - Redstone Multimeter Fabric
     - SchematicPreview
     - Syncmatica
     - Technical Utilities
@@ -29,6 +33,7 @@
     - Tweakeroo
     - Unobtainable Blocks
     - Vanilla Keybind Manager
+    - voxy
     - WorldEdit
     - WorldEdit CUI
     - Worldthreader
@@ -39,11 +44,12 @@
 ## Updates
 
 - 1.16.5-26.3:
+  - Fabric Language Kotlin
   - Ixeris
 - 1.16.5-26.2:
+  - Cubes Without Borders
   - Vanilla Keybind Manager
 - 1.16.5-26.1.2:
-  - Fabric Language Kotlin
   - Litematica Server Paster
 - 1.19.4-26.3:
   - Entity Culling
@@ -54,11 +60,12 @@
   - CarpetGUI
 - 1.21.1-26.3:
   - Axiom
+  - Command Keys
   - Concurrent Chunk Management Engine (Fabric)
   - Mod Menu
   - Packed Packs
+  - Sodium Extra
 - 1.21.1-26.2:
-  - Command Keys
   - NBT Autocomplete
 - 1.21.11-26.3:
   - Fast Noise
@@ -66,25 +73,32 @@
   - ModernFix-mVUS
   - Optimized Block Entities [OBE]
 - 1.21.11-26.2:
+  - Redstone Multimeter Fabric
   - Technical Utilities
 - 26.1.2-26.3:
+  - Fzzy Config
   - YetAnotherConfigLib (YACL)
 - 26.2-26.3:
   - Crash Assistant
+  - ViaFabricPlus
 - 1.21.1:
   - ImmediatelyFast
 - 26.1.2:
   - spark
+  - Unobtainable Blocks
   - WikiRenderer
 - 26.2:
+  - Particle Core
   - WorldEdit CUI
 - 26.3:
+  - Carpet TIS Addition
+  - ChunkDebug
+  - clientcommands
   - Cloth Config API
   - EssentialAddons
-  - Fzzy Config
+  - Fabric API
   - LibJF
   - Lithium
   - More Culling
   - Reese's Sodium Options
   - Sodium
-  - ViaFabricPlus
