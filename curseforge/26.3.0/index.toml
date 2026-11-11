@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/gca.pw.toml"
-hash = "b61831f8bdb88fec54b87766cbdac82001093a3e7eb40e6233af3a3d63c0ab0d"
+hash = "5c050dc4cd8f948a82f4cb323d0e767d9915a832417e6da5f5263c5014f17adc"
 metafile = true
 
 [[files]]
@@ -277,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "c0a1073bd7aba0bd8826a9b294657e7bd14062fac98ca62513a8141e11ff1a9c"
+hash = "77eab10af91f5cae0a2c999010ba72e7baeabefab2d43c6767b7def981b74839"
 metafile = true
 
 [[files]]
