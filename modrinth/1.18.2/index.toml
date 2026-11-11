@@ -141,11 +141,6 @@ hash = "ca4c6645feef358e09d52c8aaf4fbd6d05480fc8696c44e3d97408aa61be1313"
 metafile = true
 
 [[files]]
-file = "mods/gca.pw.toml"
-hash = "ccb1ab6772c6f350299a3404d23fb76449711892ca4f266014f2deb78a3ccb73"
-metafile = true
-
-[[files]]
 file = "mods/hold-that-chunk.pw.toml"
 hash = "d2f26f68d064d40da83055fe45e330b5740afe1479125ef7c5bb32e61f5324c0"
 metafile = true

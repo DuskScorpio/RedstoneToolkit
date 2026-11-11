@@ -1,13 +1,13 @@
 name = "clientcommands"
-filename = "clientcommands-2.16.3.jar"
+filename = "clientcommands-2.16.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/7Coz83fv/versions/QkoqRvm6/clientcommands-2.16.3.jar"
+url = "https://cdn.modrinth.com/data/7Coz83fv/versions/PciJjRRE/clientcommands-2.16.4.jar"
 hash-format = "sha512"
-hash = "0f86a57124de89fb2fc29103eeb48ac28e8a231b591bb1e136665a364c28bb2147b72cab3610b080f5baaeb7af209b16ef16decedbf36cad60fae42020ab8a84"
+hash = "3be67bf92fc67f32432070e86179f0f81601673de1052b92236f8a94ccecaa37dd47d4fd75fc7be98f16527ea1844a4bb940c2f1d71703bce056a79c36fcd807"
 
 [update]
 [update.modrinth]
 mod-id = "7Coz83fv"
-version = "QkoqRvm6"
+version = "PciJjRRE"

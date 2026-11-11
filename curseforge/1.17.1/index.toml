@@ -106,11 +106,6 @@ hash = "9831d543b24dff9b5d352f1c6f94ad0cbac750cf250916e8eeca7364139c00e1"
 metafile = true
 
 [[files]]
-file = "mods/gca.pw.toml"
-hash = "cf43a28d71988597d8500dc57cc813a9f2f29db3934a85cf528792e369d6c317"
-metafile = true
-
-[[files]]
 file = "mods/indium.pw.toml"
 hash = "62d089808ed77b840d145a5a3305ff6ec7ee9758c2a60a6d625d3380656ccbda"
 metafile = true

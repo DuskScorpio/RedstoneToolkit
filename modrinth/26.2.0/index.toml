@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "0604ed7b9ffb9df7ff435ef3b2f828a03b082cec71cc86428f3ce42bb3e3c7e3"
+hash = "fb3339250d1fef30063fe4541387fcc00aaa578248c68f00c4c7a764421a5207"
 metafile = true
 
 [[files]]
@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "a7038f7260b128480f8a62b12e5583240c2a94bd782c1b60e2356ec7a3843e4c"
+hash = "1af972224a9b637190ab7da2ebe70efb195b12c7ab644116803a4f23980435f1"
 metafile = true
 
 [[files]]

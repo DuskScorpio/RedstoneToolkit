@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "059ec7f16817386804081b96284d1cce1bab85a29cb6295d045d952d24574596"
+hash = "33fc3f668fa1a40b6cd0d72111f87666deb5f97ec79385e04351149f79ed3bdb"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "55bd7f56388976894e3f57d75048c3772004cf81087bc85e7963eedfaa48a19b"
+hash = "48fd0662990f76b67fa3e93a9790b15ff4a4990cbd5896f18d45673b8f25eadd"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Mod Menu"
+filename = "modmenu-22.0.0-alpha.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/q6p4cXro/modmenu-22.0.0-alpha.4.jar"
+hash-format = "sha512"
+hash = "5a3a5036d13495d9254fc023ebcc1a8d838f498ec151e5b69077e4e6670a0257f5eb4e166467238cbc1985ab8711db1ef0eda534caf9ef5f530aee43f1cc2620"
+
+[update]
+[update.modrinth]
+mod-id = "mOgUt4GM"
+version = "q6p4cXro"

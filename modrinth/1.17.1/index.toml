@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "900b4b1d174acc93f887d7f147ed92a535fc0c51876d9568e1c1eb741fddf354"
+hash = "f65b48f8d937c6db65209126c7813c9102e2bf1be62545ecf20e940baab662d6"
 metafile = true
 
 [[files]]
@@ -133,11 +133,6 @@ metafile = true
 [[files]]
 file = "mods/g4mespeed.pw.toml"
 hash = "a9704735662fc017243d420f97e7dc2cd8c02a24e8143a349de9592b0279f842"
-metafile = true
-
-[[files]]
-file = "mods/gca.pw.toml"
-hash = "ccb1ab6772c6f350299a3404d23fb76449711892ca4f266014f2deb78a3ccb73"
 metafile = true
 
 [[files]]
