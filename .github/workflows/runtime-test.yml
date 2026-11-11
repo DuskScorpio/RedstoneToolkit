@@ -115,6 +115,7 @@ jobs:
               "1.21.1": {"spark"},
               "1.21.11": {"voxy"},
               "26.2.0": {"voxy"},
+              "26.3.0": {"iris"},
           }.get(pack_version, set())
 
           for path in sorted(mods_dir.glob("*.pw.toml")):
