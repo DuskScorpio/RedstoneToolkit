@@ -18,3 +18,5 @@
   - Concurrent Chunk Management Engine (Fabric)
 - 26.3:
   - clientcommands
+  - GugleCarpetAddition
+  - WorldEdit
