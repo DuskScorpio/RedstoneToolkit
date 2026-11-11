@@ -6,6 +6,8 @@ enabled_files:
   - mr_slug: carpet
     cf_slug: carpet
     name: Carpet
+    urls:
+      26.4.0: "https://github.com/gnembon/fabric-carpet/releases/download/v26.4-beta-5/fabric-carpet-26.4-beta-5+v261104.jar"
   - mr_slug: carpet-tis-addition
     cf_slug: carpet-tis-addition
   - mr_slug: ibcarpet
@@ -181,6 +183,7 @@ disabled_files:
   - mr_slug: essentialaddons
   - mr_slug: gca
     cf_slug: gca
+    version: ">=1.19.0"
 
   # Fixes
   - mr_slug: wecuifix
