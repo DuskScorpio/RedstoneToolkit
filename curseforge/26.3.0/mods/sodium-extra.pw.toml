@@ -1,13 +1,13 @@
 name = "Sodium Extra"
-filename = "sodium-extra-fabric-0.9.6-beta.3-mc26.3.jar"
+filename = "sodium-extra-fabric-0.9.6-beta.4-mc26.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "272ee2d0c23133b9c4183a609e88c1892d326c42"
+hash = "7d8d5c0aa4ca4750c6eafdea3471c138b2a9a1f0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9510027
+file-id = 9580258
 project-id = 447673

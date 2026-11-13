@@ -1,13 +1,13 @@
 name = "Reese's Sodium Options"
-filename = "reeses-sodium-options-fabric-2.2.6-beta.3+mc26.3.jar"
+filename = "reeses-sodium-options-fabric-2.2.6-beta.4+mc26.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Bh37bMuy/versions/FlHcdgXM/reeses-sodium-options-fabric-2.2.6-beta.3%2Bmc26.3.jar"
+url = "https://cdn.modrinth.com/data/Bh37bMuy/versions/sA9O66MU/reeses-sodium-options-fabric-2.2.6-beta.4%2Bmc26.3.jar"
 hash-format = "sha512"
-hash = "0a085fe7fc91009a64a8bc400a4565d2a4d76619c444ec0588e09fbfa3caa5afd1ce1ec894e1fe1a196c1dc94af0d32c1d4471ab322b09b24aeb0d017f40e20f"
+hash = "d105832a2b8be50c832c0dbc12850154f3c6d7b901801094ad245b1b052e46829c532944d26c8dadc09527ae986384d244fa7ca89d85f48eedfb1aa36d1c37e0"
 
 [update]
 [update.modrinth]
 mod-id = "Bh37bMuy"
-version = "FlHcdgXM"
+version = "sA9O66MU"
