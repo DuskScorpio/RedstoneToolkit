@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "3d386566ee188aea42a890d81c26603e2bf1f080344cbd67494d6a9d323a8143"
+hash = "8b69b2ac215b278e99c9fff9fec4246db9d2dec5979f8ea40d81059355dcc4bf"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "b5b041ca6a1432773df8f70fede458fcca376e76d6b12b31b731921d9e4df421"
+hash = "0d1f624852cda590db3585520e75f48d4db0dfc7063cc8026f0daf3d4cfe30a6"
 metafile = true
 
 [[files]]
