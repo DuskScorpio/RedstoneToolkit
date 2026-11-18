@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "f65b48f8d937c6db65209126c7813c9102e2bf1be62545ecf20e940baab662d6"
+hash = "54df87078349162daab52dd5e724f483af21c8e4c9ea8371e7afec6713bbbdb5"
 metafile = true
 
 [[files]]

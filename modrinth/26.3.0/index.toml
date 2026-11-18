@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "47b737ead66bb6ccf9d3feba97d8f4458479baa76f3ddb12dacc6f590095a2aa"
+hash = "981c04623de638c088e4e15d54835f25a4291bd0da21164c07aac7f867863ce2"
 metafile = true
 
 [[files]]
@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "29c4c0384749b336c3f5fef636e616f2b8cc4afcfe626c6e16d4a0335f43b229"
+hash = "a662282c19205dc66922550fd4c4fa8fd401f8b7493c9366bf68c7475a2858e4"
 metafile = true
 
 [[files]]

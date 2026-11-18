@@ -10,4 +10,4 @@ hash = "277b85766a4e4bac0ceaf5f1fbc735442948df3d0d3150f84ef5d3a268d116c5"
 
 [versions]
 fabric = "0.20.1"
-minecraft = "26.4-snapshot-8"
+minecraft = "26.4-snapshot-10"
