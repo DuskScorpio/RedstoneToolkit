@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "50913664892134775f7e790dc3293e704cc1f3afa268d5fcdd2e45ba7deb48ff"
+hash = "61a7efec1fa99706e399cd1287357739439a76cf1149d6021b8654e77c094cff"
 metafile = true
 
 [[files]]
@@ -297,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "4caf4c3da827e2711f5e7fc7a9c3ee56f48df1dd8408d88ef5579792c8b3219a"
+hash = "494af516d2c87c07312468dc76138b85548aa5b95c2b91ebe79dc960d2bb496b"
 metafile = true
 
 [[files]]
